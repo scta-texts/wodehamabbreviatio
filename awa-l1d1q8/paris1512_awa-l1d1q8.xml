@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 8 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 8</title>
+          <date when="2017-08-26">August 26, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="24-v"/>
+        <cb ed="#Pa" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q8">
+        <head>Librum I, Distinctio 1, Quaestio 8 [Paris 1512 Transcription]</head>
+        <head type="questionTitle"></head>
+        <p>
+          <lb ed="#Pa"/>Utrum voluntas possit 
+          <lb ed="#Pa"/>simul et subito producere actum voluntarium 
+          <lb ed="#Pa"/>meritorie et libere dilectionis videtur
+        </p>
+        <div type="rationes-principales">
+          <p>
+            <lb ed="#Pa"/>quod non <pc type="virgula">/</pc> quia tunc in momenot temporis posset me<lb ed="#Pa"/>reri 
+            <lb ed="#Pa"/>meritis aequalibus infinitis in infinitis <unclear>instan<lb ed="#Pa"/>tibus</unclear>
+            eius cum non sit maior ratio de uno quam de alio
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Contra principum activum in posso summe dispo<lb ed="#Pa"/>sito 
+            in quo nulla est resistentia positis cum hoc om<lb ed="#Pa"/>nibus 
+            causis potest causare effectum suum subito 
+            <lb ed="#Pa"/>sed voluntas est principium tale activum et cum hoc 
+            <lb ed="#Pa"/>tale passivum igitur circumscriptis <unclear>impedimentive</unclear> 
+            <pb ed="#Pa" n="25-r"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>et positis omnibus requisitis subito causabit actum 
+            <lb ed="#Pa"/>sed voluntas est principium tale actuum et cum hoc 
+            <lb ed="#Pa"/>tale passivum igitur subito causabit actum suum.
+          </p>
+        </div>
+        <div type="articulus">
+          <head>Articulus primus</head>
+          <div>
+            <head>Prima conclusio</head>
+            <p>
+              <lb ed="#Pa"/><pc ana="#pilcrow"/>prima conclusio quam non assero quod voluntas no<lb ed="#Pa"/>stra 
+              vel angelica si in hoc instanti non causat dile<lb ed="#Pa"/>ctionem 
+              non potest sine medio post hoc intans et subi<lb ed="#Pa"/>to 
+              simul causare dilectionem probatur supponendo 
+              <lb ed="#Pa"/>quod idem est fieri in instanti et fieri simul quia secundum 
+              <lb ed="#Pa"/>veritatem instantia non sunt mensurae tales qua<lb ed="#Pa"/>les 
+              quidam ymaginantur.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Tunc arguitur sic im<lb ed="#Pa"/>possible 
+              est quod innans immediate succedat instanti 
+              <lb ed="#Pa"/>vel unum mutatum esse in eodem motum continuetur igitur 
+              <lb ed="#Pa"/>impossibile est quod aliquid immediate post instans in 
+              <lb ed="#Pa"/>quo non est ipsum nec aliquid quod potest esse pars eius 
+              <lb ed="#Pa"/>simul fiat vel instantaneae: quia tunc esset aliquod intans 
+              <lb ed="#Pa"/>instanti immediatum. Item per <name ref="#Aristotle">philosophum</name> non est dare 
+              <lb ed="#Pa"/>ultmum rei permanentis in esse igitur pari ratione 
+              <lb ed="#Pa"/>non est dare ultimum indivisibile in quo res ali<lb ed="#Pa"/>qua 
+              et quaelibet eius pars ultimo non sit. probatur 
+              <lb ed="#Pa"/>tunc duo angeli essent factibilis immediate unus 
+              <lb ed="#Pa"/>post alium quilibet eorum instantaneae et tunc instans 
+              <lb ed="#Pa"/>in instanti erit immediatum.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Contra conclusionem 
+              <lb ed="#Pa"/>arguitur primo sic possibile est deum annichilare 
+              <lb ed="#Pa"/>mundum sic quod mundus habeat modo esse et imme<lb ed="#Pa"/>diate 
+              post hoc subito habeat non esse igitur etiam potest 
+              <lb ed="#Pa"/>facere quod modo non sit et immediate post hoc simul to<lb ed="#Pa"/>tus 
+              erit igitur etc.
+            </p>
+            <p>
+              praeterea deus potest facere unum 
+              <lb ed="#Pa"/>angelum qui praecise esset per instans et talis simul de<lb ed="#Pa"/>sineret 
+              esse igitur per tuum modum arguendo instans erit 
+              <lb ed="#Pa"/>immediatum instanti.
+            </p> 
+            <p>praeterea praecise per unum instans 
+              <lb ed="#Pa"/>deus potest nolle cooperari soli ad illuminationem 
+              <lb ed="#Pa"/>medii summe dispositi quod si fieret in instanti sol non 
+              <lb ed="#Pa"/>illuminaret medium et tamen statim post illumina<lb ed="#Pa"/>ret 
+              et simul: quia non esset ibi aliqua causa successio<lb ed="#Pa"/>nis
+            </p>
+            <p>
+              praeterea obstaculum aliquod inter positum inter 
+              <lb ed="#Pa"/>solem et medium posset deus instantaneae annichilare 
+              <lb ed="#Pa"/>illo casu posito sol immediate post illud instans 
+              <lb ed="#Pa"/>illuminaret medium sine successione: quia non esset 
+              <lb ed="#Pa"/>ibi causa successionis.
+            </p>
+            <p>
+              praeterea in quacumque mensu<lb ed="#Pa"/>ra 
+              potest causa successive agere aliquam rem simul fa<lb ed="#Pa"/>ctibilem 
+              deus potest eam simul et subito producere sed 
+              <lb ed="#Pa"/>creatura potest immediate postquam talis res non est 
+              <lb ed="#Pa"/>nec aliquid eius agere successive igitur etc praeter<lb ed="#Pa"/>ea 
+              deus immediate post hoc instans potest totam rem 
+              <lb ed="#Pa"/>aliquam et quamlibet eius partem conservare sed dei 
+              <lb ed="#Pa"/>conservatio est vera productio igitur. ita etiam sol si 
+              <lb ed="#Pa"/>staret immediate post hoc instans conservaret radi<lb ed="#Pa"/>um 
+              quem nunc producit et conservare est produce<lb ed="#Pa"/>re 
+              igitur
+            </p> 
+            <p>
+              praeterea omne illud cui non repugnat si<lb ed="#Pa"/>mul 
+              esse immediate post hoc instans potest deus simul 
+              <lb ed="#Pa"/>producere immediate post hoc instans etiam dato 
+              <lb ed="#Pa"/>quod nunc non sit sed nulli rei permanenti repugnat 
+              <lb ed="#Pa"/>simul esse immediate post hoc instans quia omnes ta<lb ed="#Pa"/>les 
+              de facto essent secundum se immediate post hoc 
+              <lb ed="#Pa"/>instans igitur etc.
+            </p>
+            <p>
+              praeterea nihil est negandum a di<lb ed="#Pa"/>vino 
+              posse ex quo non sequuntur contradictoria igi<lb ed="#Pa"/>tur 
+              etc.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad primum respondetur quod hoc non est fa<lb ed="#Pa"/>ctibile 
+              quia repugnantiam includit scilicet quod aliquid simul 
+              <lb ed="#Pa"/>et instantaneae fieret vel destrueretur et cum hoc idem non 
+              <lb ed="#Pa"/>fieret nec destrueretur simul nec instantaneae cum instans 
+              <lb ed="#Pa"/>instanti immediate succedere non potest.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad secundum negatur 
+              <lb ed="#Pa"/>assumptum quia cum prima parte non stat secunda.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad tertium 
+              <lb ed="#Pa"/><unclear>dicitur</unclear> quod in illo casu sol non illuminaret immediate post hoc 
+              <lb ed="#Pa"/>medium subito sed successive et deus esset causa successio<lb ed="#Pa"/>nis 
+              eo quod nollet tunc subito vel nunc producere quia si 
+              <lb ed="#Pa"/>vellet lumen tale subito producere sine omni medio 
+              <cb ed="#Pa" n="b"/>
+              <lb ed="#Pa"/>post hoc instans tunc vellet ipsum producere in hoc in<lb ed="#Pa"/>stanti 
+              cum non sit huic instanti aliquod instans immediatum 
+              <lb ed="#Pa"/>nec esse posset in quo subito aut simul produci valeret. 
+              <lb ed="#Pa"/>dices ponatur praecise quod deus per instans nollit simul pro<lb ed="#Pa"/>ducere 
+              tale lumen et per totum tempus praecedens et sequens 
+              <lb ed="#Pa"/>producatur simul vel sic simul idem lumen dicitur quod hoc 
+              <lb ed="#Pa"/>non est possibile quia infert indivisibilia esse immedia<lb ed="#Pa"/>ta.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad quartum dicitur quod in instanti adnihilationis ob<lb ed="#Pa"/>staculi 
+              sol illuminaret medium quia tunc non esset ob<lb ed="#Pa"/>staculum 
+              impediens.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad quintum negatur discursus quia 
+              <lb ed="#Pa"/>non bene subsumitur <pc type="virgula">/</pc> deberet ei subsumi aliquid indivi<lb ed="#Pa"/>duum 
+              mensurae et hoc non fit sed subsumitur haec adverbia<lb ed="#Pa"/>lis 
+              determinatio immediate et fit fallatia figurae di<lb ed="#Pa"/>ctionis 
+              commutando rem in modum sed bene potest forma<lb ed="#Pa"/>ri 
+              ratio sine defectu.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad sextum conceditur quod deus potest 
+              <lb ed="#Pa"/>immediate post hoc instans simul aliquam rem produ<lb ed="#Pa"/>cere 
+              sed non primo immediate post hoc instans tunc enim 
+              <lb ed="#Pa"/>simul eam produceret in hoc instanti.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad septimum ne<lb ed="#Pa"/>gatur 
+              maior propter illud additamentum etiam dato quod 
+              <lb ed="#Pa"/>nunc non sit.
+            </p>
+            <p>
+              <lb ed="#Pa"/>Ad octavum dicitur quod hoc implicaret contradi<lb ed="#Pa"/>ctionem 
+              ut patet ex dictis.
+            </p>
+          </div>
+          <div>
+            <head>Secunda conclusio</head>
+            <p>
+              <pc ana="#pilcrow"/>Secunda conclusio sequens 
+              <lb ed="#Pa"/>ex dictis quod si voluntas in hoc instanti non causat dile<lb ed="#Pa"/>ctionem 
+              et immediate post hoc causabit illa causabitur succes<lb ed="#Pa"/>sive. 
+              Sciendum tamen quod oppositum dictarum conclusionum 
+              <lb ed="#Pa"/>teneri ptest: et satis videt mirabile negare deum pos<lb ed="#Pa"/>se 
+              aliquid quod nunc non est immediate post hoc subito 
+              <lb ed="#Pa"/>producere. ubi advertendum quod aliquod dicunt nullum instans 
+              <lb ed="#Pa"/>esse realiter in tempore vel morum continuo: sed quod omne 
+              <lb ed="#Pa"/>instans est productio subita alicuius rei et ita instans 
+              <lb ed="#Pa"/>est mensura extrinseca tempori. Et secundum hoc dicendum 
+              <lb ed="#Pa"/>est quod si nunc aliquid puta sortes non est et immediate 
+              <lb ed="#Pa"/>post hoc erit subito quod instans producionis sortis non 
+              <lb ed="#Pa"/>eoexistit alicui parti temporis praecedentis nec instan<lb ed="#Pa"/>ti 
+              terminanti tempus praecedens quia nullum tale est <pc type="virgula">/</pc> sed 
+              <lb ed="#Pa"/>erit antequam transeat aliqua pars temporis sequentis 
+              <lb ed="#Pa"/>nec tamen portet quod aliqua pars vel aliquod instans 
+              <lb ed="#Pa"/>sequentis temporis adaequate mensuret talem <unclear>subi<lb ed="#Pa"/>ectam</unclear> 
+              productionem.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Item concedendo instantia in tempo<lb ed="#Pa"/>re 
+              modo communica quod instans sit mutatum esse tunc 
+              <lb ed="#Pa"/>si in hoc instanti sortes non est et immediate post hoc su<lb ed="#Pa"/>bito 
+              erit coneditur quod subita productio sortis est instans 
+              <lb ed="#Pa"/>extrinsecum tempori immediatum praesenti instanti intrinsece tem<lb ed="#Pa"/>poris 
+              et tunc tale instans extrinsecum non coexistit praecise 
+              <lb ed="#Pa"/>allicuius instanti intrinseco temporis sed immediate erit 
+              <lb ed="#Pa"/>post hoc instans praesens ante omne successionem tempo<lb ed="#Pa"/>ris 
+              futuram.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>item illud in permanentibus secundae <unclear>lineae</unclear> <unclear>pn</unclear> 
+              <lb ed="#Pa"/>esse continguae et ita punctus initiativus posterioris 
+              <lb ed="#Pa"/>immediate erit post punctum terminativum prioris qui<lb ed="#Pa"/>libet 
+              distincte in situ suo <pc type="virgula">/</pc> sic etiam deus potest facere in 
+              <lb ed="#Pa"/>successivis quod una hora contingue sequatr aliam et per 
+              <lb ed="#Pa"/>consequens instans erit immediatum instanti et etiam aliquod quod habet 
+              <lb ed="#Pa"/>non esse in uno instanti potest subito produci in alio instanti im<lb ed="#Pa"/>mediato
+              illi. 
+            </p>
+            <p>Item producat deus quattuor lineas 
+              <lb ed="#Pa"/>immediatas et mutetur unus punctus per eas tunc in quali<lb ed="#Pa"/>bet 
+              parte praeter primam habet mutatum esse igitur ibi si<lb ed="#Pa"/>cut 
+              tria mutata esse instantia <unclear>immediata</unclear>.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Item 
+              <lb ed="#Pa"/>producat deus tres angelos immediate post se invicem 
+              <lb ed="#Pa"/>tales autem tres productiones sunt tria instantia 
+              <lb ed="#Pa"/>mediata nec istu est mirum puncta sic possunt poni ex<lb ed="#Pa"/>tra 
+              seinvicem immediate quod tamen unum est pri<lb ed="#Pa"/>us 
+              et aliud posterius licet non in eodem continuo 
+              <lb ed="#Pa"/>sicut nec instantia possunt esse immediata in eodem 
+              <lb ed="#Pa"/>continuo nec etiam ex instantibus immediatis iu<lb ed="#Pa"/>xta 
+              praedictam ymaginationem potest fieri successivo 
+              continua sicut nec ex punctis linea.
+            </p>
+          </div>
+          <div>
+            <head>Tertia conclusio</head>
+            <p>
+              <note type="marginal-note" place="margin-right">3 conclusio</note>
+              <pc ana="#pilcrow"/>Tertia conclu<lb ed="#Pa"/>sio 
+              aliqua dilectio causalis et successive patet ex dictis <pc type="virgula">/</pc> et 
+              <pb ed="#Pa" n="25-v"/>
+              <cb ed="#Pa" n="a"/>
+              probatur quia omis dilectio est forma intensibi<lb ed="#Pa"/>lis 
+              et emissibilis quilibet enim experitur quod ali<lb ed="#Pa"/>quando 
+              idem obiectum diligit intensius aliquan<lb ed="#Pa"/>do 
+              remissius. 
+            </p>
+            <p>
+              Item charitas habitualis potest in<lb ed="#Pa"/>tendi 
+              igitur et actualis.
+            </p>
+          </div>
+          <div>
+            <head>Quarta conclusio</head>
+            <p>
+              <pc ana="#pilcrow"/>Quarta conclusio quod dile<lb ed="#Pa"/>ctio 
+              est ab angelo vel ab anima causabilis successive
+              <note type="marginal-note" place="margin-left">4 conclusio <!-- actually looks like contraclusio --> </note>
+              <lb ed="#Pa"/>probatur quia dilectio praerequirit cognitionem concau<lb ed="#Pa"/>santem 
+              cum ipsa voluntate ut patet ex quaestione 
+              <lb ed="#Pa"/>prima sed talia cognitio intendi potest et remit<lb ed="#Pa"/>ti 
+              eo quod obiectum proportionabilius vel minus propor<lb ed="#Pa"/>tionabiliter 
+              approximari potest potentiae cognitivae 
+              <lb ed="#Pa"/>et secundum hoc ipsam magis vel minus perfecte immuta<lb ed="#Pa"/>re 
+              igitur etiam dilectio quae est effectus cognitionis in<lb ed="#Pa"/>tensibilis 
+              est et remissibilis.
+            </p>
+            <p>
+              Praeterea non est dare 
+              <lb ed="#Pa"/>maximam distantiam a qua obiectum aliquod immuta<lb ed="#Pa"/>re 
+              potest potentiam angeli cognitivam quia quacunque 
+              <lb ed="#Pa"/>data a qua potest aliquod obiectum immutare illam 
+              <lb ed="#Pa"/>potentiam per maiorem immutare potest idem obiectum 
+              <lb ed="#Pa"/>maius sequitur igitur quod est dare distantiam minimam 
+              <lb ed="#Pa"/>a qua obiectum non posset movere potentiam il<lb ed="#Pa"/>lam 
+              ceteris paribus: igitur si a fine illius distan<lb ed="#Pa"/>tiae 
+              inciiat moveri obiectum versus potentiam 
+              <lb ed="#Pa"/>causabit successive maiorem et maiorem cognitio<lb ed="#Pa"/>nem 
+              in potentia secundum successivam approxi<lb ed="#Pa"/>mationem 
+              obiecti versus potentiam igitur etiam 
+              <lb ed="#Pa"/>volitio potest esse successiva quia amor respectu 
+              <lb ed="#Pa"/>obiecti naturaliter cogniti mere naturaliter cau<lb ed="#Pa"/>satur 
+              si obiectum eius apprehendatur tantum ap<lb ed="#Pa"/>prehensione 
+              simplici sine omni deliberatione seu 
+              <lb ed="#Pa"/>compositione et divisione posita autem causa mere 
+              <lb ed="#Pa"/>naturali et sufficienti et non existente impedimen<lb ed="#Pa"/>to 
+              ponitur effectus in <unclear>passo</unclear> disposito et hoc simul 
+              <lb ed="#Pa"/>vel successive correspondente productioni suae cau<lb ed="#Pa"/>sae.
+            </p>
+            <p>
+              <lb ed="#Pa"/>praeterea visio corporalis causari potest et eti<lb ed="#Pa"/>am 
+              corrumpi successive secundum approximatio<lb ed="#Pa"/>nem 
+              obiecti ad potentiam vel secundum remotionem 
+              <lb ed="#Pa"/>ab eodem igitur visio talis habet partes et non 
+              <lb ed="#Pa"/>secundum extensionem eo quod anima humana in qua 
+              <lb ed="#Pa"/>recipitur non est extensa igitur secundum intensio<lb ed="#Pa"/>nem 
+              et per consequens cum amor vel appetitio ne<lb ed="#Pa"/>cessario 
+              sequens modo praeexposito ipsam visionem 
+              <lb ed="#Pa"/>simul fiat cum factione cognitionis illius igitur 
+              <lb ed="#Pa"/>sequitur quod tantum partibiliter fiet et bestruetur 
+              <lb ed="#Pa"/>sicut et ipsa visio.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Contra illas duas conclusiones 
+              <lb ed="#Pa"/>arguitur per aliquos tenentes hoc pro conclusio<lb ed="#Pa"/>ne 
+              quod actus diligendi sit indivisibilis simpliciter ca<lb ed="#Pa"/>rens 
+              partibus quia aliter actus diligendi deum 
+              <lb ed="#Pa"/>esset imperfectior actu diligendi iniustum <unclear>et</unclear> eo quod in 
+              <lb ed="#Pa"/>actu diligendi deum reperitur tam remissus gra<lb ed="#Pa"/>dus 
+              dilectionis quam actus diligendi deum est intensi<lb ed="#Pa"/>or 
+              ipso cum igitur quaelibet pars dilectionis sit di<lb ed="#Pa"/>lectio 
+              sequitur propositum.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Secundo sequitur 
+              <lb ed="#Pa"/>ex eadem deductione quod unus modicus fetor actu diligen<lb ed="#Pa"/>di 
+              deum esset perfectior.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Tertio tunc simul et se<lb ed="#Pa"/>mel 
+              diligeret quid idem obiectum perfecte et im<lb ed="#Pa"/>perfecte 
+              quia toto actu perfecte et per te actus im<lb ed="#Pa"/>perfecte.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Quarto anima christi est perfectior ani<lb ed="#Pa"/>ma 
+              <unclear>iudae</unclear>. et sunt eiusdem speciei et tamen neutra 
+              <lb ed="#Pa"/>habet partes igitur similiter poterit esse in propo<lb ed="#Pa"/>sito.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Quinto si habeant partes accipio duas spe<lb ed="#Pa"/>cies 
+              in talibus actibus. Et quaero an quodlibet 
+              <lb ed="#Pa"/>individuum unius illarum specierum sit perfecti<lb ed="#Pa"/>us 
+              quolibet alterius vel non. si sic tunc sequitur 
+              <lb ed="#Pa"/>quod quodlibet individuum speciei perfectioris sit in 
+              <lb ed="#Pa"/>infinitum perfectius quia habebit infinitas par<lb ed="#Pa"/>tes 
+              quarum quaelibet valet infinita individua spe<lb ed="#Pa"/>ciei 
+              inferioris aequalia si non hoc est contra <name ref="#Aristotle">philosophum</name> di<lb ed="#Pa"/>centem 
+              quod species sunt sicut muneri.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Praeterea si 
+              <lb ed="#Pa"/>sic ponatur tunc quod aliquis actus intendatur per ad<lb ed="#Pa"/>ditionem 
+              unius gradus suae speciei et post per medi<lb ed="#Pa"/>tatem 
+              unius gradus et consequenter in infinitum per 
+              <lb ed="#Pa"/>partes proportionales sic procedendo si sic fieri po<lb ed="#Pa"/>test 
+              aeque rationabiliter poteri poni simile de spe<lb ed="#Pa"/>ciebus 
+              quod cuilibet augmentationi sic factae corre<lb ed="#Pa"/>spondet 
+              unum individuum unius speciei quod esset prae<lb ed="#Pa"/>cise 
+              tantae perfectionis sicut individuum sic augmen<lb ed="#Pa"/>tatum: 
+              et per consequens infra quascunque duas speci<lb ed="#Pa"/>es 
+              possunt esse species infinitae.
+            </p>
+            <p>
+              praetereae ex hoc so<lb ed="#Pa"/>lo 
+              quod partes alicuius continui plus distant quam ante 
+              <lb ed="#Pa"/>ceteris paribus illud quantum est maius tantum ante 
+              <lb ed="#Pa"/>igitur pari ratione ex solo quod aliquis eodem actu 
+              <lb ed="#Pa"/>posset una vice perfectius cognoscere obiectum ali<lb ed="#Pa"/>quod 
+              quam alia vice poterit actus ille dici cognitio 
+              <lb ed="#Pa"/>perfectior quam ante sine aliqua partium additione.
+            </p>
+            <p>
+              <lb ed="#Pa"/>praeterea tunc intellectio respectu sortis posset au<lb ed="#Pa"/>geri 
+              per intensionem respectu platonis quia sunt eius<lb ed="#Pa"/>dem 
+              speciei et in eodem subiecto.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad primum 
+              <lb ed="#Pa"/>conceditur quod aliquis actus dilectionis dei est imper<lb ed="#Pa"/>vectior 
+              actu dilectionis alterius et hoc bonitate in<lb ed="#Pa"/>trinseca 
+              secundum quantitatem perfectionis actus scili<lb ed="#Pa"/>cet 
+              quo ad gradum tantum vel tantum licet secundum 
+              <lb ed="#Pa"/>quantitatem sit perfectior.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad secundum respondetur similiter
+            </p>
+            <p>
+              <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad tertium consequens est inconveniens vel dici potest negando 
+              <lb ed="#Pa"/>consequentia eo quod denominatio fit a toto.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad quartum 
+              <lb ed="#Pa"/>patebit in materia de augmento formarum quod praemissae 
+              <lb ed="#Pa"/>repugnant si intelligatur prima de perfectione substantiali.
+            </p>
+            <p>
+              <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad quintum dicendum quod non. Et ad <name>philosophum</name> qualiter 
+              <lb ed="#Pa"/>intelligat exponetur ibi.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Ad sextum conceditur 
+              <lb ed="#Pa"/>quod infertur accipiendo ly infinite <unclear>sincathegoreu<lb ed="#Pa"/>maticae</unclear> 
+            </p>
+            <p>
+              <lb ed="#Pa"/>Ad septimum negatur consequentia
+            </p>
+            <p>
+              <lb ed="#Pa"/>Ad 
+              <lb ed="#Pa"/>octavum non habeo pro inconvenienti quin ex <unclear>illis</unclear> 
+              <lb ed="#Pa"/>duabus intensionibus resultat una composita si ta<lb ed="#Pa"/>men 
+              simul per distinctas intensiones eiusdem spe<lb ed="#Pa"/>ciei 
+              intelligatur uterque tamen ex hoc non sequitur 
+              <lb ed="#Pa"/>quod sortes perfectius intelligitur quam si sola illa pars 
+              <lb ed="#Pa"/>esset qua sortes intelligitur.
+            </p>
+            <p>
+              <note type="marginal-note" place="margin-right">5 conclusio</note>
+              <pc ana="#pilcrow"/>Quinta conclusio 
+              <lb ed="#Pa"/>voluntas potest simul ac subito causare volitio<lb ed="#Pa"/>nem 
+              meritoriam probatur quia ubi nec est formalis 
+              <lb ed="#Pa"/>nec virtualis repugnantia vel contrarietas in passo 
+              <lb ed="#Pa"/>tam sufficienter approximato subito agit quod enim 
+              <lb ed="#Pa"/>esset causa successionis sic est in proposito igitur etc.
+            </p>
+            <p>
+              Item 
+              <lb ed="#Pa"/>intellectus subito potest producere actum suum igi<lb ed="#Pa"/>tur 
+              et voluntas. antecedens probatur. quia slatem 
+              <lb ed="#Pa"/>primo actui intellectus nihil est contrarium in in<lb ed="#Pa"/>tellectu 
+              quia nec habitus nec passio nec aliquid 
+              <lb ed="#Pa"/>siile vel saltem non oportet quod ibi sit aliqua <unclear>ress<lb ed="#Pa"/>sientis</unclear>
+              intrinseca nec oportet etiam quod extrinseca 
+              <lb ed="#Pa"/>igitur subito agit consequentia patet per proces<lb ed="#Pa"/>sum 
+              <name>philosophi</name> et <name>commentatoris</name> quarto <title>phisicorum </title> capitu<lb ed="#Pa"/>lo 
+              de vacuo commento 7
+            </p>
+            <p>
+              praeterea si non tunc nullum 
+              <lb ed="#Pa"/>agens naturale puta lumen vel calor in recepti<lb ed="#Pa"/>vo 
+              in quo nulla adesset resistentia in non tempo<lb ed="#Pa"/>re 
+              sed necessario in certo tempore et ex hoc seqi<lb ed="#Pa"/>tur 
+              quod habens resistentiam et non habens agerent 
+              <lb ed="#Pa"/>aequales effectus in aequalibus temporibus etiam 
+              <lb ed="#Pa"/>forsitan ceteris paribus.
+            </p>
+            <p>
+              Praeterea tertia de ani<lb ed="#Pa"/>ma 
+              dicitur quod intellectio est actio perfecta et fit in 
+              <lb ed="#Pa"/>instanti.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Similiter et sensatio nec praecedet illam 
+              <lb ed="#Pa"/>alia actio diminuta igitur pari ratione voluntas 
+              <lb ed="#Pa"/>subito potest causare actum suum. 
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Sed hic respondent 
+              <lb ed="#Pa"/>aliquando quod licet sensatio intellectio et volitio successive 
+              <lb ed="#Pa"/>producantur et intendantur tamen dicuntur perfici in
+              <pb ed="#Pa" n="26-r"/>
+              <cb ed="#Pa" n="a"/>
+              <lb ed="#Pa"/>instanti quia quando coniunguntur cum alia trans<lb ed="#Pa"/>mutatione 
+              corporis vel animae tunc sunt imperfecte sed 
+              <lb ed="#Pa"/>quando anima omnino est in quiete et sine turbatione 
+              <lb ed="#Pa"/>tunc fiunt perfecte ut patet septimo phisicorum. sic eti<lb ed="#Pa"/>am 
+              dicitur 7 eticorum quia delectatio non est vera gene<lb ed="#Pa"/>ratio 
+              nec verus motus sicut nec visio quia est per<lb ed="#Pa"/>fecta 
+              in instanti <pc type="virgula">/</pc> sic etiam dicitur septimo phisicorum quod in 
+              <lb ed="#Pa"/>virtutibus moralibus non est motus quia non sunt in 
+              <lb ed="#Pa"/>si perfectiones omne autem perfectum consistit in<lb ed="#Pa"/>quiete 
+              et in indivisibili et ad istum gradum indivisi<lb ed="#Pa"/>biliter 
+              attingunt primo in instanti hoc est quod sint per<lb ed="#Pa"/>fecte 
+              in suis speciebus in instanti nec tunc requi<lb ed="#Pa"/>runt 
+              aliquam actionem successivam immediate prae<lb ed="#Pa"/>cedentem 
+              sed sunt imperfecta quietae animae et cor<lb ed="#Pa"/>poris 
+              et tunc maxime sunt perfecte.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Sed contra 
+              <lb ed="#Pa"/>similiter est de virtuoso sicut de sanitate vel pul<lb ed="#Pa"/>chritudine 
+              quo ad hoc ex 7 phisicorum unde sicut il<lb ed="#Pa"/>lud 
+              quod esset sanitas vel pulchrituod non esset 
+              <lb ed="#Pa"/>sanitas si simul concurrat alius superfluus humor 
+              <lb ed="#Pa"/>tollens debitam proportionem humoris nec est pul<lb ed="#Pa"/>chritudo 
+              concurrente deformitate seu alio defor<lb ed="#Pa"/>mante 
+              ita eadem res quae esset electio virtuosa ces<lb ed="#Pa"/>sante 
+              passione per sedationem perfectam iam non eset 
+              <lb ed="#Pa"/>virtuosa si stet deordinata passio adhuc sedenda 
+              <lb ed="#Pa"/>secundum modum loquendi philosophi.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Et ideo incontinens 
+              <lb ed="#Pa"/>licet bene eligat tamen sua electio non vocatur 
+              <lb ed="#Pa"/>virtuosa sicut temperati igitur sic loquendo de in<lb ed="#Pa"/>tellectione 
+              vel volitione relative scilicet prout est 
+              <lb ed="#Pa"/>virtus vel prout est perfecta scientia <unclear>stat</unclear> indivisi<lb ed="#Pa"/>biliter 
+              tamen loquendo absolute de intellectione 
+              <lb ed="#Pa"/>vel volitione secundum naturam suae qualitatis 
+              <lb ed="#Pa"/>prout aliquis absolute per eam volens vel intel<lb ed="#Pa"/>ligens 
+              tunc si non stet instantaneae non plus fit in<lb ed="#Pa"/>divisibiliter 
+              quam albedo vel quaevis alia forma quae 
+              <lb ed="#Pa"/>acquiritur successive licet in hoc instanti cogni<lb ed="#Pa"/>tio 
+              successive tanta fiat indivisibiliter scientia et 
+              <lb ed="#Pa"/>alia volitio vel electio partibiliter facta subito 
+              <lb ed="#Pa"/>fiat virtus unde <name>aristoteles</name> non loquitur de istis solum 
+              <lb ed="#Pa"/>relative sed absolute alias enim non differentia 
+              <lb ed="#Pa"/>qualitatibus tertiae speciei.
+            </p>
+            <p>
+              Praeterea ista respon<lb ed="#Pa"/>sio 
+              non salvat istam negativam quam addit commen<lb ed="#Pa"/>tator 
+              nec eam praecedit actio diminuta quia si intelle<lb ed="#Pa"/>ctio 
+              secundum rem fiat divisibiliter licet primo in 
+              <lb ed="#Pa"/>indivisibili pertingat ad gradum quo potest dici 
+              <lb ed="#Pa"/>intellectio tamen ibi praecedit actio diminuta sicut 
+              <lb ed="#Pa"/>patet de se.
+            </p>
+            <p>
+              <note type="marginal-note" place="margin-left"><unclear>?? meruit in primo in ?? sui esse</unclear></note>
+              <pc ana="#pilcrow"/>Item sedatio perturbationis est actio 
+              <lb ed="#Pa"/>diminuta quae praecedit intellectionem perfectam 
+              <lb ed="#Pa"/>igitur etc.
+            </p>
+            <p>
+              Praeterea christus merebatur in primo 
+              <lb ed="#Pa"/>instanti suae conceptionis secundum <name ref="#Lombard">magistrum</name> 16 
+              <lb ed="#Pa"/>distinctione 3 summo merito suo quia non habuit omnino 
+              <lb ed="#Pa"/>christus iuxta meritum animae quo potuisset pro<lb ed="#Pa"/>ficere.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Respondetur quod <name ref="#Lombard">magister</name> non dicit quod tunc 
+              <lb ed="#Pa"/>summe meruit in primo instanti sed ab ipsa <unclear>fi?i</unclear> tan<lb ed="#Pa"/>tum 
+              meruit quantum post passionem sed non in ip<lb ed="#Pa"/>sa 
+              conceptione.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Sed heac responsio non sufficit 
+              <lb ed="#Pa"/>quia ut ibidem dicit <name ref="#Lombard">magister</name> et est auctoritas gre<lb ed="#Pa"/>gorii 
+              non habuit omnino christus iuxta animae me<lb ed="#Pa"/>ritum 
+              quo proficere potuisset. Forte dices quod hoc 
+              <lb ed="#Pa"/>meritum non causabatur ab anima christi sed a deo.
+            </p>
+            <p>
+              <lb ed="#Pa"/><pc ana="#pilcrow"/>Contra tunc anima christi meruerit quod est contra 
+              <lb ed="#Pa"/>auctoritatem gregorii. unde augustinus <unclear>lt</unclear> primo de do<lb ed="#Pa"/>ctrina 
+              christiana capitulo 38 dicit quod cum adest quod diligitur 
+              <lb ed="#Pa"/>delectationem secum gerere necesse est sed obie<lb ed="#Pa"/>ctum 
+              diligibile in instanti potest esse praesens poten<lb ed="#Pa"/>tiae 
+              dilectivae. igitur delectatio potest fieri in instan<lb ed="#Pa"/>ti 
+              igitur etiam et dilectio et cognitio. Forte dicitur 
+              <cb ed="#Pa" n="b"/>
+              <lb ed="#Pa"/>quod <name>augustinus</name> intelligit quod cum adest actu secundo di<lb ed="#Pa"/>ligitur 
+              tunc secum gerit delectationem sed dato quod 
+              <lb ed="#Pa"/>quis videret deum clare in primo instanti sui esse 
+              <lb ed="#Pa"/>adhuc non posset deum actu secundo diligere in illo 
+              <lb ed="#Pa"/>instanti et ideo non tunc sequitur dlectatio.
+            </p>
+            <p>
+              <pc ana="#pilcrow"/>Con<lb ed="#Pa"/>tra 
+              si deus subito causaret actualem dilectionem 
+              <lb ed="#Pa"/>tunc per istam motionem naturaliter sequeretur 
+              <lb ed="#Pa"/>delectatio subito sed voluntas non minus est po<lb ed="#Pa"/>tens 
+              subito causare dilectionem quam delectationem 
+              <lb ed="#Pa"/>igitur etiam fruitio necessario sequitur claram vi<lb ed="#Pa"/>sionem 
+              sicut umbra corpus saltem deo non impediente 
+              <lb ed="#Pa"/>sed umbra sequitur corpus pro eodem instanti igitur
+            </p>
+            <p>
+              <lb ed="#Pa"/>Praeterea aliquis potest subito peccare quia in eo<lb ed="#Pa"/>dem 
+              instanti pro quo destruitur eius charitas etc.
+            </p>
+          </div>
+        </div>
+        <div type="articulus">
+          <head>Secundus articulus</head>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Secundus articulus est arguere contra conclu<lb ed="#Pa"/>sionem 
+            ultimam et solvere.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Arguitur primo sic tunc 
+            <lb ed="#Pa"/>voluntas posset peccare in primo instanti sui esse fal<lb ed="#Pa"/>sitas 
+            probatur quia tale peccatum adimeret ali<lb ed="#Pa"/>quod 
+            bonum a voluntate igitur tale bonum praefuit 
+            <lb ed="#Pa"/>in voluntate igitur voluntas praefuit igitur instans 
+            <lb ed="#Pa"/>in quod primo peccat non est primum instans sui esse 
+          </p>
+          <p>
+            <lb ed="#Pa"/>Iste modus arguendi habetur ab <name ref="#Augustine">augustino</name> 22 <title ref="#CityOfGod">de civita<lb ed="#Pa"/>te 
+            dei</title> capitulo 6 ubi probat quod mala voluntas id est mala 
+            <lb ed="#Pa"/>volitio non potest esse coevae voluntati in qua est igi<lb ed="#Pa"/>tur 
+            etc probat <name ref="#Augustine">Augustinus</name> XI <title ref="#CityOfGod">de civitate</title> capitulo 15 ubi repro<lb ed="#Pa"/>bat 
+            opinionem dicentium quod angelus malus pecca<lb ed="#Pa"/>vit 
+            in primo instanti sui esse qui quidem allega<lb ed="#Pa"/>bant 
+            illud <title ref="#io">io</title> 3 ab initio dyabolus peccat non enim 
+            <lb ed="#Pa"/>intelligunt illud ut inquit <name ref="#Augustine">augustinus</name> si natura ta<lb ed="#Pa"/>lia 
+            est nullo modo potest esse peccatum <unclear>q d</unclear> si pecca<lb ed="#Pa"/>set 
+            in primo instanti sui esse tunc naturale fuisset 
+            <lb ed="#Pa"/>ei peccare et per consequens non peccasset.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et 
+            <lb ed="#Pa"/>ideo dicit ibi quod ista auctoritas aliter habet expo<lb ed="#Pa"/>ni 
+            sic scilicet dyabolus ab initio peccat id est peccatum 
+            <lb ed="#Pa"/>dyaboli initium erat peccati probatur in princi<lb ed="#Pa"/>pio 
+            capituli 17 exponit illam auctoritatem Iob 
+            <lb ed="#Pa"/>quae videtur esse contra se scilicet homo est initium figmen<lb ed="#Pa"/>ti 
+            eius id est dyabolus propter naturam inquit non pro<lb ed="#Pa"/>pter 
+            malitiam. hoc dictum esse crecte intelligimus. 
+            <lb ed="#Pa"/>quoniam sine dubio ubi esset victum malitiae utique natura 
+            <lb ed="#Pa"/>viciata processisset haec ille igitur natura et vicium non 
+            <lb ed="#Pa"/>possunt esse <sic>coeus</sic> <pc type="virgula">/</pc> probatur si voluntas peccaret in pri<lb ed="#Pa"/>mo 
+            instanti sui esse tunc non posset illud peccatum vitare 
+            <lb ed="#Pa"/>et per consequens non peccaret quia nullus peccat in hoc quod nul<lb ed="#Pa"/>lo 
+            modo caueri potest ut patet per <name ref="#Augustine">augustinum</name> 3 <title ref="#DeLiberoArbitrio">de libero arbitrio</title> capitulo 
+            <lb ed="#Pa"/>28 et etiam in libello de duabus animbus. Consequentia 
+            <lb ed="#Pa"/>patet quia ante illud instans non potuit peccatum 
+            <lb ed="#Pa"/>vitare quia ante non fuit nec post quia hoc solo pri<lb ed="#Pa"/>vatur 
+            deus etc nec in <unclear>alio</unclear> instanti quia omne quod 
+            <lb ed="#Pa"/>est quando est etc. Probatur nullus potest perdere iu<lb ed="#Pa"/>stitiam 
+            in primo instanti quia omne quod est etc. igitur 
+            <lb ed="#Pa"/>nec mereri. consequentia tenet quia nullus potest mereri 
+            <lb ed="#Pa"/>nisi quando potest iustitiam amittere ut videtur patere per an<lb ed="#Pa"/>selmum 
+            de casu dyabolo in principio capituli quinto ubi 
+            <lb ed="#Pa"/>probat bonos angelos potuisse peccare antequam 
+            <lb ed="#Pa"/>mali caderent quia ut dicit si non potuerunt pec<lb ed="#Pa"/>care 
+            non potestate sed necessitate servaverunt iu<lb ed="#Pa"/>stitiam 
+            quare non magis meruerunt gratiam quia stete<lb ed="#Pa"/>runt 
+            aliis cadentibus quam quia servarunt naturam ra<lb ed="#Pa"/>tionalem 
+            quam perdere nequiverunt <pc type="virgula">/</pc> probatur creet 
+            <lb ed="#Pa"/>deus in hoc instanti unum angelum dando sibi perfectam 
+            <lb ed="#Pa"/>cognitionem et libertatem arbitrii et praeceptum quod eliciat 
+            <lb ed="#Pa"/>actum diligendi deum quam citius poterit et deus no<lb ed="#Pa"/>lit 
+            sibi cooperari in hoc instanti et ita praeciso per 
+            <lb ed="#Pa"/>instans suspendat voluntatem ab agere hoc facto 
+            <lb ed="#Pa"/>si actus dilectionis causabitur in instanti et non 
+            <pb ed="#Pa" n="26-v"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>in instanti immediate praecedenti instanti sequitur 
+            <lb ed="#Pa"/>quod per tempus medium necessario omittet contra 
+            <lb ed="#Pa"/>praeceptum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Probatur tunc secundo merita es<lb ed="#Pa"/>sent 
+            aequalia quorum unum omnibus aliis paribus 
+            <lb ed="#Pa"/>existentibus de parte utriusquemerentis esset in tem<lb ed="#Pa"/>pore 
+            et aliud in instanti quod falsum est <pc type="virgula">/</pc> quia tunc 
+            <lb ed="#Pa"/>nihil prodesset continuare meritum <pc type="virgula">/</pc> consequen<lb ed="#Pa"/>tia 
+            patet quia ponatur quod duo mereantur unus tan<lb ed="#Pa"/>tum 
+            per instans et alius per horam cum omnibus 
+            <lb ed="#Pa"/>conditionibus aliis similibus ex parte utriusque et 
+            <lb ed="#Pa"/>cum aequali conatu et aequali charitate et intentio<lb ed="#Pa"/>ne 
+            actuum et huiusmodi in tunc meritum factum in ho<lb ed="#Pa"/>ra 
+            est maius et non nisi finite <pc type="virgula">/</pc> sit igitur quod in duplo 
+            <lb ed="#Pa"/>gratia exempli tunc sit tertius qui ceteris paribus 
+            <lb ed="#Pa"/>mereatur per medietatem unius horae tunc eius 
+            <lb ed="#Pa"/>meritum erit subduplum ad meritum secundi me<lb ed="#Pa"/>rentis 
+            per horam et per consequens aequale merito 
+            <lb ed="#Pa"/>primo instantaneo et voco aequalia merita quibus 
+            <lb ed="#Pa"/>debentur aequalia praemia.
+          </p>
+          <p>
+            Item tunc merito instan<lb ed="#Pa"/>taneo
+            debetur meritum aeternum et peccato mortali 
+            <lb ed="#Pa"/>instantaneo poena aeterna igitur casu posito possibi<lb ed="#Pa"/>li 
+            alicuius peccata vel peccatum non posset deus 
+            <lb ed="#Pa"/>sufficienter punire nec ex aliqua parte alicuius me<lb ed="#Pa"/>rita 
+            instantanea. consequentia probatur quia quae<lb ed="#Pa"/>libet 
+            voluntas est naturae finitae et per consequens 
+            <lb ed="#Pa"/>contingit assignare ponam maximam quam potest 
+            <lb ed="#Pa"/>recipere vel saltem aliquam ita magnam quod non po<lb ed="#Pa"/>terit 
+            eam recipiere sit talis <c>a</c> et poena debita pecca<lb ed="#Pa"/>to 
+            mortali instantaneo sit <c>b</c> tunc inter <c>a</c> et <c>b</c> est 
+            <lb ed="#Pa"/>proportio cum neutra sit infinita sit igitur in <unclear>de<lb ed="#Pa"/>cup?ia</unclear> 
+            tunc sic in tempore quantumcunque parvo po<lb ed="#Pa"/>test 
+            angelus non solum decies sed centies pecca<lb ed="#Pa"/>re 
+            ita graviter sicut fecit in uno instanti igitur in 
+            <lb ed="#Pa"/>tempore finito potest mereri a poenam et etiam ma<lb ed="#Pa"/>iorem 
+            et non potest maiorem recipiere. igitur pro<lb ed="#Pa"/>positum. 
+            Assumptum probatur quia in tempore quan<lb ed="#Pa"/>tumcumque 
+            parvo posset ipse stante eadem cogni<lb ed="#Pa"/>tione 
+            sufficienti amittere malam volitionem qua 
+            <lb ed="#Pa"/>sic peccaret et eam resumere quotienscunque volu<lb ed="#Pa"/>erit 
+            saltem dum non est confirmatus quia nullam 
+            <lb ed="#Pa"/>patitur difficultatem in volendo.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Praeterea si 
+            <lb ed="#Pa"/>sic tunc continuans meritum instantanei causatum 
+            <lb ed="#Pa"/>utpote unam bonam volitionem cum aliis condi<lb ed="#Pa"/>tionibus 
+            per tempus meretur praemium infinitum 
+            <lb ed="#Pa"/>intensive et cum tale capere non possit non potest 
+            <lb ed="#Pa"/>a deo sufficienter praemiari. Consequentia proba<lb ed="#Pa"/>tur 
+            quia sicut primo instanti intellectivo istius tem<lb ed="#Pa"/>poris 
+            debetur isti merenti debitum aliquod prae<lb ed="#Pa"/>mium 
+            praecise ita pro quolibet instanti posteriori 
+            <lb ed="#Pa"/>illius temporis aut igitur pro quolibet sequenti 
+            <lb ed="#Pa"/>praemium aequale est maius vel minus si primis 
+            <lb ed="#Pa"/>duobus modis tunc sunt ibi praemia infinita et ali<lb ed="#Pa"/>quo 
+            certo dato circa principium homini quodli<lb ed="#Pa"/>bet 
+            sequentium est aequale vel maius.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Tertio ve<lb ed="#Pa"/>ro 
+            modo dato aliquo merito circa finem horae infini<lb ed="#Pa"/>ta 
+            sunt praecedentia quorum quodlibet illo dato 
+            <lb ed="#Pa"/>est maius in quolibet istorum modorum praemi<lb ed="#Pa"/>um 
+            compositum ex illis infinitis erit infinitum.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Respondetur primo instanti correspondet me<lb ed="#Pa"/>ritum 
+            praecisum et nullo posteriori.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Contra tunc 
+            <lb ed="#Pa"/>posito casu possibili inaequaliter merentes <unclear>debent</unclear> 
+            <lb ed="#Pa"/>aequaliter praemiari nam posito quod sortes merea<lb ed="#Pa"/>tur 
+            continue in <c>a</c> tempore et in quolibet instan<lb ed="#Pa"/>ti 
+            illius et in ultimo et plato omnino aequaliter 
+            <lb ed="#Pa"/>mereatur per tempus <c>a</c> praeterquam in ultimo instan<lb ed="#Pa"/>ti 
+            ipsius <c>a</c> quod <unclear>sit</unclear> <c>c</c> tunc si praemia ipsorum sunt aequa<cb ed="#Pa" n="b"/><lb ed="#Pa"/>lia 
+            sequitur propositum quia sortes meruit in se 
+            <lb ed="#Pa"/>quando plato non meruit si praemia sunt inaequa<lb ed="#Pa"/>lia 
+            sequitur quod pro <c>c</c> instanti posteriori debetur 
+            <lb ed="#Pa"/>meritum praecisum et pari ratione pro quolibet.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Praeterea tunc voluntas posset libere subito 
+            <lb ed="#Pa"/>volitionem producere sine aliqua motione imme<lb ed="#Pa"/>diate 
+            praecedente cuius ista volitio sit terminus et 
+            <lb ed="#Pa"/>tunc transmutatio subitanea foret per se scilicet 
+            <lb ed="#Pa"/>absque hoc quod esset finis alterius transmutationis 
+            <lb ed="#Pa"/>successive contra commentatorem sexto <title>phisico<lb ed="#Pa"/>rum</title> 
+            commento 31 probatur tunc secundum legem 
+            <lb ed="#Pa"/>communem posset quis gravius iuste puniri pro 
+            <lb ed="#Pa"/>peccatis venialibus finitis secundum numerum 
+            <lb ed="#Pa"/>quam pro maximo mortali in eodem tempore vel ma<lb ed="#Pa"/>iori 
+            facto quia pro veniali unius instantis debe<lb ed="#Pa"/>tur 
+            aliqua poena et illa non exceditur infinite a poe<lb ed="#Pa"/>na 
+            debita pro maximo mortali igitur totiens po<lb ed="#Pa"/>terit 
+            secundum multitudinem finitam peccare ve<lb ed="#Pa"/>nialiter 
+            aeque grave praecise sicut ante quod sequi<lb ed="#Pa"/>tur 
+            consequens illatum probatur pro merito in<lb ed="#Pa"/>stantaneo 
+            debetur augmentum charitatis ergo 
+            <lb ed="#Pa"/>cum illius augmenti sit aliqua certa proportio se<lb ed="#Pa"/>quitur 
+            quod in tempore quantumcunque parvo posset 
+            <lb ed="#Pa"/>quis huiusmodi volitionem instantaneam totiens 
+            <lb ed="#Pa"/>causare quotiens illud augmentum contineatur in 
+            <lb ed="#Pa"/>charitate christi et per consequens in tali tempo<lb ed="#Pa"/>re 
+            acquirere tantam charitatem quantam habet 
+            <lb ed="#Pa"/>christus. probatur tunc obesset actum meritorium 
+            <lb ed="#Pa"/>continuare quia pro actu continuato debetur prae<lb ed="#Pa"/>mium 
+            certe quantitatis et pro instantaneo simili<lb ed="#Pa"/>ter 
+            licet primus sit igitur sit in decuplo minus cum 
+            <lb ed="#Pa"/>igitur non solum decem actus subitos ymo cen<lb ed="#Pa"/>tum 
+            posset ipse tales elicere dum continuat illum 
+            <lb ed="#Pa"/>actum unum et tunc mamius praemium acquireret 
+            <lb ed="#Pa"/>in continuatione alicuius in illo casu sibi obesset
+          </p>
+          <p>
+            <lb ed="#Pa"/>Item tunc aliquis habens summum meritum si<lb ed="#Pa"/>bi 
+            possibilie circa aliquod obiectum ex hoc quod sta<lb ed="#Pa"/>ret 
+            continue in eodem gradu dilectionis respe<lb ed="#Pa"/>ctu 
+            istius per unam horam plus in eadem hora in 
+            <lb ed="#Pa"/>decuplo posset mereri habendo diversos actus 
+            <lb ed="#Pa"/>nunc circa unum obiectum et nunc circa aliud fal<lb ed="#Pa"/>sitas 
+            patet quia in hoc felicitas commendatur de<lb ed="#Pa"/>cimo 
+            <title ref="#Ethics">ethicorum</title> capitulo octavo quod est maxime con<lb ed="#Pa"/>tinuation 
+            probatur tunc si aliquis peccaret veniali<lb ed="#Pa"/>ter 
+            continuando actum suum uniformiter per ali<lb ed="#Pa"/>quod 
+            tempus in cuius sine mereretur pro quo<lb ed="#Pa"/>libet 
+            instanti illius temporis deberetur sibi aliqua 
+            <lb ed="#Pa"/>poena in purgatorio et ita pro omnibus simul de<lb ed="#Pa"/>berentur 
+            sibi poenae aequales infinitae et per conse<lb ed="#Pa"/>quens 
+            semper foret in purgatorio et si peccatum 
+            <lb ed="#Pa"/>sit mortale debebitur sibi poena aeterna infinita in<lb ed="#Pa"/>tensive 
+            hoc falsum est quia tunc deus non posset 
+            <lb ed="#Pa"/>eum sufficienter punire probatur quod non sit dare 
+            <lb ed="#Pa"/>primum instans in quo voluntas vult licet sit da<lb ed="#Pa"/>re 
+            primum instans in quo volitio haec vel illa sit.
+            <lb ed="#Pa"/>probat unus doctor sic. si sit primum instans in quo 
+            <lb ed="#Pa"/>voluntas vult vel hoc est volitione libere produ<lb ed="#Pa"/>cta 
+            vel volitione quae naturaliter producitur et 
+            <lb ed="#Pa"/>necessario sequitur ad aliquam apprehensionem
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Non primum quia tunc non omnis mutatio es<lb ed="#Pa"/>set 
+            finis successive mutationis contra commenta<lb ed="#Pa"/>torem 
+            sexto phisicorum commento 32.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Nec se<lb ed="#Pa"/>cundum 
+            quia non est aliquod primum instans in 
+            <lb ed="#Pa"/>quo intellectus iudicat de tali volito quod sit <c>a</c> quia 
+            <lb ed="#Pa"/>cogitatio talis libere causaretur et tunc sicut prae 
+            <lb ed="#Pa"/>argutum de volitione libere causanda tempora <unclear>non fieret</unclear>
+            <pb ed="#Pa" n="27-r"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>subiot per auctoritatem commentatoris.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Aut 
+            <lb ed="#Pa"/>etiam secundo ista cogitatio actualis generaretur na<lb ed="#Pa"/>turaliter 
+            a speciei ymaginativa et tunc cum non sit 
+            <lb ed="#Pa"/>danda species debilissima ipsius voliti <c>a</c> praedi<lb ed="#Pa"/>cti 
+            et virtute ymaginativa quae potest agere in in<lb ed="#Pa"/>tellectum 
+            quia tali data ipsa posset causare cogi<lb ed="#Pa"/>tationem 
+            certe intentionis et per consequens spe<lb ed="#Pa"/>cies 
+            debilior posset agere cogitationem debilio<lb ed="#Pa"/>rem 
+            in intellectu.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Relinquitur igitur quod sit aliqua 
+            <lb ed="#Pa"/>species maxima sive intenssissima in ymaginati<lb ed="#Pa"/>va 
+            de obiecto <c>a</c> quae non potest agere in intelle<lb ed="#Pa"/>ctum. 
+            hoc declarato probat iste quia non est ali<lb ed="#Pa"/>quod 
+            primum instans in quo species ymaginati<lb ed="#Pa"/>va 
+            agit in intellectum et per consequnes non est aliquod 
+            <lb ed="#Pa"/>primum instans in quo intellectus cogitat quano<lb ed="#Pa"/>do 
+            sua cogitatio sit naturaliter a specie ymaginati<lb ed="#Pa"/>va 
+            quia si aliquod sit tale instans sit illud praesens 
+            <lb ed="#Pa"/>tunc species ymaginativa agit nunc in intellectum 
+            <lb ed="#Pa"/>et certum est quod naturaliter et non libere igitur nunc 
+            <lb ed="#Pa"/>primo ista species est satis fortis quia si prius sa<lb ed="#Pa"/>tis 
+            fuisset fortis prius egisset sequitur igitur quod ista 
+            <lb ed="#Pa"/>species est minima in ymaginativa quae potest age<lb ed="#Pa"/>re 
+            in intellectum cuius oppositum est prius probatum
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Propter ista argumenta et praecedentia tenet 
+            <lb ed="#Pa"/>iste conclussionem ad quam vadunt praecipue quia tunc 
+            <lb ed="#Pa"/>angelus posset peccare in primo instanti sui esse quod 
+            <lb ed="#Pa"/>repugnat et includit contradictionem ut patet per 
+            <lb ed="#Pa"/>argumenta varia undecio de civitate et per ar<lb ed="#Pa"/>gumentum 
+            <name>anselmi</name>.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et <ref target="http://scta.info/resource/pl-l2d3"><name>magister</name> secundo libro di<lb ed="#Pa"/>stinctione 
+            tertia</ref>
+          </p>
+          <p>
+            <note type="marginal-note" place="margin-left">Ad primam rationem</note>
+            <pc ana="#pilcrow"/>Ad primum argumentum in op<lb ed="#Pa"/>positum 
+            conceditur quod voluntas aliqua si infunderetur 
+            <lb ed="#Pa"/>sibi cognitiones naturaliter praesuppositae pecca<lb ed="#Pa"/>to 
+            posset peccare in primo instanti sui esse.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad 
+            <lb ed="#Pa"/><name ref="#Augustine">augustinum</name> dico quod non oportet peccatum privare 
+            <lb ed="#Pa"/>bonum quod infuit sed quod inesse deberet. Et 
+            <lb ed="#Pa"/>ideo non requiritur alia praecessio nisi forte natu<lb ed="#Pa"/>rae 
+            inter naturam quae peccare potest et peccatum posi<lb ed="#Pa"/>tis 
+            supernaturaliter cognitionibus requisitis cuius 
+            <lb ed="#Pa"/>oppositum ymaginatur argumentum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Aliter potest 
+            <lb ed="#Pa"/>dici quod <name>augustinus</name> intendit ibi probare quod nulla vo<lb ed="#Pa"/>litio 
+            non est naturalis voluntati sic quod naturaliter eam 
+            <lb ed="#Pa"/>consequitur sicut calor ignem quia cum talis volitio 
+            <lb ed="#Pa"/>adimat bonum quod infuit vel quod possit inesse se<lb ed="#Pa"/>quitur 
+            quod ipsa non sit naturalis voluntati sicut nec 
+            <lb ed="#Pa"/>bonum quod ipsa adimit sed voluntas praecedit utrum<lb ed="#Pa"/>que 
+            saltem natura et per consequens mala volitio non est coaeva 
+            <lb ed="#Pa"/>vel coaeterna voluntati quasi sibi naturalis cuius 
+            <lb ed="#Pa"/>oppositum dicunt manichaei ponentes hanc mali<lb ed="#Pa"/>tiam 
+            esse sibi productam a malo principio secun<lb ed="#Pa"/>dum 
+            augustinum de duabus animabus et saepe ali<lb ed="#Pa"/>bi.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item tertio omne peccatum commissionis adimit 
+            <lb ed="#Pa"/>de bono aut de promptitudine ad bonum quia relin<lb ed="#Pa"/>quit 
+            habitum vel dispositionem ad actum consimilem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et similiter forte est de omni omissione sicut au<lb ed="#Pa"/>tem 
+            habitus bonus facit ad actus intentionem ita malus 
+            <lb ed="#Pa"/>videtur impedire intentionem actus boni et ita talis ha<lb ed="#Pa"/>bituatio 
+            vel dispositio adeptio boni potest nominari.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad secundum conceditur quod <name ref="#Augustine">augustinus</name> reprobat ibi opi<lb ed="#Pa"/>nionem 
+            dicentium angelum peccasse in primo instan<lb ed="#Pa"/>ti 
+            sui esse sed non ponentium angelum potuisse pec<lb ed="#Pa"/>care 
+            in primo instanti sui esse quod autem sequitur nota 
+            <lb ed="#Pa"/>intelligunt si natura talis est etc non dictur contra 
+            ponentes angelum potuisse peccare in primo in<lb ed="#Pa"/>stanti sui 
+            esse nec etiam contra ponentes eum peccas<lb ed="#Pa"/>se 
+            in primo instanti sui esse licet eorum opinio repro<lb ed="#Pa"/>betur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed contra manicheos ponentes ange<lb ed="#Pa"/>los 
+            malos malas habere naturas a malo princi<lb ed="#Pa"/>pio 
+            sicut bonos bonas a principio bono nam si sic 
+            <lb ed="#Pa"/>natura peccarent tunc non peccarent et ita simul 
+            <lb ed="#Pa"/>peccarent et non peccarent et haec est intentio eius quod 
+            <lb ed="#Pa"/>probatur capitulo 14 immediate praecedenti ubi cum impro<lb ed="#Pa"/>basset 
+            ponentes angelos a primo instanti sui esse 
+            <lb ed="#Pa"/>peccasse nichilominus tamen consequenter excusat eos 
+            <lb ed="#Pa"/>ab haeresibus dicens huic scientiae quisquis acquiescit non 
+            <lb ed="#Pa"/>tamen illis haeresibus sapit id est manicheis et si quae aliae 
+            <lb ed="#Pa"/>pestes ita sentiant quod suam quandam propriam tanquam ex 
+            <lb ed="#Pa"/>adverso quodam principio dyabolus habeat natu<lb ed="#Pa"/>am 
+            mali.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Confirmatur praedicta solutio quia unum 
+            <lb ed="#Pa"/><name>augustini</name> principium contra <name>arrium</name> est quod non est repu<lb ed="#Pa"/>gnantia 
+            effectum esse coaevum suae causae ut patet 
+            <lb ed="#Pa"/>de pede et de vestigio et de igne et splendore nec 
+            <lb ed="#Pa"/>maior est repugnantia de voluntate et eius effe<lb ed="#Pa"/>ctu.
+            Verum est tamen quod nulla natura potest peccare 
+            <lb ed="#Pa"/>in primo instanti sui esse relicta in omnibus naturae suae 
+            <lb ed="#Pa"/>et tantum de influentia generali quia peccatum 
+            <lb ed="#Pa"/>requirit deliberationem quae non potest fieri in in<lb ed="#Pa"/>stanti 
+            per naturam voluntatis creatae.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed alii in 
+            <lb ed="#Pa"/>hoc ultimo sibi contradicunt quia supposito intel<lb ed="#Pa"/>lectu 
+            in sua dispositione optima in primo instanti 
+            <lb ed="#Pa"/>sui esse et debite applicato obiecto remotis om<lb ed="#Pa"/>nibus 
+            impedimentis ita bene potest ex natura sui 
+            <lb ed="#Pa"/>intelligere vel etiam certum iudicium habere de suo 
+            <lb ed="#Pa"/>obiecto sicut ignis potest producere splendorem 
+            <lb ed="#Pa"/>quia non minus agens spirituale potest produce<lb ed="#Pa"/>re 
+            effectum suum quam agens corporale suum et ita 
+            <lb ed="#Pa"/>etiam stante cognitione vel iudicio sufficienti in<lb ed="#Pa"/>tellectus 
+            et remotis impedimentis voluntas est 
+            <lb ed="#Pa"/>ita sufficiens ad producendum actum suum nec re<lb ed="#Pa"/>quiritur 
+            deliberatio nisi quando deficit cognitio 
+            <lb ed="#Pa"/>quia ars perfecta non deliberat.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad tertium 
+            <lb ed="#Pa"/>dicendum quod optime dicit <name>augustinus</name> deus enim 
+            <lb ed="#Pa"/>non est auctor mali sed naturae et ideo oportet na<lb ed="#Pa"/>turam 
+            praeesse antequam malitia possit esse sed hanc 
+            <lb ed="#Pa"/>praecessionem non oportet esse temporis vel man<lb ed="#Pa"/>surae 
+            sed solum causaliter et naturae contradicunt 
+            <lb ed="#Pa"/>naturam non viciatam praecessisse. dicendum quod in<lb ed="#Pa"/>telligit 
+            non viciatam ex hoc quod natura est et hoc 
+            <lb ed="#Pa"/>sufficit sibi contra machineos dicens contrarium.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad quartum satis dictum est <unclear>quaere</unclear> 6 distinctione huiusmodi.
+          </p>
+          <p>
+            <lb ed="#P"/><pc ana="#pilcrow"/>Ad quintum dicendum quod si per iustitiam intel<lb ed="#Pa"/>ligatur 
+            aliquod positivum infomans naturam 
+            <lb ed="#Pa"/>intellectualem neganda est consequentia si sola 
+            <lb ed="#Pa"/>innocentia naturalis quae nihil positum addit su<lb ed="#Pa"/>pernaturalem bonitatem substantialem negatur 
+            <lb ed="#Pa"/>antecedens quia eo ipso quod aliquis peccaret iam non 
+            <lb ed="#Pa"/>esset innocens licet simul duratione prius tamen 
+            <lb ed="#Pa"/>natura potuit innocentiam habere vel conservavre.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/><name>Anselmus</name> vero supponit angelos bonos ha<lb ed="#Pa"/>buisse 
+            iustitiam antequam caeciderunt mali bonis 
+            <lb ed="#Pa"/>concreati.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad sextum dicitur quod illo casu posito 
+            <lb ed="#Pa"/>implicat contradictionem quod immediate post in<lb ed="#Pa"/>stans 
+            in quo voluntas suspenditur a causando a<lb ed="#Pa"/>ctum 
+            suum simul et subito causet illum successi<lb ed="#Pa"/>ve 
+            tamen poterit ideo non oportet quod expectet per 
+            <lb ed="#Pa"/>tempus sicut de causatione luminis dictum est in 
+            <lb ed="#Pa"/>responsione ad secundam obiectionem contra pri<lb ed="#Pa"/>mam 
+            conclusionem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed etiam patet ex dictis 
+            <lb ed="#Pa"/>quomodo teneri potest esse immediatum instan<lb ed="#Pa"/>ti 
+            <pc type="virgula">/</pc> sed contra ponatur quod in hoc instanti nolit de<lb ed="#Pa"/>us 
+            cooperari tali voluntati ad eliciendum di<lb ed="#Pa"/>lectionem 
+            sed praecipiat sibi quod ita cito sicut po<lb ed="#Pa"/>test 
+            simul et non partibiliter eliciat actum suum tunc
+            <pb ed="#Pa" n="27-v"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>fiat argumentum dicendum quod si intellectus crea<lb ed="#Pa"/>tus 
+            quacunque parte temporis assignabili posset 
+            <lb ed="#Pa"/>minus naturaliter distincte percipiere tunc illud posi<lb ed="#Pa"/>tivum 
+            includit contradictionem sicut et quod deus ita ci<lb ed="#Pa"/>to 
+            post hoc instans sicut potest causet aliquid simul.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Si autem sicut verum est teneatur quod creatura non potest 
+            <lb ed="#Pa"/>per naturam suam ceteris paribus tempus sic in infinitum 
+            <lb ed="#Pa"/>dividere et quamlibet partem eius distincte appre<lb ed="#Pa"/>hendere 
+            tunc saltem dicendum est quod in fine mi<lb ed="#Pa"/>nimi 
+            temporis ab eo perceptibilis distincte vel ma<lb ed="#Pa"/>ximi 
+            non perceptiblis ab eo distincte ceteris pari<lb ed="#Pa"/>bus 
+            tunc teneretur habere actum praeceptum sibi su<lb ed="#Pa"/>bito 
+            ab eo causabilem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed haec responsio non suffi<lb ed="#Pa"/>cit 
+            quia non oportet intellectum quodlibet tempus 
+            <lb ed="#Pa"/>distincte percipere in quo potest voluntas noviter me<lb ed="#Pa"/>reri 
+            sicut nec oportet de quolbiet instanti ideo di<lb ed="#Pa"/>cendum 
+            est quod si voluntas elicuit actum in instan<lb ed="#Pa"/>ti 
+            meritorium quae vel sibi omnino similem secun<lb ed="#Pa"/>dum 
+            totum vel partem per tempus continuat tunc non 
+            <lb ed="#Pa"/>est inconveniens quod meritum sibi correspondens pro toto 
+            <lb ed="#Pa"/>tempore. primo etiam corresponderet sibi totaliter in pri<lb ed="#Pa"/>mo 
+            instanti eo quod tunc posuit omnes circumstantias re<lb ed="#Pa"/>quisitas 
+            ad illum meritum pro illo toto tempore. Et ideo quia 
+            <lb ed="#Pa"/>tunc in illo instanti quam in se fuit fecit hoc ut continua<lb ed="#Pa"/>retur 
+            ille actus in illo tempore. Ideo si statim post 
+            instans fuisset mortuus totum praemium illius temporis si<lb ed="#Pa"/>bi 
+            correspondisset.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Si autem in primo instanti non inten<lb ed="#Pa"/>debat 
+            ulterius continuare tunc vel intendebat actum 
+            <lb ed="#Pa"/>aequae bonum continere vel meliorem vel cessare ut 
+            <lb ed="#Pa"/>post hoc posset bene agere vel similiter nihil boni fa<lb ed="#Pa"/>cere 
+            primo modo potest esse actus instantaneus ita bonus si<lb ed="#Pa"/>cut 
+            ipse simul cum secundo eo quod omnes circumstantiae bo<lb ed="#Pa"/>nitatis 
+            secundi virtualiter sunt in primo.
+            <pc ana="#pilcrow"/>Secundo mo<lb ed="#Pa"/>do 
+            sensus est melior non ex duratione sed ex aliquo 
+            <lb ed="#Pa"/>gradu bonitatis super addito.
+            Tertio modo sensus 
+            <lb ed="#Pa"/>non habet bonitatem nisi ratione primi si autem posi<lb ed="#Pa"/>tive 
+            in illo instanti habet volitionem nihil boni fa<lb ed="#Pa"/>ciendi 
+            pro tempore futuro vel non ordinandi actus 
+            <lb ed="#Pa"/>vel cessationes in deum tunc non meretur. ymo si 
+            <lb ed="#Pa"/>vero cessat necessitative tunc illud meritum instanta<lb ed="#Pa"/>neum 
+            potest esse aequael alicui merito temporali 
+            <lb ed="#Pa"/>novo vel maius vel minus iuxta modum et circumstan<lb ed="#Pa"/>tias 
+            ex quibus utrumque elicitur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Unde patet quod inter<lb ed="#Pa"/>ruptio 
+            non prodest nisi fiat ad eliciendum actus me<lb ed="#Pa"/>liores 
+            vel eundem actum melius quia si nec eliciuntur 
+            <lb ed="#Pa"/>actus meliores distinctis vicibus nec idem actus me<lb ed="#Pa"/>lius 
+            nec etiam intellectualis sit debita recompensa<lb ed="#Pa"/>tio 
+            tunc in aliquo casu actus sicutive facti per 
+            <lb ed="#Pa"/>unam horam certis vicibus simul iuncti minus ha<lb ed="#Pa"/>beret 
+            praemium sibi correspondens quam actus eiusdem 
+            <lb ed="#Pa"/>intentionis in instanti elicitus de ista materia vi<lb ed="#Pa"/>de 
+            infra <ref>distinctione prima 2 quaestione tertia</ref> <!-- this ref is ambiguous, could it be book 2, d. 1, q. 3 ?? -->
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed faci<lb ed="#Pa"/>lius 
+            respondetur iuxta prius dicta post obiecta ad 
+            <lb ed="#Pa"/>responsiones primae conclusionis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad septimum con<lb ed="#Pa"/>ceditur 
+            consequentia. Sed tunc stat difficultas quod magis ex<lb ed="#Pa"/>pediret 
+            interrumpere actum quam continuare quia si meri<lb ed="#Pa"/>tum 
+            instantaneum potest esse aequale merito conti<lb ed="#Pa"/>nuato 
+            per totam horam et tamen si saepe interrumperetur 
+            <lb ed="#Pa"/>ille actus in illa hora et resumeretur in se vel in simili 
+            <lb ed="#Pa"/>specie ita quod vix per decimam partem horae in omnibus vici<lb ed="#Pa"/>bus 
+            haberet actum tantum meretur qualibet vice ex resum<lb ed="#Pa"/>pti 
+            omne actus sicut nunc meretur in primo instanti horae il<lb ed="#Pa"/>lius 
+            quia per casum caetera sunt paria igitur etc.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Re<lb ed="#Pa"/>spondetur 
+            quod sicut contingit dare minimum sensibile a sensu 
+            <lb ed="#Pa"/>vel mximum quod sentiri non potest ita contingit dare mini<lb ed="#Pa"/><lb ed="#Pa"/>mum 
+            tempus a nobis perceptibile vel maximum quod a 
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/>nobis percipi non potest secundum exigentiam certarum di<lb ed="#Pa"/>spositionum 
+            principaliter habendarum <pc type="virgula">/</pc> et ex hoc se<lb ed="#Pa"/>quitur 
+            si voluntas in hoc instanti <unclear>imparet</unclear> sibi dile<lb ed="#Pa"/>ctionem 
+            alicuius obiecti pro illo tunc non est in pote<lb ed="#Pa"/>state 
+            voluntatis quod pro alio nunc perceptibiliter distin<lb ed="#Pa"/>cte 
+            <lb ed="#Pa"/>per nolitionem actus illius tollat ipsum donec la<lb ed="#Pa"/>psum 
+            fuerit tempus aliquod intra quod voluntas non 
+            <lb ed="#Pa"/>posset actum dimittere ex se libere cum non posset distin<lb ed="#Pa"/>cte 
+            omne instans avertere et per consequens per illud 
+            <lb ed="#Pa"/>tempus non addit novum meritum super suum meritum 
+            <lb ed="#Pa"/>instantaneum et ideo meritum instantaneum est aequa<lb ed="#Pa"/>le 
+            merito per illud tempus continuato et sic patet 
+            <lb ed="#Pa"/>quod consequens illatum in argumento septimo prin<lb ed="#Pa"/>cipali est concedendum. 
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et per hoc ultra responde<lb ed="#Pa"/>tur 
+            ad instantiam factam de interruptione actus 
+            <lb ed="#Pa"/>negando consequentiam quia si lapso tempore minimo quod 
+            <lb ed="#Pa"/>sic vel maximo quod non de quo dictum est si tunc libe<lb ed="#Pa"/>re 
+            actum illum continuet tantum meretur sicut si no<lb ed="#Pa"/>viter 
+            pro sequenti tempore eliceret illum actum quo<lb ed="#Pa"/>tiens 
+            igitur distinctis volitionibus in aliquo toto 
+            <lb ed="#Pa"/>tempore libere posset et distincte ab actu cessare 
+            <lb ed="#Pa"/>et tamen libere actum continuat totiens tantum mere<lb ed="#Pa"/>tur ceteris paribus 
+            sicut si noviter eliceret talem actum 
+            <lb ed="#Pa"/>et per consequens totiens si actum interrumperet et per tot 
+            <lb ed="#Pa"/>tempora aequalia totiens eliceret sed si per illam 
+            <lb ed="#Pa"/>interruptionem per minus tempus haberet actum 
+            <lb ed="#Pa"/>vel actus sicut dicitur in argumento tunc interruptio 
+            <lb ed="#Pa"/>foret nociva.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad octavum principale concedo con<lb ed="#Pa"/>sequentiam 
+            primam et nego secundam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et ad proba<lb ed="#Pa"/>tionem 
+            dicitur quod non est dare maximum gradum me<lb ed="#Pa"/>riti 
+            vel demeriti quem aliquis purus viator habe<lb ed="#Pa"/>re 
+            potest citra finem vitae suae secundum communem legem et 
+            <lb ed="#Pa"/>et si deus faceret eum pertingere ad talem gradum 
+            <lb ed="#Pa"/>miraculose tunc etiam potest superaddere quod autem 
+            <lb ed="#Pa"/>supponit argumentum quia omni rempore quantumcunque 
+            <lb ed="#Pa"/>parvo posset ad tantum meritum pervenire decla<lb ed="#Pa"/>ratum 
+            est esse falsum in solutione proxima praecedenti.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad nonum negatur consequentia iuxta illud quod 
+            <lb ed="#Pa"/>iam dictum est in praecedenti solutione de tempore mini<lb ed="#Pa"/>mo 
+            vel maximo quod non unde quotiens fuerint in to<lb ed="#Pa"/>tali 
+            tempore talia parva tempora contenta abinvi<lb ed="#Pa"/>cem 
+            totaliter distincta tot merita habere poterit 
+            <lb ed="#Pa"/>quorum quodlibet est aequale merito instantaneo 
+            <lb ed="#Pa"/>primi instantis unde in tali processu talis non me<lb ed="#Pa"/>retur 
+            nisi instantaneae per oppositum augmentationem 
+            <lb ed="#Pa"/>formae quia ibi nihil accrescit meritum successive sed 
+            <lb ed="#Pa"/>instantaneae licet volitio subita actus una cum hoc 
+            <lb ed="#Pa"/>quod habte volitionem concipiendi illum actum sit ma<lb ed="#Pa"/>gis 
+            meritoria quam si huiusmodi actum meritorium continu<lb ed="#Pa"/>are 
+            non vellet.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad decimum intelligi potest dictum 
+            <lb ed="#Pa"/>commentatoris de causis mere naturalibus quae produ<lb ed="#Pa"/>cunt 
+            effectus suos successive. Et si aliqua talis agit 
+            <lb ed="#Pa"/>effectum suum subito sicut luminosum tamen praecessit 
+            <lb ed="#Pa"/>successio ex approximatione activi ad passivum vel 
+            <lb ed="#Pa"/>econtra ex amotione impedimenti vel successiva vi<lb ed="#Pa"/>goratione 
+            causae vel ex alia causa simili sed hoc non oportet 
+            <lb ed="#Pa"/>de causa libera quae omnibus aliis concurrentibus potest age<lb ed="#Pa"/>re 
+            vel dimittere sicut sibi placuerit.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad 11 dicen<lb ed="#Pa"/>dum 
+            quod non est inconveniens quod aliquis in purgatorio ad 
+            <lb ed="#Pa"/>tempus habeat tantam poenam intensive pro peccat veniali 
+            <lb ed="#Pa"/>sicut alter in inferno pro mortali licet non extensive 
+            <lb ed="#Pa"/>secundum durationem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad 12 13 14 et 15 patet ex dictis 
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad 16 dicitur quod tam de volitione libere produ<lb ed="#Pa"/>cta 
+            quam de illa quae ante deliberationem naturali<lb ed="#Pa"/>ter 
+            causatur est dare saltem in casu possibili primum 
+            instans quo voluntas tali volitione vel tali vult 
+            <pb ed="#Pa" n="28-r"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>puta si deus simul imprimeret intellectui sui claram 
+            <lb ed="#Pa"/>visionem vel ante oculos subito causaret obiectum 
+            <lb ed="#Pa"/>multum placibile voluntati.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad confirmationem dici<lb ed="#Pa"/>tur 
+            ut prius.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et ad illud de volitione naturali<lb ed="#Pa"/>ter 
+            producta dicitur quod deus potest subito imprime<lb ed="#Pa"/>re 
+            intellectui cognitionem obiecti.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Adhuc arguitur 
+            <lb ed="#Pa"/>contra conclusionem et tunc angelus potuisset fuis<lb ed="#Pa"/>se 
+            malus in primo instanti sui esse et tunc deus cau<lb ed="#Pa"/>sasset 
+            angelum malum. Respondetur concedendo con<lb ed="#Pa"/>clusionem 
+            illatam non tamen est per se vera quia deus in isto 
+            <lb ed="#Pa"/>casu non esset causa quare ille angelus esset malus 
+            <lb ed="#Pa"/>et ideo in illo casu ista propositio deus creat ange<lb ed="#Pa"/>lum 
+            malum fuisset vera per accidens sicut per accidens 
+            <lb ed="#Pa"/>amo malum cum amo aliquem qui est malus non ta<lb ed="#Pa"/>men 
+            quia malus sed ex alia causa quia propinquus
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad argumenta principalia patet ex antedictis
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

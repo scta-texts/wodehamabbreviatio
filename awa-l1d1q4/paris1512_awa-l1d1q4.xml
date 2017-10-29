@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 4 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 3</title>
+          <date when="2017-01-09">January 09, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-09" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="13-r"/><cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q4">
+        <head>Librum I, Distinctio 1, Quaestio 4 [Paris 1512 Transcription]</head>
+        <head type="questionTitle">Utrum fruitio realiter distinguitur a delectatione</head>
+        <p>
+          <lb ed="#Pa"/>Utrum fruitio realiter di<lb ed="#Pa"/>stinguatur 
+          a delectatione
+        </p>
+        <p>
+          <lb ed="#Pa"/>quod non quia alias 
+          <lb ed="#Pa"/>posset stare fruitio dei sine delectatione 
+          <lb ed="#Pa"/>et per consequens posset stare cum tristitia contraria et 
+          <lb ed="#Pa"/>ita aliquis simul posset esse miser et beatus.
+        </p>
+        <p>
+          Item volun<lb ed="#Pa"/>tas 
+          per fruitionem ultimate quietatur quod non potest esse nisi per 
+          <lb ed="#Pa"/>delectationem quia quicquid habeat voluntas adhuc quaerit de<lb ed="#Pa"/>lectationem 
+          si careat ea.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>In contrarium ponitur primus arti<lb ed="#Pa"/>culus 
+          continens plura argumenta quod delectatio non sit 
+          <lb ed="#Pa"/>fruitio
+        </p> 
+        <p>
+          Probatur fruitio est operatio eo quod frui est amo<lb ed="#Pa"/>re 
+          inhaerere alicui propter se sed delectatio est aliquid super<lb ed="#Pa"/>veniens 
+          operationi <ref>10 <title ref="#Ethics">ethicorum</title></ref> igitur.
+        </p>
+        <p>
+          Item fruitio est actus 
+          <lb ed="#Pa"/>libere elicitus a voluntate delectatio autem est passio im<lb ed="#Pa"/>pressa 
+          ab obiecto quia oritur ex coniunctione potentiae cum ob<lb ed="#Pa"/>iecto 
+          convenienti.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item fruitio habet deum pro obiecto de<lb ed="#Pa"/>lectatio 
+          vero habet visionem et fruitionem pro obiecto 
+          <lb ed="#Pa"/>igitur probatur volitio est in nostra praedelectatio non ut patet 
+          <lb ed="#Pa"/>de primis motibus delectandi quia secundum <name ref="#Augustine">augustinum</name> non est in nostra 
+          <lb ed="#Pa"/>potestate quibus visis tangamur.
+        </p>
+        <p>
+          Praeterea <ref>10 <title ref="#Ethics">ethicorum</title> capitulo 4</ref> 
+          <lb ed="#Pa"/>perficit autem operationem delectatio non ut habitus qui 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>inest sed ut superveniens quidam finis sicut in invenibus 
+          <lb ed="#Pa"/>pulchritudo.
+        </p>
+        <p>
+          Praeterea ibidem dicitur quod secundum unum quaemque 
+          sensum delectatio sit: dicimus enim visiones et audi<lb ed="#Pa"/>tiones 
+          esse delectationes sed nullus appetitus vel voli<lb ed="#Pa"/>tio 
+          est in sensu exteriori ut patet per <ref><name ref="#Augustine">augustinum</name> 2 <title ref="#DeLiberoArbitrio">de libero arbitrio</title> 
+          <lb ed="#Pa"/>capitulo 7</ref> ubi ostendit esse sensum communem et post hoc osten<lb ed="#Pa"/>dit 
+          quod tam in hominibus quam bestiis est virtus interior 
+          <lb ed="#Pa"/>qua appetuntur delectabilia et fugiuntur offensiva 
+          <lb ed="#Pa"/>et illa non est aliquis sensus exterior nec etiam est ratio 
+          <lb ed="#Pa"/>cum insit bestiis patet igitur quod appetitus non est in sensu 
+          <lb ed="#Pa"/>exteriori sed in interiori.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea ponatur quod ali<lb ed="#Pa"/>quis 
+          ex cogitatione alicuius illecebrae delectetur non 
+          <lb ed="#Pa"/>tamen velit illam sicut ponit <ref><name ref="#Augustine">augustinum</name> 12 <title>de trinitate</title> capitulo 15</ref> et 
+          <lb ed="#Pa"/>postea velit istam et amet tunc si iste amore sit ista de<lb ed="#Pa"/>lectatio 
+          quae praefuit sequitur primo quod aliquis peccet 
+          <lb ed="#Pa"/>mortaliter absque omni mutatione alicuius in ipso: se<lb ed="#Pa"/>quitur 
+          secundo quod ex eodem aliquis potest fieri amore respe<lb ed="#Pa"/>ctu 
+          alicuius absque mutatione voluntatis quod negat 
+          <lb ed="#Pa"/><ref><name ref="#Augustine">augustinus</name> quinto <title ref="#deTrinitate">de trinitate</title> capitulo 87</ref>.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et si diceretur quod 
+          <lb ed="#Pa"/>ymo mutatur voluntas quando delectatio sua sit amore.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Contra tunc deus mutaretur et etiam <unclear>nummus</unclear> quan<lb ed="#Pa"/>do 
+          fit praetium quod negat <ref><name ref="#Augustinus">augustinus</name> ibidem</ref>. 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea 
+          <lb ed="#Pa"/>posito quod aliquis vehementer appeteret aliquid quod 
+          <lb ed="#Pa"/>non haberet et hoc absque delectatione sicut est com<lb ed="#Pa"/>muniter 
+          quia desiderium sicut dicit <ref><name ref="#Averroes">commentator</name> 12 
+          <lb ed="#Pa"/><title>methaphysica</title> commento 29</ref> <!-- quote --> magis est dolor quam voluptas 
+          <lb ed="#Pa"/>et quod post adipiscatur illud delectando de ipso tunc 
+          <lb ed="#Pa"/>si ipsa dlectatio sit ipsa volitio quae praefuit erit si<lb ed="#Pa"/>bi 
+          contraria quia illa volitio est dolorosa etiam mi<lb ed="#Pa"/>rabile 
+          videtur quod totum corpus hominis ita alte<lb ed="#Pa"/>raretur 
+          vehementer propter voluntatem et actum 
+          <lb ed="#Pa"/>eius et tamen nihil novum fieret in ea praeterea tristitita 
+          <lb ed="#Pa"/>est causa volitionis igitur delectatio est causa voli<lb ed="#Pa"/>tionis 
+          sed nihil est causa sui secundum <name ref="#Augustine">augustinum</name> primo <title ref="#deTrinitate">de trinitate</title> 
+          <lb ed="#Pa"/>capitulo primo ergo delectatio non est volitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Prae<lb ed="#Pa"/>terea 
+          delectatio sequitur cognitionem sicut umbra 
+          <lb ed="#Pa"/>corpus <ref>12 <title ref="#Metaphysics">metaphysica</title> commentato 39</ref> igitur magis est cogni<lb ed="#Pa"/>tio 
+          quam volitio.
+        </p>
+        <!-- article 2 -->
+        <p>
+          <note type="marginal-note" place="margin-right">Secundus articulus.</note>
+          <pc ana="#pilcrow"/>Pro secundo articulo istis non obstan<lb ed="#Pa"/>tibus 
+          teneo quod fruitio beatifica creaturae rationalis per 
+          <lb ed="#Pa"/>quam formaliter excluditur miseria est delectatio pro<lb ed="#Pa"/>batur 
+          talis fruitio excludit miseriam igitur formaliter 
+          <lb ed="#Pa"/>repugnat tristitiae igitur est delectatio hic dicitur quod frui<lb ed="#Pa"/>tio 
+          eo quod est nota esse causa delectationis non stat cum 
+          <lb ed="#Pa"/>tristitia.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra igitur contrariatur tristitiae sed 
+          <lb ed="#Pa"/>tantum unum uni est contrarium igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Dicitur quod 
+          <lb ed="#Pa"/>fruitio proprie non contrariatur tristitiae tamen sibi re<lb ed="#Pa"/>pugnat 
+          non aliquae formae substantiales repugnant li<lb ed="#Pa"/>cet 
+          non proprie contrariantur et similiter aliquae for<lb ed="#Pa"/>mae 
+          accidentales.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra igitur tristitia non repu<lb ed="#Pa"/>gnat 
+          fruitioni nisi prout est contraria effectui frui<lb ed="#Pa"/>tionis 
+          sed causa non repugnat contrario sui effectus 
+          <lb ed="#Pa"/>nisi virtualiter deus autem potest illam virtutem suspende<lb ed="#Pa"/>re 
+          ab agendo etiam passo praesente tam quo ad causatio<lb ed="#Pa"/>nem 
+          proprii effectus quam quo ad destructionem effectus 
+          <lb ed="#Pa"/>contrarii igitur potest per potentiam dei talis causa stare in 
+          <lb ed="#Pa"/>contrario sui effectus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Confirmatur quia agens 
+          <lb ed="#Pa"/>naturale quandoque suspendit actionem alterius de<lb ed="#Pa"/>struendo 
+          eius effectum et inducendo contrarium 
+          <lb ed="#Pa"/>ut patet de igne calefaciente aquam et impedien<lb ed="#Pa"/>te 
+          frigefactionem eius igitur multo fortius deus.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Item exempla de formis non sunt ad propositum 
+          <lb ed="#Pa"/>quia quod anima sensitiva asini et intellectiva homi<lb ed="#Pa"/>nis 
+          non, se compatiuntur non est ex carum repugnn<lb ed="#Pa"/>tia 
+          sed ex hoc quod nullum unum corpus vel subie<lb ed="#Pa"/>ctum 
+          est naturaliter perfectibile simul vel succes<lb ed="#Pa"/>sive 
+          in eodem subiecto per ambas similtier est de 
+          <pb ed="#Pa" n="13-v"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>intellectione et albedine quae non sunt receptibi<lb ed="#Pa"/>les 
+          <lb ed="#Pa"/>nec simul nec subiective in eodem subiecto sed 
+          <lb ed="#Pa"/>argumentum procedit de formis repugnantibus re<lb ed="#Pa"/>ceptibilibus 
+          in eodem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Aliter dicitur quod de potentia dei 
+          <lb ed="#Pa"/>absoluta simul stant miseria tristitiae et fruitio bea<lb ed="#Pa"/>tifica 
+          prout sint in christo <pc type="virgula">/</pc> sed nec hoc respondet quia argu<lb ed="#Pa"/>mentum 
+          procedit de tristitia contraria delectioni 
+          <lb ed="#Pa"/>beatifice quae deum habet pro obiecto et si talis est im<lb ed="#Pa"/>possibilis 
+          quod nullus forte posset tristari de dei bo<lb ed="#Pa"/>nitate 
+          clare visa tunc saltem procedit argumentum 
+          <lb ed="#Pa"/>de tristitia quae est summe pena damnatorum sed nulla 
+          <lb ed="#Pa"/>talis fuit in christo quia sua tristitia erat sensitiva et 
+          <lb ed="#Pa"/>habuit aliud obiectum scilicet passionem.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Alia posset 
+          <lb ed="#Pa"/>esse responsio magis realis quod delectatio beatifi<lb ed="#Pa"/>ca 
+          non potest habere tristitiam sibi contrariam quia for<lb ed="#Pa"/>te 
+          nulla tristitia nata est deum habere pro obiecto 
+          <lb ed="#Pa"/>sine addito sicut habet delectatio beatifica sed actus 
+          <lb ed="#Pa"/>vitalis contrarii debent habere idem obiectum et etiam 
+          <lb ed="#Pa"/>idem subiectum non solum specie sed numero quia amor et 
+          <lb ed="#Pa"/>odium duorum individuorum eiusdem speciei bene 
+          <lb ed="#Pa"/>compatiuntur se in eadem anima.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo principa<lb ed="#Pa"/>liter 
+          fruitio non est delectatio tunc fruitio non re<lb ed="#Pa"/>pugnat 
+          formaliter tristitiae ut patet ex dictis igitur 
+          <lb ed="#Pa"/>possibile est quod in anima absorpta tristitia subito a deo 
+          <lb ed="#Pa"/>causetur fruitio beatifica absque hoc quod destruatur 
+          <lb ed="#Pa"/>illa tristitia ponatur igitur hoc in esse tunc sic nul<lb ed="#Pa"/>lum 
+          agens creatum inveniens agens indispositum 
+          <lb ed="#Pa"/>contrariae potest subito suum contrarium corrumpere 
+          <lb ed="#Pa"/>et effectum suum inducere sed fruitio beatifica est agens 
+          <lb ed="#Pa"/>creatum igitur tristitiam absorbentem non potest destru<lb ed="#Pa"/>re 
+          subito et delectationem contrariam inducere igitur 
+          <lb ed="#Pa"/>stabunt simul per aliquod tempus potissima felicitas 
+          <lb ed="#Pa"/>a summa miseria sed nec in hoc casu est impossibile ad 
+          <lb ed="#Pa"/>quod deducitur quia contraria bene possent a deo si<lb ed="#Pa"/>mul 
+          fieri in eodem ideo propter istas rationes non 
+          <lb ed="#Pa"/>teneo conclusionem praedictam.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ideo aliter arguo il<lb ed="#Pa"/>lud 
+          est beatitudo seu fruitio beatifica quod na<lb ed="#Pa"/>turaliter 
+          est ab omnibus hominibus appetible quia 
+          <lb ed="#Pa"/>ut dicit <name ref="#Augustine">augustinus</name> omnes homines naturaliter appe<lb ed="#Pa"/>tunt 
+          beatitudinem vel esse beati sed gaudium vel 
+          <lb ed="#Pa"/>delectatio sempiterna est huiusmodi igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item si 
+          <lb ed="#Pa"/>fruitio et delectatio distinguerentur ille cui dare<lb ed="#Pa"/>tur 
+          optio diligeret summam delectationem igitur de<lb ed="#Pa"/>lectatio 
+          foret eligibilior fruitione beatifica sed 
+          <lb ed="#Pa"/>hoc est inconveniens igitur non distinguitur ab ea
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item talis delecatio est actus summe quieta<lb ed="#Pa"/>tivus 
+          igitur est fruitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item omnia sufficienter 
+          <lb ed="#Pa"/>salvantur quae oportet salvari ponendo quod sint idem 
+          <lb ed="#Pa"/>actus igitur.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-left">Augustinus</note>
+          <pc ana="#pilcrow"/>Item <ref><name ref="#Augustine">augustinus</name> 14 <title>de trinitate</title> capitulo 7</ref>  
+          <lb ed="#Pa"/>dicit quod amor fruens est laetitia.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <ref>primo <title ref="#deTrinitate">de trinitate</title> 
+          <lb ed="#Pa"/>capitulo 10</ref> plenum gadium est frui trinitate.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item de 
+          <lb ed="#Pa"/>vera innocentia 180 propositione beata vita est gau<lb ed="#Pa"/>dium 
+          et delectatio praeterea I <title ref="#Ethics">ethicorum</title> dicitur quod 
+          <lb ed="#Pa"/>dlectatio perficit operationem igitur est finis ad 
+          <lb ed="#Pa"/>quem fiunt operationes igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea si non tunc 
+          <lb ed="#Pa"/>deus posset annichilare delectationem fruitivam 
+          <lb ed="#Pa"/>manente delectatione et ita posset aliquis beati<lb ed="#Pa"/>fice 
+          delectari nihil amando qui adhuc claram dei 
+          <lb ed="#Pa"/>visionem haberet quod non videtur conveniens.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Adversarius non reputaret consequens inconveniens.
+        </p>
+        <p>
+          <!-- no pilcrow -->Item 
+          <lb ed="#Pa"/><ref><name ref="#Augustine">augustinus</name> libro I <title ref="#deTrinitate">de trinitate</title> capitulo 13 de parvis in fine</ref> hoc est ple<lb ed="#Pa"/>num 
+          gaudium nostrum quo amplius non est frui deo beati<lb ed="#Pa"/>fice 
+          ad eius <choice><orig>ymaginem</orig><reg>imaginem</reg></choice> facti sumus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ista tamen 
+          <lb ed="#Pa"/>conclusio posset teneri secundum duos modos distin<lb ed="#Pa"/>ctos. 
+          Primus esset quod aliqua cognitio ex obiecto 
+          <lb ed="#Pa"/>et natura propria talis est quod anima ipsa habita po<cb ed="#Pa" n="b"/><lb ed="#Pa"/>test 
+          statim sine medio in actum amandi qui sit de<lb ed="#Pa"/>lectatio 
+          vel in actum odiendi qui sit tristitia et pe<lb ed="#Pa"/>na 
+          pro isto facit illud <ref><name ref="#Averroes">commentator</name> 12 <title>metaphysica</title> commen<lb ed="#Pa"/>to 
+          39</ref> quod delectatio sequitur apprehensionem si<lb ed="#Pa"/>cut 
+          umbra corpus igitur non oportet interponi ali<lb ed="#Pa"/>quam 
+          meditationem nec aliquam volitionem nec 
+          <lb ed="#Pa"/>nolitionem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et iterum tunc nulla delectatio esset 
+          <lb ed="#Pa"/>primum peccatum sis semper praesupponeret alium 
+          <lb ed="#Pa"/>actum appetitus.
+        </p>
+        <p>
+          <!-- no pilcrow -->Item tunc nulla delectatio esset 
+          <lb ed="#Pa"/>immediate a libera voluntate sed effectus natu<lb ed="#Pa"/>ralis 
+          aliorum effectuum voluntatis scilicet cognitio<lb ed="#Pa"/>nis 
+          et volitionis vel nolitionis. secundum istum 
+          <lb ed="#Pa"/>modum diceretur visionem dei claram esset talem co<lb ed="#Pa"/>gnitionem 
+          qua habita potest aliam immediate elic<lb ed="#Pa"/>re 
+          vel causare cum deo fruitionem quae sit gaudium 
+          <lb ed="#Pa"/>beatificum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundum modus sustinendi praedictam 
+          <lb ed="#Pa"/>conclusionem esset dicere quod sicut omnis amor ad 
+          <lb ed="#Pa"/>hoc quod naturaliter causetur praesupponit cognitio<lb ed="#Pa"/>nem 
+          ita omne gaudium vel dolor delectatio vel tri<lb ed="#Pa"/>stitia 
+          et generalis omnis passio praesupponit actum 
+          <lb ed="#Pa"/>appetendi vel respuendi seu odium vel amore pri<lb ed="#Pa"/>mum 
+          sicut causam suam partialem cum anima <pc type="virgula">/</pc> et 
+          <lb ed="#Pa"/>auctoritates multae hoc sonant quae dicunt quod tri<lb ed="#Pa"/>stamur 
+          de his quae nobis nolentibus accidunt et 
+          <lb ed="#Pa"/>similes et secundum istum modum dicendi respondetur 
+          <lb ed="#Pa"/>in una alia conclusione post quod tales passiones non 
+          <lb ed="#Pa"/>sunt effectus liberi voluntatis nisi mediante quod na<lb ed="#Pa"/>turaliter 
+          sequuntur ad volitiones et amores vel 
+          <lb ed="#Pa"/>odia praesupposita ita quod non est in potestate volun<lb ed="#Pa"/>tatis 
+          ut tollantur nisi recta aliqua de causis suis.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Istam responsionem intelligo de illis passioni<lb ed="#Pa"/>bus 
+          quae praesupponunt aactum aliquem appetiti<lb ed="#Pa"/>vum 
+          primum si non omnes passiones tales sint quod sic 
+          <lb ed="#Pa"/>praesupponant uterque enim modus ponendi appares 
+          <lb ed="#Pa"/>mihi pulcher et probabilis sed secundum istum mo<lb ed="#Pa"/>dum 
+          secundum oportet respondere ad argumen<lb ed="#Pa"/>ta 
+          modi prioris.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad <name ref="#Averroes">commentatorem</name> dico quod talis 
+          <lb ed="#Pa"/>delectatio sequatur apprehensionem rei delecta<lb ed="#Pa"/>bilis 
+          non tamen sine amore vel odio medio nec ad<lb ed="#Pa"/>huc 
+          est necessaria consecutio quod mediante delibe<lb ed="#Pa"/>ratione 
+          posset anima facere quod ad talem apprehen<lb ed="#Pa"/>sionem 
+          nec sequitur amor nec delectatior.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad se<lb ed="#Pa"/>cundum 
+          diceretur concedo consequens et ad ter<lb ed="#Pa"/>tium 
+          similiter.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum dico quod delectatio quae 
+          <lb ed="#Pa"/>habet operationem pro obiecto est aliquid super<lb ed="#Pa"/>veniens 
+          operationi delectatior autem beatifica ha<lb ed="#Pa"/>bet 
+          immediate deum pro obiecto et est met ope<lb ed="#Pa"/>ratio fruitiva cui tamen bene supervenit maxima 
+          <lb ed="#Pa"/>delectatio reflexa sed ista non est beatifica beati<lb ed="#Pa"/>tudine 
+          essentiali sed potius ista prior quae est actus 
+          <lb ed="#Pa"/>rectus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum negatur quod talis delecta<lb ed="#Pa"/>tio 
+          est passio impressa ab obiecto.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium pa<lb ed="#Pa"/>tat 
+          ex prima solutione quod delectatio beatifica so<lb ed="#Pa"/>lum 
+          deum habet pro obiecto licet delctationes 
+          <lb ed="#Pa"/>reflexe supervenientes bene habeant pro obiecto visionem et 
+          <lb ed="#Pa"/>delectationem de quibus beatus valde delectatur dlecta<lb ed="#Pa"/>tione 
+          reflexa sed non recta.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 4 dicitur quod sicut primae de<lb ed="#Pa"/>lectationes 
+          non sunt in nostra potestate sicut nec primae volitio<lb ed="#Pa"/>nes 
+          ex quo naturaliter ex cognitionibus primis sunt 
+          <lb ed="#Pa"/>tantae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quintum concedo quod delctatio non est ista 
+          <lb ed="#Pa"/>operatio quam perficit ut finis et tamen est in se operatio quaedam 
+          <lb ed="#Pa"/>delectabilis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad sextum dicitur quod sufficit unus appetitus 
+          <lb ed="#Pa"/>correspondens quinque sensibus exterioribus et sensui communi in<lb ed="#Pa"/>differens 
+          rei igitur vel saltem subito a sensu communi 
+          <lb ed="#Pa"/>quia simul duratione immutatur a sensibili sensus exterior 
+          <lb ed="#Pa"/>et sensus communis sed prior natura et ordine sensus 
+          <pb ed="#Pa" n="14-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>exterior et secundum hoc potest stare tam dictum <name ref="#Augustine">augustini</name> 
+          <lb ed="#Pa"/>quam philosophi vel si philosophus velit quod secundum unumquemque sensum 
+          <lb ed="#Pa"/>sit delectatio propria et appetitiva tunc intelligen<lb ed="#Pa"/>dum 
+          est dictum <name>augustini</name> de appetitu quo appe<lb ed="#Pa"/>tere 
+          possumus vel fugere obiecta diversorum sen<lb ed="#Pa"/>suum 
+          non autem de appetitu qui praecise respicit sen<lb ed="#Pa"/>sibilia 
+          unius sensus exterioris.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad septimum di<lb ed="#Pa"/>cendum 
+          quod delectatio de illecebra est complacentia 
+          <lb ed="#Pa"/>ad obiectum non ad illecebram et ultra concedo 
+          <lb ed="#Pa"/>quod in casu argumenti delectatio de illecebra cogni<lb ed="#Pa"/>ta 
+          non est nec efficitur amor primus habitus ad eam<lb ed="#Pa"/>dem 
+          vel obiectum eius.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad octavum dicitur similiter 
+          <lb ed="#Pa"/>quod desiderium quo quis desiderat aliquid sine dele<lb ed="#Pa"/>ctatione 
+          <choice><orig>ymo</orig><reg>immo</reg></choice> potius cum dolore respectu non haben<lb ed="#Pa"/>ti 
+          nunquam fit delectatio quae habetur de eodem desi<lb ed="#Pa"/>derato 
+          quando obtinetur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad nonum dicitur quod 
+          <lb ed="#Pa"/>tristitia non est nec nunquam erit illa nolitio vel odi<lb ed="#Pa"/>um 
+          cuius est causa sic nec delectatio est nec erit il<lb ed="#Pa"/>le 
+          amor cuius est causa cum hoc stat quod omnis tri<lb ed="#Pa"/>stitia 
+          sit in se sit amore vel odium vel forte amor unius 
+          <lb ed="#Pa"/>et odium alterius et ita suo modo est de delecta<lb ed="#Pa"/>tione.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad decimum potest diversimode dici secun<lb ed="#Pa"/>dum 
+          duos modos praenotatos sustinendi hanc con<lb ed="#Pa"/>clusionem 
+          ut satis patuit concedendum est autem 
+          <lb ed="#Pa"/>quod omnis delectatio est quaedam cognitio et simili<lb ed="#Pa"/>ter 
+          omnis tristitia sed non est ista cognitio quae eadem 
+          <lb ed="#Pa"/>stat successive cum tristitia praecedente ante ade<lb ed="#Pa"/>ptionem 
+          desiderati et post cum delectatione respectu 
+          <lb ed="#Pa"/>eius iam habiti ut satis patet.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sciendum quod uni<lb ed="#Pa"/>versaliter 
+          omnis appetitus alicuius rei cogniti<lb ed="#Pa"/>ve 
+          praesentate potentiae appetitivae per modum conve<lb ed="#Pa"/>nientis 
+          vel boni apparentis dici potest delectatio 
+          <lb ed="#Pa"/>et secundum hoc negandum esset illud quod assu<lb ed="#Pa"/>mitur 
+          in octavo argumento scilicet quod aliquis potest ap<lb ed="#Pa"/>petere 
+          aliquid nondum habitum absque delectatio<lb ed="#Pa"/>ne 
+          <choice><orig>ymo</orig><reg>immo</reg></choice> dico quod ille appetitus seu volitio est ipsa<lb ed="#Pa"/>met 
+          delectatio cum qua bene stat dolor seu dele<lb ed="#Pa"/>ctatio 
+          tristitia cuius obiectum non est illud desi<lb ed="#Pa"/>deratum 
+          sed potius carentia illius desiderati <pc type="virgula">/</pc> sic eti<lb ed="#Pa"/>am 
+          diceretur quod appetitus dyaboli ad puniendum 
+          <lb ed="#Pa"/>animas est sibi delectatio quamvis aliunde maxi<lb ed="#Pa"/>mam 
+          habeat tristitiam et ita omnis fuga mali seu 
+          <lb ed="#Pa"/>odium mali tristitia est et eius obiectum est hoc esse 
+          <lb ed="#Pa"/>malum cum quo stat delectatio de hoc quod homo re<lb ed="#Pa"/>cedit 
+          a malo.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex hoc patet quod potissime fruitio est 
+          <lb ed="#Pa"/>in se formaliter delectatio non tamen est summe 
+          <lb ed="#Pa"/>appetibilis sub ratione qua delectatio sed potius 
+          <lb ed="#Pa"/>sub ratione qua est dilectio summi boni.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et ideo 
+          <lb ed="#Pa"/>si dilectio et delectatio realiter distinguerentur et 
+          <lb ed="#Pa"/>daretur optio alterius praecise sine altero eligen<lb ed="#Pa"/>da 
+          foret dilectio eo quod hoc esset iustum ad hoc ra<lb ed="#Pa"/>tionalis 
+          creatura tenetur nec haberet curare de 
+          <lb ed="#Pa"/>delectatione quia sufficienter <choice><orig>ymo</orig><reg>immo</reg></choice> summe satia<lb ed="#Pa"/>retur 
+          in dilectione seu fruitione qua sic coniungi<lb ed="#Pa"/>tur 
+          suo fini propter ipsum finem quo totum suum 
+          <lb ed="#Pa"/>desiderium satiatur et quietatur etiam si nullum 
+          <lb ed="#Pa"/>respectum habet ad suum commodum vel ad suam 
+          <lb ed="#Pa"/>delectationem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex hoc patet quod aliquae rationes 
+          <lb ed="#Pa"/>secundo adductae pro conclusione dicta non procedunt.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Sciendum est quod pro eadem conclusione dilectio<lb ed="#Pa"/>ne 
+          stante non oportet ponere aliquam delectatio<lb ed="#Pa"/>nem 
+          reflexam supervenientem fruitioni sed ipsa fruitio 
+          <lb ed="#Pa"/>est ultimata delectatio de summo bono et etiam est 
+          <lb ed="#Pa"/>delectatio sui ipsius et visionis eiusdem summi boni 
+          <lb ed="#Pa"/>licet quibusdam operationibus imperfectia super<lb ed="#Pa"/>veniant 
+          bene delectationes quibus confortatus 
+          <lb ed="#Pa"/>operans perfectius oepratur sed hoc non opor<lb ed="#Pa"/>tet 
+          in operatione perfectissima sicut est fruitio ni<lb ed="#Pa"/>si 
+          diceretur delectationem supervenire fruitioni <pc type="virgula">/</pc> quia 
+          <lb ed="#Pa"/>ratio delectationis consecutive se habet ad ratio<lb ed="#Pa"/>nem 
+          fruitionis quia fruitio naturaliter est prius 
+          <lb ed="#Pa"/>fruitio vel dilectio quam ipsa sit delectatio et etiam na<lb ed="#Pa"/>turali 
+          concomitantiali non sit impedimentum ad 
+          <lb ed="#Pa"/>eam sequitur quod ipsa sit delectatio sicut alii dicunt 
+          <lb ed="#Pa"/>quod relatio est realiter distincta ab ea naturaliter 
+          <lb ed="#Pa"/>sequatur eam.
+        </p>
+        <p>
+          <!-- no pilcrow --> Et dicitur notantur si non sit impe<lb ed="#Pa"/>dimentum 
+          quia deus posset facere quod esset dilectio 
+          <lb ed="#Pa"/>vel fruitio quae non esset delectatio nec ad eam se<lb ed="#Pa"/>queretur 
+          delectatio nec hoc videtur inconveniens 
+          <lb ed="#Pa"/>de potentia dei absoluta sed tunc fruitio non for<lb ed="#Pa"/>maliter 
+          esset delectatio nec universaliter omnis 
+          <lb ed="#Pa"/>appetitus sed solum talis in quo est actualis praece<lb ed="#Pa"/>ptio 
+          commodi ex coniunctione potentiae cum obiecto
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Sciendum etiam quod delectatio proprie non est ni<lb ed="#Pa"/>si 
+          virtutis appetitive rationalis vel animalis et 
+          <lb ed="#Pa"/>sic intellectus non delectatur de apprehensis vel 
+          <lb ed="#Pa"/>de sua apprehensione sed apprehenso convenienti 
+          <lb ed="#Pa"/>appetitus concipit desiderium vel amorem illius 
+          <lb ed="#Pa"/>et ita delectatur et sic delectatio vel est amore seu 
+          <lb ed="#Pa"/>desiderium alicuius convenientis sequens ad ap<lb ed="#Pa"/>prehensionem 
+          ens vel est actus distinctus sequens 
+          <lb ed="#Pa"/>simul apprehensionem et dilectionem seu amorem et 
+          <lb ed="#Pa"/>sic si deus causaret angelum qui non esset <unclear>appetitivus</unclear> 
+          <lb ed="#Pa"/>rationabiliter vel animaliter sed solum intelligens 
+          <lb ed="#Pa"/>talis in nullo posset delectari.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Si tamen aliquis 
+          <lb ed="#Pa"/>accipiat universaliter delectationem pr adeptio<lb ed="#Pa"/>ne 
+          naturaliter convenientis vel illius ad quod tam<lb ed="#Pa"/>quam 
+          ad finem suum vel tanquam ad bonum vel conveni<lb ed="#Pa"/>ens 
+          inclinat appetitus sive animalis sive natura<lb ed="#Pa"/>lis 
+          vel pro latione in illud tunc sunt etiam delecta<lb ed="#Pa"/>tiones 
+          intellectuales et naturales.
+        </p>
+        <p>
+          <!-- no pilcrow -->Et secundum hoc in 
+          <lb ed="#Pa"/>anima rationali vel in angelo triplices sunt intel<lb ed="#Pa"/>lectiones 
+          primae sunt intellectuales et sic omnis in<lb ed="#Pa"/>tellectio complexa vel incomplexa sive sit appre<lb ed="#Pa"/>hensio 
+          obiecti simpliciter vel per modum veri vel 
+          <lb ed="#Pa"/>per modum boni est delectatio intellectus quia est 
+          <lb ed="#Pa"/>coniunctio potentiae cum suo obiecto sibi conveni<lb ed="#Pa"/>enti.
+        </p>
+        <p>
+          <!-- no pilcrow-->Aut est delectatio quae est naturalis mono 
+          <lb ed="#Pa"/>potentiae apprehensive per modum complacentiae 
+          <lb ed="#Pa"/>in obiectum sibi praesentatum sub ratione boni <unclear>et</unclear> 
+          <lb ed="#Pa"/>tales delectationes etiam vocantur primae volitiones 
+          <lb ed="#Pa"/>naturaliter causatae a cognitionibus primis et non sunt in 
+          <lb ed="#Pa"/>nostra potestate prout communiter conceditur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ter<lb ed="#Pa"/>tia 
+          delectatio est libera volitio qua appetitus fer<lb ed="#Pa"/>tur 
+          in obiectum suum et qua libere dilective coniungitur 
+          <lb ed="#Pa"/>eidem sive substantialiter sive sit absens sive praesens et ta<lb ed="#Pa"/>lis 
+          est in nostra potestate et potissime talium est fruitio 
+          <lb ed="#Pa"/>et sic implicaret contradictionem fruitionem esse si<lb ed="#Pa"/>ne 
+          delectatione sed qui concederet fruitionem esse si<lb ed="#Pa"/>ne 
+          delectatione diceret quod delectatio adderet super 
+          <lb ed="#Pa"/>fruitionem perceptionem commodi provenientis ipsi 
+          <lb ed="#Pa"/>potentiae ab obiecto.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-right">Primum dubium</note>
+          <pc ana="#pilcrow"/>Dubium primum si omnis dele<lb ed="#Pa"/>ctatio 
+          est amor vel odium igitur est cognitio conce<lb ed="#Pa"/>ditur 
+          quod quaedam delectatio est simpliciter appre<lb ed="#Pa"/>hensio 
+          quaedam compositio etiam prout talem vel ta<lb ed="#Pa"/>lem 
+          notitiam naturaliter praeexigit nulla tamen 
+          <lb ed="#Pa"/>est iudicium practicum quo scilicet iudicetur sic esse a<lb ed="#Pa"/>gendum 
+          sicut nec volitio est tale iudicium quia di<lb ed="#Pa"/>ctamina 
+          practica et electiones secundum <name ref="#Aristotle">philo<lb ed="#Pa"/>sophum</name> 
+          sunt respectu nondum positi tempore 
+          <lb ed="#Pa"/>vel natura ut ita loquar: aliqua tamen bene est 
+          <lb ed="#Pa"/>iudicium speculativum scilicet opinio vel cre<pb ed="#Pa"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>dulitas 
+          qua opinetur vel credatur de aliquo ita esse 
+          <lb ed="#Pa"/>vel non esse aliqua tamen bene praecedit notitiam 
+          <lb ed="#Pa"/>practicam sicut et obiectum suum. verbi gratia cum 
+          <lb ed="#Pa"/>doleo quod offendi deum vel proximum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex dictis 
+          <lb ed="#Pa"/>patet quod aliqua delectatio virtuosa potest esse opi<lb ed="#Pa"/>nio 
+          falsa ut ista qua quis delectatur praecise ex hoc 
+          <lb ed="#Pa"/>credit persecutorem ecclesiae esse mortuum vel con<lb ed="#Pa"/>simile 
+          et non est ita.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra omnis electio virtuosa 
+          <lb ed="#Pa"/>est cum ratione recta et ratio recta est vera <pc type="virgula">/</pc> dico quod est 
+          <lb ed="#Pa"/>cum ratione practica vera sed bene potest esse cum 
+          <lb ed="#Pa"/>speculativa falsa.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-left"/>
+          <pc ana="#pilcrow"/>Secundum dubium est quia non vi<lb ed="#Pa"/>detur 
+          quod omnis delectatio vel amor praesupponit na<lb ed="#Pa"/>turaliter 
+          cognitionem aliam respectu voliti quia cum 
+          <lb ed="#Pa"/>contra omne iudicium suum possit voluntas velle 
+          <lb ed="#Pa"/>aliquid vel nolle videtur quod ipsum velle esse possit 
+          <lb ed="#Pa"/>prima notitia illius voliti.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item voluntas potest 
+          <lb ed="#Pa"/>avertere intellectionem ab omni actualiter cognito 
+          <lb ed="#Pa"/>et velle intellectum intelligere ad modum praecogni<lb ed="#Pa"/>tum 
+          actu hoc non videtur nisi ipsa volitio sit prima 
+          <lb ed="#Pa"/>illius obiecti cognitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum dicitur quod non obstan<lb ed="#Pa"/>te 
+          quocumque dictamine practico voluntas potest libe<lb ed="#Pa"/>re 
+          non velle vel nolle se conformare <pc type="virgula">/</pc> nec tamen potest 
+          <lb ed="#Pa"/>velle oppositum nisi oppositum apprehendatur et ideo 
+          <lb ed="#Pa"/>non sequitur quod feratur in incognitum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum ne<lb ed="#Pa"/>gatur 
+          consequentia quia ad hoc quod voluntas convertat intel<lb ed="#Pa"/>lectum 
+          ad aliquid cognoscendum requiritur illius ap<lb ed="#Pa"/>prehensi 
+          propria habitualis forte communis concur<lb ed="#Pa"/>rens 
+          cum habituali propria vel aliter quod plus 
+          <lb ed="#Pa"/>apparet <name>adae</name> dicendum est quod intellectus iudicat non 
+          <lb ed="#Pa"/>esse standum in tali consideratione et voluntas po<lb ed="#Pa"/>test 
+          conformiter imperare et suspendere intellectum 
+          <lb ed="#Pa"/>a consdieratione illa vel convertere ad aliud vel actu<lb ed="#Pa"/>aliter 
+          occurrens vel ex cognitione aliqua ad prius 
+          <lb ed="#Pa"/>cognitum vel quia unus habitus fortius inclinat ad 
+          <lb ed="#Pa"/>actus aliquos quam alius vel alio modo sed secus est 
+          <lb ed="#Pa"/>circumscripto omni tali iudicio tunc enim solum a 
+          <lb ed="#Pa"/>casu vel mere naturaliter solum cessaret ab actu 
+          <lb ed="#Pa"/>prioris obiecti.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sciendum quod volitio vel delecta<lb ed="#Pa"/>tio 
+          etiam est cognitio quae est iudicium practicum et hoc 
+          <lb ed="#Pa"/>probatur ex dictis in primo dubio quod delectatio ta<lb ed="#Pa"/>lis 
+          est notitia qualem naturaliter praeexigit sed ali<lb ed="#Pa"/>qua 
+          exigit iudicium practicum quod iudicetur sic esse agen<lb ed="#Pa"/>dum 
+          vel non.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item nota ex solutione primi argu<lb ed="#Pa"/>menti 
+          secundi dubii patet quod non sequitur ratio est 
+          <lb ed="#Pa"/>recta igitur voluntas quia ratio potest habere ap<lb ed="#Pa"/>parentiam 
+          ad utramque partem contradictionis de 
+          aliquo agibili ita quod in particulari habet apparen<lb ed="#Pa"/>tiam 
+          boni quod <c>a</c> est agendum et aliam apparentiam quod 
+          <lb ed="#Pa"/><c>a</c> non est agendum sicut saepe sit in conclusionibus specu<lb ed="#Pa"/>lativis 
+          et stante utraque apparentia boni consentit 
+          <lb ed="#Pa"/>per iudicium practicum illo non obstante volun<lb ed="#Pa"/>tas 
+          eligit optatam partem quae etiam praesentatur sibi tan<lb ed="#Pa"/>quam 
+          apparens bonum ab intllectu apprehensum igi<lb ed="#Pa"/>tur 
+          etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item sciendum quod secundo argumento non vide<lb ed="#Pa"/>tur 
+          satisfieri nisi dicatur quod voluntas est per se co<lb ed="#Pa"/>nitiva 
+          et sic potest intellectum suspendere a consi<lb ed="#Pa"/>deratione 
+          quam habet et vertere ipsum ad conside<lb ed="#Pa"/>rationem 
+          alterius obiecti quod ipsa voluntas tunc ta<lb ed="#Pa"/>liter 
+          cognoscit quod non primae sibi praesentatur per in<lb ed="#Pa"/>tellectum 
+          quia alias ipsa non verteret intellectum 
+          <lb ed="#Pa"/>ad hoc obiectum sed intellectus verteret seipsum 
+          <lb ed="#Pa"/>sufficit autem voluntati praesentatio praevia alterius ob<lb ed="#Pa"/>iecti 
+          vel aliorum habentium naturalem connexio<lb ed="#Pa"/>nem 
+          cum isto cognito sive ex conformitate sive ex 
+          <lb ed="#Pa"/>contrarietate etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tertium dubium utrum obie<lb ed="#Pa"/>ctum 
+          sit causa immediata delectationis. Respon<cb ed="#Pa" n="b"/><lb ed="#Pa"/>det 
+          <ref><name ref="#Scotus">scotus</name> quaestione ultima primae distinctionis 
+          <lb ed="#Pa"/>in <title>reportatione parisiensis</title></ref> quod sic quia sicut obiectum 
+          <lb ed="#Pa"/>sensibile est causa delectationis in appetitu sensi<lb ed="#Pa"/>tivo 
+          ita consequenter obiectum intellectuale cau<lb ed="#Pa"/>sat 
+          delectationem in appetitu intellectivo scili<lb ed="#Pa"/>cet 
+          voluntate igitur.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-right">Okam</note>
+          Contra illud arguit <name ref="#Ockham">okam</name> 
+          <lb ed="#Pa"/>posito actu primo intellectus vel voluntatis quae 
+          <lb ed="#Pa"/>praeexigitur delectationi secundum ordinem natu<lb ed="#Pa"/>ralem 
+          habetur causa sufficiens delectationis si<lb ed="#Pa"/>ve 
+          obiectum sit sive non sit et etiam stantibus eis<lb ed="#Pa"/>dem 
+          actibus primis volendi vel cognoscendi amo<lb ed="#Pa"/>to 
+          obiecto non sequitur minor delectatio quam prius 
+          <lb ed="#Pa"/>saltem dummodo non remittantur actus primi 
+          <lb ed="#Pa"/>per ablationem obiecti et destructo tali actu vel 
+          <lb ed="#Pa"/>actibus vel saltem eis non positis non potest fie<lb ed="#Pa"/>ri 
+          delectatio ergo obiectum nihil facit ad illam 
+          <lb ed="#Pa"/>delectationem sed isti actus sunt sufficiens eius 
+          <lb ed="#Pa"/>causa.
+        </p>
+        <p>
+          Ista conclusio deducta contra <name ref="#Scotus">scotum</name> vid<lb ed="#Pa"/>tur 
+          <name ref="#Wodeham">adae</name> vera unde dicit quod ex hoc quod obiecta sunt de<lb ed="#Pa"/>lectabilia 
+          non habetur evidentia quod causent imme<lb ed="#Pa"/>diate 
+          delectationem licet aliquando obiectum de<lb ed="#Pa"/>lectabile sit causa mediata delectationis conce<lb ed="#Pa"/>dendum 
+          est quod delectatio intellectualis quae est ip<lb ed="#Pa"/>sa 
+          dilectio immediate causatur ab anima et intel<lb ed="#Pa"/>lectione 
+          sicut dilectio sensitiva a sensatione dele<lb ed="#Pa"/>ctatio 
+          autem intellectualis superveniens causa<lb ed="#Pa"/>tur 
+          ab anima et ab intellectione mediante scilicet di<lb ed="#Pa"/>lectione.
+        </p>
+        <p>
+          Unde patet quod etiam dilectio non est ab ob<lb ed="#Pa"/>iecto sed ab anima et intellectione praevia et eodem 
+          <lb ed="#Pa"/>modo dicitur de delectatione reflexa.
+        </p>
+        <p>
+          Per hoc pa<lb ed="#Pa"/>tet 
+          ad formam argumenti <name ref="#Scotus">scoti</name> quia negandum est 
+          <lb ed="#Pa"/>antecedens scilicet quod obiectum sensibile sit causa 
+          <lb ed="#Pa"/>saltem immediata delectationis in appetitu sen<lb ed="#Pa"/>sitivo.
+        </p>
+        <p>
+          Contra <ref>decimo <title ref="#Ethics">ethicorum</title> quarto</ref> habetur 
+          <lb ed="#Pa"/>quod semper obiecto delectabili sensato sequitur de<lb ed="#Pa"/>lectatio.
+        </p>
+        <p>
+          Item qua ratione delectatio aliqua esset 
+          <lb ed="#Pa"/>dilectio libere causata a voluntate eadem ratio<lb ed="#Pa"/>ne 
+          tristitia esset odium libere causataum a volun<lb ed="#Pa"/>tate 
+          et tunc voluntas posset non contristare se quod 
+          <lb ed="#Pa"/>videtur inconvenines.
+        </p>
+        <p>
+          Ad primum dicitur quod <name ref="#Aristotle">phi<lb ed="#Pa"/>losophus</name> videtur attribuere causalitatem imme<lb ed="#Pa"/>diatam 
+          delectionis sensationi qua est respectu ob<lb ed="#Pa"/>iecti 
+          delectabilis secundum sensum et non obiecto.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 
+          <lb ed="#Pa"/>secundum dicitur quod tristitia aliqua libere causatur ab anima 
+          <lb ed="#Pa"/>scilicet illa quae est contraria delectationi libere causatae et 
+          <lb ed="#Pa"/>conceditur quod tali tristitia voluntas posset se non con<lb ed="#Pa"/>tristare 
+          quia posset illam tristitiam non causare in 
+          <lb ed="#Pa"/>non odiendo obiectum tristabile et non sequitur iste li<lb ed="#Pa"/>bere 
+          contristatur igitur libere vult tristari quia trista<lb ed="#Pa"/>ri 
+          est actus rectus odiendi obiectum sibi discon<lb ed="#Pa"/>veniens 
+          sed velle tristari est actus reflexus sicut 
+          <lb ed="#Pa"/>enim voluntas potest causare dilectionem libere absque 
+          <lb ed="#Pa"/>hoc quod velit dilectionem sed obiectum tantum ita potest libe<lb ed="#Pa"/>re 
+          causare tristitiam ferendo se oditive in obiectum di<lb ed="#Pa"/>sconveniens 
+          licet non velit tristitiam sed nollit tamen quod quandoque pos<lb ed="#Pa"/>set 
+          velle tristitiam sicut aliqui volunt esse tristes 
+          <lb ed="#Pa"/>pro peccatis. Est etiam quaedam tristitia non libere 
+          <lb ed="#Pa"/>causata sed necessario sicut et delectatio illi contra<lb ed="#Pa"/>ria. 
+          verbi gratia cognitio infortunio amici necessario 
+          <lb ed="#Pa"/>sequitur tristitia quae est odium illius infortunii sicut ad co<lb ed="#Pa"/>gnitionem 
+          prosperitatis amici necessario sequitur de<lb ed="#Pa"/>lectatio 
+          quae est dilectio illius prosperitatis ambae etiam 
+          <lb ed="#Pa"/>sunt tristitiae aliae et delectationes et amores et odia<lb ed="#Pa"/>tam 
+          primaria quam secundaria non libere sed necessario 
+          <lb ed="#Pa"/>causata ab anima. <quote ana="#mt26_38"> <!-- also mc14_34 -->Tristis est (inquit christus) anima mea us<lb ed="#Pa"/>que 
+          ad mortem</quote> videtur enim quod non fuit in potestate 
+          <pb ed="#Pa" n="15-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>animae christi data immediate de illa morte certitudinaliter 
+          cognita minime non tristari vel non 
+          <lb ed="#Pa"/>eam odire odio quod non esset horror mortis.
+        </p>
+        <!-- 4th dubium -->
+        <p>
+          <note type="marginal-note" place="margin-left">Quartum dubium</note>
+          Quar<lb ed="#Pa"/>tum dubium 
+          utrum fruitio sit actio partialiter ab 
+          <lb ed="#Pa"/>anima vel totaliter a deo.
+        </p>
+        <p>
+          Respondetur quod est par<lb ed="#Pa"/>tialiter 
+          a deo et eodem modo delectatio beatifica 
+          <lb ed="#Pa"/>unde patet quod delectatio beatifica immediate est ab 
+          <lb ed="#Pa"/>obiecto delectabili secus autem est de aliis dele<lb ed="#Pa"/>ctationibus 
+          aliorum obiectorum ut patet ex dictis
+        </p>
+        <p>
+          <lb ed="#Pa"/>
+          <note type="marginal-note" place="margin-left">Quintum dubium</note>
+          <pc ana="#pilcrow"/>Quintum dubium utrum delectatio beatifica 
+          <lb ed="#Pa"/>sit actus reflexus. Et dicendum est quod si hoc est pos<lb ed="#Pa"/>sibile 
+          non oportet tamen ita esse et quando sic est 
+          <lb ed="#Pa"/>adhuc ipsa non est delectatio beatifica ex hoc ha<lb ed="#Pa"/>bet 
+          aliquid aliud a deo pro obiecto. Contra proba<lb ed="#Pa"/>tur 
+          quod delectatio beatifica non sit actus rectus sed 
+          <lb ed="#Pa"/>reflexus habens rectum pro obiecto quia omnis 
+          <lb ed="#Pa"/>amor concupiscentiae qui est delectatio et non de<lb ed="#Pa"/>siderium 
+          fertur immediate super habitionem rei 
+          <lb ed="#Pa"/>et non super rem concupitam vel amatam amore 
+          <lb ed="#Pa"/>amicitiae visum enim non est immediatum obiectum 
+          <lb ed="#Pa"/>amoris concupiscentiae quae est delectatio sed visus 
+          <lb ed="#Pa"/>qui est actus rectus sed delectatio fruitiva est amor 
+          <lb ed="#Pa"/>concupiscentiae cum sit delectatio proveniens ex di<lb ed="#Pa"/>vina 
+          habitione quae habitio est aliquis actus quo 
+          <lb ed="#Pa"/>habetur deus puta visio beatifica vel dilectio dei 
+          <lb ed="#Pa"/>igitur.
+        </p>
+        <p>Praeterea delectatio fruitiva succedit de<lb ed="#Pa"/>siderio 
+          sed desiderium est habitionis divinae respe<lb ed="#Pa"/>ctu 
+          non respectu dei absolute non enim desidera<lb ed="#Pa"/>mus 
+          deum sed habere deum vel videre ipsum igi<lb ed="#Pa"/>tur 
+          nec fruitio eset delectatio de deo sed de visione 
+          <lb ed="#Pa"/>dei.
+        </p>
+        <p>
+          Item obiectum dilectionis fruitive est aliqua 
+          <lb ed="#Pa"/>perfectio nostra nobis formaliter inhaerens cum 
+          <lb ed="#Pa"/>sit delectatio proveniens ex coniunctione conve<lb ed="#Pa"/>nientis 
+          cum convenientia ita quod coniunctio et perfe<lb ed="#Pa"/>ctio 
+          qua perficitur potentia per sibi convenines 
+          <lb ed="#Pa"/>videtur causare delectationem fruitivam sed de<lb ed="#Pa"/>us 
+          non est perfectio formaliter nobis inhaerens nec 
+          <lb ed="#Pa"/>aliquid aliud est perfectio nostra ultimata quo 
+          <lb ed="#Pa"/>aliquis actus quo coniungimur immediate deo 
+          <lb ed="#Pa"/>igitur talis actus unitivus beatifice est obiectum 
+          <lb ed="#Pa"/>fruitive delectationis et non deus
+        </p>
+        <p>
+          Item amor omnis 
+          <lb ed="#Pa"/>desiderii aut delectationis habet pro tali obiecto 
+          <lb ed="#Pa"/>significabile per complexum significans aliquid 
+          <lb ed="#Pa"/>esse conveniens vel disconveniens sicut deum videri vel 
+          <lb ed="#Pa"/>manifestari vel huiusmodi et deus absolute sumptus non est 
+          <lb ed="#Pa"/>tale significabile per complexum igitur fruitio non 
+          <lb ed="#Pa"/>erit delectatio de deo sed de visione dei. Confirma<lb ed="#Pa"/>tur 
+          quia obiectum complexum gaudii beatifici pen<lb ed="#Pa"/>det 
+          ex circulatione perpetuationis divinae visio<lb ed="#Pa"/>nis 
+          et fruitionis igitur requirit creaturam pro partia<lb ed="#Pa"/>li 
+          obiecto.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea desiderare aliquod bonum 
+          <lb ed="#Pa"/>deo esset omnino vacuum igitur talis delectatio 
+          <lb ed="#Pa"/>non videtur esse fruitio sed delectatio de hoc quod 
+          <lb ed="#Pa"/>aliquis habet deum per visionem vel dilectionem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed contrarium mihi videatur quod omnis amor per<lb ed="#Pa"/>fectissimus 
+          est amor amicitiae respectu nobilissimi 
+          <lb ed="#Pa"/>obiecti sed delectatio beatifica est amor perfectis<lb ed="#Pa"/>simus 
+          quia fruitio ut patet ex conclusione principa<lb ed="#Pa"/>li 
+          igitur etc. unde et beatus secundum leges amicitiae et 
+          <lb ed="#Pa"/>virtutis magis gaudet de felicitate dei quam de pro<lb ed="#Pa"/>pria 
+          unde <name ref="#Augustine">augustinus</name> propter te solum beatus non <choice><sic>pro<lb ed="#Pa"/>ter</sic><corr>prop<lb ed="#Pa"/>ter</corr></choice> 
+          illam beatior supple essentialiter et absolute.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Se<lb ed="#Pa"/>cundo 
+          sicut habetur in littera per <name ref="#Augustine">augustinum</name> frui 
+          <lb ed="#Pa"/>est per amorem inhaerere alicui propter se igitur solum 
+          <lb ed="#Pa"/>etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item res quibus fruendum est sunt pater et filius 
+          <lb ed="#Pa"/>et spiritus sanctus.
+        </p>
+        <p>
+          Praeterea actu visionis est uten<cb ed="#Pa" n="b"/><lb ed="#Pa"/>dum 
+          ex littera igitur non fruendum.
+        </p>
+        <p>
+          Item visio vel de<lb ed="#Pa"/>lectatio 
+          posset esse nolita secundum rectam rationem 
+          <lb ed="#Pa"/>scilicet si deus hoc praeciperet igitur etc.
+        </p>
+        <p>
+          Praeterea deside<lb ed="#Pa"/>rium 
+          visionis istius non est fruitio viae igitur nec dele<lb ed="#Pa"/>ctatio 
+          respectu illius est fruitio patriae quia idem est obie<lb ed="#Pa"/>ctum 
+          in omnibus est obiectum utriusque nam secundum <ref><name ref="#Augustine">augustinum</name> 
+          <lb ed="#Pa"/>14 <title ref="#deTrinitate">de trinitate</title> capitulo ultimo</ref> fruitio viae etiam consistit in 
+          <lb ed="#Pa"/>amore dei usque ad contemptum sui.
+        </p>
+        <p>
+          Item in via non tantum desi<lb ed="#Pa"/>deramus 
+          videre deum sed diligamus deum absolute 
+          <lb ed="#Pa"/>igitur non minus in patria non tantum delectabimur de 
+          <lb ed="#Pa"/>visione dei sed de deo in se. Antecedens patet quia posito quod num<lb ed="#Pa"/>quam 
+          deus esset habendus aliter quam in via adhuc esset sum<lb ed="#Pa"/>me 
+          diligendus et tunc non esset desiderandus haberi per 
+          <lb ed="#Pa"/>visionem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum in contrarium negatur minor 
+          <lb ed="#Pa"/>licet enim talis delectatio sit proveniens ex divina 
+          <lb ed="#Pa"/>habitione causaliter partialiter non tamen ista habi<lb ed="#Pa"/>tio 
+          est eius obiectum. Ex hoc vult quod ut patet ex dictis 
+          <lb ed="#Pa"/>ponenda sit alia delectatio reflexa cuius ista ha<lb ed="#Pa"/>itio 
+          est obiectum tamen credo quod hoc non oporteat quia 
+          <lb ed="#Pa"/>hic in via posset esse unus actus dilectionis cuius 
+          <lb ed="#Pa"/>obiectum principale est deus et obiectum secundarium 
+          <lb ed="#Pa"/>proximus qui diligitur eodem actu propter deum sic etiam 
+          <lb ed="#Pa"/>eiusdem actus delectationis beatificae recti et non 
+          <lb ed="#Pa"/>reflexi obiectum principale est deus secundarium au<lb ed="#Pa"/>tem 
+          est divina habitio in qua delectatur beatus propter 
+          <lb ed="#Pa"/>deum.
+        </p>
+        <p>
+          Ad secundum dicitur quod delectatio concupiscentiae 
+          <lb ed="#Pa"/>succedens desiderio habet idem pro obiecto quod ha<lb ed="#Pa"/>bet 
+          desiderium sed delectatio amicitiae succedit amo<lb ed="#Pa"/>ri 
+          absoluto dei in via et non desiderio nisi sic quod est 
+          <lb ed="#Pa"/>post ipsum sic etiam succedit fidei. 
+        </p>
+        <p>
+          Ad tertium pa<lb ed="#Pa"/>tet 
+          per idem
+        </p>
+        <p>
+          Ad quartum patet similiter et confir<lb ed="#Pa"/>mationem 
+          eius et procedunt de delectatione concu<lb ed="#Pa"/>piscentiae 
+          quae succedit desiderio.
+        </p>
+        <p>
+          Ad quintum dico quod 
+          <lb ed="#Pa"/>non est vanum delectari in deo et complacere in deo et bo<lb ed="#Pa"/>nis 
+          dei nisi apud illum qui non experitur vel non cre<lb ed="#Pa"/>dit 
+          se debere complacere in aliquo nisi <unclear>concupiscenter</unclear> 
+          <lb ed="#Pa"/>et non amicabiliter.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-right"/>
+          Sextum dubium an tota beatitu<lb ed="#Pa"/>do 
+          stet in uno actu qui simul sit dei visio dei fruitio 
+          <lb ed="#Pa"/>et delectatio beatifica de deo. dicendum est quod si anima 
+          <lb ed="#Pa"/>beati se habeat active ad aliquam partem suae bea<lb ed="#Pa"/>titudinis 
+          essentialis tunc sunt ibi ad minus duae 
+          <lb ed="#Pa"/>partes distinctae scilicet clara visio et dei frui<lb ed="#Pa"/>tio 
+          vel gaudium secundum scilicet modum sustinendi 
+          <lb ed="#Pa"/>conclusionem principalem.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Utrum autem anima 
+          <lb ed="#Pa"/>active se habeat respectu beatitudinis suae tracta<lb ed="#Pa"/>bitur 
+          in alia quaestione hic tamen est notandum si<lb ed="#Pa"/>cut 
+          tangit quidam doctor et bene quod beatitudo mul<lb ed="#Pa"/>tipliciter 
+          sumitur uno modo pro obiecto beatifico et sic lo<lb ed="#Pa"/>quitur 
+          <ref><name ref="#Boethius">boetius</name> tertio <title ref="#Consolation">de consolatione</title> prosa decima</ref> 
+          <lb ed="#Pa"/>probans deum esse summam beatitudinem. Tertio pro 
+          <lb ed="#Pa"/>visione clara dei de quo <ref><title>Iohannes</title> 17</ref> <quote ana="io17_3">haec est vita aeterna</quote>.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Tertio pro actuali amore dei clare visi et sic loquitur 
+          <lb ed="#Pa"/><name ref="#Augustine">augustinus</name> in locis innumeris vocans fruitionem 
+          <lb ed="#Pa"/>dei beatitudinem.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Quarto por dilectione vle gau<lb ed="#Pa"/>dio 
+          quod oritur ex fruitione dei clare visi et sic lo<lb ed="#Pa"/>quitur 
+          <ref><name ref="#Augustine">augustinus</name> in libello <title>de vera innocentia propositione</title> 
+          <lb ed="#Pa"/>160</ref>. cum dicit beatitudinem seu vitam beatam etiam gaudium.
+        </p>
+        <p>
+          Quinto et magis proprie accipitur pro roto aggregato 
+          <lb ed="#Pa"/>ex tribus praedictis et omnibus pertinentibus ad sta<lb ed="#Pa"/>tum 
+          beati <pc type="virgula">/</pc> quae pertinentia enumerat <ref><name ref="#Anselm">anselmus</name> <title>de similitudi<lb ed="#Pa"/>dinibus</title> 
+          capitulo 49</ref>. Et sicut sunt 7 a dotes pertinentes ad 
+          <lb ed="#Pa"/>statum corporis scilicet pulchritudo agilitas fortitudo 
+          <lb ed="#Pa"/>libertas sanitas voluptas et longevitas et 7 ad 
+          <lb ed="#Pa"/>animam scilicet sapientia animus concordia honor po<lb ed="#Pa"/>testas 
+          securitas et gaudium. Inter que habes sapien<lb ed="#Pa"/>tiam 
+          amicitiam et gaudium de quibus loquitur <name ref="#Anselm">anselmus</name> 
+          <pb ed="#Pa" n="15-v"/>
+          <lb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>in libro de concordia describens beatitudinem quod bea<lb ed="#Pa"/>titudo 
+          secundum omnem consensum est sufficientissima 
+          <lb ed="#Pa"/>competentium commodorum sine omni indigen<lb ed="#Pa"/>tia.
+          Et <name ref="#Boethius">boetius</name> describit eam quod est status bonorum 
+          <lb ed="#Pa"/>omnium aggregatione perfectus <pc type="virgula">/</pc> et isto modo te<lb ed="#Pa"/>neo 
+          seu securitas est intrinseca pars beatitudinis 
+          <lb ed="#Pa"/>sicut sumitur beatitudo maxime proprie secundum 
+          <lb ed="#Pa"/>eum quia cum omnia talis saltem quae pertinent 
+          <lb ed="#Pa"/>ad essentialem beatitudinem inseparabiliter con<lb ed="#Pa"/>comitantur.
+        </p>
+        <p>
+          Ideo auctoritates quamlibet istarum 
+          <lb ed="#Pa"/>partium essentialium quandoque vocant beatitudinem 
+          <lb ed="#Pa"/><unclear>?utntur</unclear> parte pro tot tamen delctatio est pars 
+          <lb ed="#Pa"/>ultima et optima beatitudinis. et optima partia<lb ed="#Pa"/>lis 
+          beatitudo et hoc habeo ego dicere quia ista circum<lb ed="#Pa"/>scriptis 
+          aliis esset quaedam plena beatitudo licet 
+          <lb ed="#Pa"/>non aequae plena sicut aggregatum praenotatum nec 
+          <lb ed="#Pa"/>sit aliqua partium aliarum ut visum est. Et nota quod de<lb ed="#Pa"/>lectatio 
+          importat operationem omnino perfectam 
+          <lb ed="#Pa"/>et penitus quietativam et <unclear>sacietativam</unclear>.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 3 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 3</title>
+          <date when="2017-01-06">January 06, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-06" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="10-r"/><cb ed="#Pa" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q3">
+        <head>Librum I, Distinctio 1, Quaestio 3 [Paris 1512 Transcription]</head>
+        <head type="questionTitle">Utrum fruitio realiter distinguitur ab omnium cognitione</head>
+        <p>
+          <lb ed="#Pa"/>Utrum fruitio realiter di<lb ed="#Pa"/>stinguitur 
+          ab omnium cognitione <pc type="virgula">/</pc>
+        </p>
+        <p>
+          quod sic 
+          <lb ed="#Pa"/>quia omnis actus volitionis elicitus a 
+          <lb ed="#Pa"/>voluntate praesupponit cognitionem mediante qua 
+          <lb ed="#Pa"/>causetur sed omnis fruitio est volitio igitur etc.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Secundo experimur nos nec odire nec diligere 
+          <lb ed="#Pa"/>quaedam aeque perfectae <!-- sense ambiguous here: is it "things equally perfect" or "things perfecdtly equal" --> cognita sicut cognosceren<lb ed="#Pa"/>tur 
+          si diligerentur ymo perfectius consimilia quae 
+          <lb ed="#Pa"/>diliguntur igitur dilectio non est cognitio nam si 
+          <lb ed="#Pa"/>esset quaelibet dilectio cognitio quanto perfectius 
+          <lb ed="#Pa"/>diligeremus aliquid tanto perfectius illud co<lb ed="#Pa"/>gnosceremus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad oppositum quia si sic deus pos<lb ed="#Pa"/>set 
+          destruere visionem dei seu cognitio conservan<lb ed="#Pa"/>do 
+          fruitionem et ita amaretur incognitum quod est in<lb ed="#Pa"/>conveniens.
+        </p>
+        <!-- article 1 -->
+        <p>
+          <pc ana="#pilcrow"/>Primum articulus est ponere argu<lb ed="#Pa"/>menta 
+          pro utraque parte et primo probo quod amore non 
+          <lb ed="#Pa"/>distinguitur ab omni cognitione per <ref><name ref="#Augustine">augustinum</name> 9 <title ref="#deTrinitate">de trinitate</title> 
+            <lb ed="#Pa"/>capitulis multis 37 et deinceps</ref> et <ref><name ref="#Lombard">magister</name> alle<lb ed="#Pa"/>gat 
+          tertia distinctione primi</ref> quod <!-- lombard quote --> amore quo mens a<lb ed="#Pa"/>mat 
+          se et alia et notitia qua novit se et alia sunt 
+          <lb ed="#Pa"/>unus spiritus et una essentia ergo amore non distinguitur 
+          <lb ed="#Pa"/>ab omni cognitione.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea anima posset amare in<lb ed="#Pa"/>cognitum 
+          quod non videtur verum falsitas probatur per 
+          <lb ed="#Pa"/><name ref="#Augustine">augustinum</name> <title ref="#deTrinitate">de trinitate</title> capitulo 4
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et <ref><name ref="#Lombard">magister</name> tertia distinctione primi</ref> <!-- lombard quote --> mens 
+          enim inquit in principio capituli amare seipsam non 
+          <lb ed="#Pa"/>potest nisi etiam noverit se nam quomodo amat quod 
+          <lb ed="#Pa"/>nescit et in fine illius capituli dicit mens quae non 
+          <lb ed="#Pa"/>se novit non se amat.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et alibi invisa possumus di<lb ed="#Pa"/>ligere 
+          incognita nequaquam consequentia patet quia si 
+          <lb ed="#Pa"/>essent absoluta realiter distincta deus posset face<lb ed="#Pa"/>re 
+          unum sine reliquo.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc voluntas esset caeca 
+          <lb ed="#Pa"/>quia nihil cognosceret per actum suum de obiecto
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/>tunc potest esse aliquis beatus et tamen non videret 
+          <lb ed="#Pa"/>deum nec cognosceret.
+        </p>
+        <p>
+          <!-- no pilcrow -->Item impossibile est simpli<lb ed="#Pa"/>citer 
+          incognitum placere voluntati sed posito solo a<lb ed="#Pa"/>ctu 
+          amandi quocumque alio circumscripto placet op<lb ed="#Pa"/>positum 
+          dilectum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc econverso actus fidei 
+          <lb ed="#Pa"/>posset esse sine actu volendi consequens est <choice><sic>fal<lb ed="#Pa"/>ctum</sic><corr>fal<lb ed="#Pa"/>sum</corr></choice> 
+          quia nullus credit nisi volens secundum <ref><name ref="#Augustinum">augustinum</name> 
+          <lb ed="#Pa"/>super 10 omelis 97</ref>. Intrare ecclesiam potest quis 
+          nollens sed credere non nisi volens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc 
+          <lb ed="#Pa"/>voluntas posset in oppositum cuiuslibet <unclear>dictaminis</unclear> sine no<lb ed="#Pa"/>titia 
+          stante t ita ferri in incognitum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra quod 
+          <lb ed="#Pa"/>nulla volitio sit cognitio probo quia aut actus a<lb ed="#Pa"/>mandi 
+          requirit aliam cognitionem praeter actum aman<lb ed="#Pa"/>di 
+          ad hoc quod sit et tunc de ista stat tota <sic>dificultas</sic> prin<lb ed="#Pa"/>cipalis 
+          alterius partis aut non est tunc quaecunque 
+          <lb ed="#Pa"/>essent aequales in amando essent aequales in cogno<lb ed="#Pa"/>scendo 
+          et ita semper maior clericus esset melior.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item tunc nullus posset contra conscientiam su<lb ed="#Pa"/>am 
+          nec contra amorem suum ex quo conscientia 
+          <lb ed="#Pa"/>sua non est nisi amor suus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc nullus actus 
+          <lb ed="#Pa"/>malus voluntatis esset quaedam cognitio vel ergo re<lb ed="#Pa"/>cta 
+          vel erronea si primum tunc actus virtuosus 
+          <lb ed="#Pa"/>contrarius esset cognitio erronea et per consequens 
+          <lb ed="#Pa"/>nullus esset virtuosus nisi errando quod non est sanum 
+          <lb ed="#Pa"/>si secundum tunc pena esset ante culpam scilicet error in co<lb ed="#Pa"/>gnitione.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc quando aliquid dictatur fa<lb ed="#Pa"/>ciendum 
+          et voluntas vult illud facere tunc tale di<lb ed="#Pa"/>ctamen 
+          est cognitio distincta a volitione vel igitur 
+          <lb ed="#Pa"/>cognitio quae est volitio est conformis illi dictami<lb ed="#Pa"/>ni 
+          et tunc nullus posset facere contra conscientiam 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>vel difformis et tunc simul assentiret et dissentiret 
+          <lb ed="#Pa"/>eidem vel non est distincta et tunc natura intellectua<lb ed="#Pa"/>lis 
+          non indigeret intellectu quia voluntas sibi suf<lb ed="#Pa"/>ficeret.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item voluntas potest primo velle aliquid 
+          <lb ed="#Pa"/>et postea nolle illud si igitur idem dictamen stet cum 
+          <lb ed="#Pa"/>utroque actu aut erit cognitio ipse velle conformis 
+          <lb ed="#Pa"/>aut non sive sic sive non erunt contraria simul scilicet as<lb ed="#Pa"/>sensus 
+          et dissensus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc in corde experire<lb ed="#Pa"/>mur 
+          intellectionem ubi experimur dilectionem.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item tunc non esset in potestate nostra quis actus 
+          <lb ed="#Pa"/>amandi sit rectus et quis non sicut nec cognitio sit 
+          <lb ed="#Pa"/>recta et quae non nam si formamus propositionem non 
+          <lb ed="#Pa"/>est in potestate nostra utrum sit vera vel non.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad idem <name>alius doctor</name> tunc summa beatitudo 
+          <lb ed="#Pa"/>esset summa miseria: et summa iustitia summa iniquitas 
+          <lb ed="#Pa"/>consequentia probatur posito quod deus per suam essen<lb ed="#Pa"/>tiam 
+          suppleat vices omnium cognitionum quas habet 
+          <lb ed="#Pa"/>dyabolus nullam mutationem faciendo in dyabolo 
+          <lb ed="#Pa"/>tunc adhuc dyabolus esset summe miser eius autem 
+          <lb ed="#Pa"/>miseria est eius volitio vel nolitio. Si igitur om<lb ed="#Pa"/>nis 
+          nolitio vel volitio est cognitio et tamen per 
+          <lb ed="#Pa"/>positum divina essentia sit cognitio dyaboli igitur 
+          <lb ed="#Pa"/>summa miseria dyaboli est divina essentia et illa est sum<lb ed="#Pa"/>ma 
+          beatitudo igitur summa beatitudo est summa 
+          <lb ed="#Pa"/>miseria etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea tunc de non amico posset 
+          <lb ed="#Pa"/>fieri amicus sine mutatione noviter amantis: quia 
+          <lb ed="#Pa"/>ista cognitio quam habeo de aliquo potest fieri postea 
+          <lb ed="#Pa"/>dilectio et tunc de non amico etc. quod est contra <ref><name ref="#Augustine">au<lb ed="#Pa"/>gustinum</name> 
+          5 <title ref="#deTrinitate"><sic>trinitatis</sic></title> capitulo 37</ref>. Dicunt aliqui tenen<lb ed="#Pa"/>tes 
+          partem hanc quod voluntas mutatur ex hoc quod il<lb ed="#Pa"/>lud 
+          quod prius fuit tantum cognitio alicuius nunc sit 
+          <lb ed="#Pa"/>volitio respectu illius et propter hoc voluntas a<lb ed="#Pa"/>liter 
+          se habet.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed contra tunc deus mutatur 
+          <lb ed="#Pa"/>quia iam habet cognitionem actus alicuius pecca<lb ed="#Pa"/>toris 
+          sive a probatione vel complacentia et postquam de<lb ed="#Pa"/>derit 
+          illi charitatem acceptando talem actum tunc 
+          <lb ed="#Pa"/>est volitio et approbatio respectu illius igitur etc.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item non salvaretur in anima ymago trinitatis se<lb ed="#Pa"/>cundum 
+          duos actus et ita quasi superflueret totus 
+          <lb ed="#Pa"/>liber <name ref="#Augustine">augustini</name> <title ref="#deTrinitate">de trinitate</title> declarare trinitatem 
+          <lb ed="#Pa"/>increatam ex ymagine <pc type="virgula">/</pc> creata maxime <ref>libro no<lb ed="#Pa"/>no 
+          10 11 15</ref>
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea sequitur quod meritum pos<lb ed="#Pa"/>set 
+          fieri demeritum nam posito quod aliquis haberet 
+          <lb ed="#Pa"/>praeceptum cognoscendi aliquam illecebram tunc ista co<lb ed="#Pa"/>gnitio 
+          esset sibi meritum et si post vellet illecebram 
+          <lb ed="#Pa"/>esset demeritum quia prior cognitio fieret dilectio.
+        </p>
+        <p>
+          <lb ed="#Pa"/><!-- no pilcrow -->Praeterea ex vehementi amore sequitur maxima 
+          <lb ed="#Pa"/>passio in corpore qualis non sit ex actuali cognitio<lb ed="#Pa"/>ne 
+          igitur.
+        </p>
+        <p>
+          Praeterea pari ratione qua cognitio potest 
+          fieri volitio potest esse nolitio et tunc volitio potest fie<lb ed="#Pa"/>ri 
+          nolitio et econtra quod non videtur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item in christo 
+          <lb ed="#Pa"/>idem fuisset volitio et nolitio respectu passionis quia 
+          <lb ed="#Pa"/>utraque fuit cognitio <pc type="virgula">/</pc> et tunc non fuissent ibi volunta<lb ed="#Pa"/>tates 
+          diversae quarum una noluit mereri et alia vo<lb ed="#Pa"/>luit 
+          quod est contra <ref><name ref="#Lombard">magistrum</name> librum 3 distinctione 27</ref>. Propter ista 
+          <lb ed="#Pa"/><name>iste doctor</name> tenet quod volitio respectu alicuius rei non 
+          <lb ed="#Pa"/>est cognitio respectu eiusdem <pc type="virgula">/</pc> quamvis volitio alicuius 
+          <lb ed="#Pa"/>rei sit cognitio sui ipsius propter hoc quod ipsa est praesens in<lb ed="#Pa"/>tellectui.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Subdit <name>adam</name> sed istae rationes non probant con<lb ed="#Pa"/>tra 
+          me nisi quod nulla cognitio praecedens volitionem 
+          <lb ed="#Pa"/>sit volitio quam praecessit nec hoc dico non autem probant 
+          <lb ed="#Pa"/>quam volitio sequens sit etiam una cognitio licet 
+          <lb ed="#Pa"/>non praecedens cognitio igitur procedit ab insufficien<lb ed="#Pa"/>ti 
+          sicut si vellent probare quod iudicium intellectus re<lb ed="#Pa"/>spectu 
+          sensus non est appraehensio prima igitur non est apprae<lb ed="#Pa"/>hensio.
+        </p>
+        <p>
+          <!--no pilcrow-->Praeterea non videtur rationabilius quod volitio
+          <pb ed="#Pa" n="12-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>sit cognitio sui ipsius quam sui obiecti quia omnis a<lb ed="#Pa"/>ctus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item sufficit illud quod datur si enim om<lb ed="#Pa"/>nis 
+          volitio est cognitio sui igitur omnis volitio est 
+          <lb ed="#Pa"/>cognitio et haec est conclusio probanda.
+        </p>
+        <p>
+          Item contra 
+          <lb ed="#Pa"/>eum est illud argumentum de amico.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundus 
+          <lb ed="#Pa"/>articulus est ponere conclusiones. Prima aliqua 
+          <lb ed="#Pa"/>cognitio non est volitio seu fruitio loquendo de 
+          <lb ed="#Pa"/>fruitione causata partialiter ab anima effective 
+          <lb ed="#Pa"/>deus autem non necessitatur ad talem ordinem in cau<lb ed="#Pa"/>sando 
+          probatur conclusio nam omnis volitio vel frui<lb ed="#Pa"/>tio 
+          causabilis a voluntate nostra praesupponit cognitionem 
+          <lb ed="#Pa"/>sicut experimur sed effectus naturaliter causabi<lb ed="#Pa"/>lis 
+          millum absolutum necessario praeexigit nisi a quo 
+          <lb ed="#Pa"/>dependet in aliquo genere causae ergo talis cognitio 
+          <lb ed="#Pa"/>partialis est causa effectiva volitionis seu amoris 
+          <lb ed="#Pa"/>igitur distinguntur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Confirmatur cognitio quae non 
+          <lb ed="#Pa"/>est amor reducit voluntatem de potentia essentia<lb ed="#Pa"/>li 
+          ad accidentalem igitur praesupponitur amori et 
+          <lb ed="#Pa"/>non nisi sicut causa effectiva igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item experien<lb ed="#Pa"/>tia 
+          docet quod multa appraehendimus quae nec amamus 
+          <lb ed="#Pa"/>nec odimus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item experimur quod eodem actu apprae<lb ed="#Pa"/>hendendi 
+          stante possumus alii libere odire dilige<lb ed="#Pa"/>re 
+          et non diligere appraehensum igitur ista apprehensio 
+          <lb ed="#Pa"/>non est volitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secunda conclusio non asserendo 
+          <lb ed="#Pa"/>sed opinando est ista quod omnis volitio est cognitio 
+          <lb ed="#Pa"/>probatur omnis experientia alicuius obiecti est co<lb ed="#Pa"/>gnitio 
+          eiusdem sed omnis volitio est huiusmodi eo quod est 
+          <lb ed="#Pa"/>actus vitalis igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item ad hoc sunt auctorita<lb ed="#Pa"/>tes 
+          in secunda ratione ad primam partem supra. 
+          <lb ed="#Pa"/>Prima operatio quae est ultimus finis hominis est si<lb ed="#Pa"/>mul 
+          cognitio et dilectio igitur Antecedens proba<lb ed="#Pa"/>tur 
+          quia si esset cognitio quae non est dilectio deus pos<lb ed="#Pa"/>set 
+          illam conservare sine dilectione et tunc homo 
+          <lb ed="#Pa"/>posset esse beatus quando deum non diliget nec potest esse 
+          <lb ed="#Pa"/>dilectio quae non sit cognitio quia tunc cum beatitu<lb ed="#Pa"/>dine 
+          staret quod deus non esset cognitus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <ref>12 
+          <lb ed="#Pa"/><title ref="#deTrinitate">trinitatis</title> capitulo tertio</ref> dicit <name ref="#Augustine">augustinus</name> <!-- Augustine quote --> Inveni scri<lb ed="#Pa"/>ptum 
+          esse in libro <title ref="#iob">iob</title> viro loquente ecce pie<lb ed="#Pa"/>tas 
+          est sapientia abstinere autem a malis scientia. In hac 
+          <lb ed="#Pa"/>differentia intelligendum est ad contemplationem 
+          <lb ed="#Pa"/>sapientiam et ad actionem scientiam pertinere pieta<lb ed="#Pa"/>tem 
+          quippe hoc loco ponit dei cultum et quis cul<lb ed="#Pa"/>tus 
+          eius nisi amor eius quo nunc desideramus eum 
+          <lb ed="#Pa"/>videre et quasi idem habitus <ref><title ref="#Enchiridion">Enchiridion</title> capitulo primo</ref> 
+          <lb ed="#Pa"/>de sapientia et pietate igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <ref><name ref="#Augustine">augustinus</name> 15 
+          <lb ed="#Pa"/><title ref="#deTrinitate">de trinitate</title> capitulo 65</ref> nunquam dicturi sumus volunta<lb ed="#Pa"/>tem 
+          quando recta est nescire quid agit porro si sic <unclear>ita</unclear> 
+          <lb ed="#Pa"/>est ei sua quadam scientia. An vero audiendus est quispiam 
+          <lb ed="#Pa"/>dicens charitatem nescire quid agat quod non a<lb ed="#Pa"/>git 
+          perperam. Et <ref>capitulo 65</ref> amor <unclear>in eiis</unclear> meminit 
+          <lb ed="#Pa"/>atque intelligit quod appetere debeat quid vitare
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item <ref><name>gregorius</name> omelis 27 super illud <unclear>iob</unclear> 15</ref> 
+          <lb ed="#Pa"/><quote>quaecunque audivi a patre meo nota feci vobis dum 
+          <lb ed="#Pa"/>audita servavi amata iam novi quia amor ipse 
+          <lb ed="#Pa"/>notitia est</quote> <!-- end of gregory quote--> haec ille.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex his respondetur quod aucto<lb ed="#Pa"/>ritates 
+          intelliguntur per <unclear>comitantiam</unclear> quia om<lb ed="#Pa"/>nis 
+          amans intelligit.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad rationes dicitur quod con<lb ed="#Pa"/>tradictio 
+          est esse dilectionem sine cognitione a qua 
+          <lb ed="#Pa"/>procedit sed res ista quae nunc est dilectio poterit a deo 
+          <lb ed="#Pa"/>conservari anichillata cognitione a qua processit 
+          <lb ed="#Pa"/>sed tunc ipsa non erit dilectio voluntas autem non 
+          <lb ed="#Pa"/>posset conservare illam esse quae nunc est dilectio absque 
+          <lb ed="#Pa"/>cognitione ex quo ipsa naturaliter dependet a co<lb ed="#Pa"/>gnitione 
+          deus autem posset: illud autem quod nunc est di<lb ed="#Pa"/>lectio 
+          est actio voluntatis et non erit eius actio ni<cb ed="#Pa" n="b"/><lb ed="#Pa"/>si 
+          quando dependet a voluntate ideo non sequitur 
+          <lb ed="#Pa"/>quod aliquis posset velle incognitum
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra tunc 
+          <lb ed="#Pa"/>pari ratione illa qualitas quae nunc est cognitio vo<lb ed="#Pa"/>litioni 
+          prima potest informare animam et non esse co<lb ed="#Pa"/>gnitio 
+          falsitas probatur quia quando iterato fie<lb ed="#Pa"/>ret 
+          <pc type="virgula">/</pc> cognitio vel hoc esset per additionem alicuius 
+          <lb ed="#Pa"/>aut nullo addito vel subtracto non primum quia 
+          <lb ed="#Pa"/>illud additum vel foret res non cognitio puta species 
+          <lb ed="#Pa"/>prima vel simile aliud vel foret <pc type="virgula">/</pc> cognitio alia pri<lb ed="#Pa"/>ma 
+          puta ymaginatio vel sensatio exterior. Et tunc 
+          <lb ed="#Pa"/>etiam per talis additi substractionem desineret 
+          <lb ed="#Pa"/>esse cognitio. Non secundum quia tunc fieret tran<lb ed="#Pa"/>situs 
+          de contradictorio in contradictorium etc.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Diceres forte quod sufficit quod deus velit quod ista qualitas 
+          <lb ed="#Pa"/>praeexistens sit noviter cognitio verbi gratia si rex per 
+          <lb ed="#Pa"/>totum animum faceret <unclear>eudi</unclear> novam pecuniam vo<lb ed="#Pa"/>lens 
+          quod a principio sequentis <unclear>anni</unclear> ipsa sit praetium tunc 
+          <lb ed="#Pa"/>sine novitate rei ipsa tunc incipiet esse praetium igitur 
+          <lb ed="#Pa"/>a simili haec
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra <ref><name ref="#Augustine">augusitnus</name> 5 <title ref="#deTrinitate">trinitatis</title> capitulo 
+          <lb ed="#Pa"/>1</ref>. Dissimile est quod aliqua fiat amicus et quod nummus fi<lb ed="#Pa"/>at 
+          praetium primum non potest esse sine mutatione subiecti
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item tunc pari ratione poterit dici quod quando 
+          <lb ed="#Pa"/>deus voluerit ipsa subiecta animae erit sibi ipsi co<lb ed="#Pa"/>gnitio 
+          sine omni additamento nec oportebit po<lb ed="#Pa"/>nere 
+          talem qualitatem quae est intellectio ymo fru<lb ed="#Pa"/>stra 
+          ponerentur multae qualitates in anima propter 
+          <lb ed="#Pa"/>plures actus animae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item cum anima sit novi<lb ed="#Pa"/>ter 
+          intelligens ipsa secudum intrinsecam deno<lb ed="#Pa"/>minationem 
+          incipit esse aliqualis qualis prius non 
+          <lb ed="#Pa"/>fuit igitur mutatur sic non est de minimo <pc type="virgula">/</pc> cum no<lb ed="#Pa"/>viter 
+          sit praecium <pc type="virgula">/</pc> vel de homine <pc type="virgula">/</pc> cum noviter acce<lb ed="#Pa"/>ptatur 
+          ad aliquid ad quod non prius et hoc bene 
+          <lb ed="#Pa"/>sit ipso ignorante sed cum anima sit noviter intel<lb ed="#Pa"/>ligens 
+          intrinsece experitur aliquid <pc type="virgula">/</pc> cognoscendo 
+          <lb ed="#Pa"/>quod non prius. Aliter forte diceretur quod quando talis 
+          <lb ed="#Pa"/>qualitas iterum sit intellectio tunc anima agit hoc 
+          <lb ed="#Pa"/>quod ipse sit intellectio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra tunc nec solus deus 
+          <lb ed="#Pa"/>posset in me agere visionem vel fruitionem beatificam 
+          <lb ed="#Pa"/>quod non videtur dicendum quia tunc deus non 
+          <lb ed="#Pa"/>posset beatificare creaturam aliquam nisi et crea<lb ed="#Pa"/>tura 
+          beatificaret se ipsam unde multi philosophi 
+          <lb ed="#Pa"/>concedunt quod intelligere non eset nisi pat.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/><lb ed="#Pa"/>Item cum 
+          <lb ed="#Pa"/>deus omni intellectione data possit creare in intel<lb ed="#Pa"/>lectu 
+          in duplo nobiliorem et in triplo et sic in infini<lb ed="#Pa"/>tum 
+          ita quod intellectus per eam intelliget. Et parte 
+          <lb ed="#Pa"/>si per eam intelliget oportet quod agat causa igitur ali<lb ed="#Pa"/>qua 
+          intellectione data intellectus potest agere in du<lb ed="#Pa"/>plo 
+          nobilioris speciei et sicut in infinitum igitur intellectus 
+          <lb ed="#Pa"/>est perfectionis infinitae
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item secundum quosdam sic 
+          <lb ed="#Pa"/>opinantes deus potest sic intelligi ut ipse sit animae 
+          <lb ed="#Pa"/>intellectio si igitur animam intelligere aliquid 
+          <lb ed="#Pa"/>agere intellectionem suam anima posset agere deum.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item mirum esset quod anima posset hoc facere quod 
+          <lb ed="#Pa"/>talis qualitas fieret noviter intellectio vel no<lb ed="#Pa"/>viter 
+          repraesentaret potentiae obiectum et quod solus 
+          <lb ed="#Pa"/>deus non posset hoc tribuere illi qualitati quod ipsi 
+          <lb ed="#Pa"/>animae nihil agenti repraesentaret obiectum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/>ad principale si volitio desinit esse volitio manens 
+          <lb ed="#Pa"/>tamen illud quod prius si anichillaretur cognitio 
+          <lb ed="#Pa"/>praevia tunc ipsa prius erat volitio per ipsam co<lb ed="#Pa"/>gnitionem. 
+          quaero ly per cuius causae <sic>circunstantiam</sic> 
+          <lb ed="#Pa"/>notat et non est dare nisi effective et talem habet deus 
+          <lb ed="#Pa"/>semper supplere igitur sine cognitione potest illa quali<lb ed="#Pa"/>tas 
+          <lb ed="#Pa"/><sic>e</sic> est volitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc aque faciliter ipsi sal<lb ed="#Pa"/>varent 
+          omnia ponendo quod anima esse cognitio vel voli<lb ed="#Pa"/>tio 
+          ad praesentiam obiecti talis et talis et tunc sequitur  
+          <pb ed="#Pa" n="12-v"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>quod eadem cognitio posset esse successive amor et odium 
+          <lb ed="#Pa"/>respectu eiusdem et eadem cognitio posset esse assensus et dissen<lb ed="#Pa"/>sus 
+          scientia fides et opinio Sed diceres scientia potest esse error et 
+          <lb ed="#Pa"/><unclear>tum</unclear> inconveniens est hoc sicut illa quae tu infers igitur illa 
+          <lb ed="#Pa"/>non sunt inconvenientia Antecedens probatur quia habita 
+          <lb ed="#Pa"/>scientia de aliqua re potest illa res corrumpi manente eodem 
+          <lb ed="#Pa"/>iudicio in anima quae fuit prius scientia et hoc tunc erit 
+          <lb ed="#Pa"/>error igitur Respondetur quod secus est de assensu et dis<lb ed="#Pa"/>sensu 
+          et de scientia et errore quia scientia dependet ab ex<lb ed="#Pa"/>trinseco 
+          scilicet a re sicut veritas propositionis et etiam 
+          <lb ed="#Pa"/>sicut meritum quod dependet ab acceptatione di<lb ed="#Pa"/>vina 
+          et ideo si deus praecipiat mihi continuare aliquem 
+          <lb ed="#Pa"/>actum usque ad a et non ultra et ego continuarem 
+          <lb ed="#Pa"/>post <c>a</c> ille actus qui fuit meritum ante <c>a</c> erit de 
+          <lb ed="#Pa"/>meritum post a sicut etiam idem iudicium quod 
+          <lb ed="#Pa"/>nunc est scientia potest fieri error propter mutationem 
+          <lb ed="#Pa"/>rei sic autem assensus vel dissensus non denomina<lb ed="#Pa"/>tur 
+          ab extrinseco igitur etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/><name>Adam</name> concedo igi<lb ed="#Pa"/>tur 
+          conclusionem videlicet quod actus volendi ita sit 
+          <lb ed="#Pa"/>volitio quod contradictio est quin ipsa posita in ani<lb ed="#Pa"/>ma 
+          anima velit sicut contradictio est quod albedo infor<lb ed="#Pa"/>met 
+          quando sit album illud quod informat ita quod 
+          <lb ed="#Pa"/>nullo potest modo prius non esse volitio informans 
+          <lb ed="#Pa"/>animam et postea esse volitio. sed illud quod est vo<lb ed="#Pa"/>litio 
+          vel nolitio vel cognitio absolute est tale se<lb ed="#Pa"/>cus 
+          est de errore et notitia vera quia veritas et et 
+          <lb ed="#Pa"/>falsitas de nullo dicuntur ad se sed nullomodo idem 
+          <lb ed="#Pa"/>informans potest esse primo assensus et postea dis<lb ed="#Pa"/>sensus 
+          et ideo sicut omnis assensus vel dissensus 
+          <lb ed="#Pa"/>est apprehensio et non econverso ita omnis voli<lb ed="#Pa"/>tio 
+          vel nolitio est quaedam apprehensio et hoc nec es<lb ed="#Pa"/>sario 
+          posita constantia subiecti sed non econtra.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Dubita<lb ed="#Pa"/>tur 
+          cuiusmodi sit dilectio vel volitio Supponitur 
+          <lb ed="#Pa"/>primo quod volitio est talis cognitio qualem praesup<lb ed="#Pa"/>ponit 
+          quando naturaliter causatur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Conclusio 
+          <lb ed="#Pa"/>aliqua volitio est cognitio apprehensiva tantum 
+          <lb ed="#Pa"/>probatur volitio ad hoc quod naturaliter causetur 
+          <lb ed="#Pa"/>tantum praesupponit cognitionem apprehensivam 
+          <lb ed="#Pa"/>quia aliquod delectabile potest diligi si apprehen<lb ed="#Pa"/>datur 
+          tamen notitia simplici incomplexa vel com<lb ed="#Pa"/>plexa 
+          absque assensu vel dissensu igitur
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex quo patet 
+          <lb ed="#Pa"/>quod etiam aliqua volitio est assensus et aliqua dissensus quando scilicet 
+          <lb ed="#Pa"/>talem cognitionem praesupponit ad sui naturalem 
+          <lb ed="#Pa"/>causationem sicut cum aliquis gaudet de morte 
+          <lb ed="#Pa"/>inimici naturaliter primo assentit isti inimicus me<lb ed="#Pa"/>us 
+          est mortuus igitur etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum argumentum 
+          <lb ed="#Pa"/>pariter oppositae dicitur quod actus amandi natura<lb ed="#Pa"/>liter 
+          causatas requirit cognitionem praeviam quae 
+          <lb ed="#Pa"/>non sit amore et negatur quod de ista cognitione stet to<lb ed="#Pa"/>ta 
+          difficultas.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum negatur consequen<lb ed="#Pa"/>tia 
+          quia illum amorem praecedit aliqua cognitio me<lb ed="#Pa"/>diante 
+          qua causatur puta aliquod iudicium re<lb ed="#Pa"/>ctum 
+          cui potest contraire.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed contra notitia 
+          <lb ed="#Pa"/>quae est amore similis est notitiae praecedenti ut di<lb ed="#Pa"/>ctum 
+          est igitur etc. Aliter dicitur quod cum notitia 
+          <lb ed="#Pa"/>praecedenti et cum illa quae est amore quandoque stat alia 
+          <lb ed="#Pa"/>verbi gratia cum gaudeo de morte inimici possum 
+          <lb ed="#Pa"/>simul habere cognitionem vel etiam praeviae habuis<lb ed="#Pa"/>se 
+          quod non est gaudendum de morte inimici. Et con<lb ed="#Pa"/>tra 
+          talem facio et talis nec est cognitio quae est gau<lb ed="#Pa"/>dium 
+          de morte minimic nec praecedens ex qua sit causatum 
+          <lb ed="#Pa"/>illud gaudium quia talis praecise est quod inimicus est mor<lb ed="#Pa"/>tuus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium concedo quod actus malus est quae<lb ed="#Pa"/>dam 
+          cognitio et cum quaeris an recta vel erronea 
+          <lb ed="#Pa"/>quaero an loquatur de rectitudine morali et tunc 
+          <lb ed="#Pa"/>talis actus non est moraliter rectus si loquatur 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>de rectitudine veridica dico quod quandoque sic putat 
+          <lb ed="#Pa"/>si guadeo quod inimicus tribulatur et ita est in re est 
+          <lb ed="#Pa"/>quandoque non sic si aliter sit in re et cum dicis quod tunc 
+          <lb ed="#Pa"/>actus virtuosus erit cognitio erronea <choice><sic>ho</sic><corr>hoc</corr></choice> non est 
+          <lb ed="#Pa"/>inconveniens ut sit aliquis tristaretur de tribula<lb ed="#Pa"/>tione 
+          inimici qui tamen non tribularetur. Alia quae se<lb ed="#Pa"/>quuntur 
+          in argumento non habent colorem nisi ponen<lb ed="#Pa"/>do 
+          quod omnis volitio esset assensus vel dissensus cuius 
+          oppositum dictum est.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quartum dico quod 
+          <lb ed="#Pa"/>iste actus voluntatis non est dictamen sed sequens 
+          <lb ed="#Pa"/>ad illud et quandoque est conformis quando scilicet volitio 
+          sequens et iudicium praecedens habent idem ob<lb ed="#Pa"/>iectum 
+          primo in quod in utroque actu fit assensus ut 
+          <lb ed="#Pa"/>si iudicem quod inimicus mortuus est et gaudeam de 
+          <lb ed="#Pa"/>hoc tunc illud gaudium est assensus et cognitio con<lb ed="#Pa"/>formis 
+          praecedenti iudicio non tamen oportet quod in il<lb ed="#Pa"/>lo 
+          casu nolitio opposita illi volitioni sit dissensus 
+          <lb ed="#Pa"/>quia si tristaretur de mote inimici talis tristitia 
+          <lb ed="#Pa"/>etiam esset assensus aliqualiter conformis praece<lb ed="#Pa"/>denti 
+          dictamini licet tristitia non haberet idem ob<lb ed="#Pa"/>iectum 
+          praecise cum iudicio praecedenti sicut habu<lb ed="#Pa"/>it 
+          gaudium quia obiectum iudicii praecedentis est quod inimicus 
+          <lb ed="#Pa"/>mortuus est et hoc est praecise obiectum gaudii sed 
+          <lb ed="#Pa"/>obiectum tristitiae est quod non est gaudendum de mor<lb ed="#Pa"/>te 
+          inimici.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item ubi iudico quod inimicus mortuus 
+          <lb ed="#Pa"/>est et volitio sequens est praecise habita ex tali iu<lb ed="#Pa"/>dicio 
+          sive sit gaudium sive tristitia adhuc est notitia 
+          <lb ed="#Pa"/>conformis illi iudicio quandoque autem est notitia despe<lb ed="#Pa"/>rata 
+          nec conformis nec difformis ut si iudicetur de a<lb ed="#Pa"/>liquo 
+          bono quod non est appetendum adhuc stante 
+          <lb ed="#Pa"/>illo iudicio possit appetere illud et tunc talis ap<lb ed="#Pa"/>petitus 
+          est sicut apprehensio incomplexa illius bo<lb ed="#Pa"/>ni 
+          similiter stante casu priori scilicet quod iudicem non 
+          <lb ed="#Pa"/>esse gaudendum de morte inimici et tamen gaude<lb ed="#Pa"/>am 
+          de morte inimici tunc illud gaudium est assensus 
+          <lb ed="#Pa"/>et iudicium dissensus sed gaudium solum habet pro 
+          <lb ed="#Pa"/>obiecto quod inimicus mortuus est. Et dictamen pri<lb ed="#Pa"/>mum 
+          habet pro obiecto quod non est gaudendum de 
+          <lb ed="#Pa"/>morte inimici et ita actus iudicandi et volitio se<lb ed="#Pa"/>quens 
+          non sunt conformia nec difforma sed despe<lb ed="#Pa"/>rata 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quintum dico quod tam velle quam nolle erit 
+          <lb ed="#Pa"/>conformis notitia illi iudicio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad sextum dico 
+          et concedo quod ibi experimur illam cognitionem quae 
+          est volitio licet non oporteat ibi experiri aliquam 
+          <lb ed="#Pa"/>intellectionem distinctam ab omni actu volendi 
+          <lb ed="#Pa"/>vel nolendi.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad septimum negatur consequen<lb ed="#Pa"/>tia 
+          de rectitudine morali sed secus est de rectitu<lb ed="#Pa"/>dine 
+          veridica cui opponitur error illa enim respi<lb ed="#Pa"/>cit 
+          assensum vel dissensum et nulla volitio vel no<lb ed="#Pa"/>litio 
+          est assensus vel dissensus quin ipsa posita et 
+          <lb ed="#Pa"/>rebus significatis per eam sit recta vel non recta 
+          <lb ed="#Pa"/>secundum exigentiam rei significatae velimus no<lb ed="#Pa"/>limus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex his sequitur quod illa volitio quae est ap<lb ed="#Pa"/>prehensio 
+          proportionalis est vera vel falsa scilicet cum 
+          <lb ed="#Pa"/>gaudeo quod inimicus meus mortuus est vel quod sum 
+          <lb ed="#Pa"/>christianus etc. quaedam autem non licet sit apprehensio com<lb ed="#Pa"/>plexa puta 
+          ista qua opto me esse beatum quia oratio 
+          <lb ed="#Pa"/>opiativa non est vera neque falsa unde patet quod aliqua 
+          <lb ed="#Pa"/>volitio est aequivalenter propositio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum argu<lb ed="#Pa"/>mentum 
+          alterius doctoris nego deum posse esse crea<lb ed="#Pa"/>turae 
+          cognitionem vel visionem et maxime omne 
+          <lb ed="#Pa"/>suam cognitionem si est miseria quia non esset ibi 
+          <lb ed="#Pa"/>cognitio nisi qualis deus esset sibi
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum 
+          <lb ed="#Pa"/>non est contra me quia non concedo quod praecedens 
+          <lb ed="#Pa"/>cognitio fiat post dilectio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium bene sal<lb ed="#Pa"/>vatur 
+          ymago propter distinctionem primae cogni<pb ed="#Pa" n="13-r"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>tionis 
+          a dilectione quam principiat.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quar<lb ed="#Pa"/>tum 
+          patet per idem cum consequens non est inconve<lb ed="#Pa"/>niens 
+          ut patet ex dictis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quintum similiter et 
+          etiam ad sextum et septimum et propterea daretur levi<lb ed="#Pa"/>ter 
+          ab his qui tenent alio modo quod praecedens co<lb ed="#Pa"/>gnitio 
+          potest noviter fieri volitio quia sicut ipse 
+          <lb ed="#Pa"/>diceret quod qualitas causata a deo in anima quae non 
+          <lb ed="#Pa"/>est cognitio potest esse cognitio et ita causare co<lb ed="#Pa"/>gnitionem 
+          sic isti dicerent quod cognitio potest fieri 
+          <lb ed="#Pa"/>de novo amor vel volitio et tunc nata est causare 
+          <lb ed="#Pa"/>passionem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad principale patet. <pc ana="#pilcrow"/>Sciendum quod li<lb ed="#Pa"/>cet 
+          conclusio principalis <name ref="#Wodeham">adae</name> communiter teneatur 
+          <lb ed="#Pa"/>scilicet quod omnis volitio sit cognitio practica tamen 
+          <lb ed="#Pa"/>tenentes oppositum dicerent ad auctoritates sicut 
+          <lb ed="#Pa"/>prius est tactum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad rationes vero diceretur quod 
+          <lb ed="#Pa"/>licet naturaliter voluntas non possit efficere voli<lb ed="#Pa"/>tionem 
+          sine cogntione prima concausante tamen 
+          <lb ed="#Pa"/>possibile foret quod annichilata cognitione deus con<lb ed="#Pa"/>servaret 
+          volitionem per quam voluntas actuali<lb ed="#Pa"/>ter 
+          aliquid vellet et ita fieret incognitum cogni<lb ed="#Pa"/>tione 
+          concomitante non tamen incognitum cogni<lb ed="#Pa"/>tione 
+          prima a qua talis volitio processit.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/>si deus immediate produceret talem volitionem 
+          <lb ed="#Pa"/>in voluntate absque cognitione voluntatis per eam 
+          <lb ed="#Pa"/>posset fieri in obiectum sibi simpliciter incognitum 
+          <lb ed="#Pa"/>tamen voluntas per naturam suam non posset ta<lb ed="#Pa"/>lem 
+          volitionem causare sic etiam non esset impossi<lb ed="#Pa"/>bile 
+          quod staret fruitio beatifica sine visione quamvis 
+          <lb ed="#Pa"/>de lege currente hoc non possit esse quia per <ref><title ref="#Decretals">decre<lb ed="#Pa"/>tum</title></ref> 
+          beatitudo consistit in duobus actibus quae sunt 
+          <lb ed="#Pa"/>visio et fruitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et ex hoc patet quod in una ratione 
+          <lb ed="#Pa"/>secundae conclusionis assumitur falsum quando di<lb ed="#Pa"/>citur 
+          quod una operatio est ultimus finis hominis. 
+          <lb ed="#Pa"/>Etiam non oportet necessario quando illa res quae 
+          <lb ed="#Pa"/>est actus volendi est in voluntatet quod sit illi volitio 
+          <lb ed="#Pa"/>sicut dicit <name>adam</name> quia possibile est quod cum illa qua<lb ed="#Pa"/>litate 
+          quae nunc est dilectio. formaliter deus ponat 
+          <lb ed="#Pa"/>in eadem anima illam qualitatem quae si natura<lb ed="#Pa"/>liter 
+          esset a voluntate causata ipsa foret odium sor<lb ed="#Pa"/>tis 
+          igitur si prima necessario est dilectio. secunda 
+          <lb ed="#Pa"/>necessario erit odium igitur idem homo eundem 
+          <lb ed="#Pa"/>simul diligit et odit quod est impossibile sic etiam 
+          <lb ed="#Pa"/>non oportet illud esse album quod informat albe<lb ed="#Pa"/>do 
+          quia si nigredo maioris intensionis vel aequa<lb ed="#Pa"/>lis 
+          simul informaret non esse album etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

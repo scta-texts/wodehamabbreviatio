@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Librum 4, q. 5 [Paris 1512 Transcription]</title>
+                <author xml:id="AW">Adam Wodeham</author>
+                <editor xml:id="JW">Jeffrey C. Witt</editor>
+            </titleStmt>
+            <editionStmt>
+                <edition n="2015.08">
+                  <title>Librum 4, q. 5 [Paris 1512 Transcription]</title>
+                    <date when="2015-08-22">August 22, 2015</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>LombardPress</publisher>
+                <pubPlace>Baltimore, MD</pubPlace>
+                <availability status="free">
+                    <p>Published under a <ref
+                        target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+                        Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+                </availability>
+                <date when="2015-08-22">August 22, 2015</date>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="Pa">Paris 1512</witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+      <revisionDesc status="draft">
+        <listChange>
+          <change when="2015-08-22" who="#JW" status="draft" n="2015.08">
+            <p>Created file for the first time.</p>
+            <note type="status">
+              <note type="collobaration">Yes</note>
+              <note type="validating-schema">lbp-0.0.1</note>
+              <note type="transcription-type">diplomatic</note>
+            </note>
+          </change>
+        </listChange>
+      </revisionDesc>
+    </teiHeader>
+    <text xml:lang="la">
+      <front>
+        <div xml:id="includeList">
+          <xi:include
+            href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml"
+            xpointer="worksCited"/>
+          <xi:include
+            href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml"
+            xpointer="prosopography"/>
+        </div>
+      </front>
+      <body>
+        <div xml:id="awa-l4q5">
+          <head subtype="title">Librum 4, Quaestio 5 [Paris 1512 Transcription]</head>
+          <div>
+            <head>Rationes Principales</head>
+          <p xml:id="awal4q5-d1e3480"><lb ed="#Pa"/>Utrum quantitas 
+            <lb ed="#Pa"/>terminata panis consecrandi 
+            <lb ed="#Pa"/>sit aliqua res vera extra animam 
+            <lb ed="#Pa"/>distincta realiter a substan<lb ed="#Pa"/>tia 
+            et qualitate cuius est. Istam quaestionem valde diffu<lb ed="#Pa"/>se 
+            pertracta hic <name ref="#Wodeham">Adam</name> et 
+            <lb ed="#Pa"/>ideo si velis requirere in ipso 
+            <lb ed="#Pa"/>Conclusio autem sua prin<lb ed="#Pa"/>cipalis 
+            est ista.</p>
+          
+          <!-- not in ordinatio <p xml:id="awal4q5-d1e3486"/> -->
+        
+          <!-- not in ordinatio <p xml:id="awal4q5-d1e3505"/> -->
+        
+          <!-- not in ordinatio <p xml:id="awal4q5-d1e3515"/> -->
+        
+          <!-- not in ordinatio <p xml:id="awal4q5-d1e3536"/> -->
+        
+          <!-- not in ordinatio <p xml:id="awal4q5-d1e3559"/> -->
+        </div>
+          <div xml:id="awa-l4q5a1" type="articulus">
+            <head>Primus articulus</head>
+        <!-- article 1 -->
+        <p xml:id="awal4q5-d1e3609">Ad quaestionem dicendum quod sic eo modo 
+          <lb ed="#Pa"/>loquendo quo debet concedi quantitatem esse rem 
+          <lb ed="#Pa"/>Iste enim terminus res sicut et iste terminus ens 
+          <lb ed="#Pa"/>aequivoce dicitur de quantitate quae non est res una sed multae 
+          <lb ed="#Pa"/>et de aliis rebus quarum quaelibet est vere una nolo 
+          <lb ed="#Pa"/>tamen dicere quod quantitas sit res alia a substantia 
+          <lb ed="#Pa"/>et qualitate et a partibus earumdem <choice><orig>ymmo</orig><reg>immo</reg></choice> quantitas 
+          <lb ed="#Pa"/>ipsa est ipsae partes continuatae in toto et istae eaedem 
+          <lb ed="#Pa"/>partes si discontinuentur fit quantitas discreta.</p>
+        
+        <p xml:id="awal4q5-d1e3668">Item 
+          <lb ed="#Pa"/><name ref="#Ockham">okam</name> illius tertii dubii in solutione et in tractatu 
+          <lb ed="#Pa"/>de sacramento eucharistiae capitulo 14 dici plane quod 
+          <lb ed="#Pa"/>quantitas continua permanens non est nisi partes 
+          <lb ed="#Pa"/>extensae sive partes situaliter distantes sive istae par<lb ed="#Pa"/>tes 
+          sint substantiae sive partes qualitatis</p>
+            
+        <p>Ex quo 
+          <lb ed="#Pa"/>patet quod in ponendo quantitatem continentiam esse non 
+          <lb ed="#Pa"/>recedit a via ista ex toto licet recedatur in hoc quod 
+          <lb ed="#Pa"/>ad hoc quod partes sint quantitas non oportet eas di<lb ed="#Pa"/>stare 
+          situaliter secundum eum autem hoc oportet</p>
+            
+        <p>Et ratio 
+          <lb ed="#Pa"/>sua est quia substantia corporea esse posset quanta et 
+          <lb ed="#Pa"/>esse longa lata et profunda et habere partem extra par<lb ed="#Pa"/>tem 
+          esse circumscriptive in loco omni alio quod po<cb ed="#Pa" n="143ra"/><lb ed="#Pa"/>neretur 
+          quantitas substantiae inhaerens circumscripto 
+          <lb ed="#Pa"/>quia deus de potentia sua posset tenere partes sub<lb ed="#Pa"/>stantiae 
+          demonstrante in sitibus in quibus sunt sine 
+          <lb ed="#Pa"/>omni mutatione et motu locali earundem destruendo 
+          <lb ed="#Pa"/>quodlibet tale accidens si poneretur igitur</p>
+        <!-- not in ordinatio 
+        <p xml:id="awal4q5-d1e3697"/>
+        
+        <p xml:id="awal4q5-d1e3759"/>
+        
+        <p xml:id="awal4q5-d1e3834"/>
+        -->
+          </div>
+          <div xml:id="awa-l4q5a2" type="articulus">
+            <head>Secundus articulus</head>
+        <!-- secundus articulus -->      
+            <!-- not in ordinatio
+        <p xml:id="awal4q5-d1e3844"/>
+        
+        <p xml:id="awal4q5-d1e3850"/>
+        
+        <p xml:id="awal4q5-d1e3882"/>
+        
+        <p xml:id="awal4q5-d1e3900"/>
+        
+        <p xml:id="awal4q5-d1e3948"/>
+        
+        <p xml:id="awal4q5-d1e3978"/>
+        
+        <p xml:id="awal4q5-d1e3991"/>
+        
+        <p xml:id="awal4q5-d1e4025"/>
+        
+        <p xml:id="awal4q5-d1e4078"/>
+        
+        <p xml:id="awal4q5-d1e4089"/>
+        
+        <p xml:id="awal4q5-d1e4109"/>
+        
+        <p xml:id="awal4q5-d1e4117"/>
+        
+        <p xml:id="awal4q5-d1e4138"/>
+        
+        <p xml:id="awal4q5-d1e4172"/>
+        
+        <p xml:id="awal4q5-d1e4181"/>
+        
+        <p xml:id="awal4q5-d1e4192"/>
+        
+        <p xml:id="awal4q5-d1e4273"/>
+        
+        <p xml:id="awal4q5-d1e4277"/>
+        
+        <p xml:id="awal4q5-d1e4317"/>
+        
+        <p xml:id="awal4q5-d1e4351"/>
+        
+        <p xml:id="awal4q5-d1e4385"/>
+        
+        <p xml:id="awal4q5-d1e4412"/>
+        
+        <p xml:id="awal4q5-d1e4423"/>
+        
+        <p xml:id="awal4q5-d1e4450"/>
+        -->
+          </div>
+          <div type="articulus">
+            <head>Tertius Articulus</head>
+        <!-- tertius articulus -->
+            <!-- not in ordinatio 
+        <p xml:id="awal4q5-d1e4480"></p>
+        
+        <p xml:id="awal4q5-d1e4490"></p>
+        
+        <p xml:id="awal4q5-d1e4508"></p> 
+        
+        <p xml:id="awal4q5-d1e4536"></p>
+        
+        <p xml:id="awal4q5-d1e4550"></p>
+        
+        <p xml:id="awal4q5-d1e4564"></p>
+        
+        <p xml:id="awal4q5-d1e4654"></p>
+        -->
+        <p xml:id="awal4q5-d1e4715">Contra 
+          <lb ed="#Pa"/>pono quod deus secundum <choice><orig>ymaginationem</orig><reg>imaginationem</reg></choice> tuam quam de<lb ed="#Pa"/>disti 
+          de quantitate corporis christi ponatur aliquod 
+          <lb ed="#Pa"/>corpus pedale puta <c>a</c> in aliquo spatio et ponat 
+          <lb ed="#Pa"/>idem <c>a</c> in alio loco in circuitu primi circumquaque 
+          <lb ed="#Pa"/>ad quantitatem pedalem ita tamen quod isto loco 
+          <lb ed="#Pa"/>ambiente sit <c>a</c> totum in toto et totum in qualibet 
+          <lb ed="#Pa"/>parte ita quod quaelibet pars <c>a</c> sit ibi ubique cum qua<lb ed="#Pa"/>libet 
+          alia eius parte hoc posito rarefaciat deus 
+          <lb ed="#Pa"/>pedale <c>a</c> tunc sequitur quod erit transitus de contra<lb ed="#Pa"/>rio 
+          in contrarium <choice><orig>ymo</orig><reg>immo</reg></choice> sine aliqua causarum sive 
+          <lb ed="#Pa"/>materiarum istarum quas tu posuisti in quadam re<lb ed="#Pa"/>gula 
+          ad salvandum transitum de contradictorio in 
+          <lb ed="#Pa"/>contradictorium. Constat tamen quod nulla ibi sufficeret 
+          <lb ed="#Pa"/>mutatio localis et illa non est ibi quia nec <c>a</c> nec 
+          <lb ed="#Pa"/>aliqua pars <c>a</c> fit modo ubi non erat igitur</p>
+        <!-- parallel with ordinatio lost here -->
+            
+            <p>Respon<lb ed="#Pa"/>detur 
+              quod in dicto casu partes mutaretur situaliter 
+              <lb ed="#Pa"/>et licet non fierent nisi ubi prius fuerunt relinque<lb ed="#Pa"/>runt 
+              tamen locum aliquem quem habebant circa 
+              <lb ed="#Pa"/>spatium pedale sicut notum est cuilibet casum con<lb ed="#Pa"/>sideranti.</p>
+            
+              <!-- not in ordinatio     
+              <p xml:id="awal4q5-d1e4791"/>
+              
+              <p xml:id="awal4q5-d1e4807"/>
+              
+              <p xml:id="awal4q5-d1e4824"/>
+              
+              <p xml:id="awal4q5-d1e4849"/>
+              
+              <p xml:id="awal4q5-d1e4877"/>
+              
+              <p xml:id="awal4q5-d1e4892"/>
+              
+              <p xml:id="awal4q5-d1e4952"/>
+              
+              <p xml:id="awal4q5-d1e4971"/>
+              
+              <p xml:id="awal4q5-d1e4979"/>
+              
+              <p xml:id="awal4q5-d1e5015"/>
+              
+              <p xml:id="awal4q5-d1e5038"/>
+              
+              <p xml:id="awal4q5-d1e5050"/>
+              
+              <p xml:id="awal4q5-d1e5079"/>
+              
+              <p xml:id="awal4q5-d1e5095"/>
+              
+              <p xml:id="awal4q5-d1e5112"/>
+              
+              <p xml:id="awal4q5-d1e5133"/>
+              
+              <p xml:id="awal4q5-d1e5254"/>
+              -->
+        <p xml:id="awal4q5-d1e5278">Contra ponat deus totum illud corpus 
+          <lb ed="#Pa"/>pedale in tota doma et in qualibet eius parte cum 
+          <lb ed="#Pa"/>qualibet ita tamen quod alibi etiam sit idem corpus 
+          <lb ed="#Pa"/>pedaliter <unclear>extensum</unclear> moveat igitur deus ipsum extensum 
+          <lb ed="#Pa"/>ad locum et per locum ubi non extenditur non enim vi<lb ed="#Pa"/>detur 
+          quin christus in corpore glorioso extenso tran<lb ed="#Pa"/>sire 
+          posset per hostiam consecratam sicut transivit per 
+          <lb ed="#Pa"/>hostium et sepulchrum et caelum non divisa igitur 
+          <lb ed="#Pa"/>illud corpus pedale posset intrare locum ubi non 
+          <lb ed="#Pa"/>extenditur et si ibi a deo rarefieret nec fieret ubi 
+          <lb ed="#Pa"/>non erat secundum se aut secundum aliquam sui partem nec 
+          <lb ed="#Pa"/>iuxta illud spatium ubi non extenditur relinqueret 
+          <lb ed="#Pa"/>aliquem situm proprie secundum se vel aliquam sui partem 
+          <lb ed="#Pa"/>ubi praeerat.</p>
+        
+        <!-- not in ordinatio <p xml:id="awal4q5-d1e5342"></p> -->
+        
+        <p xml:id="awal4q5-d1e5350">Dicendum quod tale corpus tunc in tali 
+          <lb ed="#Pa"/><choice><orig>spacio</orig><reg>spatio</reg></choice> et dupliciter scilicet modo quantitativo et non quan<lb ed="#Pa"/>titativo 
+          et secundum aliquem modum puta extensionem fie<lb ed="#Pa"/>rent 
+          ibi novitates quia ex una parte secundum se vel se<lb ed="#Pa"/>cundum 
+          suas partes novum situm acquireret et ex alia 
+          <lb ed="#Pa"/>parte perderet praehabitum et sic esset ibi mutatio 
+          <lb ed="#Pa"/>realis. Si dicis secundum <name ref="#Aristotle">philosophum</name> quarto <title ref="#Metaphysics">metaphysica</title> si omnia 
+          <lb ed="#Pa"/>quiescerent omnis essent vera vel falsa sicut prius et per 
+          <lb ed="#Pa"/>consequens non fieret transitus de contradictorio in 
+          <lb ed="#Pa"/>contradictorium igitur cum in dicto casu dictum corpus 
+          <lb ed="#Pa"/>quiescit de ipso non possunt verificari alia quam prius</p>
+        <!-- division a little bit unclear -->
+          <p xml:id="awal4q5-d1e5405"><lb ed="#Pa"/>Respondetur quod dictum <name ref="#Aristotle">philosophi</name> non oportet in hac mate<lb ed="#Pa"/>ria 
+            sustineri vel potest intelligi si omnino quiesce<lb ed="#Pa"/>rent 
+            ut prius id est si nullum moveretur nec ageret quod 
+            <lb ed="#Pa"/>prius non egit nec propter aliquid ageret quod prius 
+            <lb ed="#Pa"/>non egit nec acceptaret quod prius non accepta<lb ed="#Pa"/>vit 
+            et similia ita quod sit quies ab omni tali <sic>alietate</sic> tunc 
+            <lb ed="#Pa"/>omnia essent vera ut prius alioquin etiam apud <name ref="#Aristotle">philosohum</name> 
+            <lb ed="#Pa"/>caperet contra instantiam in multis et multo fortius 
+            <lb ed="#Pa"/>apud theologos nam dato quod rex ordinaret quod minim<lb ed="#Pa"/>mus 
+            argenteus cessaret esse precium ex tunc minimus 
+            <lb ed="#Pa"/>talis non esset <choice><orig>praecium</orig><reg>praetium</reg></choice> etiam omnibus quiescenti<lb ed="#Pa"/>bus 
+            et <sic>praeciato</sic>.</p>
+        
+        <p xml:id="awal4q5-d1e5469">Similiter si rex ordinaret quod quilibet 
+          <lb ed="#Pa"/>inventus in camera regis post instans meridie pu<lb ed="#Pa"/>niretur 
+          morte eo ipso nulla facta novitate praeter 
+          <lb ed="#Pa"/>solum transitum temporis ille qui ibi fuit prius et post 
+          <lb ed="#Pa"/>uniformiter in ea se habens ex tunc esset dignus 
+          <lb ed="#Pa"/>morte et prius non</p>
+        
+        <!-- not in ordinatio <p xml:id="awal4q5-d1e5489"></p> -->
+        
+        <p xml:id="awal4q5-d1e5511">Probatur dato quod ab aeterno deus 
+          <lb ed="#Pa"/>ordinaverit sole et radio non motis conservare radium 
+          <cb ed="#Pa" n="143rb"/><lb ed="#Pa"/>se solo ab aliquo instanti tunc radius qui prius de<lb ed="#Pa"/>pendebat 
+          a sole minime dependeret ibi etiam 
+          <lb ed="#Pa"/>solus transitus temporis sufficeret entis et potentialis 
+          <lb ed="#Pa"/>praesupposito quod de facto non esset tempus repugnat 
+          <lb ed="#Pa"/>enim quod sic ordinavit et quod transeat tempus actu vel po<lb ed="#Pa"/>tentia 
+          et quod non sit ibi transitus praenominatus cuius 
+          <lb ed="#Pa"/>ratio est quia deus omnipotens est omnem efficientiam 
+          <lb ed="#Pa"/>supplere potest ideo necesse est si sic velit supplere
+          <lb ed="#Pa"/>ut dictum est quod talis effectus ab ipso tunc depen<lb ed="#Pa"/>deat 
+          et non ab alio a quo prius.</p>
+        
+            <p xml:id="awal4q5-d1e5602">Similiter posset esse de<lb ed="#Pa"/>pendentia 
+              a causa finali ut pote si deus conservaret 
+              <lb ed="#Pa"/>effectum suum ista die tota praecise amore mei cras 
+              <lb ed="#Pa"/>propter amorem alterius praecise hoc propter solum tran<lb ed="#Pa"/>situm 
+              temporis nulla mutatione alia requisita quia 
+              <lb ed="#Pa"/>illae sunt denominationes ab extrinseco. Sed ubi 
+              <lb ed="#Pa"/>est denominatio formalis et ab intrinseco videtur 
+              <lb ed="#Pa"/>esse talis transitus omnino impossibilis sine aliqua 
+              <lb ed="#Pa"/>causa concurrente ut pote de non intelligente intel<lb ed="#Pa"/>ligens 
+              et d non albo albus et sic de similibus</p>
+            
+            <!-- not in ordinato <p xml:id="awal4q5-d1e5635"></p> -->
+        
+        <p xml:id="awal4q5-d1e5688">hic 
+          <lb ed="#Pa"/>tamen advertendum quod ad talem transitum de con<lb ed="#Pa"/>tradictorio 
+          in contradictorium quandoque sufficit solum 
+          <lb ed="#Pa"/>transitum temporis cum aliis causis requisitis ut cum 
+          <lb ed="#Pa"/>angelus primo producitur tunc creatur et non con<lb ed="#Pa"/>servatur 
+          et immediate post conservatur et non crea<lb ed="#Pa"/>tur</p>
+            <!-- review paragraph break -->
+            <p xml:id="awal4q5-d1e5703">aliquando transitus temporis cum aliis uniformiter ma<lb ed="#Pa"/>nentibus 
+              non sufficit sicut patet in exemplis prio<lb ed="#Pa"/>ribus. 
+              Et ratio diversitatis est quia ubi solus tran<lb ed="#Pa"/>situs 
+              temporis sufficit ibi principaliter vel quasi principaliter 
+              <lb ed="#Pa"/>temporis sufficit ibi principaliter vel quasi prin<lb ed="#Pa"/>cipaliter 
+              tempus exprimitur vel datur intelligi per pro<lb ed="#Pa"/>positionem 
+              ut patet in exemplo de conservatione et 
+              <lb ed="#Pa"/>productione angeli in secundo vero non. Sed ibi ordi<lb ed="#Pa"/>natio 
+              divina vel humna cadit directe super tem<lb ed="#Pa"/>pus 
+              et ideo dato quod deus sic ordinaret et tempus tran<lb ed="#Pa"/>seat 
+              eo ipso transitur a veritate in falsitatem et econ<lb ed="#Pa"/>verso 
+              a significabili sic vel sic.</p>
+            
+            <!-- not in ordinatio 
+            <p xml:id="awal4q5-d1e5768"/>
+            
+            <p xml:id="awal4q5-d1e5773"/>
+            
+            <p xml:id="awal4q5-d1e5822"/>
+            
+            <p xml:id="awal4q5-d1e5838"/>
+            
+            <p xml:id="awal4q5-d1e5869"/>
+            
+            <p xml:id="awal4q5-d1e5948"/>
+            
+            <p xml:id="awal4q5-d1e5972"/>
+            
+            <p xml:id="awal4q5-d1e6003"/>
+            
+            <p xml:id="awal4q5-d1e6112"/>
+            
+            <p xml:id="awal4q5-d1e6187"/>
+            
+            <p xml:id="awal4q5-d1e6196"/>
+            
+            <p xml:id="awal4q5-d1e6204"/>
+            
+            <p xml:id="awal4q5-d1e6208"/>
+            
+            <p xml:id="awal4q5-d1e6214"/>
+            
+            <p xml:id="awal4q5-d1e6261"/>
+            
+            <p xml:id="awal4q5-d1e6285"/>
+            
+            <p xml:id="awal4q5-d1e6350"/>
+            
+            <p xml:id="awal4q5-d1e6373"/>
+            
+            <p xml:id="awal4q5-d1e6385"/>
+            
+            <p xml:id="awal4q5-d1e6404"/>
+            
+            <p xml:id="awal4q5-d1e6432"/>
+            
+            <p xml:id="awal4q5-d1e6463"/>
+            
+            <p xml:id="awal4q5-d1e6519"/>
+            
+            <p xml:id="awal4q5-d1e6529"/>
+            
+            <p xml:id="awal4q5-d1e6561"/>
+            
+            <p xml:id="awal4q5-d1e6576"/>
+            
+            <p xml:id="awal4q5-d1e6637"/>
+            
+            <p xml:id="awal4q5-d1e6648"/>
+            
+            <p xml:id="awal4q5-d1e6658"/>
+            
+            <p xml:id="awal4q5-d1e6686"/>
+            
+            <p xml:id="awal4q5-d1e6716"/>
+            
+            <p xml:id="awal4q5-d1e6720"/>
+            
+            <p xml:id="awal4q5-d1e6770"/>
+            
+            <p xml:id="awal4q5-d1e6806"/>
+            
+            <p xml:id="awal4q5-d1e6872"/>
+            
+            <p xml:id="awal4q5-d1e6880"/>
+            
+            <p xml:id="awal4q5-d1e6908"/>
+            
+            <p xml:id="awal4q5-d1e6959"/>
+            
+            <p xml:id="awal4q5-d1e6995"/> 
+            -->
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7008"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7015"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7035"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7063"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7133"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7142"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7174"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7227"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7244"/> -->
+        
+        <!-- margin suggest that this is number 6 -->
+            <!-- not in ordinatio  <p xml:id="awal4q5-d1e7280"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7296"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7333"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7349"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7359"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7373"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7387"/> -->
+        
+            <!-- not in ordinatio <p xml:id="awal4q5-d1e7400"/> -->
+          </div>
+          <div type="articulus">
+            <head>Quintus articulus</head>
+        <!-- quintus articulus -->
+            
+        <!-- not in ordinatio <p xml:id="awal4q5-d1e7488"/></p> -->
+        
+        <p xml:id="awal4q5-d1e7506">Item adhuc arguitur 
+          <lb ed="#Pa"/>sic per articulum parisiensis positum capitulo 15 ubi dicitur quod 
+          <lb ed="#Pa"/>Impossibile est quantitatem seu divisionem <!-- corr divisionem in Ordinatio Sorb --> esse per se 
+          <lb ed="#Pa"/>hoc enim esset ipsam esse substantiam error Ex quo vi<lb ed="#Pa"/>detur 
+          quod motivum condemnantium istum articulum fue<lb ed="#Pa"/>rit 
+          quod tunc esse possibile quantitatem esse substantiam
+          <!-- reconsider if paragraph break should be asserted here -->
+          <lb ed="#Pa"/>Respondetur quod hoc non fuit motivum condemnatium 
+          <lb ed="#Pa"/>sed ipsorum errantium qui propter etiam moti dixerunt 
+          <lb ed="#Pa"/>quod Impossibile est accidens esse sine subiecto ut pa<lb ed="#Pa"/>tet 
+          in principio eiusdem articuli et in articulo uno 
+          <lb ed="#Pa"/>immediate praecedenti</p>
+            
+        <!-- not in ordinatio <p xml:id="awal4q5-d1e7526"/> -->
+        
+        <!-- non in ordinatio <p xml:id="awal4q5-d1e7540"/> -->
+       
+            <p xml:id="awal4q5-d1e7558"><g ref="#pilcrow"/>Item tunc in transubstan<lb ed="#Pa"/>tiation 
+              panis sicut quantitas illa essentialis <choice><orig>an<lb ed="#Pa"/>nichilatur</orig><reg>an<lb ed="#Pa"/>nihilatur</reg></choice> 
+              ita substantia panis <choice><orig>annichilaretur</orig><reg>annihilaretur</reg></choice> Falsi<lb ed="#Pa"/>tas 
+              patet quia <ref><title>extra</title> de summa trinitate</ref> dicitur quod 
+              <lb ed="#Pa"/>panis transubstantiatur in corpus christi et vinum in san<lb ed="#Pa"/>guinem 
+              potentia dei igitur non <choice><orig>annichilarentur</orig><reg>annihilarentur</reg></choice></p>
+        <!-- not in ordinatio 
+          
+        <p xml:id="awal4q5-d1e7628"/>
+        
+        <p xml:id="awal4q5-d1e7648"/>
+        
+        <p xml:id="awal4q5-d1e7663"/>
+        
+        <p xml:id="awal4q5-d1e7675"/>
+        
+        <p xml:id="awal4q5-d1e7714"/>
+        
+        <p xml:id="awal4q5-d1e7731"/>
+        
+        <p xml:id="awal4q5-d1e7751"/>
+        
+        <p xml:id="awal4q5-d1e7816"/>
+        
+        <p xml:id="awal4q5-d1e7851"/>
+        
+        <p xml:id="awal4q5-d1e7882"/>
+        
+        <p xml:id="awal4q5-d1e7906"/> 
+        
+        <p xml:id="awal4q5-d1e7938"/>
+        
+        <p xml:id="awal4q5-d1e7973"/>
+        
+        <p xml:id="awal4q5-d1e7993"/>
+        
+        <p xml:id="awal4q5-d1e8019"/>
+        
+        <p xml:id="awal4q5-d1e8068"/>
+        
+        <p xml:id="awal4q5-d1e8079"/>
+        
+        <p xml:id="awal4q5-d1e8094"/>
+        
+        <p xml:id="awal4q5-d1e8104"/>
+        
+        <p xml:id="awal4q5-d1e8140"/> 
+        
+        <p xml:id="awal4q5-d1e8162"/>
+        
+        <p xml:id="awal4q5-d1e8187"/>
+        
+        <p xml:id="awal4q5-d1e8200"/>
+        
+        <p xml:id="awal4q5-d1e8235"/>
+        
+        <p xml:id="awal4q5-d1e8249"/>
+        
+        <p xml:id="awal4q5-d1e8259"/>
+        
+        <p xml:id="awal4q5-d1e8283"/>
+        
+        <p xml:id="awal4q5-d1e8300"/>
+        
+        <p xml:id="awal4q5-d1e8312"/>
+        
+        <p xml:id="awal4q5-d1e8324"/>
+        
+        <p xml:id="awal4q5-d1e8332"/>
+        
+        <p xml:id="awal4q5-d1e8342"/>
+        
+        <p xml:id="awal4q5-d1e8356"/>
+        
+        <p xml:id="awal4q5-d1e8372"/> 
+        
+        <p xml:id="awal4q5-hsrtsq"/>
+        -->
+          </div>
+          <div>
+            <head>articulus 6</head>
+        <!-- beginning of article 6 -->
+            <!-- not in ordinatio 
+        <p xml:id="awal4q5-d1e8389"></p>
+          
+          <p xml:id="awal4q5-d1e8412"/>
+        
+        <p xml:id="awal4q5-d1e8435"/>
+        
+        <p xml:id="awal4q5-d1e8445"/>
+        
+        <p xml:id="awal4q5-d1e8468"/>
+        
+        <p xml:id="awal4q5-d1e8493"/>
+        
+        <p xml:id="awal4q5-d1e8523"/>
+        
+        <p xml:id="awal4q5-d1e8546"/>
+        
+        <p xml:id="awal4q5-d1e8598"/>
+        
+        <p xml:id="awal4q5-d1e8715"/>
+        
+        <p xml:id="awal4q5-d1e8787"/>
+        
+        <p xml:id="awal4q5-d1e8834"/>
+        
+        <p xml:id="awal4q5-d1e8885"/>
+        
+        <p xml:id="awal4q5-d1e8979"/>
+        
+        <p xml:id="awal4q5-d1e8997"/>
+        
+        <p xml:id="awal4q5-d1e9016"/>
+        
+        <p xml:id="awal4q5-d1e9029"/>
+        
+        <p xml:id="awal4q5-d1e9093"/>
+        
+        <p xml:id="awal4q5-d1e9135"/>
+        
+        <p xml:id="awal4q5-d1e9161"/>
+        -->
+          </div>
+          <div type="articulus">
+            <head>Septimus articulus</head>
+        <!-- margin indicates beginning of 7th article -->
+            
+        <!-- no ordinatio parallel <p xml:id="awal4q5-d1e9189"/> --> 
+        
+            <!-- picks up here -->
+            <p xml:id="awal4q5-d1e9248">Re<lb ed="#Pa"/>spondetur 
+              quod qui negaret ibi panis substantiam <choice><orig>an<lb ed="#Pa"/>nichilari</orig><reg>an<lb ed="#Pa"/>nihilari</reg></choice> 
+              <unclear>et</unclear> negaret hoc de quantitate substantiae 
+              <lb ed="#Pa"/>panis et qui concedunt hoc de quantitate etiam con<lb ed="#Pa"/>cedunt 
+              hoc de substantia et negarent istam consequen<lb ed="#Pa"/>tiam 
+              si substantia panis <choice><orig>annichilaretur</orig><reg>annihilaretur</reg></choice> igitur non 
+              <lb ed="#Pa"/>transubstantiaretur quia secundos istos <choice><orig>annichilari</orig><reg>annihilari</reg></choice> non 
+              <lb ed="#Pa"/>est nisi totaliter desinere esse secundum materiam et for<lb ed="#Pa"/>mam 
+              et hoc non repugnat transubstantiatoni si in<lb ed="#Pa"/>fertur 
+              ex ea nec est hic vis in re sed in verbis tantum 
+              <lb ed="#Pa"/>secundum istos <unclear>est</unclear></p>
+          
+        <p xml:id="awal4q5-d1e9293">Ego autem dico quod transubstantio 
+          <lb ed="#Pa"/>non est <choice><orig>annichilatio</orig><reg>annihilatio</reg></choice> sed conversio panis substantiae 
+          <lb ed="#Pa"/>in corpus christi ex vi consecrationis sacramentalis 
+          <lb ed="#Pa"/>eo quod in Instanti conversionis cessat esse sub illis 
+          <lb ed="#Pa"/>speciebus substantia panis et vini quae praeerat et 
+          <lb ed="#Pa"/>succedit pro eisdem corpus et sanguis christi ex vi 
+          <lb ed="#Pa"/>sacramentalis consecrationis nec est ibi aliqua 
+          <cb ed="#Pa" n="144va"/><lb ed="#Pa"/>conversio prioris in posterius nisi quod ad non esse prio<lb ed="#Pa"/>ris 
+          succedit sub illis speciebus ex vi consecrationis 
+          <lb ed="#Pa"/>substantia posterior et quia motus vel mutatio vel 
+          <lb ed="#Pa"/>quaecunque factio unica denominanda est ab ultimo 
+          <lb ed="#Pa"/>termino ad quem per se intento licet igitur substantia 
+          <lb ed="#Pa"/>panis nihil fieret non tamen et ista conversio <choice><orig>anni<lb ed="#Pa"/>chilatio</orig><reg>anni<lb ed="#Pa"/>hilatio</reg></choice> 
+          sed transubstantio id est successio unius sub<lb ed="#Pa"/>stantiae 
+          in loco alterius et per hanc descriptionem 
+          <lb ed="#Pa"/>satis excludi possunt instantiae circa istam materiam etc.</p>
+        <!-- the following paragraphs don't have a clear parallel -->
+            <p><lb ed="#Pa"/>Item concedendum est quod ex vi illius conversiones cor<lb ed="#Pa"/>pus 
+              christi fit de substantia panis et incipit esse de 
+              <lb ed="#Pa"/>pane sic quod non alibi non esset nec prius fuisset ipsum 
+              <lb ed="#Pa"/>inciperet simpliciter esse post non esse ratione illius 
+              <lb ed="#Pa"/>conversionis nunc autem non incipit simpliciter esse 
+              <lb ed="#Pa"/>sed incipit esse ex illo pane de quo prius non ha<lb ed="#Pa"/>buit 
+              esse vel incipit esse de illo pane per aliquam 
+              <lb ed="#Pa"/>transmutatione per quem prius ex illo pane non 
+              <lb ed="#Pa"/>habuit esse patet ergo quod si corpus christi prius non 
+              <lb ed="#Pa"/>fuisset talis conversio esset simpliciter eius factio 
+              <lb ed="#Pa"/>haec autem est eius factio secundum quid scilicet de illo pane.</p>
+            
+            <p>Item quando per <unclear>denominationem</unclear> specierum desinit esse coprus 
+              <lb ed="#Pa"/>christi tunc verisimile est quod talis desitio corporis christi 
+              <lb ed="#Pa"/>ibi fit reconversio corporis christi in materia quae 
+              <lb ed="#Pa"/>prius fuit ipsius panis et ita videtur quod deus repo<lb ed="#Pa"/>nit 
+              ibi materiam quam resumit de corpore christi 
+              <lb ed="#Pa"/>per dictum modum conversionis et in illa materiae 
+              <lb ed="#Pa"/>agens naturale corrumpens illas species producit 
+              <lb ed="#Pa"/>formam eodem instanti in quo illa materia repo<lb ed="#Pa"/>nitur 
+              et sic patet quomodo salvatur quod per illas spe<lb ed="#Pa"/>cies 
+              sit vera nutritio et quomodo sint active et passi<lb ed="#Pa"/>ve 
+              iuxta praedicta in praecedentibus quaestionibus</p> 
+              
+              <p>Sed dubitatur An corpus christi videri possit oculo 
+                <lb ed="#Pa"/>corporali prout est sacramentaliter sub speciebus panis</p>
+            
+            <p>Pro ultimo dubio moto in ista quaestione quinta quarti 
+              <lb ed="#Pa"/>quae est 63 in ordine simpliciter ad primum scilicet utrum 
+              <lb ed="#Pa"/>quantitas.</p>
+            
+            <p>Sciendum est quod dupliciter agens potest 
+              <lb ed="#Pa"/>applicari passo vel situi seu etiam rei situali intrin<lb ed="#Pa"/>sece 
+              vel extrinsece primo modo tripliciter scilicet vel 
+              <lb ed="#Pa"/>coexistenter commensurative et informative sicut 
+              <lb ed="#Pa"/>calor vel aliud accidens applicatur suo subiecto 
+              <lb ed="#Pa"/>cui coextenditur vel quod informat in illud etiam bene 
+              <lb ed="#Pa"/>agit suum simile de ipsius potentia educendo vel 
+              <lb ed="#Pa"/>coexistenter commensurative sed non informative ut 
+              <lb ed="#Pa"/>si in casu priori deus faceret calorem commensura<lb ed="#Pa"/>tive 
+              coexistente subiecto per se existere sic quod non 
+              <lb ed="#Pa"/>inhaeret subiecto nec informaret ipsum vel si deus 
+              <lb ed="#Pa"/>taliter faceret coexistere duo contraria scilicet aquam 
+              <lb ed="#Pa"/>et ignem vel duas qualitates contrarias scilicet cali<lb ed="#Pa"/>ditatem 
+              et frigiditatem et tunc est bene dubium an 
+              <lb ed="#Pa"/>in tali applicatione talia suis naturalibus relicta 
+              <lb ed="#Pa"/>agerent et paterentur vel secundo modo potest hoc con<lb ed="#Pa"/>tingere 
+              sic quod agens alicui applicatur <sic>coexistenter</sic> 
+              <lb ed="#Pa"/>non tamen informative nec commensurative sed sic 
+              <lb ed="#Pa"/>quod totum est in toto et in qualibet parte et quaelibet 
+              <lb ed="#Pa"/>pars est in toto et in qualibet parte et sic corpus 
+              <lb ed="#Pa"/>christi est sub speciebus et <sic>concomittant</sic> ipsius ac<lb ed="#Pa"/>cidentia 
+              nec igitur dubitatur an talia accidentia 
+              <lb ed="#Pa"/>taliter suo situi applicata suis naturalibus dere<lb ed="#Pa"/>licta 
+              naturaliter agerent in sua passa Verbi gratia 
+              <lb ed="#Pa"/>an calor vel caliditas lucis corporis christi sic se ha<lb ed="#Pa"/>bentis 
+              naturaliter ageret in usu videtur quod non quia 
+              <lb ed="#Pa"/>secundum talem modum agens non debite <unclear>applica?</unclear> passo 
+              <lb ed="#Pa"/>igitur Antecedens probatur quia applicatio secundi 
+              <lb ed="#Pa"/>modi praedicti non videtur sufficere ad actionem 
+              <lb ed="#Pa"/>igitur multo minus applicatio quae posset fieri isto 
+              <lb ed="#Pa"/>tertio modo. Item videmus quod gravi aliquo modo 
+              <cb ed="#Pa" n="143vb"/><lb ed="#Pa"/>se habente 16 extra centrum gravitas efficit motum 
+              <lb ed="#Pa"/>ipso autem alio modo se habent scilicet existente in centro 
+              <lb ed="#Pa"/>nullum causat motum igitur multo fortius colore 
+              <lb ed="#Pa"/>sic se habente quod nulli commensuratur situi non potest 
+              <lb ed="#Pa"/>agere invisum.</p>
+            
+            <p>Item secundum talem modum non potest esse 
+              <lb ed="#Pa"/>basis piramidis radiose quia tunc commensuraretur 
+              <lb ed="#Pa"/>alicui situi igitur etc.</p>
+            
+            <p>In oppositum per prius con<lb ed="#Pa"/>venit 
+               agenti agere in passa quaelibet applicari tali vel 
+              <lb ed="#Pa"/>tali modo applicationis igitur <unclear>quan?um</unclear> est de per se 
+              <lb ed="#Pa"/>fiat ipsum agere naturaliter in passum sine tali ap<lb ed="#Pa"/>plicatione 
+              quam tu praesupponis Consequentia patet 
+              <lb ed="#Pa"/>ex eo quod prius potest semper stare sine suo posteriori 
+              <lb ed="#Pa"/>licet non econverso.</p>
+            
+            <p>Item agens agere vel esse suum 
+              <lb ed="#Pa"/>activum est sibi essentiale taliter autem applicari vel 
+              <lb ed="#Pa"/>taliter est sibi accidentale sed non oportet quod ablato 
+              <lb ed="#Pa"/>accidentali aufferatur essentiale igitur secundo modo 
+              <lb ed="#Pa"/>si extrinsece potest hoc esse contingere tripliciter 
+              <lb ed="#Pa"/>scilicet continue vel contingue vel consequenter. Et istis mo<lb ed="#Pa"/>dis 
+              planum est posse fieri actionem et passionem etc.</p>
+                
+        <!-- no clear parallel in ordinatio 
+        <p xml:id="awal4q5-d1e9338"></p>
+        
+        <p xml:id="awal4q5-d1e9344"></p>
+        
+        <p xml:id="awal4q5-d1e9395"></p>
+        
+        <p xml:id="awal4q5-d1e9459"></p>
+        
+        <p xml:id="awal4q5-d1e9494"></p>
+        
+        <p xml:id="awal4q5-d1e9560"></p>
+        
+        <p xml:id="awal4q5-d1e9582"></p>
+        
+        <p xml:id="awal4q5-d1e9590"></p>
+        
+        <p xml:id="awal4q5-d1e9637"></p>
+        
+        <p xml:id="awal4q5-d1e9664"></p>
+        
+        <p xml:id="awal4q5-d1e9692"></p>
+        
+        <p xml:id="awal4q5-d1e9710"></p>
+        
+        <p xml:id="awal4q5-d1e9725"></p>
+        
+        <p xml:id="awal4q5-d1e9731"></p>
+            -->
+          </div>
+        </div>
+      </body>
+    </text>
+</TEI>
+   

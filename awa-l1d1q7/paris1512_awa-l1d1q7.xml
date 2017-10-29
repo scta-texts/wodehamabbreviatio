@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 7 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 7</title>
+          <date when="2017-01-28">January 28, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-28" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="23-v"/><cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q7">
+        <head>Librum I, Distinctio 1, Quaestio 7 [Paris 1512 Transcription]</head>
+        <head type="questionTitle">Utrum sola voluntas cum dei influentia seu concausatione communi sit causa effectiva suae libere volitionis</head>
+        <p>
+          <lb ed="#Pa"/>Utrum sola voluntas cum 
+          <lb ed="#Pa"/>dei influentia seu concausatione communi sit 
+          <lb ed="#Pa"/>causa effectiva suae libere volitionis
+        </p>
+        <p>
+          Vi<lb ed="#Pa"/>detur 
+          quod sic quia sicut patet ex processu <name ref="#Augustine">augustini</name> 
+          <lb ed="#Pa"/>12 <title>de civitate dei</title> capitulo 60 allegato cum praecedenti que<lb ed="#Pa"/>stione 
+          voluntas respectu eiusdem obiecti eodem mo<lb ed="#Pa"/>do 
+          praesenti potest primo habere volitionem. secun<lb ed="#Pa"/>do 
+          nolitionem omnibus aliis uniformiter concur<lb ed="#Pa"/>rentibus 
+          igitur si aliqua causa naturalis cum prin<lb ed="#Pa"/>cipiaret 
+          actum volitionis libere sequitur quod agens 
+          <lb ed="#Pa"/>mere naturale posset in eodem passo uniformiter 
+          <lb ed="#Pa"/>disposito contrarios efectus producere quod vi<lb ed="#Pa"/>detur 
+          inconveniens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad opposita voluntas ut vide<cb ed="#Pa" n="b"/><lb ed="#Pa"/>tur 
+          non est causa effectiva talium volitionum igitur 
+          <lb ed="#Pa"/>nec sola voluntas Antecedens probatur quia non probare<lb ed="#Pa"/>tur 
+          hoc nisi quia ad eius positione poni posset talis 
+          <lb ed="#Pa"/>volitio et sine ea non et non est materia nec forma 
+          <lb ed="#Pa"/>igitur efficiens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item arguam ego de cogni<lb ed="#Pa"/>tione 
+          prima ad cuius positionem ponitur talis vo<lb ed="#Pa"/>litio 
+          et sine ea poni naturaliter non posset probatur 
+          <lb ed="#Pa"/>si voluntas esset causa activa suae volitionis tunc idem 
+          <lb ed="#Pa"/>esset movens et motum in actu et in potentia respe<lb ed="#Pa"/>ctu 
+          eiusdem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Conclusio prima voluntas est causa 
+          <lb ed="#Pa"/>activa suae volitionis libere haec probata est in quaestio<lb ed="#Pa"/>ne 
+          praecedenti articulo primo.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secunda conclusio 
+          <lb ed="#Pa"/>quod aliud a voluntate cum principiat active talem vo<lb ed="#Pa"/>litionem 
+          vel nolitionem quia cognitio sibi natu<lb ed="#Pa"/>raliter 
+          praesupposita et necessario requisita ad hoc 
+          <lb ed="#Pa"/>quod ipsa sine miraculo esse possit est conprincipium 
+          <lb ed="#Pa"/>activum ipsius igitur assumptum probatur <ref target="http://scta.info/resource/awa-awa-l1d3q1">distinctione 3</ref> 
+          <lb ed="#Pa"/>Ubi tractabitur de hoc in materia de <choice><orig>ymagine</orig><reg>imagine</reg></choice> et ad 
+          <lb ed="#Pa"/>praesens probo per argumentum <ref><name ref="#Scotus">scoti</name> quo distinctione 3 primi</ref> pro<lb ed="#Pa"/>bat 
+          obiectum active conprincipiare intellectionem 
+          <lb ed="#Pa"/>ipsius et est etiam argumentum <unclear>olram</unclear> ad praesens punctum 
+          <lb ed="#Pa"/>omnis forma praesupposita et necessario requisita 
+          <lb ed="#Pa"/>ad hoc quod aliquis effectus sine miraculo produca<lb ed="#Pa"/>tur 
+          et sine qua huiusmodi effectus non producitur 
+          <lb ed="#Pa"/>est causa in aliquo genere causae hoc enim negato mil<lb ed="#Pa"/>la 
+          retat via concludendi evidenter aliquid causam 
+          <lb ed="#Pa"/>alicuius naturalis in istis inferioribus sicut pa<lb ed="#Pa"/>tet 
+          inductive sed sic praesupponitur cognitio voli<lb ed="#Pa"/>tioni 
+          et non est eius causa nisi effectiva.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra 
+          <lb ed="#Pa"/>ambas conclusiones simul est argumentum pri<lb ed="#Pa"/>mum 
+          ad oppositum quaestionis: contra secundam 
+          <lb ed="#Pa"/>et argumentum secundum ad eandem partem 
+          <lb ed="#Pa"/>probatur contra primam tunc voluntas sufficienter ap<lb ed="#Pa"/>proximata 
+          vel praesens alteri voluntati similiter posset 
+          <lb ed="#Pa"/>volitionem in illa causare sicut in se ipsa falsitas 
+          <lb ed="#Pa"/>patet et consequentia probatur sicut probat hoc <name ref="#Scotus">do<lb ed="#Pa"/>ctor 
+          subtilis</name> de intellectione in materia de locutio<lb ed="#Pa"/>nibus 
+          angelorum libro 2 omne agens producens ef<lb ed="#Pa"/>fectum 
+          aliquem in aliquo passo in quocumque passo si<lb ed="#Pa"/>militer 
+          potest agere similem effectum nisi impe<lb ed="#Pa"/>diatur 
+          ergo etc probatur contra conclusionem secundam 
+          <lb ed="#Pa"/>tunc agens mere naturale in eodem passo uniformi<lb ed="#Pa"/>ter 
+          disposito posset effectus contrarios successive 
+          <lb ed="#Pa"/>producere sicut tactum est in principio Probatur tunc 
+          <lb ed="#Pa"/>crescente notitia cresceret amor falsitas patet quia 
+          <lb ed="#Pa"/>tunc voluntas non libere sed invita augeret actum su<lb ed="#Pa"/>um
+        </p>
+        <p>
+          Consequentia probatur quia crescente causa cete<lb ed="#Pa"/>ris 
+          paribus crescit effectus probatur per idem me<lb ed="#Pa"/>dium 
+          sequitur quod omnibus aliis uniformiter se habentibus et aliis <unclear>re??<lb ed="#Pa"/>sitis</unclear> 
+          efficacius vel minus efficaciter agentibus quam prius et so<lb ed="#Pa"/>la 
+          notitia crescente crescat dilectio secundum gra<lb ed="#Pa"/>dum 
+          aliquem falsitas probatur quia tunc talis gra<lb ed="#Pa"/>dus 
+          dilectionis esset a sola notitia effective et pa<lb ed="#Pa"/>ri 
+          ratione prior gradus dilectionis cum sit eiusdem 
+          <lb ed="#Pa"/>rationis cum isto posset esse a sola cognitione et per 
+          <lb ed="#Pa"/>consequens tota dilectio quia sicut patet <ref>secundum <title ref="#Ethics">e<lb ed="#Pa"/>thicorum</title></ref> 
+          ab eisdem vel similibus fiunt aliqua ex 
+          <lb ed="#Pa"/>quibus augentur probatur tunc iste gradus addi<lb ed="#Pa"/>tus 
+          ad crementum notitiae non libere produceretur 
+          <lb ed="#Pa"/>et pari ratione nec priores quia sicut ille acqui<lb ed="#Pa"/>tur 
+          ex augmentatione solius cognitionis ceteris 
+          <lb ed="#Pa"/>paribus ita prior dilectio decresceret decrescen<lb ed="#Pa"/>te 
+          sola cognitione et per consequens gradus decrescens 
+          <lb ed="#Pa"/>a sola cognitione active dependebat igitur non li<lb ed="#Pa"/>bere 
+          agebatur et ita non fuisset meritum nec demeritum
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad primum sciendum tamen quod alii non concedunt quod 
+          <pb ed="#Pa" n="24-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>cognitio prima concprincipiet actum liberum quia 
+          <lb ed="#Pa"/>tunc ageret aliquid nobilius se secundum speciem: 
+          <lb ed="#Pa"/>nec concedunt hanc artem probandi aliquid esse causam 
+          <lb ed="#Pa"/>alterius quae hic ponitur quia ex ea sequitur quod dispo<lb ed="#Pa"/>sitiones 
+          primae essent causa effectiva formae substantialis 
+          <lb ed="#Pa"/>quod patet falsum de anima intellectiva et etiam 
+          <lb ed="#Pa"/>de aliis formis substantialibus eo quod persecutio<lb ed="#Pa"/>nes 
+          sunt secundum speciem suis primis disposi<lb ed="#Pa"/>tionibus. Ned forte potest dari ars generalis ad 
+          <lb ed="#Pa"/>probandum aliquid esse causam effectivam ali<lb ed="#Pa"/>cuius 
+          nisi forte sic Arguatur stante communi ordi<lb ed="#Pa"/>natione 
+          dei posito <c>a</c> naturaliter ponitur vel sequi<lb ed="#Pa"/>tur 
+          <c>b</c> eiusdem speciei cum <c>a</c> vel inferioris et <c>b</c> non 
+          <lb ed="#Pa"/>potest poni per naturam sine a posito vel praesup<lb ed="#Pa"/>posito 
+          igitur <c>a</c> est causa <c>b</c> tamen haec forma adhuc 
+          <lb ed="#Pa"/>non est evidens quia adversarius diceret quod de com<lb ed="#Pa"/>muni 
+          ordinatione dei forte sic est quod posito a debet 
+          <lb ed="#Pa"/>sequi <c>b</c> etc. ut differentia argumento et tamen so<lb ed="#Pa"/>lus 
+          <lb ed="#Pa"/>deus vult efficere <c>b</c> vel dedit alteri causae quod 
+          <lb ed="#Pa"/>ipsa efficiat <c>b</c> et non <c>a</c> sed si per ymaginationem 
+          <lb ed="#Pa"/>poneretur quod <c>a</c> et <c>b</c> solum essent in mundo tunc for<lb ed="#Pa"/>te 
+          procederet Argumentum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum conce<lb ed="#Pa"/>do 
+          quod haec non est ars probandi generalis aliquid 
+          <lb ed="#Pa"/>esse causam hoc posito ac praesupposito naturaliter 
+          <lb ed="#Pa"/>ponitur effectus ille et sine illo poni non posset per 
+          <lb ed="#Pa"/>naturam igitur hoc est causa eius et addo natura<lb ed="#Pa"/>liter 
+          quia deus se solo potest producere lumen in 
+          <lb ed="#Pa"/>medio et ponatur quod simul fiat ad praesentiam sol<lb ed="#Pa"/>et 
+          non sine praesentia eius sicut est de effectu sacramen<lb ed="#Pa"/>ti 
+          etiam non sequitur de verbis quae homo dicit oran<lb ed="#Pa"/>do 
+          ipsis positis ponitur gratia et sine ipsis non po<lb ed="#Pa"/>nentur 
+          igitur sunt causa gratiae quia solus deus cau<lb ed="#Pa"/>set.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et sic etiam dicitur de quocumque merito no<lb ed="#Pa"/>stro 
+          respectu gratiae quam deus confert et ideo est 
+          <lb ed="#Pa"/>ibi ponere causam sine qua non licet talem non opor<lb ed="#Pa"/>teat 
+          poni in isto casu ubi per naturam ponit non pos<lb ed="#Pa"/>set 
+          effectus sine tali causa et cum ea naturaliter 
+          <lb ed="#Pa"/>poni posset actum solum stando in hac consequentia 
+          <lb ed="#Pa"/>hoc posito cum aliis requisitis illud ponitur et sine 
+          <lb ed="#Pa"/>isto hoc non ponitur neganda est consequentia in his quae 
+          <lb ed="#Pa"/>sine miraculo fieri possunt ut pote aliis requisitis 
+          <lb ed="#Pa"/>si velim palpebras aperire videbo colorem praesentem 
+          <lb ed="#Pa"/>et si nollem aperire nec viderem et tamen ista volitio 
+          <lb ed="#Pa"/>non est causa visionis sine qua non fieret quia undi<lb ed="#Pa"/>quaque 
+          aperirentur palpebrae ceteris uniformiter se 
+          <lb ed="#Pa"/>habentibus ut per violentiam vel casu idem ponen<lb ed="#Pa"/>tur 
+          effectus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed propter primum modum pro<lb ed="#Pa"/>bandi 
+          concedo quod intellectio naturaliter praesuppo<lb ed="#Pa"/>sita 
+          dilectioni est causa partialis effectiva ipsius 
+          <lb ed="#Pa"/>quando ipsa naturaliter causatur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra in anima 
+          <lb ed="#Pa"/>est una actio relativa distincta ab omnibus abso<lb ed="#Pa"/>lutis 
+          qua dilectio causatur sed ista actio non potest 
+          <lb ed="#Pa"/>habere aliud principium elicitivum nisi animam 
+          <lb ed="#Pa"/>quia experior quod omnibus absolute praesentibus in po<lb ed="#Pa"/>testate 
+          mea est quod diligam vel non diligam igitur 
+          <lb ed="#Pa"/>nulla res non libera seu mere naturaliter activa est 
+          <lb ed="#Pa"/>principium elicitivum illius actionis sed solum a<lb ed="#Pa"/>nima 
+          vel voluntas quae libere agit eam et istud patet 
+          <lb ed="#Pa"/>inductiva quia tale principium non est habitus eo 
+          <lb ed="#Pa"/>quod dilectio causatur sine habitu nec cognitio quia 
+          <lb ed="#Pa"/>interdum intenditur cognitio quando remittitur dile<lb ed="#Pa"/>ctio 
+          et econtra nec est aliqua alia res distincta ab a<lb ed="#Pa"/>nima 
+          quia nihil causat dilectionem nisi scienter ali<lb ed="#Pa"/>ter 
+          enim non causaret virtuose.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur ne<lb ed="#Pa"/>gando 
+          primam partem <unclear>antecedentis</unclear> et si illa con<lb ed="#Pa"/>cedaretur 
+          adhuc non probatur quod nihil ad aliud ab 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>anima principiet huiusmodi actionem si poneretur 
+          <lb ed="#Pa"/>sed bene probat quod anima principiat cum quo stat 
+          <lb ed="#Pa"/>quod aliquid aliud conprincipiat sicut concedit de ha<lb ed="#Pa"/>bitu 
+          quando inest et de cognitione similiter et non 
+          <lb ed="#Pa"/>solum sunt circumstantiae principii actum scilicet <unclear>a<lb ed="#Pa"/>?ume</unclear> 
+          sed etiam sunt causae a quibus naturaliter pro<lb ed="#Pa"/>venit 
+          dilectio et etiam huiusmodi actio relativa 
+          <lb ed="#Pa"/>si ponitur et si quandoque crescente cognitione remittitur 
+          <lb ed="#Pa"/>dilectio vel econverso hoc est propter impedimen<lb ed="#Pa"/>ta 
+          quae plus faciunt ad decrementum dilectionis quam 
+          <lb ed="#Pa"/>cognitio facere possit ad crementum Dices licet 
+          <lb ed="#Pa"/><unclear>noncia</unclear> vel assensus conformis conclusioni non possit na<lb ed="#Pa"/>turaliter 
+          causari sine formatione praemissarum vel si<lb ed="#Pa"/>ne 
+          iudiciis conformibus praemissis circa tamen noti<lb ed="#Pa"/>tia 
+          praemissarum non causat effective notitia con<lb ed="#Pa"/>clusionis 
+          igitur a simili licet volitio praesupponat 
+          <lb ed="#Pa"/>cognitionem non tamen sequitur quod cognitio sit cau<lb ed="#Pa"/>sa 
+          effectiva volitionis antecedens probatur quia quando 
+          <lb ed="#Pa"/>infertur conclusio praemissae non sunt vel saltem non oportet 
+          <lb ed="#Pa"/>eas esse eo quod discursus est successive.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Responde<lb ed="#Pa"/>tur 
+          negando antecedens Ad probationem dicitur quod licet 
+          <lb ed="#Pa"/>discursus vocalis sit successivus tamen in mente ma<lb ed="#Pa"/>nent 
+          praemissae cum conclusione.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Pro quo notan<lb ed="#Pa"/>dum 
+          secundum <ref><name ref="#Augustine">augustinum</name> 16 <title ref="#deTrinitate">de trinitate</title> capitulo 
+          <lb ed="#Pa"/>15</ref> licet saepe volibili cogitatione iactemus nos men<lb ed="#Pa"/>taliter 
+          huic inde inquirendo et studendo circa aliquod 
+          <lb ed="#Pa"/>scibile et per talem successivam et volibilem investi<lb ed="#Pa"/>gationem 
+          tandem proveniamus ad actum scientiae per 
+          <lb ed="#Pa"/>hoc quod iam invenimus principia ex quibus eviden<lb ed="#Pa"/>ter 
+          concludimus quod volumus cum tunc in fine talium 
+          <lb ed="#Pa"/>inquisitionum medium mentaliter sicut dicit <name ref="#Aristotle">philosophus</name> 
+          <lb ed="#Pa"/>simul inducens cognovit bene patet quod actus scien<lb ed="#Pa"/>tialis 
+          numquam scientialiter experimur quin conclusio 
+          <lb ed="#Pa"/>et etiam praemissae praeconcipiantur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum 
+          <lb ed="#Pa"/>argumentum concedendum est quod idem potest esse movens 
+          <lb ed="#Pa"/>t in potentia ad habendum illud respectu cuius iam est 
+          <lb ed="#Pa"/>in actu virtuali et quandoque moveretur adhuc ab a<lb ed="#Pa"/>lio 
+          sicut vinum et <unclear>ginginbereit</unclear> virtualiter calidum 
+          <lb ed="#Pa"/>et potest fieri formaliter calidum ab alio scilicet cale<lb ed="#Pa"/>faciente 
+          sed non se ipso propter principium intrinse<lb ed="#Pa"/>cum 
+          impediens scilicet frigiditatem quandoque autem po<lb ed="#Pa"/>test 
+          movere seipsum ad acquirendum illud forma<lb ed="#Pa"/>liter 
+          quod habet virtualiter ubi sciendum quod est mo<lb ed="#Pa"/>tio 
+          sive causatio univoca id est quod principium agendi 
+          <lb ed="#Pa"/>sit forma eiusdem speciei specialissime cum forma 
+          <lb ed="#Pa"/>producta tunc non est hoc possibile quod idem ducat 
+          seipsum de potentia ad actum ut pote per calidum 
+          per suum colorem non potest immediate semetipsum 
+          <lb ed="#Pa"/>calefacere et similiter est in aliis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et hoc inten<lb ed="#Pa"/>dit 
+          <ref><name ref="#Aristotle">philosophus</name> sexto <title ref="#Physics">physicorum</title></ref> unde <ref><name ref="#Averroes">commentator</name> ibidem</ref> di<lb ed="#Pa"/>cit 
+          quod aliquid moveat secundum quod moveretur est 
+          <lb ed="#Pa"/>impossibile in motis et moventibus quae dicuntur 
+          <lb ed="#Pa"/>univoce.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>In aliis autem sicut in intellectu et vo<lb ed="#Pa"/>luntate 
+          bene potest idem movere se et esse in po<lb ed="#Pa"/>tentia 
+          et in actu modo iam exposito et etiam in cor<lb ed="#Pa"/>poribus 
+          nonnullis in actionibus aequivocis si 
+          <lb ed="#Pa"/>sicut aqua potest seipsam frigefacere et colorem 
+          <lb ed="#Pa"/>inductum in ipsa expellere vel corrumpere.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex 
+          <lb ed="#Pa"/>quo patet quod voluntas causando in seipsa volitio<lb ed="#Pa"/>nem 
+          vel disectionem sui active se haberet et etiam 
+          <lb ed="#Pa"/>passive respectu illius dilectionis eodem modo 
+          <lb ed="#Pa"/>est de intellectu respectu suae intellectionis
+        </p>
+        <p>
+          <!-- no pilcrow -->Item 
+          <lb ed="#Pa"/>ignis naturaliter determinat sibi caliditatem et 
+          <lb ed="#Pa"/>aqua frigiditatem igitur non solum passive se habent 
+          <lb ed="#Pa"/>respectu istarum qualitatum sed etiam active quia 
+          <lb ed="#Pa"/>potentia praecise respectu alicuius actus vel formae 
+          <pb ed="#Pa" n="24-v"/>
+          <lb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>est potentia contradictionis ex non <title ref="#Metaphysics">metaphisicae</title>.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item angelus potest se movere localiter et si<lb ed="#Pa"/>militer 
+          anima separata ut patet ex creditis in theologia 
+          <lb ed="#Pa"/>et etiam gravitas separata ut patet in sacramento 
+          <lb ed="#Pa"/>altaris.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item gravia et levia moventur a seipsis 
+          <lb ed="#Pa"/>ut patet nec valet dicere quod grave movetur ratio<lb ed="#Pa"/>ne 
+          formae et movetur ratione materiae et ita idem 
+          <lb ed="#Pa"/>secundum idem non movet et movetur quia mate<lb ed="#Pa"/>ria 
+          non potest poni ratio quare leve moveatur sur<lb ed="#Pa"/>sum 
+          <lb ed="#Pa"/>vel grave deorsum quam econtra magis quia ea<lb ed="#Pa"/>dem 
+          materia qua nunc est gravis postea potest esse 
+          <lb ed="#Pa"/>materia levis et econtra et in istis plus est creden<lb ed="#Pa"/>dum 
+          theologis quam <name ref="#Aristotle">aristoteli</name>.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <name ref="#Augustine">augustinus</name> in 
+          <lb ed="#Pa"/>multis locis libro <title ref="#deTrinitate">de trinitate</title> dicit quod intellectus 
+          <lb ed="#Pa"/>habens habitum scientiae est memoria perfecta et 
+          <lb ed="#Pa"/>parens respectu notitiae genitae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra omne 
+          <lb ed="#Pa"/>quod movetur <sic>movetur</sic> alio <ref>septimo <title ref="#Physics">phisicorum</title></ref> 
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item si aliquid moveret seipsum maxime esset 
+          <lb ed="#Pa"/>verum in animalibus falsitas probatur quia illa 
+          <lb ed="#Pa"/>dividuntur in duo quorum unum est per se movens et non 
+          <lb ed="#Pa"/>movetur nisi per accidens et aliud per se motum 
+          <lb ed="#Pa"/>et non movet nisi per accidens. probatur gravia et 
+          <lb ed="#Pa"/>levia non moventur a se ut patet <ref>8 <name ref="#Physics">phisicorum</name></ref> quia 
+          <lb ed="#Pa"/>hoc est proprium animatorum ut ibidem dicitur 
+          <lb ed="#Pa"/>igitur eadem ratione docens doceretur a seipso.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item <ref>9 <title ref="#Metaphysics">metaphysicae</title></ref> dicitur quod potentia activa 
+          <lb ed="#Pa"/>est principium transmutationis et transmutandi 
+          <lb ed="#Pa"/>alterum inquantum alterum igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum 
+          <lb ed="#Pa"/>concedo quod omne quod movetur movetur ab alio 
+          <lb ed="#Pa"/>ad actum primum id est ad formam et quaedam etima mo<lb ed="#Pa"/>ventur 
+          ab alio ad actum sed sicut quae moventur ab extrin<lb ed="#Pa"/>seco 
+          ut proiecta etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tamen secundum theologiam 
+          <lb ed="#Pa"/>omne quod movetur ab alio movetur scilicet a deo qui 
+          <lb ed="#Pa"/>est immobilis et ita patet quomodo voluntas mo<lb ed="#Pa"/>etur 
+          et actualiter a deo principaliter et cum hoc 
+          <lb ed="#Pa"/>etiam primo movetur ab obiecto vel a cognitione 
+          <lb ed="#Pa"/>qui se eundum aliquos conprincipiat actum liberum se<lb ed="#Pa"/>cundum 
+          alios solum dispositive praerequiritur ad 
+          <lb ed="#Pa"/>actum liberum tamen voluntas dicitur movere seipsam 
+          <lb ed="#Pa"/>quia supposito dei concursu et actione consueta ipsa 
+          <lb ed="#Pa"/>est agens principale in cuius potestate est talem 
+          <lb ed="#Pa"/>actum producere in se non obstantibus actionibus 
+          <lb ed="#Pa"/>aliorum agentium creatorum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum de mo<lb ed="#Pa"/>tione 
+          animalium probabiliter nec ita vere quin po<lb ed="#Pa"/>tius 
+          virtus motiva movere potest primo seipsam 
+          <lb ed="#Pa"/>prout melius notum est theologis de angelorum mo<lb ed="#Pa"/>tibus 
+          et animae separatae de motu gravium et levi<lb ed="#Pa"/>um 
+          dicendum quod movent seipsa licet non ad actum pri<lb ed="#Pa"/>mum 
+          ad quam moventur a generante et etiam ad gra<lb ed="#Pa"/>vitatem 
+          et levitatem quae sequuntur formas substan<lb ed="#Pa"/>tiales 
+          concedendum est tamen secundum quod moventur ab 
+          <lb ed="#Pa"/>aliquo active immediate scilicet a gravitate et levi<lb ed="#Pa"/>tate 
+          ille movent seipsas et moventur etiam separa<lb ed="#Pa"/>ta 
+          substantiis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item secundo conceditur quod quando sunt ex<lb ed="#Pa"/>tra 
+          loca sua impedita non possunt a seipsis remo<lb ed="#Pa"/>vere 
+          impedimentum a ponere se in dispositione tali quod 
+          <lb ed="#Pa"/>moveant se ad loca sua nec etiam possunt sistere mo<lb ed="#Pa"/>tus 
+          suos antequam veniant ad loca sua nec movere se 
+          <lb ed="#Pa"/>ad omnem differentiam positionis vel ad multas et ista 
+          <lb ed="#Pa"/>possunt animalia igitur quod ad tales tres condi<lb ed="#Pa"/>tiones 
+          dicit <name ref="#Aristotle">aristoteles</name> quod gravia et levia non momven<lb ed="#Pa"/>tur 
+          ex se sed hoc est proprium animatorum saltem 
+          <lb ed="#Pa"/>quorumdam scilicet animalium.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item cum <name ref="#Aristotle">philosophus</name> di<lb ed="#Pa"/>cit 
+          ibidem quod grave non dividitur in partem per se mo<lb ed="#Pa"/>ventem 
+          et in partem per se motam sicut animal.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respon<lb ed="#Pa"/>detur 
+          quod licet <name ref="#Aristotle">philosophus</name> diceret quod gravitas non movet se 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>ipsum nisi per accidens sicut nec anima in anima<lb ed="#Pa"/>li. 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Dico tamen quod gravitas primo movet seipsam 
+          <lb ed="#Pa"/>per concomitantiam vero subiectum suum etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex his 
+          <lb ed="#Pa"/>patet quod homo voluntas intellectus et gravia etc 
+          <lb ed="#Pa"/>moventur a se et movent se ad actus suos et cum 
+          <lb ed="#Pa"/>hoc stat quod moverentur ab alio non solum intrinseco 
+          <lb ed="#Pa"/>ut patet in gravibus animalibus sed etiam ab ex<lb ed="#Pa"/>trinseco 
+          sicut voluntas moveretur a deo ad cogni<lb ed="#Pa"/>tionem 
+          et amorem etc. ut patet ex dictis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad illud 
+          <lb ed="#Pa"/>de docente quicquid sit de consequente negatur con<lb ed="#Pa"/>sequentia 
+          quia scientia est tamquam actus primus do<lb ed="#Pa"/>centis 
+          inquantum est docens sed nihil movet seipsum 
+          <lb ed="#Pa"/>ad actum primum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad ultimum dicitur quod illa 
+          <lb ed="#Pa"/>auctoritas intelligenda est de potentia factiva cu<lb ed="#Pa"/>ius 
+          scilicet effectus recipitur in obiecto extrinseco 
+          <lb ed="#Pa"/>non de activa communiter dicta.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium prin<lb ed="#Pa"/>cipale 
+          dicitur quod voluntas in alia voluntate non po<lb ed="#Pa"/>test 
+          agere volitionem nisi permotum obiecti sed sup<lb ed="#Pa"/>plere 
+          efficaciam principii vitalis respectu alteri<lb ed="#Pa"/>us 
+          principii vitalis similis quomodo causat in se 
+          <lb ed="#Pa"/>actum vitalem non per modum obiecti sed per mo<lb ed="#Pa"/>dum 
+          intellectus eet voluntatis et sensus non potest 
+          <lb ed="#Pa"/>nisi solus deus alioquin hoc posset voluntas face<lb ed="#Pa"/>re 
+          in alia voluntate illa non cognoscente quia co<lb ed="#Pa"/>gnitio 
+          non disponit eam ad receptionem volitionis 
+          <lb ed="#Pa"/>ab alio sed ad actionem suae volitionis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc 
+          <lb ed="#Pa"/>si voluntas una active conprincipiet suam beatitu<lb ed="#Pa"/>dinem 
+          posset in alia voluntate consimilem be<lb ed="#Pa"/>atitudinem 
+          comprincipiare et per consequens 
+          <lb ed="#Pa"/>eam active beatificare consequens non est dan<lb ed="#Pa"/>dum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item angelus cadens potuisset alium ne<lb ed="#Pa"/>cessitasse 
+          ad odium dei et sic <unclear>euam</unclear> <c>a</c> voluntas pos<lb ed="#Pa"/>set 
+          facere <c>b</c> velle se non esse vel velle se esse summe mi<lb ed="#Pa"/>serum 
+          vel nolle se esse beatum <pc type="virgula">/</pc> quia haec omnia a posset 
+          <lb ed="#Pa"/>velle de <c>b</c> si igitur potest consimiles actus causa<lb ed="#Pa"/>re 
+          in <c>b</c> sequitur propositum. maior igitur <name ref="#Scotus">scoti</name> con<lb ed="#Pa"/>cedit 
+          potest de actionibus transeuntibus cuiusmo<lb ed="#Pa"/>di 
+          sunt aedificare calefacere etc non autem de actio<lb ed="#Pa"/>nibus 
+          immanentibus cuiusmodi sunt visio intelle<lb ed="#Pa"/>ctio 
+          gaudium tristitia et huiusmodi <pc type="virgula">/</pc> quia nullum ens prin<lb ed="#Pa"/>cipiare 
+          potest per modum principii distincti contra 
+          <lb ed="#Pa"/>modum principiandi obiecti aliquem actum vitalem 
+          <lb ed="#Pa"/>in alio principio vitali nisi deus qui simpliciter omnem 
+          <lb ed="#Pa"/>efficientiam supplere potest et quicquid potest medi<lb ed="#Pa"/>ante 
+          causa secunda potest sine ea sicut articulus qui<lb ed="#Pa"/>dam 
+          parisiensis docet.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quartum dicitur quod non est in<lb ed="#Pa"/>conveniens 
+          concedere consequens de causa natura<lb ed="#Pa"/>li 
+          partiali concurrente tamen cum ea causa libera
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad quintum dicitur negando consequentiam sed 
+          <lb ed="#Pa"/>bene sequitur quod ad crementum notitiae ut in pluri<lb ed="#Pa"/>bus 
+          crescit amor ceteris paribus quamvis volun<lb ed="#Pa"/>tas 
+          libere possit sistere se quod non intensius amet et 
+          <lb ed="#Pa"/>ex hoc etiam patet quod nullus gradus amoris ascri<lb ed="#Pa"/>bi 
+          potest soli notitiae etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

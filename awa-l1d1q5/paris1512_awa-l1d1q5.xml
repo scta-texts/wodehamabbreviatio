@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 5 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 5</title>
+          <date when="2017-01-27">January 27, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-01-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="15-v"/><cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q5">
+        <head>Librum I, Distinctio 1, Quaestio 5 [Paris 1512 Transcription]</head>
+        <head type="questionTitle">Utrum sit fruitio quaeritur in generali; utrum omnis delectatio vel tristitia sit dilectio vel odium seu volitio aut nolitio</head>
+        <p>
+          <lb ed="#Pa"/>Viso de delectatione bea<lb ed="#Pa"/>tifica. 
+          Utrum omnis delectatio vel tristi<lb ed="#Pa"/>tia 
+          sit dilectio vel odium seu volitio aut 
+          <lb ed="#Pa"/>nolitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et potest argui pro et contra sicut in praece<lb ed="#Pa"/>denti 
+          quaestione.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Prima conclusio omnis delectatio 
+          <lb ed="#Pa"/>voluntatis vel tristitia voluntatis est velle vel nol<lb ed="#Pa"/>le 
+          probatur quia non sunt plures actus vitales 
+          <lb ed="#Pa"/>appetitivi in voluntate etiam quia omnis actus 
+          <lb ed="#Pa"/>complacentiae vel displicentiae volitive est velle vel 
+          <lb ed="#Pa"/>nolle igitur etc.
+        </p>
+        <p>
+          Item quia non minus una delectatio 
+          <lb ed="#Pa"/>volitiva est volitio quam alia sed delectatio beatifica 
+          <lb ed="#Pa"/>ex primo articulo praecedentis quaestionis est dilectio igitur. 
+          <lb ed="#Pa"/>Ex quo patet quod omnis delectatio vel tristitia sen<lb ed="#Pa"/>sitiva 
+          est quoddam appetere vel non appetere con<lb ed="#Pa"/>trariae 
+          scilicet appetitive fugere quia sic est de hoc a parte 
+          <lb ed="#Pa"/>appetitus sensitivi sicut a parte appetitus intelle<lb ed="#Pa"/>ctivi 
+          igitur etc.
+        </p>
+        <!-- dubium 1 -->
+        <!-- question title: "utrum econtra omnis amor vel odium sit delectatio vel tristitia -->
+        <p>
+          <pc ana="#pilcrow"/>Primum dubium utrum econtra 
+          <lb ed="#Pa"/>omnis amor vel odium sit delectatio vel tristitia 
+          <lb ed="#Pa"/>hic tenetur concorditer quod non <pc type="virgula">/</pc> et hoc arguit <name ref="#Aureoli">petrus 
+          <lb ed="#Pa"/>aureolus</name> quia aliquis est amor nota delectationis 
+          <lb ed="#Pa"/>sed desiderii respectu non habiti <pc type="virgula">/</pc> igitur bene ponun<lb ed="#Pa"/>tur 
+          ista quattuor scilicet velle desiderii et velle delecta<lb ed="#Pa"/>tionis 
+          et nolle fuge et nolle tristitiae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Quamvis ista 
+          <lb ed="#Pa"/>conclusio forte sit vera tamen medium non videtur suffi<lb ed="#Pa"/>ciens 
+          quia stat in hoc quod amore desiderii non est delecta<lb ed="#Pa"/>tio 
+          nec tristitia cuius oppositum innuit <ref><name ref="#Averroes">commentator</name> 12 
+          <lb ed="#Pa"/><title>metaphysica</title> commento 39</ref> dicit quasi in principio commenti 
+          <lb ed="#Pa"/>quod desiderium tale magis est dolor quam voluptas non 
+          <lb ed="#Pa"/>igitur initendum est huic medio sed posterius tan<lb ed="#Pa"/>gendo.
+        </p>
+        <!-- dubium 2 -->
+        <!-- utrum omnis amore distinctus contra amorem desiderii sit delectatio et omne odium distinctum contra nolle fuge et resilitionis sit tristitia. -->
+        <p>
+          Secundum dubium utrum omnis amore distin<lb ed="#Pa"/>ctus 
+          contra amorem desiderii sit delectatio et om<lb ed="#Pa"/>ne 
+          odium distinctum contra nolle fuge et resilitio<lb ed="#Pa"/>nis 
+          sit tristitia.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et videtur quod sic nam appetitus 
+          <lb ed="#Pa"/>naturalis non habet nisi duos actus positivos. 
+          <lb ed="#Pa"/>scilicet moveri in finem et quiescere in ipso ut pa<lb ed="#Pa"/>tet 
+          de gravitate respectu centri et duos privati<lb ed="#Pa"/>vos 
+          scilicet fugere ab opposito et inquietari dum est in 
+          <lb ed="#Pa"/>ipso igitur a simili appetitus sensitivus irratio<lb ed="#Pa"/>nalis 
+          similiter et rationalis non habet nisi quat<lb ed="#Pa"/>tuor 
+          actus duos positivos quorum unus est mo<lb ed="#Pa"/>veri 
+          ad finem scilicet desiderium et prosecutio.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Secundus quiescere in fine vel obiectum scilicet 
+          <lb ed="#Pa"/>delectari et duos privativos quorum primus cor<lb ed="#Pa"/>respondet 
+          fuge et resilitioni scilicet abhominatio 
+          <lb ed="#Pa"/>seu detestatio secundus inquietationi scilicet displicen<cb ed="#Pa"/><lb ed="#Pa"/>tia 
+          et contristatio <pc type="virgula">/</pc> dices quod non eest usquequam simile quia 
+          <lb ed="#Pa"/>in naturalibus est gravitas vel levitas quae prin<lb ed="#Pa"/>cipiant 
+          istos actus et in se non sunt actus sed in ap<lb ed="#Pa"/>petitu 
+          animali et rationali est loco gravitatis et 
+          <lb ed="#Pa"/>levitatis ipse amor pondus inclinans in deside<lb ed="#Pa"/>rium 
+          vel delectationem. Iuxta illud <name ref="#Augustine">augustini</name> 
+          <lb ed="#Pa"/>amor mens pondus meum etc. etiam praeter actus 
+          <lb ed="#Pa"/>correspondentes formae quae est principium talium 
+          <lb ed="#Pa"/>in naturalibus igitur etc. non est simile sed hoc non 
+          <lb ed="#Pa"/>valet quia amore iste ex quo oritur desiderium est 
+          <lb ed="#Pa"/>delectatio quaedam de obiecto apprehensio igitur 
+          <lb ed="#Pa"/>amor incitans desiderium non est alius actus a de<lb ed="#Pa"/>lectari. 
+          Antecedens patet quia memoria et yma<lb ed="#Pa"/>ginatio 
+          delectabilium sunt delectationes ut dicit 
+          <lb ed="#Pa"/>philosophus in rethorica. Ex hoc autem quod homo delecta<lb ed="#Pa"/>tur 
+          et complacet in obiecto apprehenso incipit de<lb ed="#Pa"/>siderare 
+          realem eius praesentiam. Et ex hoc con<lb ed="#Pa"/>firmatur 
+          prima ratio quai si aliquis amore esset 
+          <lb ed="#Pa"/>alius a desiderio et delectatione esset iste amor qui 
+          <lb ed="#Pa"/>incitat desiderium et facit prosequi ut habeatur 
+          <lb ed="#Pa"/>desideratum sed ille non est alius actus quam delecta<lb ed="#Pa"/>ri 
+          et complacere in obiecto et conditionibus eius 
+          ut ex terminis patet idem enim est dictu tale quid 
+          <lb ed="#Pa"/>amo et tale quid est complacens mihi vel delecta<lb ed="#Pa"/>bile 
+          igitur amor praeveniens desiderium est dele<lb ed="#Pa"/>ctatio 
+          cum hoc non principialiter habetur quod 
+          <lb ed="#Pa"/>desideretur igitur videtur quod omnis amore vel est 
+          <lb ed="#Pa"/>desiderium vel delectatio de obiecto apprehenso 
+          <lb ed="#Pa"/>desiderium praeveniens vel delectatio de obiecto 
+          <lb ed="#Pa"/>praesente desiderium.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item omnis amor est amor 
+          <lb ed="#Pa"/>amicitiae vel concupiscentiae sed uterque amore subdi<lb ed="#Pa"/>viditur 
+          in delectationem seu amorem delectatio<lb ed="#Pa"/>nis 
+          praevenientem desiderium et in subsequentem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item omnis amor vel est desiderium vel compla<lb ed="#Pa"/>centia 
+          sed omnis complacentia est delectatio pa<lb ed="#Pa"/>tet 
+          ex terminis nam idem est obiecetum placibilis 
+          <lb ed="#Pa"/>est mihi et delectabilis eest mihi delector in te et com<lb ed="#Pa"/>placet 
+          mihi in te.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <ref><name ref="#Augustine">augustinus</name> 14 <title ref="#CityOfGod">de civi<lb ed="#Pa"/>tate 
+          dei</title> capitulo septimo</ref> dicit quod amor <unclear>inh?ians</unclear> id est 
+          <lb ed="#Pa"/>desiderans habere illud quod amatur cupiditas est amor 
+          <lb ed="#Pa"/>aut habens illud quod amatur eo quod fruens laeti<lb ed="#Pa"/>tia 
+          est sive delectatio. Amor vero fugiens quicquid 
+          <lb ed="#Pa"/>ei adversatur timore est accipit ut deducitur timo<lb ed="#Pa"/>rem 
+          pro abhominatione et fuga quae opponitur 
+          <lb ed="#Pa"/>desiderio sequitur idque si acciderit sentiens tristi<lb ed="#Pa"/>tia 
+          est haec <name ref="#Augustine">augustinus</name>.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex quo patet quod eius in<lb ed="#Pa"/>tentio 
+          fuit dividere odium in fugam et tristitiam 
+          <lb ed="#Pa"/>et amorem in delectationem et desiderium licet 
+          <lb ed="#Pa"/>duplex sit delectatio scilicet praeveniens desideri<lb ed="#Pa"/>um 
+          et sequens. Et istam conclusionem concedit 
+          <lb ed="#Pa"/><name ref="#Aureoli">Petrus aureolus</name> et eest pulchra conclusio et pro<lb ed="#Pa"/>babilis 
+          et argumenta in contrarium pro maiori 
+          <lb ed="#Pa"/>parte sufficienter solvuntur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Mihi tamen vide<lb ed="#Pa"/>tur 
+          quod sua contradictoria est vera scilicet quod aliqua 
+          <lb ed="#Pa"/>sit dilectio quae nec sit desiderium nec delectatio 
+          <lb ed="#Pa"/>propria. Et primo arguo sic quia damnati aliquam 
+          <lb ed="#Pa"/>habent dilectionem et habebunt post iudicium 
+          <lb ed="#Pa"/>quia maxime diligunt seipsos secundum <ref><name ref="#Augustine">augusti<lb ed="#Pa"/>num</name> 
+          14 <title ref="#CityOfGod">de civitate dei</title> capitulo 26</ref> et tamen ex 
+          <lb ed="#Pa"/>tunc nullam habebunt delectationem ut tenent 
+          <lb ed="#Pa"/>communiter magistri.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item volunt alios secum 
+          <lb ed="#Pa"/>puniri et tamen ista volitio non est eis delecta<lb ed="#Pa"/>tio.
+        </p>
+        <p>
+          <!-- no pilcrow -->Item daemonibus placet quod homo peccat et 
+          <lb ed="#Pa"/>tamen non delectantur nec illud velle est velle de<lb ed="#Pa"/>siderii 
+          cum sit respectu praesentis igitur etc.
+        </p>
+        <p>
+          Item <ref>se<lb ed="#Pa"/>ptimo 
+          <title ref="#Ethics">ethicorum</title> capitulo ultimo</ref> tristitia vehemens 
+          <pb ed="#Pa" n="16-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>expellit delectationem non solum oppositam sed 
+          <lb ed="#Pa"/>contingentem sed damnatus summe tristatur igi<lb ed="#Pa"/>tur 
+          de nullo delectatur.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item fortis summe di<lb ed="#Pa"/>ligit 
+          actum fortitudinis et pericula mortis et ta<lb ed="#Pa"/>men 
+          nihil vel modium in tali actu delectatur ut 
+          <lb ed="#Pa"/>patet <ref>tertio <title ref="#Ethics">ethicorum</title></ref>.
+        </p>
+        <p>
+          Item aliqui devoti fer<lb ed="#Pa"/>ventius 
+          diligunt et minus delectantur ymo dolent 
+          <lb ed="#Pa"/>quod non habent suavitatem delectationis sicut ali<lb ed="#Pa"/>as 
+          habent quando minus intense diligunt Respondet 
+          <lb ed="#Pa"/><name ref="#Aureoli">petrus aureolus</name> quod devotus sume diligens deum summe 
+          <lb ed="#Pa"/>complacet sibi in eo et ita negare videtur assum<lb ed="#Pa"/>ptum 
+          Et probabiliter potest teneri opinio <name ref="#Aureoli">petri aureoli</name> ymo 
+          <lb ed="#Pa"/>quod plus est concedi potest quod omnis amor vel dilectio 
+          <lb ed="#Pa"/>sit delectatio etiam illa quae est desiderii quia omnis 
+          <lb ed="#Pa"/>dilectio est latio appetitus in obiectum sibi conveniens 
+          <lb ed="#Pa"/>vel complacens vel coniunctio cum eodem igitur est 
+          <lb ed="#Pa"/>complacentia et etiam delectatio quam conceditur in 
+          <lb ed="#Pa"/>damnatis quamvis ibi non sit perceptibilis suavitas 
+          <lb ed="#Pa"/>vel perceptio commodi quae sit mitigativa pene in temporis 
+          <lb ed="#Pa"/>Et ita videtur <name ref="#Wodeham">adam</name> accipere delectationem.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad <name ref="#Aristotle">aristotelem</name> dico quod non repugnat suis dictis 
+          <lb ed="#Pa"/>quin in forti vel alio virtuoso stet vehemens tri<lb ed="#Pa"/>stitia 
+          sensualis cum magna delectatione intelle<lb ed="#Pa"/>ctuali 
+          tam respectu obiecti principalis dilecti quam 
+          <lb ed="#Pa"/>respectu actuum virtuosorum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed contra adhuc ar<lb ed="#Pa"/>guit 
+          <name ref="#Wodeham">adam</name> non omne odium est fuga vel tristitia igi<lb ed="#Pa"/>tur 
+          nec omnis amor erit desiderium vel delectatio 
+          <lb ed="#Pa"/>consequentia patet quia distincto odio opponitur di<lb ed="#Pa"/>stinctus 
+          amor antecedens patet quia deus odit iniquita<lb ed="#Pa"/>tem 
+          et etiam beati absque tristitia. Respondet <name ref="#Aureoli">petrus</name> 
+          sic quia sicut deus et sancti odiunt malum 
+          <lb ed="#Pa"/>sic est eis malum displicibile et tristabile non acci<lb ed="#Pa"/>piendo 
+          tristitiam pro actione concupiscentiae quam 
+          <lb ed="#Pa"/>facit praesens malum sed pro sola displicentia Sed <name ref="#Wodeham">adam</name> 
+          <lb ed="#Pa"/>dicit quod illa non est tristitia ad intellectum communem igitur 
+          <lb ed="#Pa"/>Respondet aliter <name ref="#Aureoli">petrus</name> quod nec deus nec beati odiunt 
+          <lb ed="#Pa"/>iniquitatem nisi negative quia non placet quod aut 
+          <lb ed="#Pa"/><unclear>accirentur</unclear> positive et eis malum displiceat nullo 
+          <lb ed="#Pa"/>modo conceditur utraque solutio <name ref="#Aureoli">petri</name> teneri potest. 
+        </p>
+        <p>
+          Ex dictis infert <name ref="#Wodeham">adam</name> quod non omnis fruitio est dele<lb ed="#Pa"/>ctatio 
+          quia damnatus fruitur se nec tamen dele<lb ed="#Pa"/>ctatur 
+          de se. Sed dubitatur prius enim dictum est quod 
+          <lb ed="#Pa"/>dilectio est apprehensio illorum quorum apprehensio 
+          <lb ed="#Pa"/>necessario praesupponitur ad ipsam necessario cau<lb ed="#Pa"/>sandam 
+          sed dei notitia qua cognoscitur in via est 
+          <lb ed="#Pa"/>appraehensio omnium entium quia partes totales conce<lb ed="#Pa"/>ptus 
+          dei natualiter significant omnia entia licet 
+          <lb ed="#Pa"/>totalis sit proprius dei in praedicando prout concedit <name ref="#Wodeham">a<lb ed="#Pa"/>dam</name> 
+          igitur dilectio qua deus diligitur in via praesup<lb ed="#Pa"/>ponens 
+          talem notitiam ita quod aliter naturaliter 
+          <lb ed="#Pa"/>causari non posset esset cognitio et dilectio omnium quod 
+          <lb ed="#Pa"/>videtur inconveniens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item delectatio devotorum 
+          <lb ed="#Pa"/>causatur ab anima et cognitione et dilectione quae 
+          <lb ed="#Pa"/>non est delectatio ut tu concedis igitur siista sint 
+          <lb ed="#Pa"/>intensiora ista suavitas erit maior.
+        </p>
+        <p>
+          Item si aliqua 
+          <lb ed="#Pa"/>dilectio dei in via non est delectatio quare igitur 
+          <lb ed="#Pa"/>similiter erit in patria
+        </p>
+        <p>
+          Item quare una dilectio est magis dele<lb ed="#Pa"/>ctatio 
+          quam alia vel quare magis dilectio unius obiecti quam alterius
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad primum conceditur quod talis dilectio est cognitio 
+          <lb ed="#Pa"/>omnium tamen est solius dei dilectio sicut unicus 
+          <lb ed="#Pa"/>actus diligendi potest esse fruitio dei et usus crea<lb ed="#Pa"/>turae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum dicitur quod talis suavitas potest 
+          <lb ed="#Pa"/>causari immediate a deo vel si causetur natura<lb ed="#Pa"/>liter 
+          tunc existente contemplatione tranquilla maio<lb ed="#Pa"/>ri 
+          dilectioni correspondet maior suavitas.
+        </p>
+        <p>Quan<lb ed="#Pa"/>doque 
+          autem passiones talem suavitatem impediunt etiam 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>quandoque talis delectatio est reflexa habens actus 
+          <lb ed="#Pa"/>rectos pro obiecto et tunc non est mirum quod non habet 
+          <lb ed="#Pa"/>se conformiter dilectioni quae est actus rectus respe<lb ed="#Pa"/>ctu 
+          obiecti principalis scilicet dei.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed diceres 
+          <lb ed="#Pa"/>talis delectatio reflexa est volitio igitur est apprehen<lb ed="#Pa"/>sio 
+          istorum sine quorum apprehensione praevia non posset 
+          <lb ed="#Pa"/>naturaliter causari igitur est apprehensio dei igitur 
+          <lb ed="#Pa"/>erit delectatio de deo et non tantum de creatura vel 
+          <lb ed="#Pa"/>de actibus. Respondetur concedendo quod ista dele<lb ed="#Pa"/>ctatio 
+          est apprehensio sine quorum apprhensione prae<lb ed="#Pa"/>via 
+          etc. Apprehensio autem praevia est illa qua quis ap<lb ed="#Pa"/>prehendit 
+          et sentit se videre vel diligere deum quod
+          <lb ed="#Pa"/>utique posset fieri de potentia dei absoluta absque hoc 
+          <lb ed="#Pa"/>quod videret deum et tunc talis appraehensio vel assen<lb ed="#Pa"/>sus 
+          naturaliter cum anima posset principiare dilectio<lb ed="#Pa"/>nem 
+          cuius obiectum esset se videre deum et licet 
+          <lb ed="#Pa"/>ista delectatio esset apprehnsio dei saltem imper<lb ed="#Pa"/>fecta 
+          non tamen esset delectatio de deo sed de viso<lb ed="#Pa"/>ne 
+          et de se ipso cui concupiscibiliter diligit illam vi<lb ed="#Pa"/>sionem 
+          sicut ille qui gaudet de hoc quod percipit se sci<lb ed="#Pa"/>re 
+          triangulum habere tres vel de hoc quod per<lb ed="#Pa"/>cipit 
+          se praevidere malum sibi imminens non utique 
+          <lb ed="#Pa"/>gaudens de eo quod est sed de eo quod scit et tamen illud 
+          <lb ed="#Pa"/>gaudium est appraehensio quod malum sibi imminet vel quod 
+          <lb ed="#Pa"/>triangulus habet tres et ideo non sequitur hoc gau<lb ed="#Pa"/>dium 
+          est appraehensio huius igitur est gaudium de 
+          <lb ed="#Pa"/>hoc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium dicitur quod etiam aliqua dilectio 
+          <lb ed="#Pa"/>in prima non est delectatio tamen potest dici quod om<lb ed="#Pa"/>nis 
+          dilectio correspondens simplici visioni dei in 
+          <lb ed="#Pa"/>se vel abstractive proprie dei et sumpti causabi<lb ed="#Pa"/>li 
+          per intuitivam propriam esset delectatio quaedam.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad quartum respondetur quod una dilectio est ma<lb ed="#Pa"/>gis 
+          conveniens potentiae quam altera et similiter unum 
+          <lb ed="#Pa"/>obiectum convenientius quam aliud. Sciendum ta<lb ed="#Pa"/>men 
+          quod nullus ordinate gaudet de visionem si prin<lb ed="#Pa"/>cipalius 
+          gaudeat de deo nec aliquis gaudet de hoc 
+          <lb ed="#Pa"/>quod percipit se scire triangulum habere tres angu<lb ed="#Pa"/>los 
+          nisi principalius gaudeat de existentia rei sci<lb ed="#Pa"/>tae 
+          scilicet trianguli et si secunda esset causa prima suae scientiae si<lb ed="#Pa"/>steret 
+          ibi sed quia non est ideo refert gaudium in deum 
+          <lb ed="#Pa"/>actualiter vel habitualiter ex tali igitur connexio<lb ed="#Pa"/>ne 
+          in ordine creaturarum magnificat creatorem in quo princi<lb ed="#Pa"/>palissime 
+          gaudet si gaudium est ordinatum similiter facit ille 
+          <lb ed="#Pa"/>qui percipit se praevidere malum sibi imminens qui 
+          <lb ed="#Pa"/>et de malo sibi imminenti gaudet non sub radice 
+          <lb ed="#Pa"/>mali sed prout ordinatum est ad sui probationem vel 
+          <lb ed="#Pa"/>ad sui provisionem per quam cognoscit dei bene<lb ed="#Pa"/>ficium 
+          qui custodit eum a malo et iterum totum 
+          <lb ed="#Pa"/>gaudium principalissime ordinatur in deum. 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primam rationem <name ref="#Aureoli">aureoli</name> respondet quod amore incitans 
+          <lb ed="#Pa"/>desiderium non est delectatio nec complacentia et 
+          <lb ed="#Pa"/>delectatio sunt idem ymo quandoque desiderium ori<lb ed="#Pa"/>tur 
+          non ex amore sed ex odio cuiusmodi est deside<lb ed="#Pa"/>rium 
+          vindictae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum dicitur quod compla<lb ed="#Pa"/>cere 
+          potest accipi pro omni velle respectu habiti 
+          <lb ed="#Pa"/>et sic non omne complacens delctat vel pro dele<lb ed="#Pa"/>ctari 
+          et tunc non omne amarum complacet.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 
+          <lb ed="#Pa"/>tertium negatur quod omnis amor amicitiae vel con<lb ed="#Pa"/>cupiscentiae 
+          distinctus a desiderio sit delectatio.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad quartum dicitur de complacentia sicut in se<lb ed="#Pa"/>cundo 
+          argumento et uno modo accipiendo quaedam 
+          <lb ed="#Pa"/>est delectatio et quaedam non Aliomodo aliquis a<lb ed="#Pa"/>mor 
+          est complacentia et aliquis non.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quintum 
+          <lb ed="#Pa"/>dicitur quod illa auctoritas sed sufficienter dividit amo<lb ed="#Pa"/>rem 
+          sed sufficit ad propositum suum quod voluit ostende<lb ed="#Pa"/>re 
+          contra quosdam dicentes nomen amoris semper su<pb ed="#Pa" n="16-v"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>mi 
+          in malo contra quod dividit amorem quadru<lb ed="#Pa"/>pliciter 
+          modo praedicto et cum processit in improba<lb ed="#Pa"/>tione 
+          illius opinionis secundum consuetudinem lo<lb ed="#Pa"/>quendi 
+          scripturae et intulisset recta itaque voluntas 
+          <lb ed="#Pa"/>est bonus amor et voluntas perversa malus amor 
+          <lb ed="#Pa"/>Et deinde divisit amorem isto modo addidit simul 
+          <lb ed="#Pa"/>ista nulla voluntas recta est mala sed voluntas re<lb ed="#Pa"/>cta 
+          est aliquis amor igitur non omnis amor est ma<lb ed="#Pa"/>lus 
+          quod sibi sufficit ostendere. Qualiter autem 
+          <lb ed="#Pa"/>aliter possit dici ad dictas rationes dicit <name ref="#Adam">adam</name> patet 
+          <lb ed="#Pa"/>ex dictis nec aliquod desiderium vindictae oritur ex 
+          <lb ed="#Pa"/>odio quin oriatur ex amore ad se ipsum et ad vin<lb ed="#Pa"/>dictam 
+          proximi licet talis amore sit quandoque inor<lb ed="#Pa"/>dinatus 
+          quandoque autem ordinatus cum est amor iu<lb ed="#Pa"/>stitiae 
+          sic etiam dicitur quod omnis complacentia est 
+          <lb ed="#Pa"/>delectatio et quod visio amoris quam ponit <name ref="#Augustine">augustinus</name> 
+          <lb ed="#Pa"/>est simpliciter sufficiens.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

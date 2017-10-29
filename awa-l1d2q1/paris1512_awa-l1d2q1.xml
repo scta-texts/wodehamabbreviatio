@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum 1, Distinctio 2, q. un. [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2011.06">
+          <title>Librum 1, Distinctio 2, q. un. [Paris 1512 Transcription]</title>
+          <date when="2015-12-31">December 31, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>LombardPress</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative
+            Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-12-31">December 31, 2015</date>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d2q1">
+        <head>Librum 1, Distinctio 2, q. un. [Paris 1512 Transcription]</head>
+        <div>
+          <head>Quaestio unica Utrum in entibus sit tantum unus Deus?</head>
+          <p xml:id="awal1d2q1-cdsetp"><lb ed="#Pa"/>Circa distinctionem 
+            <lb ed="#Pa"/>secundam quaero duo. primum 
+            <lb ed="#Pa"/>erit de unitate essentiali. se<lb ed="#Pa"/>cundum 
+            erit de trinitate perso<lb ed="#Pa"/>nali</p>
+          
+          <p xml:id="awal1d2q1-piqtud"><g ref="#pilcrow"/>Prima quaestio utrum 
+            <lb ed="#Pa"/>in entibus sit tantum unus 
+            <lb ed="#Pa"/>deus</p>
+          
+          <div>
+            <head>Rationes principales</head>
+            <!-- <p xml:id="awal1d2q1-evqvqn">Et videtur 
+              quod non.</p> -->
+            
+            <p xml:id="awal1d2q1-pqusud">quod non quia non potest demonstrari in entibus <mentioned>esse 
+              <lb ed="#Pa"/>deum</mentioned> quomodo igitur con<lb ed="#Pa"/>stabit 
+              quod tantum unus est deus. Assumptum patet 
+              <lb ed="#Pa"/>quia dicit insipiens in cor suo etc.</p>
+            
+            <p xml:id="awal1d2a1-iqpaee"><g ref="#pilcrow"/>Item vide<lb ed="#Pa"/>tur 
+              quod plures sint dii quia pater est deus et filius 
+              <lb ed="#Pa"/>est deus et iste deus demonstrato patre non est iste de<lb ed="#Pa"/>us 
+              demonstrato filio igitur est alius.</p> 
+            
+            <p xml:id="awal1d2a1-psnaed"><g ref="#pilcrow"/>Item si non 
+              <lb ed="#Pa"/>essent tres personae tres dii hoc esset propter uni<lb ed="#Pa"/>tatem 
+              deitates in personis sed haec unitas plurali<lb ed="#Pa"/>tatem 
+              deorum non excludit quia si unica humani<lb ed="#Pa"/>tas 
+              uniretur tribus personis tres personae essent 
+              tres homines et si tribus hominibus eadem scien<lb ed="#Pa"/>tia 
+              secundum numerum imprimentur esse tres scien<lb ed="#Pa"/>tes 
+              ab unica scientia igitur pari ratione tres dii 
+              ab eadem divinitate ex quo tria sunt supposita quo<lb ed="#Pa"/>rum 
+              quodlibet est deus.</p>
+            
+            <p xml:id="awal1d2q1-iqsisd"><g ref="#pilcrow"/>Item ea quibus maio<lb ed="#Pa"/>ra 
+              cogitari non possunt sunt in rebus et si sunt dii 
+              <lb ed="#Pa"/>igitur plures dii Maior pater per processum <ref corresp="#awal1d2q1-Qcqaiis"><name ref="#Anselm">ansel<lb ed="#Pa"/>mi</name> 
+                <sic>pro solutione <!-- probably a mistake and should be "proslogion" --></sic> capitulo secundi</ref> quia <quote xml:id="awal1d2q1-Qcqaiis">cum quis audit hoc 
+                  <lb ed="#Pa"/>quod dico quibus maiora cogitari non possunt in intel<lb ed="#Pa"/>lectu 
+                  sunt</quote> sed si essent in solo intellectu et non in re ex<lb ed="#Pa"/>tra 
+              maiora eis cogitari possent quia illa quae es<lb ed="#Pa"/>sent 
+              in re extra igitur ea quibus maiora cogitari 
+              non possent essent ea quibus maiora cogitari pos<lb ed="#Pa"/>sent 
+              consequens impossibile relinquitur igitur 
+              quod ea quibus maiora cogitari non possent sunt in 
+              re et per consequens sunt infinita non multitudi<lb ed="#Pa"/>ne 
+              sed perfectione igitur sunt dii</p>
+            
+            <p xml:id="awal1d2q1-pieqep"><g ref="#pilcrow"/>Per istum etiam 
+              <lb ed="#Pa"/>modum arguendi potest probari quod aliqua creatu<lb ed="#Pa"/>ra 
+              est infinita in perfectione et per consequens est 
+              <lb ed="#Pa"/>deus verba enim <name ref="#Anselm">anselmi</name> sunt ista sunt cum insipiens 
+              <lb ed="#Pa"/>audit hoc ipsum quod dico aliquid quo maius vel 
+              <lb ed="#Pa"/>cogitari potest intelligit quod audit et quod intelligit in 
+              <lb ed="#Pa"/>intellectu eius est. Etiam si non intelligat illud 
+              <lb ed="#Pa"/>esse. aliud est enim rem esse in intellectu esse aliud in<lb ed="#Pa"/>telligere 
+              rem esse Nam tunc pictor praecogitat quod 
+              futuris habet quid est in intellectu sed nondum 
+              <lb ed="#Pa"/>intelligit esse quod nondum fecit, etc igitur convinci<lb ed="#Pa"/>tur 
+              insipiens esse vel in intellectu aliquid quo vel 
+              maius cogitari potest quia hoc quod audit intelligit et 
+              <lb ed="#Pa"/>quicquid intelligit in intellectu est. Et certe illud 
+              <cb ed="#Pa" n="48ra"/>quo maius cogitari nequit. non potest esse in solo 
+              <lb ed="#Pa"/>intellectu. Si enim vel in solo intellectu est potest 
+              <lb ed="#Pa"/>cogitari esse in re quod maius est. Si igitur istud quo 
+              <lb ed="#Pa"/>maius nihil cogitari non potest esse in solo intellectu id ipsum 
+              <lb ed="#Pa"/>quo nihil maius cogitari non potest est id <unclear>quam</unclear> magis cogi<lb ed="#Pa"/>tari 
+              potest. Sed certe hoc esse non potest existit igitur procul 
+              <lb ed="#Pa"/>dubio aliquid quo nihil maius cogitari non valet et in 
+              <lb ed="#Pa"/>intellectu et in re ponatur in loco huius aliquid 
+              <lb ed="#Pa"/>quo maius cogitari non potest creatura qua maior 
+              <lb ed="#Pa"/>cogitari non potest et arguitur consimiliter et tunc ultra sic cre<lb ed="#Pa"/>atura 
+              ista non est finita igitur infinita.</p>
+          </div>
+          <div>
+            <head><supplied>Oppositum</supplied></head>
+            <p xml:id="awal1d2q1-aoeiud">Ad opposi<lb ed="#Pa"/>tum 
+              est illud <ref><title ref="#deut">deuteronomium</title> 6</ref> <quote>audi israel dominus deus tuus 
+                <lb ed="#Pa"/>unus est</quote> et in <title>symbolo</title> <quote>credo in unum deum.</quote></p>
+          </div>
+          <div>
+            <head><supplied>Divisio quaestionis</supplied></head>
+            
+            <p xml:id="awal1d2q1-iiqatq"><g ref="#pilcrow"/>In que<lb ed="#Pa"/>stione 
+              ista erunt duo articuli unus an possit proba<lb ed="#Pa"/>ri 
+              <mentioned>deum esse</mentioned> secundus ad titulum quaestionis.</p>
+          </div>
+          <div xml:id="awa-l1d1q1a1" type="articulus">
+            <head><mentioned>Primus Articulus: An possit probari Deum esse in entibus?</mentioned></head>
+            <p xml:id="awal1d2q1-cpasis"><g ref="#pilcrow"/>Circa 
+              <lb ed="#Pa"/>primum articulum proceditur probando quod sit aliquid 
+              <lb ed="#Pa"/>simpliciter primum in entibus</p>
+            
+            <div xml:id="awa-l1d1q1a1dub1">
+              <head><supplied>Primum Dubium: Utrum posset argui naturali ratione quod in entibus sit aliquod primum ens</supplied></head>
+              <div>
+                <head><supplied>Ratio <name>Scoti</name> ad probandum Deum esse</supplied></head>
+                <p xml:id="awal1d2q1-pdpeqq">Nam illud quodcum<lb ed="#Pa"/>que 
+                  fuerit supponitur esse deus et ratio melior quam ad hoc 
+                  <lb ed="#Pa"/>audivi est ista Ad hoc est <ref><name ref="#Scotus">scotus</name> libro primo distin<lb ed="#Pa"/>ctione 
+                  secunda quaestione 2</ref> et in <ref>tractatu de principio primo</ref> 
+                  <lb ed="#Pa"/>hoc secundum ad ens est effectibile quia aliquid quid est effe<lb ed="#Pa"/>ctum 
+                  sicut docet experientia. Aut igitur a se vel ab a<lb ed="#Pa"/>lio 
+                  vel a nullo non primum nec ultimum igitur ab alio sit 
+                  <lb ed="#Pa"/>illud <c>a</c> tunc quaero de <c>a</c> aut est simpliciter primum in<lb ed="#Pa"/>effectibile 
+                  et habetur propositum quia nihil est sim<lb ed="#Pa"/>pliciter 
+                  ineffectibile et independens nisi deus seu 
+                  <lb ed="#Pa"/>primum ens sive tale sit unicum sive multa an non sed 
+                  <lb ed="#Pa"/>ab alio est et sit illud <c>b</c> et de hoc quaero sicut prius 
+                  <lb ed="#Pa"/>et ita vel erit processus in infinitum ita quod supra omne 
+                  <lb ed="#Pa"/>ens est nobilius effectivum illius vel a quo ipsum depen<lb ed="#Pa"/>deat 
+                  et sic ultra semper sine fine cui non potest mens assenti<lb ed="#Pa"/>re 
+                  aut stabitur ad aliquid quod non est effectum nec effectibile nec ef<lb ed="#Pa"/>fectible 
+                  et illud est quod quaeritur</p> 
+                <!-- no indication of break here in abbreviatio -->
+                <p xml:id="awal1d2q1-qaiqee">quod autem in sic es<lb ed="#Pa"/>sentialiter 
+                  ordinatur non sit processus in infinitum 
+                  <lb ed="#Pa"/>ascendendo semper ad nobilius. Probat per hoc 
+                  <lb ed="#Pa"/>quod universitas tantorum essentialiter ordinatorum 
+                  <lb ed="#Pa"/>est causata sive sit finita sive infinita et non ab aliquo 
+                  <lb ed="#Pa"/>illius multitudinis igitur ab aliquo supra illam 
+                  multitudinem et illud est quod quaeretur</p>
+                
+                <p xml:id="awal1d2q1-eqephp"><g ref="#pilcrow"/>Ex quo enim tan<lb ed="#Pa"/>tum 
+                  ultimum essentialiter dependet a qualibet sua causa 
+                  <lb ed="#Pa"/>per causam et quaelibet eius causa de qua est sermo citra pri<lb ed="#Pa"/>mam 
+                  vel omnis causa eius effectus si negatur prima causa depen<lb ed="#Pa"/>det 
+                  causando illum effectum ab omni causa super se al<lb ed="#Pa"/>terius 
+                  speciei eo quod tales causae sint essentialiter or<lb ed="#Pa"/>dinatae 
+                  in causando ipsum tunc sequitur quod omnis mul<lb ed="#Pa"/>titudo 
+                  talium causarum danda vel dabilis erit me<lb ed="#Pa"/>moria 
+                  sive ipsa multitudo sit finita sive infinita vel 
+                  <lb ed="#Pa"/>neutrum istorum acceptorum erit causa omni eius causatio 
+                  <sic>condependeat</sic> a superiori in causando sicut arguit 
+                  <lb ed="#Pa"/><ref><name ref="#Aristotle">philosophus</name> secundo <title ref="#Metaphysics">metaphysicae</title></ref> per totum et est argumen<lb ed="#Pa"/>tum 
+                  evidentius inter omnia quae audivi pro hoc pun<lb ed="#Pa"/>cto.</p>
+                
+                <p xml:id="awal1d2q1-eserie">Sequitur etiam ultra quod iste effectus requi<lb ed="#Pa"/>rit 
+                  ad sui probationem causas actu infinitas ipsum simul 
+                  <lb ed="#Pa"/>causantes quare omnis posterior in causando a priori depen<lb ed="#Pa"/>deat <pc ana="#punctus elevatus"/> 
+                  hoc non videtur rationabile.</p>
+              </div>
+              <div>
+                <head><supplied>Obiectio ad argumentum <name>Scoti</name></supplied></head>
+                <p xml:id="awal1d2q1-simrnv">Sed ista ratio 
+                  <lb ed="#Pa"/>non convinceret eum qui vellet pertinaciter protervire 
+                  <lb ed="#Pa"/>de causis accidentaliter ordinatis in generatione 
+                  <lb ed="#Pa"/>hominis ab homine et illius ab alio et sic de simili<lb ed="#Pa"/>bus 
+                  quas non oportet omnes simul coagere in cau<lb ed="#Pa"/>sando 
+                  hunc hominem.</p>
+              </div>
+              <div>
+                <head><supplied>Ratio <name>Chatton</name> ad probandum Deum esse</supplied></head>
+                <p xml:id="awal1d2q1-scihps">Sed contra illud arguit <name ref="#Chatton">qui<lb ed="#Pa"/>dam 
+                  doctor</name> <pc ana="#punctuselevatus"/><!-- <note><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1-2</note> --> quod patria ratio sit aeque bona ubique si bene for<lb ed="#Pa"/>metur  
+                  capit igitur totam multitudinem omnium quae sunt in 
+                  <lb ed="#Pa"/>universo quorum quodlibet habet prius se et ar<lb ed="#Pa"/>guit 
+                  sic tota ista multitudo habet aliquid prius 
+                  <lb ed="#Pa"/>quia praeter totam multitudinem oportet dare ali<lb ed="#Pa"/>quid 
+                  prius aut est primum ens et sic habetur proposi<cb ed="#Pa" n="48vb"/><lb ed="#Pa"/>tum 
+                  aut non et hoc est contra positum quia tunc ipsum 
+                  <lb ed="#Pa"/>erit pars totius multitudinis istorum quorum quodlibet 
+                  <lb ed="#Pa"/>habet prius se Primam propositionem probat quia quae<lb ed="#Pa"/>libet 
+                  pars illius multitudinis acceptae habet prius 
+                  <lb ed="#Pa"/>se igitur tota multitudo talium quorum quodlibet ha<lb ed="#Pa"/>bet 
+                  prius se etc.</p>
+              </div>
+              <div>
+                <head><supplied>Responsio: Sexta argumenta contra <name>Chatton</name></supplied></head>
+                <p xml:id="awal1d2q1-rpqaut"><g ref="#pilcrow"/>Respondetur primo quod haec ratio habet 
+                  <lb ed="#Pa"/>multas instantias evidentes et insolubiles sicut cre<lb ed="#Pa"/>do 
+                  Verbi gratia primo accipio totam multitudi<lb ed="#Pa"/>nem 
+                  minorum <choice><orig>ymaginabilium</orig><reg>imaginabilium</reg></choice> quorum quilibet ha<lb ed="#Pa"/>bet 
+                  maiorem se numerum finitum Et tunc arguo sicut 
+                  <lb ed="#Pa"/>tu tota ista multitudo habet numerum finitum <choice><orig>yma<lb ed="#Pa"/>ginibilem</orig><reg>ima<lb ed="#Pa"/>ginibilem</reg></choice> 
+                  superiorem seu maiorem se igitur praeter 
+                  <lb ed="#Pa"/>istam totam multitudinem oportet dare numerum 
+                  <lb ed="#Pa"/>finitum <choice><orig>ymaginabilem</orig><reg>imaginabilem</reg></choice> superiorem seu maiorem se aut 
+                  <lb ed="#Pa"/>igitur iste est supremus sive maximus numerus finitus <choice><orig>yma<lb ed="#Pa"/>ginabilis</orig><reg>ima<lb ed="#Pa"/>ginabilis</reg></choice> 
+                  et hoc est manifeste impossibile vel non 
+                  <lb ed="#Pa"/>et hoc est contra positum quia tunc iste erit pars 
+                  <lb ed="#Pa"/>multitudinis demonstratae scilicet istorum quorum 
+                  <lb ed="#Pa"/>quodlibet habet munerum finitum <choice><orig>ymaginabilem</orig><reg>imaginabilem</reg></choice> ma<lb ed="#Pa"/>iorem 
+                  se.</p>
+                
+                <p xml:id="awal1d2q1-ipidcp">Item per idem eodem modo arguo quod sit dare 
+                  ultimum deim possibilem demonstro enim totam mul<lb ed="#Pa"/>titudinem 
+                  dierum possibilium quorum quilibet potest ha<lb ed="#Pa"/>bere 
+                  posteriorem se etc.</p>
+                
+                <p xml:id="awal1d2q1-ppidpp">Praeterea per idem proba<lb ed="#Pa"/>ri 
+                  potest quod sit dare primum diem quem deus potest pro<lb ed="#Pa"/>ducere.</p>
+                
+                <p xml:id="awal1d2q1-ieqoup"><g ref="#pilcrow"/>Item etiam quod sit dare maximam 
+                  multitu<lb ed="#Pa"/>dinem 
+                  finitam causabilium a deo et ita de pluribus aliis 
+                  quia demonstro totam multitudinem animarum ha<lb ed="#Pa"/>bentium 
+                  multitudinem animarum finitam maiorem se etc. 
+                  <lb ed="#Pa"/>ut prius igitur.</p>
+                
+                <p xml:id="awal1d2q1-iciseo"><g ref="#pilcrow"/>Item contra seipsum facit bonas instan<lb ed="#Pa"/>tias 
+                  quarum quasdam numquam solvit nec solvet licet ipse 
+                  <lb ed="#Pa"/>promittat solvere locis suis primo quia aequae in<lb ed="#Pa"/>quit 
+                  probares primum in accidentaliter ordinatis 
+                  <lb ed="#Pa"/>contra philosophos.</p>
+                
+                <p xml:id="awal1d2q1-iipamd"><g ref="#pilcrow"/>Item probares primum instans intrin<lb ed="#Pa"/>secum 
+                  alicuius temporis et ita quod non sit infinita instan<lb ed="#Pa"/>tia 
+                  <pc ana="punctuselevatus"/> et tertio quod non essent in continuo partes infinitae. </p>
+                
+                <!-- unclear where first, second, are. 3 seems to occur in the above paragraph which should possibly be its own paragraph --> 
+                
+                <p xml:id="awal1d2q1-qqmhns">quarto quod mundus non duravit nec durabit in in<lb ed="#Pa"/>finitum.</p>
+                
+                <p xml:id="awal1d2q1-iqnnsa">Quinto quia non esset processus in infi<lb ed="#Pa"/>nitum 
+                  in actibus reflexis quia tota multitudo a<lb ed="#Pa"/>ctuum 
+                  reflexorum quorum quilibet habet ulteriorem se 
+                  <lb ed="#Pa"/>etc.</p>
+                
+                <p xml:id="awal1d2q1-isdmap">Sexto capio totam multitudinem partium 
+                  propor<lb ed="#Pa"/>tionabilium temporis vel spatii quarum quaelibet erit 
+                  <lb ed="#Pa"/>pertransita circa <c>a</c> instans quarum quaelibet habet po<lb ed="#Pa"/>steriorem 
+                  se in illo ordine et simile formabit argu<lb ed="#Pa"/>mentum. 
+                  <!-- possible paragraph break needed here -->
+                  <g ref="#pilcrow"/>Et si hoc concedat conclusionem formabo 
+                  <lb ed="#Pa"/>aliud argumentum de futuris contingentibus co<lb ed="#Pa"/>gnitionibus 
+                  angelorum quarum quaelibet habebit po<lb ed="#Pa"/>steriorem 
+                  se ubi ergo inferenda est inconveniens</p>
+                
+                <!-- this paragraph seems skipped <p xml:id="awal1d2q1-hireie">Huic igitur rationi non innitor, quia non valet. Et ratio est: quia tota multitudo 
+ista, quam accipit, habet prius se, aut accipio li 'totam' catagorematice
+ vel syncategorimatice. Si primo modo, licet accipiat in rei veritate unum 
+verum in speciali isto caso quo loquitur, non probat tamen quia vult quod teneat 
+generaliter de qualitercumque ordinatis, sive essentialiter sive accidentaliter 
+sive in una coordinatione sive in infinitis coordinatibus et ubique. 
+Ideo nego sibi hanc propositionem: omnis tota multitudo istorum quorum 
+quodlibet habet prius, et et in eo ordine. Et praeter haec, quod probatio qua probat 
+istam propositionem, nihil facit ad illum sensum, sed tantum ad sensum qui 
+<cb ed="#S" n="75rb"/>sensus non probat primum esse in entibus.</p>
+-->
+                <p xml:id="awal1d2q1-diqasa"><g ref="#pilcrow"/>Dico igitur quod in maiori sua quam accipit scilicet in 
+                  <lb ed="#Pa"/>ista <pc ana="#punctusfluxus"/> tota ista multitudo habet alqiuid prius si ly 
+                  <lb ed="#Pa"/><mentioned>tota</mentioned> accipiatur cathegorematice <g ref="#dot"/> negari potest saltem sic quod 
+                  <lb ed="#Pa"/>non est generaliter vera in omnibus. Nec probatur plus<lb ed="#Pa"/>quam 
+                  si argueretur quaelibet pars <name ref="#Sortes">Sortis</name> est minor <name ref="#Sortes">Sorte</name> 
+                  <lb ed="#Pa"/>igitur totus <name ref="#Sortes">Sortes</name> est minor <name ref="#Sortes">sorte</name> accipiendo ly <mentioned>to<lb ed="#Pa"/>tus</mentioned> 
+                  cathegorematice et in dicta propositione sua capit ly <mentioned>to<lb ed="#Pa"/>tus</mentioned>
+                  syncathegorimatice tunc non probat intentum suam.
+                  <!-- possible place for paragraph break -->
+                  <lb ed="#Pa"/><g ref="#pilcrow"/>Item <choice><orig>ymaginemur</orig><reg>imaginemur</reg></choice> <unclear>physice</unclear> quod homo fuerit gene<lb ed="#Pa"/>ratus 
+                  ab homine et iste ab alio et sic in infinitum et e<lb ed="#Pa"/>quus 
+                  ab equo in infinitum sicut etiam concedunt non<lb ed="#Pa"/>nulli 
+                  doctorum cathegorematice hoc fuisse possibile tunc de<lb ed="#Pa"/>monstro 
+                  totam multitudinem hominum vel equorum 
+                  <lb ed="#Pa"/>quorum quilibet est generatus ab alio priori <g ref="#dot"/> tunc hoc 
+                  <lb ed="#Pa"/>posito haec est falsa tota ista multitudo genita est 
+                  <lb ed="#Pa"/>ab homine priore se sumendo ly <mentioned>toto</mentioned> syncathegorimatice et tamen 
+                  <lb ed="#Pa"/>quilibet homo generatus ab homine priore se <pc ana="#punctuselevatus"/> non di<lb ed="#Pa"/>co 
+                  quaelibet pars illius multitudinis est genera<lb ed="#Pa"/>ta 
+                  ab homine prore se hoc enim esset falsum ut patet 
+                  <cb ed="#Pa" n="48va"/><lb ed="#Pa"/>demonstrando multitudinem omnium hominum praeter 
+                  <lb ed="#Pa"/>ultimo genitum sic etiam illa quam tu animus in 
+                  <lb ed="#Pa"/>probatione falsa esset scilicet ista quaelibet pars il<lb ed="#Pa"/>lius 
+                  multitudinis et tunc no probatur intentum si<lb ed="#Pa"/>cut 
+                  nec arguendo in casu istius argumenti quilibet 
+                  <lb ed="#Pa"/>homo istius multitudinis etc non valet igitur ratio gratia 
+                  <lb ed="#Pa"/>forme sed gratia materiae scilicet de primo ente bene 
+                  <lb ed="#Pa"/>tenet modo prius dicto secundum <name ref="#Scotus">scotum</name> sive <unclear>at</unclear> 
+                  <lb ed="#Pa"/>multa sint talia quale est illud ad quod statur sive 
+                  <lb ed="#Pa"/>non pertinet ad secundum articulum</p>
+              
+              </div>
+              <div>
+                <head><supplied>Ratio <name>Wodeham</name> ad probandum Deum esse</supplied></head>
+                <p xml:id="awal1d2q1-eipede"><g ref="#pilcrow"/>Secunda <!--<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 5 (Wood II:121)</note> --> 
+                  <lb ed="#Pa"/>ratio quae tamen non convincit protervum vel est in en<lb ed="#Pa"/>tibus 
+                  aliquod ens nobilissimum quo vel est nobilius 
+                  <lb ed="#Pa"/>vel esse potest vel non est aliquod tale si sit habetur in<lb ed="#Pa"/>tentum 
+                  quia illud supponitur esse deus si non vel 
+                  <lb ed="#Pa"/>hoc est quia super omnem naturam est de facto alia 
+                  <lb ed="#Pa"/>natura nobilior et tunc simul entia sunt infinita sicut 
+                  ascendendo quorum quodlibet est caelo nobilius cui 
+                  <lb ed="#Pa"/>dicto non potest alius intellectus sine murmure assen<lb ed="#Pa"/>tire 
+                  licet gratia disputandi valeat <unclear>pretervire</unclear> vel hoc 
+                  <lb ed="#Pa"/>est quia licet hoc sit nobilissimum actu existens non 
+                  <lb ed="#Pa"/>tamen nobilissimum possibile
+                  <!-- possible place for a paragraph break -->
+                  <g ref="#pilcrow"/>Contra haec eviden<lb ed="#Pa"/>tissima 
+                  ratio quia illud nobilius potentia nec a se nec 
+                  ab alio produci poterit nec sine producente veni<lb ed="#Pa"/>re 
+                  de non esse ad esse igitur tale semper fuit ideo 
+                  <lb ed="#Pa"/>dicit <ref corresp="#awal1d2q1-Qidcusi"><name ref="#Paul">apostolus</name> <title ref="#rom">ad romanos</title> primo</ref> 
+                  <quote xml:id="awal1d2q1-Qidcusi" ana="#rom1_20">invisibilia dei 
+                    etc. sempiterna quoque virtus eius est divinitas ita 
+                    <lb ed="#Pa"/>ut <sic>fuit</sic> inexcusabiles</quote>
+                  <!-- possible paragraph break --> 
+                  <g ref="#pilcrow"/>Ex quo idem patet quod evi<lb ed="#Pa"/>dens 
+                  habuerit iudicium tecum vel corus aliquod 
+                  <lb ed="#Pa"/>non esse primum vel nobilissimum ens et per consequens spi<lb ed="#Pa"/>ritum 
+                  esse aliquid caelo nobilius et ita quod deus sit 
+                  <lb ed="#Pa"/>spiritus quia dicit <quote>invisibilia dei per ea quae facta sunt 
+                    <lb ed="#Pa"/>conspicitur</quote> id est evidenter deducebantur esse</p>
+                
+                <p xml:id="awal1d2q1-prafsa"><ref corresp="#awal1d2q1-Qiesfsa"><name ref="#Ockham">Okham</name> 
+                  <lb ed="#Pa"/>distinctione secunda quaestione 20</ref> dicit quod <quote xml:id="awal1d2q1-Qiesfsa">prima ratio est <!--<note corresp="#awal1d2q1-Qiesfsa"><name>Ockham</name>, I, d. 2, q. 10, p. 354, ll. 17 - p. 355, ll. 2</note> --> 
+                    sufficiens et est quasi omnium philosophorum tamen quia diffici<lb ed="#Pa"/>le 
+                    vel impossibile est probare contra <sic>proptervie<lb ed="#Pa"/>ntem</sic> 
+                    quod non sit processus in infinitum in causis eiusdem 
+                    <lb ed="#Pa"/>rationis quarum una poterit esse sine alia sicut primo philosophi 
+                    <lb ed="#Pa"/>posuerunt quod quemlibet hominem praecessit hoc sine 
+                    <lb ed="#Pa"/>principio et est difficile probare quando unus homo pos<lb ed="#Pa"/>sit 
+                    produci ab alio sicut a causa totali et ideo non 
+                    <lb ed="#Pa"/>habeatur aliud a quo illa infinitas hominum depen<lb ed="#Pa"/>det 
+                    difficile est probare primum simplicium efficiens Ideo 
+                    <lb ed="#Pa"/>sic format argumentum</quote></p>
+                
+                <p xml:id="awal1d2q1-eihipe">et est bona ratio quicquid realiter ab a<lb ed="#Pa"/>liquo <!-- possible quote in here --> 
+                  realiter producitur conservatur ab aliquo quam<lb ed="#Pa"/>diu 
+                  manet in essentia reali igitur effectus iste qui 
+                  <lb ed="#Pa"/>ab aliquo producitur ab aliquo conservatur de 
+                  <lb ed="#Pa"/>illo igitur conservante quaero aut producitur ab ali<lb ed="#Pa"/>quo 
+                  aut non si non igitur est efficiens sicut conser<lb ed="#Pa"/>vans 
+                  primum quia omne conservans est efficiens 
+                  <lb ed="#Pa"/>Si producitur ab alio de illo quaeram ut prius et 
+                  <lb ed="#Pa"/>quia non potest sic poni processus in infinitum oportet 
+                  <lb ed="#Pa"/>stare aliquid quod est conservans et <sic>nullomodo</sic> conser<lb ed="#Pa"/>vatum 
+                  et istud est efficiens primum.</p>
+              </div>
+              <div>
+                <head><supplied>Obiectio contra rationem <name>Ockham</name></supplied></head>
+                <p xml:id="awal1d2q1-tcipvi"><g ref="#pilcrow"/>Tamen con<lb ed="#Pa"/>tra <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 5 (Wood II:122)</note> 
+                  ista potest obiici quia <mentioned>homo generat hominem et 
+                    <lb ed="#Pa"/>sol</mentioned> et ideo proterviret aliquis quod homo genitus non 
+                  <lb ed="#Pa"/>indiget conservante sed habet principium intra se 
+                  <lb ed="#Pa"/>determinans periodum <unclear>vitae <!-- vice --></unclear></p>
+                
+                <p xml:id="awal1d2q1-sqhcao">Sed quia haec responsio 
+                  <lb ed="#Pa"/>multum dependet ex differentia causarum essentialiter or<lb ed="#Pa"/>dinatarum 
+                  ad causas accidentaliter ordinatas.</p>
+              </div>
+            </div>
+            <div xml:id="awa-l1d1q1a1dub2" type="dubium">
+              <head><supplied>Secundum Dubium</supplied></head>
+              <!-- below the abbreviatio identifies a clear secundum dubium, so abbreviatio and ordinatio hierarchy may not parallel -->
+              <p xml:id="awal1d2q1-psdeqn">potest secundo 
+                dubitari quae vel cuiusmodi causae sint in causan<lb ed="#Pa"/>do 
+                essentialiter ordinate et quae non</p>
+              
+              <p xml:id="awal1d2q1-aivhei"><g ref="#pilcrow"/>Ad istud vi<lb ed="#Pa"/>detur 
+                mihi dicendum cum <name ref="#Scotus">Scoto</name> quod triplex est differen<lb ed="#Pa"/>tia 
+                inter has et istas</p>
+              <div>
+                <head>Prima Differentia assignata a Scoto</head>
+                <p xml:id="awal1d2q1-pdqsie">Prima differentia est quod in causis per <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 6 (Wood II:123)</note>  --> 
+                  se sine in essentia inter ordinatis secunda dependet a pri<lb ed="#Pa"/>ma 
+                  in causando et non solum in essendo</p> 
+                <!-- reason for paragraph break is unclear --> 
+                <p xml:id="awal1d2q1-vampss">vel alio<lb ed="#Pa"/>modo 
+                  quod si nulla talium causarum concurrentium posset in ef<cb ed="#Pa" n="48vb"/><lb ed="#Pa"/>fectum 
+                  determinatum sive alia sicut est de multis a<lb ed="#Pa"/>liis 
+                  causis citra deum <pc ana="#punctusfluxus"/> tunc non tantum secunda in causan<lb ed="#Pa"/>do 
+                  dependet a prima sed etiam prima in causando 
+                  <lb ed="#Pa"/>hunc effectum dependet essentialiter a secunda ge<lb ed="#Pa"/>neraliter 
+                  tamen illa quae est prior et illi mutationi 
+                  <lb ed="#Pa"/>in causando non sit omnimode dependet a posteriori 
+                  <lb ed="#Pa"/>causa eiusdem effectus sicut econtra quia secunda aliter ali<lb ed="#Pa"/>quomodo 
+                  dependet a prima quam prima a secunda ubi 
+                  <lb ed="#Pa"/>tamen utraque exigit aliam concurrere verbi gratia <mentioned>homo generat hominem et sol</mentioned> et ideo in generando hominem 
+                  <lb ed="#Pa"/>homo essentialiter dependet a sole quia sine sole 
+                  <lb ed="#Pa"/>homo non potest hominem naturaliter producere. Etiam 
+                  <lb ed="#Pa"/>econverso sol ab homine propter eandem causam tamen 
+                  <lb ed="#Pa"/>aliter est in aliquo quia sine sole non potest <name ref="#Sortes">sortes</name> na<lb ed="#Pa"/>turaliter 
+                  producere hominem sol autem hominem ali<lb ed="#Pa"/>quem 
+                  producere potest sine <name ref="#Sortes">sorte</name> et etiam causa universalis 
+                  <lb ed="#Pa"/>in causando multa alterius rationis non requi<lb ed="#Pa"/>rit 
+                  causam inferiorem hanc vel aliam <unclear>suae</unclear> speciei etc.</p> <!-- last two or three lines here seem to be an addition over what is present in ordinatio -->
+                
+                <p xml:id="awal1d2q1-iausec">Ali<lb ed="#Pa"/>quando  
+                  autem non est talis mutua essentialis dependentia 
+                  <lb ed="#Pa"/>quia licet vermis non potest vermem generare si<lb ed="#Pa"/>ne 
+                  sole coagente tamen sol econverso potest vermem pro<lb ed="#Pa"/>ducere 
+                  sine verme coagente ideo ad producendum ver<lb ed="#Pa"/>mem 
+                  non oportet dependere solem a verme essentia<lb ed="#Pa"/>liter 
+                  in causando sicut econverso</p>
+                
+                <p xml:id="awal1d2q1-ehdovc"><g ref="#pilcrow"/>Ex hac differen<lb ed="#Pa"/>tia 
+                  patet absolute et secundum veritatem fidei quod 
+                  <lb ed="#Pa"/>nullus effectus saltem absolute ab aliqua causa 
+                  <lb ed="#Pa"/>creata dependet essentialiter in causari vel con<lb ed="#Pa"/>servari 
+                  licet ab illa secundum cursum naturae causetur 
+                  <lb ed="#Pa"/>vel conservetur nec requirit per se et essentialiter 
+                  <lb ed="#Pa"/>a causis a quibus creatis observari vel causari</p>
+                
+                <p xml:id="awal1d2q1-iescan"><g ref="#pilcrow"/>Item omnis causa secunda non solum in essendo sed eti<lb ed="#Pa"/>am 
+                  in causando essentialiter dependet a deo et ipse 
+                  <lb ed="#Pa"/>econtra a nullo</p>
+                
+                <p xml:id="awal1d2q1-sipsse">Sic igitur patet quomodo aliquae 
+                  <lb ed="#Pa"/>causae sint essentialiter ordinatae.</p> 
+
+                <p xml:id="awal1d2q1-scaets">Sed causae acci<lb ed="#Pa"/>dentialiter 
+                  ordinatae ad productionem alicuius effe<lb ed="#Pa"/>ctus 
+                  sunt illae quarum neutra requirit aliam secum 
+                  <lb ed="#Pa"/>concausare naturaliter nec dependet ab alia in 
+                  <lb ed="#Pa"/>causando talem effectum talis speciei.</p>
+                <!-- next paragraph seems missing 
+                <p xml:id="awal1d2q1-epsrte">Ex praedictis satis patet quomodo procedunt 
+                  et quomodo non multae instantiae quas facit <name ref="#Ockham">Ockham</name> et aliis in proposito 
+                  contra <name ref="#Scotus">Scotus</name>; potest enim esse quod prima dependet in causando talem effectum 
+                  aliquando a secunda, sicut e contra. Potest etiam esse quod utraque tunc virtute propria causet 
+                  illum. Sed si posset in talem sine tali causa, tunc essentialiter in causando 
+                  talem effectum dependet a tali concausa, quia essentialiter ordinari in 
+                  causando est necessario coexigere illud a quo sit dependet, ut con
+                  causam in suo ordine respectu talis effectus.</p>
+                  -->
+              </div>
+              <div>
+                <head><supplied>Argumenta <name>Chatton</name> contra <name>Ockham</name></supplied></head>
+                
+                <p xml:id="awal1d2q1-scheeo"><g ref="#pilcrow"/>Contra <!--<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 8 (Wood II:126)</note>  sic:<note><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1 (Wey and Etzkorn 141:124-127)</note>--> 
+                  <lb ed="#Pa"/>dicta arguit <name ref="#Scotus">Scotus</name> probando quod in nullo casu aeque essen<lb ed="#Pa"/>tialiter 
+                  dependet causa prior a posteriore sicut e<lb ed="#Pa"/>converso 
+                  <quote xml:id="awal1d2q1-Qqoaeeo">quia, omni alio circumscripto hoc solo po<lb ed="#Pa"/>sito 
+                    quod effectus non sit producibilis a causa infe<lb ed="#Pa"/>riore 
+                    nisi concurrat superior et econverso adhuc 
+                    <lb ed="#Pa"/>esse potest essentialis ordo posterioris ad priorem 
+                    <lb ed="#Pa"/>qualis non econverso Verbi gratia stante isto quod 
+                    <name ref="#Sortes">sortes</name> non potest producere talem effectum sine sole 
+                    <lb ed="#Pa"/>concurrente et econverso adhuc sol potest tales multos 
+                    <lb ed="#Pa"/>effectus producere sine <name ref="#Sortes">sorte</name> et ideo licet <name ref="#Sortes">sortes</name> 
+                    <lb ed="#Pa"/>in causando talem effectum dependet a sole essen<lb ed="#Pa"/>tialiter 
+                    non tamen econverso eo quod particularis 
+                    <lb ed="#Pa"/>causa non potest producere talem effectum vel sibi simi<lb ed="#Pa"/>lem 
+                    sine ista causa universali universalis autem potest 
+                    <lb ed="#Pa"/>illum effectum vel similem sine ista causa particula<lb ed="#Pa"/>ri.</quote> <!-- <note corresp="#awal1d2q1-Qqoaeeo"><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1 (Wey and Etzkorn 141:125-126)</note>--></p> 
+              </div>
+              <div>
+                <head><supplied><name>Wodeham</name> defendit <name>Ockham</name> contra <name>Chatton</name></supplied></head>
+                <p xml:id="awal1d2q1-aiasas">Respondeo negando universaliter illud quod <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, q. 3, q. 1, sect. 8 (Wood II:127-128)</note> -->
+                  <lb ed="#Pa"/>assumitur in probatione quia sicut intellectus quae 
+                  <lb ed="#Pa"/>est causa universalior et illuminior respectu talis 
+                  intellectionis puta albedinis <pc ana="#punctusfluxus"/> quam albedo potest ta<lb ed="#Pa"/>lem 
+                  causare sine hac albedine ita haec albedo si<lb ed="#Pa"/>ne 
+                  hoc intellectu <pc ana="#punctusfluxus"/> et ita fere est in omnibus nec illud 
+                  <lb ed="#Pa"/>est soli de sole obstat quod ita potest homo nunc de facto 
+                  <lb ed="#Pa"/>ex natura sua hominem producere cum alio sole si 
+                  <lb ed="#Pa"/>esset sicut sol cum alio homine. </p>
+                  <!-- paragraph break unclear --> 
+
+                <p xml:id="awal1d2q1-indnie">Alius enim sol secun<lb ed="#Pa"/>dum 
+                  veritatem non est impossibilis ergo non est im<lb ed="#Pa"/>possibile 
+                  quin iste homo possit producere hominem 
+                  <lb ed="#Pa"/>cum alio sole igitur non verum est quod potest quia non potest 
+                  incipere posse vel saltem non potest incipere posse nisi 
+                  <cb ed="#Pa" n="49ra"/><lb ed="#Pa"/>incipiendo esse.</p>
+                
+                <p xml:id="awal1d2q1-sodais"><name ref="#Ockham">Ockham</name> obiicit contra <name ref="#Scotus">Scotus</name> sic ob<lb ed="#Pa"/>iectum <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 7, l. 16 (Wood II:125)</note> --> <!-- <note>Soctus, <title>Ordinatio</title>, I, d. 3, pars 3, q. 2, n. 494-498 (Vaticana III, 292-295)</note> --> 
+                  et intellectus respectu intellectionis sunt duae 
+                  <lb ed="#Pa"/>partiales causae quarum neutra dependet ab alia in 
+                  <lb ed="#Pa"/>causando sed utraque agit virtute propria tunc quaero an 
+                  <lb ed="#Pa"/>istae causae sunt essentialiter ordinatae aut accidentialiter 
+                  <lb ed="#Pa"/>si primum habetur propositum secundum quod non semper in essentia<lb ed="#Pa"/>liter 
+                  ordinatis secunda dependet a prima in causando 
+                  <lb ed="#Pa"/>si secundum igitur potest una agere sine alia quod patet falsum</p> 
+                
+                <p xml:id="awal1d2q1-rspcia"><lb ed="#Pa"/><g ref="#pilcrow"/>Respondet quod unam causam agere in virtute alterius 
+                  <lb ed="#Pa"/>vel ab alia dependere in causando potest dupliciter in<lb ed="#Pa"/>telligi. 
+                  Primo sic quod una earum dependeat ab alia 
+                  <lb ed="#Pa"/>in habendo illam partialem virtutem qua partialiter 
+                  <lb ed="#Pa"/>potest agere in suo ordine et sic obiectum non depen<lb ed="#Pa"/>det 
+                  ab intellectu in causando intellectionem nec econ<lb ed="#Pa"/>verso 
+                  sed utrumque agit virtute propria. Secundo sic 
+                  <lb ed="#Pa"/>quod una earum sine concursu alterius non sufficiat ad 
+                  <lb ed="#Pa"/>producendum talem effectum <g ref="#slash"/> sed indigeat alia secum 
+                  <lb ed="#Pa"/>active conprincipiante et hoc conceditur de obiecto ex 
+                  <lb ed="#Pa"/>intellectu quod utrumque ut sic dependeat ab alio et utrum<lb ed="#Pa"/>que 
+                  agat virtute alterius et ita in causando intellectio<lb ed="#Pa"/>nem 
+                  essentialiter ordinantur.</p>
+                  
+                  <!-- next paragraph doesn't seem present 
+                
+                <p xml:id="awal1d2q1-acphfe">Ad confirmationem: primam partem assumpti concedo, 
+                  sed secundum distinguo quod 'obiectum non dependere ab intellectu in causando 
+                  intellectionem' potest dupliciter intelligi. Vel quod non dependeat ab illo in habendo 
+                  illam particularem virtutem qua particulariter potest agere in suo ordine, 
+                  et hoc est verum. Vel quod non indigeat intellectu comprincipiante
+                  active secum, hoc falsum etc.</p>
+                  -->
+              </div>
+              <div>
+                <head><supplied>Secunda differentia assignata a <name>Scoto</name></supplied></head>
+                
+                <p xml:id="awal1d2q1-sdpuur">Secunda differentia <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 9 (Wood II:129)</note> differentia principalis<note><name>Scotus</name>, <title>Ordinatio</title>, I, d. 2, pars 1, q. 1-2, n. 50 (Vaticana II:154s)</note> -->
+                  est quod in per se et essentialiter ordinatis est causalitas 
+                  <lb ed="#Pa"/>alterius et alterius rationis haec sumitur ex prima quia 
+                  <lb ed="#Pa"/>nulla causa essentialiter dependet in causando nisi 
+                  <lb ed="#Pa"/>causa alterius rationis quia in causatione alicuius effectus 
+                  <lb ed="#Pa"/>in specie aliqua sufficeret unum unius rationis.</p>
+              </div>
+              <div>
+                <head>Tertia differentia assignata a <name>Scoto</name></head>
+                <p xml:id="awal1d2q1-tdeeic">Ter<lb ed="#Pa"/>tia <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 9 (Wood II:130)</note> differentia<note><name>Scotus</name>, <title>Ordinatio</title>, I, d. 2, pars 1, q. 1-2, n. 51 (Vaticana II:155s)</note> -->  
+                  differentia quod omnes causae essentialiter ordinatae 
+                  <lb ed="#Pa"/>necessario requiruntur ad causandum alioquin aliqua 
+                  <lb ed="#Pa"/>per se causalitas deesset effectum in accidentialiter or<lb ed="#Pa"/>dinatis 
+                  non requiritur simultas eorum in causando.</p>
+                <div>
+                  <head><supplied>Obiectiones <name>Adam</name> contra tertiam differentiam</supplied></head>
+                  <p xml:id="awal1d2q1-choppm">Contra sol et mus sunt causae essentialiter ordi<lb ed="#Pa"/>natae 
+                    et tamen sol sine mure potest producere murem 
+                    <lb ed="#Pa"/>igitur.</p>
+                  
+                  <p xml:id="awal1d2q1-imccqc"><g ref="#pilcrow"/>Item quilibet effectus potest a deo produci 
+                    <lb ed="#Pa"/>nullo alio coagente igitur.</p>
+                </div>
+                <div>
+                  <head><supplied>Solutiones ad obiectiones</supplied></head>
+                  <p xml:id="awal1d2q1-apd"><g ref="#pilcrow"/>Ad primum bene probat quod 
+                    <lb ed="#Pa"/>non essentialis ordo solis ad murem quamvis sit econ<lb ed="#Pa"/>verso.</p>
+                  
+                  <p xml:id="awal1d2q1-assfpe"><g ref="#pilcrow"/>Ad secundum dico quod ly <mentioned>necessario</mentioned> intelligi 
+                    <lb ed="#Pa"/>debet de necessitate naturali cuius oppositum per nul<lb ed="#Pa"/>lam 
+                    causam naturalem vel citra deum fieri potest.</p>
+                </div>
+              </div>
+            </div>
+            <div xml:id="awa-l1d1q1a1dub3" type="dubium">
+              <head><supplied>Tertium Dubium: Quomodo causae per se differunt a causis essentialiter ordinatis et causa per accidens a causis essentialiter ordinatis et quae sit differentia inter per se causas et causas per accidens?</supplied></head>
+              
+              <p xml:id="awal1d2q1-tdqppd"><g ref="#pilcrow"/>Ter<lb ed="#Pa"/>tium <!--<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 10 (ed. Wood II:131s)</note> --> 
+                dubium quomodo causae per se differunt a causis essen<lb ed="#Pa"/>tialiter 
+                ordinatis. <g ref="#pilcrow"/>Item quae sit differentia inter cau<lb ed="#Pa"/>sas 
+                per se et causas per accidens. Respondet <name ref="#Scotus">scotus</name> et be<lb ed="#Pa"/>ne <!--<note>Cf. <name>Scotus</name>, I d. 2, pars 1, q. 1-2, n. 47 (Vaticana: II:153s)</note> --> 
+                <choice><orig>quo ad</orig><reg>quoad</reg></choice> primum <quote>quod prima comparatio est causarum dua<lb ed="#Pa"/>rum 
+                  inter se in causando eundem effectum. Sed secunda 
+                  <lb ed="#Pa"/>est comparatio unius causae ad unum effectum.</quote> <choice><orig>Quo ad</orig><reg>Quoad</reg></choice> 
+                <lb ed="#Pa"/>secundum dicit quod illa est per se causa alicuius effectus se<lb ed="#Pa"/>cundum 
+                naturam propriam et non solum secundum aliquid si<lb ed="#Pa"/>bi <!-- possible quote here --> 
+                accidens quae non sic causat per naturam propriam sed 
+                <lb ed="#Pa"/>per accidens sibi. verbi gratia subiectum est causa per se suae 
+                propriae passionis sibi naturaliter convenientis et 
+                <lb ed="#Pa"/>inhaerentis sicut ignis respectu caloris sui et de hoc 
+                <lb ed="#Pa"/>etiam ponit ille doctor exempla <ref><name ref="#Aristotle">philosophi</name> et <title ref="#Physics">physicorum</title> 5</ref> 
+                <ref><title ref="#Metaphysics">metaphyiscae</title></ref> ut <mentioned>album per se disgregat</mentioned> et <mentioned>aedificator per 
+                  <lb ed="#Pa"/>se aedificat</mentioned> <g ref="#slash"/> quae intelligendae sunt in sensu compositionis 
+                <lb ed="#Pa"/>tamen accipiendo album pro aggregato ex subiecto et 
+                <lb ed="#Pa"/>albedine haec esset vera in sensu diviso album per se dis<lb ed="#Pa"/>gregat 
+                <g ref="#slash"/> quia per aliquid quod est pars sui scilicet per albedinem 
+                <lb ed="#Pa"/>disgregat. Et sic proportionabiliter dicendum esset 
+                <lb ed="#Pa"/>de similibus. Sed in modo loquendi usitato sumun<lb ed="#Pa"/>tur 
+                talia concreta pro subiectis quibus insunt for<lb ed="#Pa"/>mae 
+                huiusmodi: et ideo iste in sensu diviso album per 
+                <lb ed="#Pa"/>accidens disgregat: aedificator per accidens aedifi<lb ed="#Pa"/>cat 
+                ita sunt vere sicut ista <name>policletus</name> per accidens 
+                <lb ed="#Pa"/>aedificat et huiusmodi quia per primas non plus 
+                <lb ed="#Pa"/>denotatur nisi quod suppositum illud pro quo supponit 
+                <lb ed="#Pa"/>subiectum utriusque non per naturam suam intrin<lb ed="#Pa"/><cb ed="#Pa" n="49rb"/>secam 
+                sed per accidens aliquod sibi inhaerens aedifi<lb ed="#Pa"/>cat 
+                vel disgregat et hoc est verum.</p>
+              
+              <!-- unclear where this paragraph fits -->
+              <p><g ref="#pilcrow"/>Ex istis dictis 
+                <lb ed="#Pa"/>sequitur quod iste in sensu diviso creator per se est deus ho<lb ed="#Pa"/>mo
+                per se spirat spiritum sanctum aeque vere sunt sicut 
+                <lb ed="#Pa"/>iste deus per se est deus verbum per se spirat spiritum sanctum</p>
+              
+              <!-- the following is missing 
+              <p xml:id="awal1d2q1-sqhned">Sciendo quod haec et quaelibet consimilis ad usum communem loquentium 
+                album per se disgregat distinguitur secundum compositionem et divisionem, quia in sensu composito 
+                valet hanc, hoc est per se album disgregat et hoc est verum ad 
+                intentum <name ref="#Aristotle">Philosophi</name> in locis praellegatis, nec differt ab illa quae proprie 
+                esset per se, logice loquendo, et ut in <ref>Io <title ref="#PosteriorAnalytics">Posteriorum</title> loquitur <name ref="#Aristotle">Philosophus</name></ref> nisi sicut 
+                una de in esse a sua de possibili, nam haec homo est secundo modo 
+                vera album potest disgregare, sicut et haec homo est risibilis non sic ista 
+                homo ridet in sensu. Autem divisionis, nota quod subiectum cui inest 
+                albedo per se, id est, per naturam propriam, vel per aliquam partem suam essentialem 
+                disgregat. Et hoc est falsum, quia talem subiectum solummodo per accidens sibi 
+                inhaerens disgregat et natum est disgregare.</p> 
+                
+                <p xml:id="awal1d2q1-iitsea">In isto tamen 
+                sensu sunt multae propositiones verae, quae in sensu composito essent 
+                falsae. Verbi gratia, rationale per se est animal vel potest esse et hoc animal per se est homo vel esse potest album per se est animal vel esse potest hoc animal per se est homo vel esse potest album per se est animal vel esse potest, dato quod homo sit 
+                albus, risibile per se est animal vel homo vel potest esse homo vel animal. Sequitur 
+                enim quoad primum exemplum, in hoc sensu dicens, loquendo omnis homo per 
+                se, id est, per naturam vel essentiam suam est animal omnis homo est rationalis, igitur rationale per 
+                se et per naturam et essentiam suam est animal.</p>
+                    
+                <p xml:id="awal1d2q1-ssovac">Similiter sequitur 'omnis homo per se est animal; 
+                omnis homo est albus; igitur aliquod album per se est animal in primo modo tertiae'. 
+                fi?ae[?]', et ideo una in omnibus huius est quia per istam album per se 
+                est animal non denominatur in hoc sensu, nisi quod suppositum cui inest 
+                albedo, vel quod est album, vel quod est risibile, vel quod est rationale, et 
+                sic de similibus, per naturam suam vel partis suae est animal. Et in hoc sensu 
+                absque exceptione infallibiliter verum est quod <name ref="#Ockham">Ockham</name> dicebat<note><name>Ockham</name>, Scriptum, d. 2, q. 1 (OTh II, 344); cf. <name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1 sect. 11 (Wood, II:135)</note> 
+                quod si 'calidum per se calefacit', et illud calidum sit album, tunc album 
+                per se calefacit. Nam ex opposito conclusionis cum minore, sequitur oppositum 
+                primae sit nullum suppositum cui inest albedo per se per se, id est, per naturam suam calefacit, 
+                sed hoc calidum est suppositum cui inest albedo, igitur haec calidum non 
+                per se, id est, per naturam suam calefacit; in sensu tamen composito est haec vera
+                aliquo modo ad mentem <name ref="#Aristotle">Philosophi</name> et per se vera calidum calefacit, quia 
+                in subiecto exprimitur causa illius quod impertatur per praedicatum, et tamen non est 
+                hoc, sic per se vera album calefacit.</p> 
+                
+                <p xml:id="awal1d2q1-atqceu">Advertendum tamen quod nec 
+                dixit ille nec ego quod haec sit vera in sensu divisionis, sed quod si esset 
+                hoc verum, tunc etc. Tamen bene credo quod haec particulariter in sensu divisionis sit 
+                vera aliquod calidum per se calefacit, quia forte ignis non solum 
+                per suum calorem, sed per se ipsum causat calorem in alio 
+                <cb ed="#S" n="76va"/>sicut et facit in se ipso per naturam suam, et haec fuit dicta pro talibus 
+                sumendo illud concretum callidum vel album pro subiecto cui inest albedo vel calor, 
+                sed logice aliter esset dicendum, sumendo ista concreta vocabula[?] pro composito 
+                ex subiecto et albedine. Secundum enim priorem sensum, haec est falsa in sensu divisionis: 
+                'album per se disgregat'. Sed sumendo concretum pro composito haec esset vera: 
+                'album per se disgregat', sumpta in sensu divisionis, quia valet hanc quae vera 
+                est: 'album et ex subiecto albedinis et albedine compositum per se, id est, per aliquid quod 
+                est pars sui, scilicet, per albedinem disgregat', et sic proportionaliter dicendum est de 
+                similibus. In usitatiori tamen consuetudine loquendi sumuntur concreta talia, 
+                ut supra, pro obiectis seu suppositis, quibus in sunt formae huiusmodi et non 
+                pro compositis ex utriusque.</p>
+                 
+              <div>
+                <head>Corollariae</head>
+                
+                <p xml:id="awal1d2q1-epssss">Ex<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 13 (Wood II:137-138)</note> praedictis, sequitur corollariae: quod sumendo 
+                  concreta pro suppositis sicut [M 63vb] sumuntur omnes tales in sensu divisionis 'creator 
+                  per se est Deus', 'homo per se spirat Spiritum Sanctum' aeque verae sunt, sicut 
+                  istae 'per se Deus est Deus', 'Verbum per se spirat Spiritum Sanctum'.</p>
+                  
+                  <p xml:id="awal1d2q1-aeshev">Aliud etiam sequitur: quod 
+                  omnes tales in sensu divisionis 'aedificator per accidens aedificat', 'album 
+                  per accidens disgregat' ita sunt verae, sicut istae '<name>Polycletus</name> per accidens 
+                  aedificat', et huiusmodi, quia per primas non plus denotatur nisi quod suppositum 
+                  illud pro quo supponit subiectum utriusque non per naturam suam intrinsecam, 
+                  sed per accidens aliquod sibi inhaerens aedificat vel disgregat; et 
+                  hoc est verum.</p> 
+                  
+                  <p xml:id="awal1d2q1-netsad">Notandum est tamen quod istae non essent sic distinguendae de 
+                  vi vocis, quia non negant aliud de vi vocis, nisi istum sensum, quae 
+                  voluntas[?] sensum divisionis, quia tamen diversimode concipitur a diversis, ideo 
+                  distinxi me illis in talibus conformando, et haec est vera: 'per se album 
+                  disgregat'.</p>
+                  </div>
+                  -->
+            </div>
+          </div>
+          <div xml:id="awa-l1d1q1a2" type="articulus">
+            <head><supplied>Secundus articulus</supplied></head>
+            <p xml:id="awal1d2q1-saeafc"><lb ed="#Pa"/><g ref="#pilcrow"/>Secundus articulus est inquirere de Dei essentia<lb ed="#Pa"/>li <!-- <note>Wedeham, <title>Lectura secunda</title>, d. 3, q. 2 (Wood, II:142)</note> --> 
+              unitate <g ref="#slash"/> et hoc primo dico quod tantum esse unum deum 
+              <lb ed="#Pa"/>indubitanter verum est cum sit articulus fidei.</p>
+
+            <p xml:id="awal1d2q1-strtrd">Sed 
+              <lb ed="#Pa"/>tamen restant dubia.</p>
+            
+            <div xml:id="awa-l1d1q1a2dub1" type="dubium">
+              <head><supplied>Primum Dubium Utrum sit evidenter probabile quod simpliciter incausabile sit tantum unicum numero.</supplied></head>
+              
+              <p xml:id="awal1d2q1-pdutun">Primum utrum sit evidenter 
+                <lb ed="#Pa"/>probabile quod similiter incausabile sit tantum unicum 
+                <lb ed="#Pa"/>numero.</p>
+              
+              <div>
+                <head>Ratio principalis</head>
+                
+                <p xml:id="awal1d2q1-vqntpe">videtur quod non <choice><orig>ymo</orig><reg>immo</reg></choice> magis eius oppositum 
+                  <lb ed="#Pa"/>quia quicquid si esset: esset similiter necesse esse: hoc 
+                  <lb ed="#Pa"/>est similiter necesse esse: sed aliquid aliud similiter 
+                  <lb ed="#Pa"/>incasuabile ab isto si esset: esset similiter necesse esse 
+                  <lb ed="#Pa"/>igitur aliquid aliud similiter incausabile est necesse 
+                  <lb ed="#Pa"/>esse igitur duo sunt simpliciter necesse esse. Igitur 
+                  <lb ed="#Pa"/>maior probatur quia ex opposito praedicati insequitur 
+                  <lb ed="#Pa"/>oppositum subiecti: quia si non est similiter neces<lb ed="#Pa"/>se 
+                  esse tunc nec si esset: esset similiter necesse esse sed tan<lb ed="#Pa"/>tum 
+                  possibile esse.</p>
+              </div>
+              <div>
+                <head>Argumentum in oppositum</head>
+                <p xml:id="awal1d2q1-cmpuep"><g ref="#pilcrow"/>Contra. <ref corresp="#awal1d2q1-Qppnuep">12 <title ref="#Metaphysics">metaphysicae</title></ref> <quote xml:id="awal1d2q1-Qppnuep" ana="#aa-meta-279">entia no<lb ed="#Pa"/>lunt 
+                  male disponi sed pluralitas principium non est 
+                  <lb ed="#Pa"/>bona igitur unus principes</quote></p>
+              </div>
+              <div>
+                <head>Prima Conclusio</head>
+                <p xml:id="awal1d2q1-pdusdr">Primo dico ut in priori <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 2 (Wood II:142)</note> --> 
+                  <lb ed="#Pa"/>articulo quod suaderi potest quo praedicta <sic>efficatius</sic> 
+                  <lb ed="#Pa"/>quam eius opposita licet contra protervientem non po<lb ed="#Pa"/>test 
+                  sufficienter demonstrari.</p>
+              </div>
+              <div>
+                <head>Ratio <name>Scoti</name></head> 
+                <p xml:id="awal1d2q1-ahposh"><g ref="#pilcrow"/>Ad hoc pono rationem 
+                  <lb ed="#Pa"/>quae est <name ref="#Scotus">scoti</name> in virtute si essent duo dii sive duo sim<lb ed="#Pa"/>pliciter 
+                  incausabilia aut distinguerentur specie aut so<lb ed="#Pa"/>lum 
+                  numero: si specie non est verisimile quin unus 
+                  <lb ed="#Pa"/>esset perfectior alio et ita ille imperfectior non esset 
+                  <lb ed="#Pa"/>deus: non potest dici quod solum numero quia talium 
+                  <lb ed="#Pa"/>individuorum solo numero quia talium 
+                  <lb ed="#Pa"/>individuorum solo numero distinctorum non po<lb ed="#Pa"/>test 
+                  dari certus numerus ultra quam non possent plu<lb ed="#Pa"/>ra 
+                  eiusdem speciei quam de facto sint cum non sint 
+                  <lb ed="#Pa"/>infiniti: et ex hoc sequeretur quod de facto essent plu<lb ed="#Pa"/>res 
+                  dii quam sunt: quia nec potest esse deus vel simili<lb ed="#Pa"/>ter 
+                  incausabile quin sit de facto quia si non est ex 
+                  <lb ed="#Pa"/>posset esse et non a se igitur ab alio igitur non es<lb ed="#Pa"/>set 
+                  similiter primum incausabile cuius oppositum 
+                  <lb ed="#Pa"/>supponitur.</p>
+              </div>
+              <div>
+                <head><supplied>Responsio Adam</supplied></head>
+                <p xml:id="awal1d2q1-apasca"><g ref="#pilcrow"/>Ad primum argumentum huius du<lb ed="#Pa"/>bii 
+                  dico quod non potest probari oppositum nec pro<lb ed="#Pa"/>positum 
+                  demonstrare evidentius cum propositum 
+                  et maior <choice><orig>ypothetica</orig><reg>hypothetica</reg></choice> falsa est. <g ref="#pilcrow"/>Ad probationem 
+                  <lb ed="#Pa"/>dico quod talis consequentia ex opposito non valet. 
+                  <lb ed="#Pa"/>Nam oppositum consequentis stat cum anteceden<lb ed="#Pa"/>te.</p>
+                
+                <p xml:id="awal1d2q1-aaihgl"><g ref="#pilcrow"/>Ad argumentum in partem oppositam con<lb ed="#Pa"/>cedo 
+                  quod sit bona congruentia <unclear>philososica</unclear> maxime 
+                  <lb ed="#Pa"/>ponendo tantum unum universum dependentium 
+                  <lb ed="#Pa"/>et deum agere universaliter naturaliter tamen 
+                  <lb ed="#Pa"/>probabiliter diceretur quod unus effectus esset pro<lb ed="#Pa"/>ducibilis 
+                  ab uno per se sine alio et econverso et 
+                  <lb ed="#Pa"/>cum hoc aliquis effectus per se producibilis ab 
+                  <lb ed="#Pa"/>uno esset per se <unclear>et</unclear> aequaliter producibilis ab alio 
+                  <lb ed="#Pa"/>nec tunc entia male disponerentur quia tunc un<lb ed="#Pa"/>ius 
+                  multitudinis ordinatae dependentium esset tantum 
+                  <lb ed="#Pa"/>unus princeps et alterius alter multitudo autem 
+                  <lb ed="#Pa"/>dependentium vel producibilium ab utroque simul 
+                  <lb ed="#Pa"/>non male disponeretur <choice><orig>ymo</orig><reg>immo</reg></choice> optime per duos quia 
+                  <lb ed="#Pa"/>repugnaret illi multitudini esse nisi haberet prin<lb ed="#Pa"/>cipes 
+                  duos.</p>
+              </div>
+            </div>
+            <div xml:id="awa-l1d1q1a2dub2" type="dubium">
+              <head>Secundum dubium: Utrum illa unitas numeralis primi probari posset per hoc: quod eiusdem effectus non possunt esse plures causae totales</head>
+              <p xml:id="awal1d2q1-sdepct"><g ref="#pilcrow"/>Secundum dubium ista unitas numeralis pri<lb ed="#Pa"/>mi <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 3 (Wood II:143-145)</note> --> 
+                probari possit per hoc quod eiusdem effectus non 
+                <lb ed="#Pa"/>potest esse plures causae totales.</p>
+              <div>
+                <head>Quod hoc est probabile: ratio <name>Scoti</name></head>
+                <p xml:id="awal1d2q1-evqvqs">et videtur quod sic</p>
+                
+                <p xml:id="awal1d2q1-pqsnee">quia 
+                  <lb ed="#Pa"/>si essent duo prima effectiva neutrum dependeret 
+                  <lb ed="#Pa"/>ab alio in causando effectum maiorem ut patet ex 
+                  <cb ed="#Pa" n="49va"/><lb ed="#Pa"/>differentia secunda causarum essentialiter ordinatarum 
+                  <lb ed="#Pa"/>ab essentialiter ordinatis posita in praecedenti articulo 
+                  <lb ed="#Pa"/>tamen quia simpliciter primum efficiens nullius alterius vir<lb ed="#Pa"/>tute 
+                  est effectivum aliquin dependenter esset effecti<lb ed="#Pa"/>vum 
+                  utraque esset causa totalis ipsius. Sed hoc est impossi<lb ed="#Pa"/>bile 
+                  quia tunc posset aliquid esse causa totalis prima ali<lb ed="#Pa"/>cuius 
+                  effectus a quo illud non dependeret essentialiter 
+                  <lb ed="#Pa"/>quia a nullo dependet aliud essentialiter quo non existen<lb ed="#Pa"/>te 
+                  non minus esset sed non habet duas causa totales 
+                  <lb ed="#Pa"/>puta <c>a</c> et <c>b</c> in eodem ordine utraque earum non existen<lb ed="#Pa"/>te: 
+                  nihil minus esset effectus <c>c</c> ab altera earum quia non 
+                  <lb ed="#Pa"/>existente <c>a</c> vel minus esset ipsum <c>c</c> ab ipso <c>b</c> et non 
+                  <lb ed="#Pa"/>existente <c>b</c> nihil minus esset <c>c</c> ab <c>a</c> igitur.</p>
+
+                <p xml:id="awal1d2q1-hiafie"><g ref="#pilcrow"/>Tertio 
+                  <lb ed="#Pa"/>idem arguitur de causis finalibus quia nullum finitum ordina<lb ed="#Pa"/>tur 
+                  essentiali ad aliud sicut ad finem quo non existen<lb ed="#Pa"/>te 
+                  vel minus esset sufficit finitum et tamen ita esset si respe<lb ed="#Pa"/>ctu 
+                  eiusdem finiri essent duo primi fines.</p>
+              </div>
+              <div>
+                <head>Instantia <name>Ockham</name> contra rationem <name>Scoti</name></head>
+                <p xml:id="awal1d2q1-schrai"><g ref="#pilcrow"/>Sed contra <!--<note>Cf. <name>Ockham</name>, Scriptum in I Sent., d. 2, q. 10 (OTh II, 342-54)</note> -->
+                  <lb ed="#Pa"/>hoc arguitur per <name ref="#Ockham">okham</name> quia per ipsum causa totalis est qua pos<lb ed="#Pa"/>ita 
+                  omni alio amoto ponitur effectus sed sic potest respe<lb ed="#Pa"/>ctu 
+                  eiusdem effectus se habere duo ignes vel duo so<lb ed="#Pa"/>les 
+                  quia uterque esset ad cuius positionem poneretur effe<lb ed="#Pa"/>ctus 
+                  omni etiam alio circumscripto igitur minor videtur patere 
+                  <lb ed="#Pa"/>quia accipiamus stuppam minimam naturalem per se <unclear>exu<lb ed="#Pa"/>stibilem</unclear> 
+                  summe dispositam ad combustionem et ponatur 
+                  <lb ed="#Pa"/>inter duos ignes simul approximatos aequaliter tunc 
+                  <lb ed="#Pa"/>ab utroque eorum incenderetur reliquo circumscripto vel 
+                  <lb ed="#Pa"/>faciat deus de sua potentia absoluta duos ignes ad<lb ed="#Pa"/>aequatos 
+                  in eodem loco et proiiciatur stuppa in igne ab 
+                  <lb ed="#Pa"/>utroque statim intenderetur etiam reliquo amoto igitur</p>
+                
+                <p xml:id="awal1d2q1-idcpee"><g ref="#pilcrow"/>Item de causa finali patet idem quia illud est causa fina<lb ed="#Pa"/>lis 
+                  totalis quo posito poneretur effectus: omni alio 
+                  circumscripto ex descriptione causae totalis licet hoc 
+                  <lb ed="#Pa"/>contingit frequenter ut patet ad experientiam.</p>
+              </div>
+              <div>
+                <head><supplied>Responsio Adam</supplied></head>
+                <p xml:id="awal1d2q1-aidevf">Ad 
+                  <lb ed="#Pa"/>istud dico quod ex utraque parte est difficultas bona tamen 
+                  <lb ed="#Pa"/>mihi videtur quod per evidentiam rationis naturalis 
+                  <lb ed="#Pa"/>non potest ostendi unitas numeralis primi per hanc viam 
+                  quod iste quae poneret plura talia et utrumque esset effecti<lb ed="#Pa"/>vum 
+                  primum quia a nullo esset effectum nec effectibi<lb ed="#Pa"/>le 
+                  nec ab aliquo suae speciei dependeret in agendo. Iu<lb ed="#Pa"/>xta 
+                  secundam differentiam causarum essentialiter ordina<lb ed="#Pa"/>tarum 
+                  etc. talis imprimis quaereret ab opponente quid 
+                  <lb ed="#Pa"/>intelligeret per causam effectivam totalem vel finalem</p>
+                
+                <p xml:id="awal1d2q1-esdeun"><lb ed="#Pa"/><g ref="#pilcrow"/>Si dicas quod omnem illam qua posita et circumscri<lb ed="#Pa"/>pta 
+                  quacumque alia primus ordinis seu primus speciei 
+                  <lb ed="#Pa"/>poneretur seu poni posset sufficit talis effectus quod ad<lb ed="#Pa"/>do 
+                  propter causam liberam. <!-- possible place for paragraph break --> <g ref="#pilcrow"/> Respondetur quod nullus idem 
+                  <lb ed="#Pa"/>effectus numero est effectibilis a quolibet per se suffi<lb ed="#Pa"/>cienter 
+                  agentium eiusdem speciei nec prioris nec secun<lb ed="#Pa"/>dariorum 
+                  planum est quod contra sic respondentem defice<lb ed="#Pa"/>ret 
+                  evidentia probandi per hanc propositionem quia eius<lb ed="#Pa"/>dem 
+                  effectus numero non possunt esse plures cau<lb ed="#Pa"/>sae 
+                  effective totales.</p>
+                
+                <p xml:id="awal1d2q1-irdnin">Ista responsio consequenter di<lb ed="#Pa"/>ceret 
+                  quod qualitercumque posset unus aliquid producere 
+                  <lb ed="#Pa"/>et alter posset simile producere et aequale sed non idem 
+                  <lb ed="#Pa"/>numero.</p>
+                
+                <p xml:id="awal1d2q1-dfupsp"><g ref="#pilcrow"/>Contra tunc esset non uterque omnipotens. Ideo 
+                  <lb ed="#Pa"/>enim Deus et omnipotens quia potest producere quodli<lb ed="#Pa"/>bet 
+                  producibile.</p>
+                
+                <p xml:id="awal1d2q1-rtcsup">Respondet talis consequenter quod 
+                  <lb ed="#Pa"/>sic sumendo <mentioned>omnipotentia</mentioned>. omnipotentia dicitur tantum 
+                  credita est quia absque fide diceretur quod qualitercumque pos<lb ed="#Pa"/>set 
+                  unus et alter non tamen idem.</p>
+                
+                <p xml:id="awal1d2q1-vstsee"><g ref="#pilcrow"/>Item potest dicere quod idem 
+                  <lb ed="#Pa"/>effectus numero est sufficienter causabilis a quolibet 
+                  <lb ed="#Pa"/>agentium eiusdem speciei sine altero maxime a quolibet 
+                  <lb ed="#Pa"/>priorum sine altero quod non est inconveniens eiusdem ef<lb ed="#Pa"/>fectus 
+                  numero esse plures causas totales primas 
+                  <lb ed="#Pa"/>et etiam non primas totales sicut expositum est</p>
+              </div>
+         <div>
+             <head>Quid est causa totalis et quid dependentia essentialis</head>
+             
+           <p xml:id="awal1d2q1-stchuc">et sicut 
+             <lb ed="#Pa"/>modo de facto unus effectus absolutus essentialiter <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 4 (Wood II:145-148)</note>--> 
+             <cb ed="#Pa" n="49vb"/><lb ed="#Pa"/>similiter et absolute dependet a quacumque causa rea<lb ed="#Pa"/>liter 
+             et totaliter ab eo dicta praeterquam a simpli<lb ed="#Pa"/>citer. 
+             Praeterea non obstante quod de facto causetur pro<lb ed="#Pa"/>ducatur 
+             et conservetur a causa creata produci et con<lb ed="#Pa"/>servari 
+             a prima ita consequenter dicerem quod nullus effectus 
+             <lb ed="#Pa"/>essentialiter dependet ab ista prima vel ab illa pri<lb ed="#Pa"/>ma 
+             quia licet sufficienter posset poni a qualibet illa<lb ed="#Pa"/>rum 
+             divisum quia causa nullam illarum requirit simi<lb ed="#Pa"/>liter 
+             et absoluta necessitate ad hoc ut ponatur ideo 
+             <lb ed="#Pa"/>similiter a nullo essentialiter dependet: licet essen<lb ed="#Pa"/>tialiter 
+             dependat ab illa specie ad hoc ut tenetur</p> 
+
+           <p xml:id="awal1d2q1-vgcivi"><lb ed="#Pa"/>verbi gratia. calor eiusdem speciei potest produci ab 
+             <lb ed="#Pa"/>igne et etiam a sole et si individuum ab utroque pos<lb ed="#Pa"/>set 
+             produci illud ad hoc quod naturaliter producatur requi<lb ed="#Pa"/>rit 
+             solem vel ignem sub disiunctione a neutro tamen 
+             <lb ed="#Pa"/>determinate essentialiter dependet. Vocando tamen 
+             <lb ed="#Pa"/>essentialem dependentiam ad sine quo de facto 
+             <lb ed="#Pa"/>non fieret et a quo fieret alio circumscripto. Dicen<lb ed="#Pa"/>dum 
+             enim quod ab illo essentialiter dependet a quo pro<lb ed="#Pa"/>ducitur 
+             de facto nec etiam conservaretur de facto nisi 
+             <lb ed="#Pa"/>ab eo fieret licet ab alio fieri posset et conservari 
+             <lb ed="#Pa"/>etc. sic conformiter diceretur in proposito.</p>
+
+             <p xml:id="awal1d2q1-dspusc">Diceres si 
+               <lb ed="#Pa"/>ponit duo prima eo ipso ponit oppositum in adiecto 
+               <lb ed="#Pa"/>quia per <choice><orig>superhabundantiam</orig><reg>superabundantiam</reg></choice> dicitur uni soli conve<lb ed="#Pa"/>nit.</p>
+           
+           <p xml:id="awal1d2q1-dqpoia">Dicendum quod tunc iste superlativus primum expo<lb ed="#Pa"/>neretur 
+             negative et non affirmative.</p>
+<!-- this paragraph seems to be skipped 
+<p xml:id="awal1d2q1-ampnea">Alio modo potest exponi negative. Verbi gratia 'albissimum: 
+album quo nihil est albius', 'primum: quo nihil est prius'. Et sic non est oppositum 
+in adiecto dicere multa prima, sicut multa albissima, si 
+sint quaedam alba aequaliter quorum quolibet nihil est albius.</p> 
+-->
+           <p xml:id="awal1d2q1-tmpqdt">Tertio posset quis 
+             <lb ed="#Pa"/>vocare <sic>dependentiam essentialem</sic> dependentiam ali<lb ed="#Pa"/>cuius 
+             ab alio a quo de facto capit esse vel conser<lb ed="#Pa"/>vat 
+             non obstante quod ab alio caperet esse si illud de 
+             <lb ed="#Pa"/>esset. Verbi gratia deus posset ordinare quod si talis causa 
+             <lb ed="#Pa"/>fuerit praesens tali materiae in <c>a</c> instanti quod ipse coope<lb ed="#Pa"/>rabitur 
+             tali causae ad productionem <c>b</c> effectus et de<lb ed="#Pa"/>ficiente 
+             tali causa ipse per se ipsum solum produceret 
+             <lb ed="#Pa"/><c>b</c> quo posito si ista causa creata sit praesens tali mate<lb ed="#Pa"/>riae 
+             in <c>a</c> <unclear>istam <!-- might be another word here --></unclear> effectus <c>b</c> effective erit <c>a</c> tali causa 
+             <lb ed="#Pa"/>creata et si non illi non adesset nichilominus <c>b</c> produceret et 
+             <lb ed="#Pa"/>in isto casu deus esset causa totalis illius effectus. 
+             <lb ed="#Pa"/>quia ab ipso de facto ponitur effectus et aequaliter po<lb ed="#Pa"/>neretur 
+             omni alio circumscripto in ratione efficien<lb ed="#Pa"/>ter 
+             et tamen ita absurdum videtur quod respectu eiusdem 
+             <lb ed="#Pa"/>effectus sint duae causae effective una totalis et alia 
+             <lb ed="#Pa"/>partialis sicut quod duae totales.</p>
+           
+           <p xml:id="awal1d2q1-spoien">Sic per omnia 
+             <lb ed="#Pa"/>esset dicendum tenendo cum <name ref="#Scotus">scoto</name> quod idem effectus nu<lb ed="#Pa"/>mero 
+             posset produci a diversis causis creatis a qua<lb ed="#Pa"/>libet 
+             istarum sine alia ut patet de diversis <unclear>patribus</unclear> re<lb ed="#Pa"/>spectu 
+             eiusdem filii in quaestione illa an si <name ref="#Adam">adam</name> non peccas<lb ed="#Pa"/>set 
+             tantum modo illi qui salvabuntur fuissent nati et <ref>in 4 
+             <lb ed="#Pa"/>in materia De <sic>responsione</sic>,</ref> videtur sibi rationabile quod de 
+             <lb ed="#Pa"/>eadem materia numero a diversis agentibus numero pro<lb ed="#Pa"/>duceretur 
+             idem effectum numero</p>
+           
+           <p xml:id="awal1d2q1-viqpct">Et hoc etiam proabri potest po<lb ed="#Pa"/>siot 
+             casu de duobus ignibus vel tribus existentibus adae<lb ed="#Pa"/>quate 
+             in eodem situ etc. ut prius per argumentum <name ref="#Ockham">okham</name> 
+             <lb ed="#Pa"/>Nullum igitur inconveniens est ponere quod idem effectus si<lb ed="#Pa"/>mul 
+             producitur a pluribus causis totalibus. Diceres a 
+             nullo dependet aliud essentialiter quo non existente vel 
+             <lb ed="#Pa"/>minus esset. Sed si effectus habe plures causas totales in 
+             <lb ed="#Pa"/>eodem ordine si aliqua earum abesset vel minus esset igitur 
+             <lb ed="#Pa"/>a nulla earum dependet <unclear>essentialie</unclear> et ita in proposito nisi 
+             <lb ed="#Pa"/><unclear>deo</unclear> unicum primum.</p>
+<!-- paragraphs below not present 
+<p xml:id="awal1d2q1-eartin">Et ad rationem, tunc dicendum quod aliquid potest esse simul a multis, 
+et sic secundum principia tua, <name ref="#Scotus">Scotus</name>, quorum quodlibet sublato, alio vel aliis manentibus 
+nihilominus esset. Nec hoc est inconveniens secundum principia tua, immo necessarium.</p>
+
+<p xml:id="awal1d2q1-dsadup">Dices: 
+saltem a nullo dependet aliquid essentialiter quo non existente nihilo
+minus esset. Sed si effectus habet plures causas totales in eodem ordine, 
+si alia earum, quantumcumque, scilicet, per se dederis, de esset nihilominus esset, igitur a 
+nulla causarum dependet effectus essentialiter, et ita in proposito, nisi des unicum primum.</p> 
+-->
+           <p xml:id="awal1d2q1-ipraqp"><g ref="#pilcrow"/>Responderet protervus quod maior 
+             <lb ed="#Pa"/>est vera loquendo de essentiali dependentia primo modo di<lb ed="#Pa"/>cta 
+             sed non secundo modo vel tertio modo</p> 
+
+           <p xml:id="awal1d2q1-qstaee"> quia si tenet se in prima responsione 
+             <lb ed="#Pa"/>scilicet quod diversitas agentis secundum numero in naturalibus 
+             <lb ed="#Pa"/>arguit sufficienter diversitatem numeralem effectus 
+             <lb ed="#Pa"/>quod ego verius reputo tunc consideretur quod quilibet ef<lb ed="#Pa"/>fectus 
+             essentialiter dependet a primo suo etiam 
+             <lb ed="#Pa"/>sumendo <unclear>dependentiam essentialem</unclear> primo modo quia 
+             <cb ed="#Pa" n="50ra"/><lb ed="#Pa"/>nullus posset sine hoc produci nisi ab isto aliquo 
+             <lb ed="#Pa"/>producitur et quod non posset produci idem effectus ab altero 
+             <lb ed="#Pa"/>primo sed sibi similis et aequalis sicut forte diceretur 
+             <lb ed="#Pa"/>de omnibus causis naturalibus quod idem effectus nume<lb ed="#Pa"/>ro 
+             qui producitur ab isto per se non potest produci ab ali<lb ed="#Pa"/>quo 
+             effectivo eiusdem speciei sed similis et aequalis 
+             <lb ed="#Pa"/>vel si concederetur quod idem effectus numero produci 
+             <lb ed="#Pa"/>posset simul ab utroque et etiam separatim ab uno 
+             <lb ed="#Pa"/>per se si aliud non esset et econverso quod credo esse verum 
+             <lb ed="#Pa"/>non tamen sequitur quod ambo essent causae totales vocan<lb ed="#Pa"/>do 
+             causam totalem illam a qua producitur effectus et a 
+             <lb ed="#Pa"/>nullo alio: sumendo autem <mentioned>causa tota</mentioned> totat est sicut prius non 
+             <lb ed="#Pa"/>est inconveniens duas esse causas totales respectu 
+             <lb ed="#Pa"/>eiusdem effectus.</p>
+         </div>
+              <!-- this subsection seems skipped 
+         <div>
+             <head>Unitas numeralis primi efficientis probari non potest</head>
+             
+             <p xml:id="awal1d2q1-spidsss">Sed<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 5 (Wood II:148-149)</note> per istam  viam non potest probari unitas numeralis 
+primi efficientis, quia ex dualitate et pluralitate primorum non 
+posset inferi, sic sumendo 'causam totalem', quod idem effectus numero sit 
+ab hoc et a nullo alio, et tamen hoc oporteret quod ista duo prima essent respectu 
+ipsius duae causae totales - per locum ab exponentibus ad expositam - quia idem 
+est dicere quod haec est causa totalis illius effectus, sic sumendo 'causam totalem'; 
+et dicere hoc solum est causa illius est dicere quod hoc et nihil aliud est causa illius. 
+Igitur ex dualitate deorum vel primorum effectiorum non sequitur quod respectu eiusdem 
+effectus sint causae totales duae sic sumendo <supplied>causas totales</supplied>.</p> 
+
+<p xml:id="awal1d2q1-apqqei">Antecedens patet, quia cum pluralitate 
+primorum staret vel quod iste effectus secundum numerum qui producitur ab uno illorum 
+non possit produci ab altero sed similis sibi et aequalis, sicut dicentur 
+generaliter forte de omnibus causis naturalibus, quod idem effectus [M 64va] numero 
+qui producitur ab illo per se non potest produci ab aliquo effectivo eiusdem 
+speciei sed similis et aequalis, non idem. Vel si sit quod idem effectus numero 
+simul produceretur ab utroque vel produci posset et non solum simul 
+et separatim ab uno per se, si aliud non esset et e converso, sicut exemplificatum 
+est de igne producibili a duobus ignibus, quod tamen credo esse verum. 
+Sed neutrorum horum infert quod idem effectus numero sit ab hoc solo et 
+simul ab illo solo quia si primum istorum esset verum alta pars copulativae 
+falsa esset certum est. Et si secundum esset verum aliquando ambae partes 
+essent falsae, aliquando altera, semper tamen ad minus altera, non obstante dualitate 
+primorum. Igitur dualitas primorum non infert copulativam istam; igitur nec 
+infert duas esse causa totales respectu eiusdem effectus numero, quod est intentum.</p>
+
+<p xml:id="awal1d2q1-ciseie">Colligo igitur sub eodem, quod per istam viam non potest 
+convinci unitas numeralis, quia nonnisi quia ex opposito sequeretur 
+duas esse totales causas in ordine respectu eiusdem effectus. Sed hoc 
+non est verum sumendo 'causas totales' secundo modo praeexposito, ut declaratum 
+est iam immediate; nec etiam primo modo exponendo, nisi dato 
+quod idem effectus numero posset simul et separatim a pluribus causis eiusdem 
+speciei causari et tunc quod infertur non est inconveniens, scilicet, duas 
+esse causas totales respectu eiusdem, ut ostensum est, igitur etc.</p>
+         </div>
+              -->
+         <div>
+           <head><supplied>Argumenta <name>Chatton</name> contra <name>Ockham</name></supplied></head>
+           
+           <p xml:id="awal1d2q1-scioac">Sed contra arguitur <quote>tunc multitu<lb ed="#Pa"/>do <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 6 (Wood II:150-)</note> --> 
+             dependentium aeque primo et aequaliter dependeret <!-- quote location of chatton unclear here -->  
+             <lb ed="#Pa"/>ab uno istorum sicut ab altero. Falsitas probatur quia 
+             <lb ed="#Pa"/>aut ambo concurrerent respectu eorumdem effectuum 
+               <lb ed="#Pa"/>ut causae partiales mutuo se exigentes respectu eorum, 
+               <lb ed="#Pa"/>et tunc neutrorum esset primum quia utrumque a reliquo 
+               <lb ed="#Pa"/>dependeret in causando aut utrumque esset causa tota<lb ed="#Pa"/>lis 
+               sic saltem quod posset causare illam altero circumscripto et hoc 
+               <lb ed="#Pa"/>est falsum quia contradictio est quod aliquis effectus essentia<lb ed="#Pa"/>liter 
+               dependeat ab <c>a</c> et quod tamen possit causari circum<lb ed="#Pa"/>scripto 
+               <c>a</c></quote> quia illud quo circumscripto potest causari a 
+             non est eius causa essentialis et per consequens nec totalis.</p>
+
+           <!-- the following are not present 
+<p xml:id="awal1d2q1-idsoac">Item 
+dixi supra quod simul stant quod effectus aliquis demonstratus sit de facto ab 
+alia causa creata et tamen quod Deus sit istius effectus causa totalis, et vocando 
+illud causam totalem huius effectus a quo poneretur effectus ille omni 
+alio circumscripto.</p>
+
+<p xml:id="awal1d2q1-ciaoia">Contra illud arguitur sic: Deus non posset concurrere cum causa 
+secunda nisi vellet effectum capere esse et a se et a causa secunda simul. Sed hoc 
+dato, circumscripta causa secunda, effectus non caperet esse, nam contrarium dicere 
+est dicere oppositum in adiecto.</p>
+
+-->
+              </div>
+              <div>
+                <head><supplied>Responsio <name>Adae</name> ad argumenta <name>Chatton</name></supplied></head>
+                
+                <p xml:id="awal1d2q1-apiree"><lb ed="#Pa"/><g ref="#pilcrow"/>Respondet si quis non velit dare quod idem effectus 
+                  numero et eiusdem speciei neganda est consequentia prima 
+                  quia aequalis perfectio non arguit plus nisi quod possit in<lb ed="#Pa"/>aequales 
+                  effectus non tamen in eosdem isto tamen dato cum 
+                  probas falsitatem consequentis dico primo quo concurrunt ut 
+                  <lb ed="#Pa"/>causae partiales sicut deus modo cum musca concurrit 
+                  <lb ed="#Pa"/>sicut causa partialis respectu eiusdem effectus</p>
+
+                <p xml:id="awal1d2q1-ecaind">nec se<lb ed="#Pa"/>quitur 
+                  quod unum dependeret ab alio in causando sicut 
+                  <lb ed="#Pa"/>nec deus nunc a musca quia sine tali conprincipio potest 
+                  <lb ed="#Pa"/>in eundem effectum vel in similem illo non dato</p>
+                  
+                  <p xml:id="awal1d2q1-eecivi">etiam 
+                    <lb ed="#Pa"/>concedendo quod ambo sunt causa totalis unius effectus sicut in 
+                    <lb ed="#Pa"/>argumento accipitur causa totalis pro causa quae potest 
+                    <lb ed="#Pa"/>causare altera circumscripta et ultra dico quod a nullo 
+                    <lb ed="#Pa"/>primorum determinate dependeret effectus essentialiter 
+                    primo modo superius exposito sumendo depen<lb ed="#Pa"/>dentiam 
+                    essentialem sicut etiam tu accipis hic <g ref="#slash"/> et causa quae potest 
+                    <lb ed="#Pa"/>causare altera circumscripta et ultra dico quod a nullo  
+                    primorum determinate dependeret effectus essen<lb ed="#Pa"/>tialiter 
+                    primo modo superius exposito sumendo depen<lb ed="#Pa"/>dentiam 
+                    essentialem sicut etiam tu accipis hic <g ref="#slash"/> et causa 
+                    <lb ed="#Pa"/>huius ibi tacta est quilibet enim talis effectus requi<lb ed="#Pa"/>rit 
+                    aliud primorum hoc vel illud sed nec hoc deter<lb ed="#Pa"/>minate 
+                    nec illud</p>
+
+                  <!-- missing in abbreviatio 
+                    
+                    </p>
+                  <p xml:id="awal1d2q1-aspaia">Ad secundum 
+posset dici quod: licet maior non sic, sit distincta secundum compositionem et divisionem de vi 
+vocis. Sed sit sensus divisionis unius alterius sic distinguendo puncta[??] illius 
+non est possibile Deum concurrere cum causa secunda nisi velit etc. Tamen ex 
+quo aliqui inte?nt[?] eam ad alios duos sensus erga aliqorum distinguo 
+sic eam et in compositione est vera, quia tunc est iste sensus. Haec non est 
+possibilis Deus concurrit cum causa secunda in producendo effectum aliquem sine 
+hoc quod velit effectum illum capere esse a se et a causa secunda simul, 
+et hoc est satis certum in sensu divisionis. Negat quod Deus non habet 
+potentiam concurrendi cum causa secunda respectu alicuius effectus nisi de facto 
+velit sic concurere, et hoc est falsum. Tamen quia multa potest quae 
+non vult secundum <ref><name ref="#Lombard">Magistrum</name> 43 distinctione primi libri</ref>, tum quia Deus potest vel<cb ed="#S" n="77vb"/>le 
+concurrere cum voluntate ad actum dilectionis comprincipiandum respectu alicuius oppositi 
+in A instanti, si tunc voluntas libere disponet se ad illud et vellet se toto 
+totam causare, si voluntas non disponeret se libere ad idem cum quia 
+Deus potest libere comproducere effectum in illo instanti cum causa alia et velle 
+quod si non <unclear>adsit[?]</unclear> illa creata in A. Puta si per voluntatem liberam 
+rationabilem aliter de creata ordinetur ante A quod non est impossibile 
+se solo producere talem effectum, immo illum eundem effectum quem 
+produceret cum causa tali secunda, si adesset in A.</p>
+-->
+                <p xml:id="awal1d2q1-dseqav"><lb ed="#Pa"/>Dices si essent duo primi uter<lb ed="#Pa"/>que 
+                  argueret aliam nulli potentem sicut arguit <name ref="#HughOfStVictor">Hugo 
+                    <lb ed="#Pa"/>de sancto victore</name> quod unus posset nolle esse idem quod 
+                  <lb ed="#Pa"/>alius velle.</p>
+                
+                <p xml:id="awal1d2q1-rpcmio">Respondetur negando consequentiam quod ita es<lb ed="#Pa"/>sent 
+                  caritatem quod neuter possit alteri <choice><orig>difformiter</orig><reg>deformiter</reg></choice> vel<lb ed="#Pa"/>le</p>
+              
+              </div>
+            </div>
+            <div xml:id="awa-l1d1q1a2dub3" type="dubium"> <!-- this is a good example of a complicated content hierarchy where dumbium 3 and 4 are wrapped in larger section because of an introduction and therefore do not appear at the same level as the other dubia, but this could be a mistake, because the next dubio mentioned is the "fourth dubium"-->
+              <head>Tertium dubium An ille idem effectus numero posset naturaliter produci ab alio activo eiusdem speciei? <!-- possibly should be second dubium in abbreviatio  --></head>
+              <p xml:id="awal1d2q1-tdpunp"><sic>Secundum</sic> dubium potest esse an idem effectus numero <!-- <note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 7, primum dubium (Wood II:152)</note> --> 
+                qui de facto sufficienter producitur seu produci 
+                <lb ed="#Pa"/>posset de hac materia ab uno activo naturali pos<lb ed="#Pa"/>set 
+                naturaliter produci ab alio activo eiusdem speciei</p> 
+               
+<!-- 
+<p xml:id="awal1d2q1-eihcao">Et 
+iuxta hoc potest esse quartum dubium:<note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 7, secundum dubium (Wood II:152)</note> quomodo posset vitari quin eiusdem 
+effectus numero sint plures causae totales sic, scilicet, exponendo 
+quod per quamlibet, earum alia circumscripta vel aliis manentibus, adhuc producretur. 
+Ex quo sequeretur etiam quod illud idem quod produceretur ab uno 
+primo, produci posset ab alio suae speciei. Si poneretur hoc, idem videntur 
+concludere argumenta <name ref="#Ockham">Ockham</name>.</p> -->
+              
+              <p xml:id="awal1d2q1-aidavi"><lb ed="#Pa"/>Similiter mihi videtur dicendum quod non propter hanc rationem 
+                <lb ed="#Pa"/>quia qua ratione hoc posset fieri per agentia natura<lb ed="#Pa"/>lia 
+                unius speciei eadem ratione et alterius quia non plus repug<lb ed="#Pa"/>nat 
+                agenti unius speciei quod praecise suppleat vicem agen<lb ed="#Pa"/>tis 
+                sibi similis in speciei quam cuicumque agenti naturali 
+                <lb ed="#Pa"/>cuiuscumque alterius speciei respectu sibi similis. Falsi<lb ed="#Pa"/>tas 
+                probatur quia visione sensitivam vel intellectivam ean<lb ed="#Pa"/>dem 
+                numero quam causat respectu sui hoc visibile vel 
+                <lb ed="#Pa"/>hoc intelligibile nullum aliud visibile eiusdem speciei 
+                <lb ed="#Pa"/>posset producere quia nullum aliud visibile natum esset 
+                <lb ed="#Pa"/>sufficienter hoc circumscripto producere visionem pro<lb ed="#Pa"/>priam 
+                illius: tamen quia tunc non esset propria huius vel nulla habe<lb ed="#Pa"/>bitur 
+                visio propria causabilis per naturam vel propositum tum 
+                <cb ed="#Pa" n="50rb"/><lb ed="#Pa"/>quia activum naturale agit secundum ultimum potentiae 
+                <lb ed="#Pa"/>suae: et ideo si haec albedo sufficeret causare visionem pro<lb ed="#Pa"/>priam 
+                alterius albedinis et non plus unius alterius 
+                <lb ed="#Pa"/>a se quam cuiuslibet infinitarum ergo cum non sit maior 
+                <lb ed="#Pa"/>ratio quod causet unius quam alterius visionem vel causa<lb ed="#Pa"/>bit 
+                propriam cuiuslibet vel nullius et non cuiuslibet al<lb ed="#Pa"/>terius 
+                igitur tantum propriam sui ipsius et sicut non potest causare 
+                <lb ed="#Pa"/>visionem propriam alterius ita nec albedo aliam visionem 
+                <lb ed="#Pa"/>istius.</p>
+              
+              <p xml:id="awal1d2q1-epopqi">Praeterea omnis cognitio est signum naturale il<lb ed="#Pa"/>lius 
+                quod per se significat tali potentiae quam informat.</p>
+              
+              <p xml:id="awal1d2q1-paeqpd">Prae<lb ed="#Pa"/>terea 
+                aliter eandem cognitio posset esse non tot quin 
+                <lb ed="#Pa"/>plurimum dicta cognitio.</p>
+              
+              <p xml:id="awal1d2q1-inicsp"><g ref="#pilcrow"/>Item nec in mundo esset co<lb ed="#Pa"/>gnoscibile 
+                cognitione sibi propria.</p>
+              
+              <p xml:id="awal1d2q1-ehsace"><g ref="#pilcrow"/>Correlarium quod 
+                <lb ed="#Pa"/>haec albedo posset causare infinitas visiones sui 
+                <lb ed="#Pa"/>sive tantum unicam semper in eadem posita numquam tamen poterit 
+                <lb ed="#Pa"/>causare nec in eadem posita nec in alia aliam de omnibus 
+                <lb ed="#Pa"/>visionibus infinitis causabilibus in eadem potentia vel 
+                <lb ed="#Pa"/>aliam propriam respectu cuiuscumque albedinis et tamen cum 
+                <lb ed="#Pa"/>hoc stat verum esse quod omnes visiones proprie quarum<lb ed="#Pa"/>cumque 
+                albedinum causabiles sufficienter ab illis albedi<lb ed="#Pa"/>nibus 
+                et potentiis <unclear>visivis</unclear> eiusdem speciei specialissimae 
+                <lb ed="#Pa"/>sunt eiusdem rationis quia omnes causae concurrentes 
+                ad causandum respectu unius sunt eiusdem speciei cum 
+                <lb ed="#Pa"/>causis concurrentibus alterius.</p>
+              
+              <p xml:id="awal1d2q1-eqvsea">Et licet tam appa<lb ed="#Pa"/>renter 
+                non posset argui secundum hanc viam de diver<lb ed="#Pa"/>sis 
+                ignibus ex propriis conditionibus actuum vel obiectorum 
+                tamen omne argumentum quod fieret ad probandum op<lb ed="#Pa"/>positum 
+                de ignibus aeque probaret oppositum de obie<lb ed="#Pa"/>ctis 
+                et visionibus et ita naturalis vel necessaria causa<lb ed="#Pa"/>litas 
+                est ex una parte sicut ex alia.</p>
+              <!-- this paragraph not present 
+              <p xml:id="awal1d2q1-eqpihi">Ex quo 
+patet quod evidenter falsum est dicere quod idem numero causabile sit a 
+diversis naturaliter obiectis, si alia sit possibilis cognitio vel propria visio hoc 
+argumentum. Igitur arguitive per locum a simili innotescit haec ille.</p>
+-->
+              <p xml:id="awal1d2q1-esahpa">Et si arguatur 
+                <lb ed="#Pa"/>contra secundum motivum <name ref="#Scotus">scoti</name> de filiis et patribus quia 
+                <lb ed="#Pa"/>dato quod <name ref="#Adam">adam</name> non peccasset idem praescisse fuissent secundum 
+                <lb ed="#Pa"/>sanctos salvati tunc et nunc igitur cum multi nunc sal<lb ed="#Pa"/>vandi 
+                <sic>hamanarunt</sic> patres damnatos de facto quorum 
+                <lb ed="#Pa"/>nullus tunc fuisset in rerum natura secundum hoc igi<lb ed="#Pa"/>tur 
+                habuissent patres alios.</p>
+              
+              <p xml:id="awal1d2q1-dqsanc"><g ref="#pilcrow"/>Dicendum quod dictum 
+                <lb ed="#Pa"/>sanctorum intelligendum est de <choice><orig>ydemptitate</orig><reg>identitate</reg></choice> tunc et nunc 
+                <lb ed="#Pa"/>animarum et non corporum.</p>
+              <div xml:id="awa-l1d1q1a2dub4" type="dubium">
+                <head><supplied>Ad quartum dubium: quomodo posset vitari quin eius dem effectus numero sint plures causae totales</supplied></head>
+                
+                <p xml:id="awal1d2q1-aqdmct">Ex hoc potest solvi quartum du<lb ed="#Pa"/>ium 
+                  scilicet quomodo potest vitari quin eiusdem effectus nume<lb ed="#Pa"/>ro 
+                  sint plures causae totales</p>
+                <!-- paragraph break here may not fit break in Ordinatio, reconsider divisions -->
+              </div>
+              <div>
+                <head>Responsio ad rationem <name>Ockham</name></head>
+                <p xml:id="awal1d2q1-etaeni">
+                  scilicet sic exponendo quod per <!--<note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 8 (Wood II:155)</note> -->
+                  <lb ed="#Pa"/>quamlibet earum alia circumscripta vel aliis adhuc pro<lb ed="#Pa"/>ducerentur 
+                  quia diceretur quod idem effectus numero non 
+                  <lb ed="#Pa"/>esset producibilis a diversis causis etc. ut praedictum.
+                  <lb ed="#Pa"/>Unde dico quod ponendo stuppam in duos ignes aequa<lb ed="#Pa"/>les 
+                  unus ageret unam medietatem et alius aliam.</p>
+                
+                <p xml:id="awal1d2q1-dsnaaa">Dice<lb ed="#Pa"/>res 
+                  ponendo continuum componi ex indivisibilibus statur 
+                  ad partem minimam de qua responsio non habet locum.</p>
+                
+                <p xml:id="awal1d2q1-rqiaaa"><lb ed="#Pa"/><g ref="#pilcrow"/>Respondetur licet suppositum sit impossibile adhuc 
+                  <lb ed="#Pa"/>posset dici quod primus ignis minimum secundum extensio<lb ed="#Pa"/>nem 
+                  <unclear>unus <!-- unius --></unclear> gradus perfectionis <unclear>intensive <!-- intensivae --></unclear> causatur ab uno igne 
+                  <lb ed="#Pa"/>et alius ab alio.</p>
+                
+                <p xml:id="awal1d2q1-sdiacp"><g ref="#pilcrow"/>Sed dices ista opinio sicut po<lb ed="#Pa"/>nit 
+                  minimum secundum intensionem. </p>
+
+                <p xml:id="awal1d2q1-reenhl">Et tunc stat argumentum 
+                  <lb ed="#Pa"/>responsio eadem est ad illud argumentum sicut ad argu<lb ed="#Pa"/>mentum 
+                  prius factum de duobus vel de pluribus ignibus 
+                  <lb ed="#Pa"/>positis in eodem situ adaequato aequaliter applicatur 
+                  <lb ed="#Pa"/>uni stuppae vel materiae minime et licet evadi potest po<lb ed="#Pa"/>nendo 
+                  latitudinem graduum in forma ignis sicut ponit 
+                  <lb ed="#Pa"/><name ref="#Averroes">commentator</name> quod formae elementorum sunt intensibiles et re<lb ed="#Pa"/>missibiles 
+                  quia tunc diceretur quod unus gradus esset ab uno 
+                  <lb ed="#Pa"/>et alius ab alio sed econverso</p>
+
+                <p xml:id="awal1d2q1-tcqspi"><unclear>non</unclear> concedo quod forma sub<lb ed="#Pa"/>stantialis 
+                  suscipiat magis et minus quod <unclear>ideo</unclear> vel oportebit 
+                  <lb ed="#Pa"/>dicere quod ista materia minima reciperet formam ab uno non 
+                  <lb ed="#Pa"/>ab alio quod non videtur rationabile per casum positum vel quod uter<lb ed="#Pa"/>que 
+                  causabit vel neuter vel quod ista materia simul recipe<lb ed="#Pa"/>ret 
+                  duas formas eiusdem speciei non facientes unam quod 
+                  <lb ed="#Pa"/>licet non sit apud me verum citius tamen hoc ponerem quam di<cb ed="#Pa" n="50va"/><lb ed="#Pa"/>cerem 
+                  quod iste effectus secundum numerum qui suffi<lb ed="#Pa"/>cienter 
+                  produceretur ab uno istorum posset produci 
+                  <lb ed="#Pa"/>naturaliter ab altero quia hoc scio esse verum in 
+                  <lb ed="#Pa"/>simili anima enim separata simul posset perfici dua<lb ed="#Pa"/>bus 
+                  intellectionibus propriis duorum angelorum</p>
+
+
+                <p xml:id="awal1d2q1-votpaa"><lb ed="#Pa"/>vel oportebit tertio dicere quod materiae non reci<lb ed="#Pa"/>peret 
+                  aliquid sed manebit in medio mille ignium 
+                  <lb ed="#Pa"/>qui non poterunt comburere unam stuppam quod tamen videtur 
+                  <lb ed="#Pa"/>absurdum </p>
+
+                <p xml:id="awal1d2q1-voufci">vel oportebit dicere quod ambo simul produ<lb ed="#Pa"/>cunt 
+                  eundem ignem numero quod concederem suppo<lb ed="#Pa"/>sita 
+                  indivisibilitate formae causalis intensive.</p>
+
+                <p xml:id="awal1d2q1-diicod">Di<lb ed="#Pa"/>ces 
+                  prius oppositum dixisti.</p>
+                
+                <p xml:id="awal1d2q1-rneeas"><g ref="#pilcrow"/>Respondeo hoc ne<lb ed="#Pa"/>gando 
+                  sed dixi quod iste effectus secundum numerum quod po<lb ed="#Pa"/>test 
+                  sufficienter produci ab uno non potest produci ab 
+                  <lb ed="#Pa"/>alio eiusdem speciei et nunc addo qoud nec ab isto et 
+                  alio simul.</p>
+                
+                <p xml:id="awal1d2q1-udqesn"><g ref="#pilcrow"/>haec autem dico quod idem ignis potest si<lb ed="#Pa"/>mul 
+                  produci a duobus ignibus sed iste secundum nu<lb ed="#Pa"/>merum 
+                  a neutro posset naturaliter produci. Unde 
+                  <lb ed="#Pa"/>secundum varietatem efficientis quantumcumque parum 
+                  <lb ed="#Pa"/>volueris in numero vel in entitate habebis semper 
+                  <lb ed="#Pa"/>alium et alium effectum secundum numerum.</p>
+                <!-- not present 
+                <p xml:id="awal1d2q1-eihaep">Et ita haberet 
+                  dicere qui negaret unitatem numeralem primum et proterviendo 
+                  poneret multa esse prima respectu effectuum ab eis producibilium.</p>
+                  -->
+              </div> 
+              <div>
+                <head>Instantiae et solutiones earum</head>
+                <p xml:id="awal1d2q1-chdtni"><g ref="#pilcrow"/>Contra <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 9 (Wood II:157)</note> --> 
+                  <lb ed="#Pa"/>tunc inter individua eiusdem speciei esset ordo es<lb ed="#Pa"/>sentialis 
+                  in causando eundem effectum cum tamen 
+                  <lb ed="#Pa"/>superius dixeris quod causae essentialiter ordinatae in 
+                  <lb ed="#Pa"/>causando sunt alterius rationis consequentia patet quia utra<lb ed="#Pa"/>que 
+                  talium causarum necessario requirit alteram ad 
+                  <lb ed="#Pa"/>hoc quod producat illum effectum.</p>
+                
+                <p xml:id="awal1d2q1-invphn"><g ref="#pilcrow"/>Item non videtur 
+                  si deus conservaret radium productum ab illo sole 
+                  aut vel causando solem et ponendo in eodem situ 
+                  <lb ed="#Pa"/>alium alius posset conservare radium ab alio prius 
+                  <lb ed="#Pa"/>conservatum sed conservare et producere sunt idem 
+                  <lb ed="#Pa"/>in re quoad positiva signatur per haec nomina igitur</p>
+                
+                <p xml:id="awal1d2q1-inveid"><g ref="#pilcrow"/>Item non videtur quin aliud sigillum numero po<lb ed="#Pa"/>sset 
+                  conservare figuram aeque impressam ab illo si 
+                  deus poneret ibi aliud et istud destrueret.</p>
+                
+                <p xml:id="awal1d2q1-apamed"><g ref="#pilcrow"/>Ad 
+                  <lb ed="#Pa"/>primum negatur consequens ad probationem dico quod licet 
+                  <lb ed="#Pa"/>ad producendum illum effectum altera requirat alte<lb ed="#Pa"/>ram 
+                  tamen quaelibet causa potest producere aliquem 
+                  <lb ed="#Pa"/>effectum alium suae speciei sine altera illius speciei et 
+                  ideo non est ibi ordo essentialis in causando simpli<lb ed="#Pa"/>citer 
+                  licet posset concedi quod ibi esset talis ordo addo re<lb ed="#Pa"/>spectu 
+                  illius effectus dari eo quod ille simul a duobus 
+                  <lb ed="#Pa"/>mutuo essentialiter dependet.</p>
+                
+                <!-- not included in abbrev
+
+<p xml:id="awal1d2q1-eahpnnn">Exemplum ad hoc est de 
+tractu navis et de divisione aquae in illo tractu. Unus enim 
+per se illorum saltem non sufficeret. Tamen exemplum illud non multum facit 
+ad propositum, nisi ponendo quod movere localiter esset aliquid efficere, quod ad 
+praesens nec pono nec nego.</p> 
+-->
+                <p xml:id="awal1d2q1-asdasc"><g ref="#pilcrow"/>Ad secundum dico quod 
+                  secundus sol non potest conservare radium ab isto so<lb ed="#Pa"/>le 
+                  causatum.</p>
+                
+                <p xml:id="awal1d2q1-atnhid"><g ref="#pilcrow"/>Ad tertium non pono quod figura sit res 
+                  <lb ed="#Pa"/>distincta et si ponerem hoc idem dicerem.</p>
+              </div>
+            </div>
+            <div xml:id="awa-l1d1q1a2dub5">
+              <head><supplied>Quintum Dubium An possint esse plures causae totales respectu eiusdem effectus?</supplied></head>
+              <p xml:id="awal1d2q1-qdepsd">Quintum <!-- <note>Cf. <name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 9 (Wood II:158-159)</note> --> 
+                <lb ed="#Pa"/>dubium an possint esse plures causae finales tota<lb ed="#Pa"/>les 
+                respectu eiusdem effectus. Et argui potest quod 
+                <lb ed="#Pa"/>non per argumentum <name ref="#Scotus">Scoti</name> quod supra ponitur arguen<lb ed="#Pa"/>do 
+                ad primam partem secundae dubitationis secun<lb ed="#Pa"/>di 
+                articuli.</p>
+              
+              <p xml:id="awal1d2q1-sliaao"><g ref="#pilcrow"/>In contrarium potest argui per argu<lb ed="#Pa"/>mentum 
+                ibidem positum.</p>
+              
+              <p xml:id="awal1d2q1-hrplse">Hic respondeo primo quod 
+                <lb ed="#Pa"/>quilibet experitur quod saepe appetit idem propter di<lb ed="#Pa"/>versos 
+                fines sic quod uno illorum finium non co<lb ed="#Pa"/>gitato 
+                nec concepto pro reliquo faceret vel optaret 
+                <lb ed="#Pa"/>illud idem verbi gratia. Soleo intrare villam tam 
+                <lb ed="#Pa"/>ut intersim disputationi quam ut loquar scriptori etc.</p>
+              <!-- review break; perhaps "similiter" section in ordinatio should go in previous paragraph -->
+              <p xml:id="awal1d2q1-savmre"><lb ed="#Pa"/>Ut tamen distinctius videatur quid dicendum sit 
+                <lb ed="#Pa"/>vado ad argumenta <name ref="#Scotus">scoti</name> et <name ref="#Ockham">ockam</name> per quae arguitur pro 
+                <lb ed="#Pa"/>et contra in hoc dubio et in dubio secundo de causis fi<lb ed="#Pa"/>nalibus 
+                multis respectu eiusdem.</p>
+              
+              <p xml:id="awal1d2q1-qasdet"><g ref="#pilcrow"/>Ad argumen<lb ed="#Pa"/>tum 
+                <name ref="#Scotus">scoti</name> potest proportionaliter respondere sicut 
+                <lb ed="#Pa"/>responsum est de effectivis totalibus.</p>
+              
+              <p xml:id="awal1d2q1-sraesd"><g ref="#pilcrow"/>Ad argu<lb ed="#Pa"/>mentum 
+                <name ref="#Ockham">okam</name> dico quod ab agente propter finem vel fi<lb ed="#Pa"/>nes 
+                duos nullus producitur effectus primo et immediate quae 
+                <lb ed="#Pa"/>habeat utrumque pro causa finali totali creata etiam 
+                <cb ed="#Pa" n="50rb"/><lb ed="#Pa"/>nec unomodo praeexposito nec alio sumendo causam tota<lb ed="#Pa"/>lem. 
+                Et ratio patet ex iam dictis quia aliquid causa<lb ed="#Pa"/>re 
+                per modum finis est ab agente creato intendente finem 
+                <lb ed="#Pa"/>illum vel illos amari amore tali quo posito sequitur 
+                <lb ed="#Pa"/>imperium exsecutionis illius quod a tali agente causatur 
+                <lb ed="#Pa"/>propter talem finem et illud imperium habet pro efficaci<lb ed="#Pa"/>tate 
+                voluntatem simul cum amore uno vel duobus duo<lb ed="#Pa"/>rum 
+                finium. Igitur per praedicta aliud imperium in specie vel 
+                <lb ed="#Pa"/>in genere causabitur una cum amore tantum unius illorum 
+                <lb ed="#Pa"/>finium. Et si imperium est aliud numero primus effe<lb ed="#Pa"/>ctus 
+                imperii erit alius numero et sic deinceps.</p> 
+
+              <p xml:id="awal1d2q1-daqpam">di<lb ed="#Pa"/>xi 
+                autem notanter de effectu immediate producto 
+                <lb ed="#Pa"/>ab agente intendente finem tum propter motum localem qui 
+                <lb ed="#Pa"/>secundum alios et secundum veritatem non est effectus per se loquen<lb ed="#Pa"/>do 
+                quia movere localum est secundum eos non efficere ali<lb ed="#Pa"/>quid 
+                nec est aliquid effici sed est aliquid transferri de situ 
+                <lb ed="#Pa"/>in situm et non est negandum <unclear>quin</unclear> propter amorem diverso<lb ed="#Pa"/>rum 
+                ab eodem motivo aliquid idem numero transfer<lb ed="#Pa"/>ri 
+                posset ab eodem situ numero ad alium numero eun<lb ed="#Pa"/>dem 
+                situm sicut propter amorem unius illorum tamen fieri 
+                posset tum propter effectum producibilem ab alio acti<lb ed="#Pa"/>vo 
+                quam ab illo qui intenderet eundem vel plures fines 
+                <lb ed="#Pa"/>mediate tamen motu locali proveniente mediante amo<lb ed="#Pa"/>re 
+                finis vel finium. Verbi gratia, si quis propter amo<lb ed="#Pa"/>rem 
+                duorum faceret ignem et apponeret eadem ligna 
+                ad comburendum quae ipse apponeret sicut bene co<lb ed="#Pa"/>gitaret 
+                de uno quovis illorum per se igni appositis 
+                <lb ed="#Pa"/>lignis eundem ignem numero causaret sive iste appli<lb ed="#Pa"/>caret 
+                activa huiusmodi passivis propter amorem 
+                <lb ed="#Pa"/>unius sive propter amorem multorum.</p>
+            </div>
+            <div xml:id="awa-l1d1q1a2dub6">
+              <head>Sextum Dubium: Utrum idem effectus numero produci posset a duabus causis?</head>
+
+              <p xml:id="awal1d2q1-secnad"><g ref="#pilcrow"/>Sextum dubi<lb ed="#Pa"/>um  <!--<note><name>Wodeham</name>, <title><title>Lectura secunda</title></title>, d. 3, q. 2, sect. 15 (Wood II:167)</note> --> 
+                est contra unum prius dictum. dictum est enim quod iste effe<lb ed="#Pa"/>ctus 
+                qui de facto causatur ab una causa effectiva non potest 
+                <lb ed="#Pa"/>causari sine illa et si producitur a duabus repugnat si<lb ed="#Pa"/>bi 
+                naturaliter produci nisi a duabus.</p>
+              
+              <p xml:id="awal1d2q1-csaiqe">Contra si ali<lb ed="#Pa"/>cui 
+                individuo repugnat naturaliter produci nisi a 
+                <lb ed="#Pa"/>duobus igitur cuilibet individuo eiusdem speciei repu<lb ed="#Pa"/>gnat 
+                produci nisi a duobus. Sic enim et tu ex alia parte ar<lb ed="#Pa"/>guis 
+                quod qua ratione repugnet uni actui naturali na<lb ed="#Pa"/>turaliter 
+                producere aliquod individuum quod posset ab alte<lb ed="#Pa"/>ro 
+                produci per se eadem ratione et cuilibet et si sic illud indivi<lb ed="#Pa"/>duum 
+                potest produci a duobus igitur quodlibet individuum eiusdem 
+                <lb ed="#Pa"/>speciei aequale isti saltem poterit produci a duobus naturaliter 
+                <lb ed="#Pa"/><g ref="#pilcrow"/>huius oppositum dicis supposito quod aliquod naturaliter 
+                <lb ed="#Pa"/>producibile sit indivisibile in essentia sua seu entitate 
+                <lb ed="#Pa"/>tam intensive quam extensive.</p>
+              
+              <p xml:id="awal1d2q1-hrpceh">Respondetur quod non est simile quia 
+                <lb ed="#Pa"/>ego arguo ab una causa ad aliam causam et tu ab uno effe<lb ed="#Pa"/>ctum 
+                ad alium effectum ego de producere et tu de produci <g ref="#slash"/> 
+                <lb ed="#Pa"/>et ratio dissimilitudinis est; quia causa respectu huius effectus 
+                <lb ed="#Pa"/>secundum numerum indeterminatio est quam econverso eo quod 
+                <lb ed="#Pa"/>causa prior est effectu idem est in aens quod producitur hunc effectum 
+                <lb ed="#Pa"/>de hac materia vel de alia materia numero utroque 
+                <lb ed="#Pa"/>modo secundum me. Sed iste effectus productus de hac materia 
+                <lb ed="#Pa"/>ab alio agente nec etiam ab isto et sic secundum omnes <choice><orig>ydemptifi<lb ed="#Pa"/>catos</orig><reg>identifi<lb ed="#Pa"/>catos</reg></choice> 
+                effectus secundum numerum requirit eandem materiam secundum 
+                <lb ed="#Pa"/>numerum et non econverso Ita dico ego de causa effectiva.</p>
+              <!-- some of the above might belong somewhere below -->
+
+<!-- below seems missing from abbrev 
+<p xml:id="awal1d2q1-aepppa">Aliud exemplum potest esse de causa materiali. Non vidi aliquem concedere quod de 
+hac materia possit naturaliter produci ab aliquo activo naturali idem 
+effectus numero formaliter qui ab alia maxime qui ab alia 
+secundum speciem. Verbi gratia, albedo eiusdem speciei potest naturaliter produci de 
+potentia nivis et de potentia lactis. Et nihil valet consequentia ista: 'haec albedo 
+potest produci de potentia nivis, igitur quaelibet'; et tamen sequitur de potentia 
+illius nivis potest produci albedo, ergo de potentia cuiuslibet nivis potest 
+produci albedo.</p>
+
+         <p xml:id="awal1d2q1-aeidaq">Aliud exemplum: 'ista albedo potest producere duas visiones 
+igitur quaelibet aequalis sibi imperfectione potest producere duas visiones'. 
+Et non solum quaelibet albedo duas visiones, sed etiam plures 
+quia quodlibet activum naturale potest producere, aequali ratione, duos aliquos 
+effectus in eadem specie dummodo non sit repugnantia plures producere 
+vel produci multi specie. Quia non video maiorem repugnantiam 
+ex una parte quam ex alia, sicut supra arguebam, 
+quia qua ratione repugnat uni albedini producere visionem sufficienter ab 
+alio producibilem consimili ratione repugnabit cuilibet activo 
+naturali producere quemcumque effectum determinatum numeraliter producibilem ab 
+alio. Nihil enim quod obstaret video, <unclear>licet[?]</unclear> licet nesciam hoc probare 
+efficaciter de aliis per media illis propria, sicut hic de visionibus 
+et obiectis. Tamen convertas  consequentiam, et nihil valet secundum omnes: 'istae 
+duae visiones producuntur ab aliqua eadem albedine secundum numerum, igitur aliae 
+quia consequens est falsum de duabus visionibus duarum albedinum quarumcumque.</p>
+
+<p xml:id="awal1d2q1-erhdce">Et radix huiusmodi est, quia causa ista est indeterminatior, utpote 
+prior illo respectu huius effectus secundum numerum quam e converso. Idem enim agens 
+quod producit hunc effectum de hac materia, potest alium producere de 
+eadem materia vel de alia materia, numero utroque modo secundum me. Sed iste 
+effectus productus de hac materia ab isto agente non potest, secundum 
+omnes, naturaliter produci de alia materia ab alio genere agente 
+nec etiam ab isto et sic secundum omnes, identitas effectus secundum numerum requirit 
+eandem materiam secundum numerum et non e converso, ita dico ego 
+de causa effectiva.</p>
+
+<p xml:id="awal1d2q1-uaspda">Unde arguo sic: pono quod idem accidens numero 
+informaret secundum aliam et aliam partem diversas substantias in specie; puta 
+eadem qualitas vel quantitas unum lignum vivum vivum et mortuum. Tunc 
+sic: 'haec materia composita potest recipere habebant albedinem vel habebant quantitatem, 
+igitur quaelibet similis potest recipere similem'; et tamen secundum omnes ponentes albedinem 
+et similia accidentia recipi non poterit in materia sed in composito. 
+E converso, argumentum non valet: 'haec albedo vel haec quantitas producitur de potentia 
+istarum materiarum non solum numero sed specie distinctarum, ergo quaelibet albedo 
+vel quantitas potest produci de simili subiecto naturaliter', quia, ut iam 
+tactum est, secundum omnes tam philosophos quam theologos, effectus productus 
+de hac materia non est naturaliter idem secundum naturam producibilis 
+de alia.</p>
+
+<p xml:id="awal1d2q1-eeeeii">Et etiam evidenti ratione hoc probari potest dato quod nullus 
+hoc diceret; quia aliter, saltem cum quibusdam assumptis concessis 
+ab illis qui debent idem numero posse naturaliter produci 
+a diversi, sequitur quod quaelibet forma ignis, ro?ine[?] esset 
+eadem numero cum ista quae hic est. Nec esset nisi unica forma 
+<cb ed="#S" n="79ra"/>secundum numerum cuiuscumque speciei simul in universo, quod in suo simili damnatum 
+est pro haeresi in libro <title ref="#Decretals">Decretalium</title>, ubi damnatur opinio <name ref="#Averroes">Commentatoris</name> 
+de unitate numerali intellectus in omnibus hominibus. Ratio enim istorum 
+est utrobique eadem, quia si potest agere vel recipere plura eiusdem rationis, 
+eadem ratione infinita. Tamen consequentia est rationabilis. Et si infinita, eadem 
+ratione efficeret quodlibet istorum vel nullum etc. Quod argumentum, licet non 
+valeat, quia Deus libere potest velle producere unum determinatorum 
+volendo producere alium, tamen sicut valet ex una parte de agente 
+quod non posset producere naturaliter nisi unicum, vel plura agentia secundum alios 
+eiusdem rationis de eadem materia non possunt producere nisi unicum, 
+ita sequitur ex alia parte, dato quod eadem forma numero pos
+sit naturaliter produci de diversis materiis, numero vel specie distinctis, 
+quia semper illa produceretur, et nulla eiusdem rationis alia in illis materiis, 
+quod est impossibile intentum.</p> 
+
+<p xml:id="awal1d2q1-sipata">Sic igitur patet ex praedicitis quod de 
+productivo et productis tenet ille modus arguendi; 'hoc faceret tale vel 
+talia, igitur quodlibet speciei suae potest facere seu producere tale vel talia'. 
+Sed ex alia parte non tenet consequentia ad universalem, sed ad particularem: hoc 
+effectus producitur a tali agente, igitur quodlibet suae speciei potest producti 
+naturaliter a tali agente, si igitur aliquod suae speciei potest produci naturaliter 
+a tali agente.</p>
+
+<p xml:id="awal1d2q1-eicnqq">Exemplum: iste calor producitur a sole, ideo bene 
+sequitur quod aliquis calor eiusdem speciei potest produci a sole, sed non 
+quod quilibet.</p>
+
+<p xml:id="awal1d2q1-aeiese">Aliud exemplum: iste calor producitur de potentia ligni, igitur 
+quilibet producibilis potest produci de potentia ligni. Non sequitur: sed quod 
+aliquis alius eiusdem speciei et tamen e converso tenet de potentia huius ligni, 
+igitur et de potentia cuiuslibet ligni eiusdem speciei etc.</p>
+
+<p xml:id="awal1d2q1-aeviia">Aliud exemplum: 
+visio producitur vel causatur a duobus visibilibus eiusdem speciei. Et tamen non 
+sequitur, tenendo quod visio sit formaliter indivisibilis: 'igitur quaelibet visio 
+eiusdem speciei cum ista potest produci a duobus visionibus', sed 
+aliqua. Et tamen e converso optime sequitur: 'ista duo visibilia causant 
+unam visionem, igitur quaelibet duo visibilia eiusdem perfectionis et speciei 
+possunt causare visionem'. Et ita in aliis.</p>
+-->
+            </div>
+          </div>
+          <div>
+            <head><supplied>Responsio ad rationes principales</supplied></head>
+            <p xml:id="awal1d2q1-apacvp"><g ref="#pilcrow"/>Ad primum argumentum principale patet ex primo articulo in solutione 
+              <lb ed="#Pa"/>primi dubii.</p>
+            
+            <p xml:id="awal1d2q1-asnnvd"><g ref="#pilcrow"/>Ad secundum negantur est consequentia quia in prima propositio<lb ed="#Pa"/>ne 
+              praedicatum sumitur essentialiter et in minore vero cum dicitur et iste 
+              <lb ed="#Pa"/>deus demonstrato patre etc notatur quo vel persona patris non 
+              <lb ed="#Pa"/>est deus vel non sit filius et haec disiunctiva vera est et in conclu<lb ed="#Pa"/>sione 
+              autem cum infertur igitur pater est alius deus a filio ex usu fidei 
+              <lb ed="#Pa"/>contra haereticos notatur etiam alius a filio secundum deitatem ita 
+              <lb ed="#Pa"/>quod ly deus in praedicato stet essentialiter et non praecise personaliter 
+              <lb ed="#Pa"/>ideo non valet discursus.</p>
+            
+            <p xml:id="awal1d2q1-epiffr"><g ref="#pilcrow"/>Per idem patet ad tertium 
+              <lb ed="#Pa"/>probaret enim unum verum si in ista tres personae 
+              <cb ed="#Pa" n="51ra"/><lb ed="#Pa"/>sunt tres dii praedicatum in usu ecclesiae tenetur prae<lb ed="#Pa"/>cise 
+              personaliter ut esset sensus: tres personae sunt tria 
+              <lb ed="#Pa"/>supposita quorum quodlibet est deus vel habet deita<lb ed="#Pa"/>tem, 
+              sicut est in exemplis sed etiam non permittit quod sic 
+              <lb ed="#Pa"/>utamur ne per hoc haeretici deciperent simplices 
+              <lb ed="#Pa"/>et ne scandalizentur infideles.</p>
+            
+            <p xml:id="awal1d2q1-adqnev"><g ref="#pilcrow"/>Ad quartum videtur 
+              <lb ed="#Pa"/>posse responderi negando maiorem et ad argumentum 
+              <lb ed="#Pa"/><name ref="#Anselm">anselmi</name> valet in numero singulari et non in plurali 
+              <lb ed="#Pa"/>quia alius est modos significandi singulari alius in 
+              <lb ed="#Pa"/>in plurali.</p>
+            
+            
+            <p xml:id="awal1d2q1-essesd"><g ref="#pilcrow"/>Item potest concedi maior quia demonstra<lb ed="#Pa"/>to 
+              deo et quacumque alia re haec est vera. Ista sunt qui<lb ed="#Pa"/>bus 
+              maiora cogitabilia unum illorum esset maius uno 
+              <lb ed="#Pa"/>prius demonstrato et reliqua reliquo et aggrega<lb ed="#Pa"/>tum 
+              aggregato quod non est verum cum deus solus sit 
+              <lb ed="#Pa"/>quo maius cogitari non potest. Et tunc neganda 
+              <lb ed="#Pa"/>esset minor scilicet quod talia sunt dum sed sufficit quod unum 
+              <lb ed="#Pa"/>illorum sit deus et quod unum illorum sit infinitum.</p>
+            <!-- four paragraphs below might be smashed into the one above; not sure -->   
+               
+<!--
+<p xml:id="awal1d2q1-essusi">Et similiter, si sunt maiora bona, plus sunt diligenda, et sequitur ex 
+hoc: quod Deus et beata maiora sunt, plus diligenda quam Deus. Et 
+huiusmodi[?] ideo convenienter et probabiliter dici potest concedendo maiorem eo quod 
+duo infinita, si essent per impossibile, non essent maiora finito et infinito vel saltem quaecumque 
+finitum et infinitum. Et ideo concedendo maiorem, negat minor, scilicet, 
+quod talia sunt dii. Sed sufficit quod unus illorum sit Deus nec 
+sequitur ea quibus maiora etc., igitur sunt infinita, sed sufficit quod unicum 
+sit infinitum.</p>
+
+<p xml:id="awal1d2q1-ssamaa">Sed si arguatur sic: quorum quodlibet est tale quod 
+maius eo cogitari non potest, sunt in re aut in solo intellectu, et sic 
+ultra per modum arguendi positum in argumento. Et si sunt in re, sequitur quod 
+quodlibet sit in infinitum, et sic quod ipsa sint infinita, et per consequens, dii,
+quia tamen ista argumenta possunt fieri de quacumque forma vel re alia secundum 
+speciem in qua non est trinus maximus augmenti, ut tactum est 
+in argumento, videndum est de dicto modo arguendi <name ref="#Anselm">Anselmi</name>.</p> 
+
+<p xml:id="awal1d2q1-erucme">Et respondet 
+unus magister physicae: uno modo quod argumentum tenet solum ratione materiae 
+illud quo maius cogitari non potest etc. Sed de aliis cum arguitur non 
+tenet. Unde tamen arguitur 'ea quorum quodlibet est tale, etc. sunt in intellectu', dicitur 
+negando quod implicat falsum, sicut et istud modos <name ref="#Aureoli">Aureolus</name> est in intellectu. 
+Et cum dicitur quod 'cum quis audit hoc quod dico etc., intelligit', concedo nec 
+sequitur quod talia sunt in intellectu; et posset etiam ulterius dici quod non est alia 
+res quin possit cogitatione falsa cogitari non esse et quod qui 
+cogitat unum tale ac si esset cum talibus cognitionibus non cogitet 
+maius quam false aestimaret se cogitare maius, etc.</p>
+-->
+            <p xml:id="awal1d2q1-apdned">Aliter 
+              enim dicitur quod argumentum <name ref="#Anselm">anselmi</name> tenet gratia mate<lb ed="#Pa"/>riae 
+              sed non valet gratiae formae quia tunc aeque proba<lb ed="#Pa"/>ret 
+              esse in entibus albedinem quam maior cogitari non 
+              <lb ed="#Pa"/>posset.</p>
+            
+            <p xml:id="awal1d2q1-sprdtt">Secundo principaliter restaret quaerere de 
+              <lb ed="#Pa"/>trinitate sed illa differtur usque ad distinctionem 33.</p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
+
+
+

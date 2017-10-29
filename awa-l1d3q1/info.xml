@@ -1,0 +1,1199 @@
+<info>
+  <body>
+    <div xml:id="awa-l1d3q1" type="quaestio">
+      <head subtype="title">Librum 1, Distinctio 3, q. un. [Paris 1512 Transcription]</head>
+      <div>
+        <head>Quaestio unica: Utrum mens humana sit imago Trinitatis increatae sicut in rebus aliis 
+          factis propter hominem est vestigium eiusdem Trinitatis</head>
+        <div>
+          <p xml:id="awal1d3q1-cdtvet">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-cdtvet"/>
+            </assertions>
+          </p>
+        </div>
+        <div>
+          <head>Rationes principales</head>
+          <p xml:id="awal1d3q1-qnveid">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qnveid"/>
+            </assertions>
+          </p>
+          
+          <p xml:id="awal1d3q1-idteit">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-idteit"/>
+            </assertions>
+          </p>
+         
+          <p xml:id="awal1d3q1-immnsm">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-immnsm"/>
+            </assertions>
+          </p>
+          
+          <p xml:id="awal1d3q1-ismnrd">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ismnrd"/>
+            </assertions>
+          </p>
+          
+          <p xml:id="awal1d3q1-isqati">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-isqati"/>
+            </assertions>
+          </p>
+        </div>
+        <div>
+          <head>Oppositum</head>
+          <p xml:id="awal1d3q1-aopmld">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aopmld"/>
+            </assertions>
+          </p>
+          
+          <p xml:id="awal1d3q1-aieqce">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aieqce"/>
+            </assertions>
+          </p>
+          
+          <p xml:id="awal1d3q1-iehpep">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-iehpep"/>
+            </assertions>
+          </p>
+          
+          <p xml:id="awal1d3q1-qsalpd">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qsalpd"/>
+            </assertions>
+          </p> 
+        </div>
+        <div>
+          <head>Divisio questionis</head>
+          <p xml:id="awal1d3q1-iiqadm">
+            <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-iiqadm"/>
+            </assertions>
+          </p>
+        </div>
+        <div xml:id="awa-l1d3q1a1" type="articulus">
+          <head>Primus articulus</head>
+          <assertions>
+            <assertion property="abbreviates" target="http://scta.info/resource/b1-d3-quna1"/>
+          </assertions>
+          <div>
+            <head>Conditiones communes vestigio et imagini</head> 
+            <p xml:id="awal1d3q1-cpcscc">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-cpcscc"/>
+              </assertions>
+            </p>
+          </div>
+          <div>
+            <head>Opinio Ockham</head>
+            <p xml:id="awal1d3q1-idovis">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-idovis"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-sehids"/>
+            
+            <p xml:id="awal1d3q1-eseqda">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-eseqda"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-peiuaa">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-peiuaa"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-aeppit"></p>
+            <div>
+              <head>Differentia inter vestigium et imaginem</head>
+              <p xml:id="awal1d3q1-advqah">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-advqah"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ntqiqr">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ntqiqr"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ehdspi">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ehdspi"/>
+                </assertions>
+              </p> 
+              
+              <p xml:id="awal1d3q1-qaqndr">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qaqndr"/>
+                </assertions>
+              </p> 
+              
+              <p xml:id="awal1d3q1-esiidp"/>
+              
+              <p xml:id="awal1d3q1-qaacee"/>
+            </div>
+          </div>
+        </div>
+        <div xml:id="awa-l1d3q1a2" type="articulus">
+          <head>Secundus articulus</head>
+          <assertions>
+            <assertion property="abbreviates" target="http://scta.info/resource/b1-d3-quna1"/>
+          </assertions>
+          
+          <div xml:id="awa-l1d3a1a2dub1" type="dubium">
+            <head>Primum dubium</head>
+            <p xml:id="awal1d3q1-scihri">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-scihri"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-siqcie">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-siqcie"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-tisine">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-tisine"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-qisqfe">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qisqfe"/>
+              </assertions>
+            </p>
+            
+            <p xml:id="awal1d3q1-qqscie">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qqscie"/>
+              </assertions>
+            </p>
+            <div>
+              <head>Responsio ad argumenta pro primo dubio</head>
+              <p xml:id="awal1d3q1-rapaoe">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-rapaoe"/>
+                </assertions>
+              </p>
+              
+              <!-- paragraph division should be re-evaluated -->
+              <p xml:id="awal1d3q1-sqeesa">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-sqeesa"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-asdssa">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asdssa"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-atdmiv">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atdmiv"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqbiao">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqbiao"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqetis">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqetis"/>
+                </assertions>
+              </p>
+            </div>
+          </div>
+          <div xml:id="a2secundudubium" type="dubium">
+            <head>Secundum Dubium</head>
+            
+            <p xml:id="awal1d3q1-spevqn">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-spevqn"/>
+              </assertions>
+            </p> 
+            <div>
+              <head>Rationes principales pro dubio secundo</head>
+              <p xml:id="awal1d3q1-pqqsee">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pqqsee"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ssqsap">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ssqsap"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Responsio ad secundum dubium</head>
+              <p xml:id="awal1d3q1-aidicd">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aidicd"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-icdpad">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-icdpad"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Argumenta contra responsionem</head>
+              <p xml:id="awal1d3q1-pctdqg">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pctdqg"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-siecva">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-siecva"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-tpcrdi">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-tpcrdi"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qpnrdi">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qpnrdi"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qppepv">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qppepv"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-spdsdv">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-spdsdv"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-spvive">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-spvive"/>
+                </assertions>
+              </p> 
+              <!-- paragraph division needs review -->
+              <p xml:id="awal1d3q1-qinros">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qinros"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-oivthc">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-oivthc"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-npspev">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-npspev"/>
+                </assertions>
+              </p>
+                
+              <p xml:id="awal1d3q1-dpspau">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-dpspau"/>
+                </assertions>
+              </p>
+              
+              <!-- <p xml:id="awal1d3q1-sidapi"/> not present -->
+              
+              <p xml:id="awal1d3q1-uiiqao">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-uiiqao"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-diciad">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-diciad"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-tdienm">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-tdienm"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qdipie">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qdipie"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-psvasp">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-psvasp"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-sdipie">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-sdipie"/>
+                </assertions>
+              </p> 
+              
+              <p xml:id="awal1d3q1-aeahio">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aeahio"/>
+                </assertions>
+              </p> 
+            </div>
+            <div>
+              <head>Responsio propria ad argumenta</head>
+              <p xml:id="awal1d3q1-inoads">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-inoads"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ipresq">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ipresq"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-apiigp">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apiigp"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-asrean">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asrean"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-atsdia">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atsdia"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqqnci">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqqnci"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqdcaa">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqdcaa"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-asbpeo">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asbpeo"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-pcscqe">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pcscqe"/>
+                </assertions>
+              </p>
+
+            <p xml:id="awal1d3q1-ascpps">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ascpps"/>
+              </assertions>
+            </p>
+              
+              <p xml:id="awal1d3q1-aonadd">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aonadd"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-antsis">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-antsis"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-addeva">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-addeva"/>
+                </assertions>
+              </p>
+              
+              <!-- not included <p xml:id="awal1d3q1-aspcmd"/> -->
+              
+              <p xml:id="awal1d3q1-aubqif">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aubqif"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aseudi">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aseudi"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-uteqsc">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-uteqsc"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-atdsat">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atdsat"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqdaps">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqdaps"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-arvssc">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-arvssc"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-addvvf">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-addvvf"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-sedpvs">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-addvvf"/>
+                </assertions>
+              </p>
+              <!-- beginnin of section that does not appear to be in ordinatio witnesses -->
+              <p xml:id="awal1d3q1-adddas"></p>
+                  
+              <p xml:id="awal1d3q1-adqiac"></p> 
+              
+              <p xml:id="awal1d3q1-iqsapa"></p>
+              
+              <p xml:id="awal1d3q1-dcqrdn"></p>
+              
+              <p xml:id="awal1d3q1-itensp"></p>
+              
+              <p xml:id="awal1d3q1-apneae"></p>
+              
+              <p xml:id="awal1d3q1-asdmep"></p>
+              
+              <p xml:id="awal1d3q1-saludg"></p>
+              
+              <p xml:id="awal1d3q1-salpnp"></p>
+              <!-- end of section that does not appear to be in ordinatio witnesses -->
+            </div>
+            <div>
+              <head>Responsio ad principales argumenta</head> 
+              <div>
+                <head>Ad prima argumenta</head>
+                <p xml:id="awal1d3q1-apasis">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apasis"/>
+                  </assertions>
+                </p>  
+                  
+                
+                <p xml:id="awal1d3q1-dqsiea">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-dqsiea"/>
+                  </assertions>
+                </p> 
+              </div>
+              <div>
+                <head>Ad secundum principale argumentum huius dubii secundi</head>
+                <p xml:id="awal1d3q1-asanis">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asanis"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-hqcsif">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-hqcsif"/>
+                  </assertions>
+                </p>
+                  
+                <p xml:id="awal1d3q1-esissn">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-esissn"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-ctpasd">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ctpasd"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-prhmvm">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-prhmvm"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-echmvr">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-echmvr"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-apftpr">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apftpr"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-aapeas">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aapeas"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-rmvpsc">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-rmvpsc"/>
+                  </assertions>
+                </p>
+                
+                <!-- can't find parallel for next two paragraphs in ordinatio -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-ciqieb"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-reqcie"/> -->
+                
+                <!-- can't find paralle for next two paragraphs in abbreviatio -->
+                
+                <p xml:id="awal1d3q1-araiqp"></p>
+                
+                <p xml:id="awal1d3q1-esddvh"></p>
+              
+              </div>
+            </div>
+          </div>
+          <div xml:id="a2tertiumdubium" type="dubium">
+            <head>Tertium Dubium</head>
+            <p xml:id="awal1d3q1-tdsan">
+              <assertions>
+                <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-tdsan"/>
+              </assertions>
+            </p>
+            <div>
+              <head>Rationes principales</head>
+              <p xml:id="awal1d3q1-evqtej">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-evqtej"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-itpics">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-itpics"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-pqppaa">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pqppaa"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qpaaci">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qpaaci"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qiqecc">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qiqecc"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Oppositum</head>
+              <p xml:id="awal1d3q1-aocdim">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aocdim"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-pnppan">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pnppan"/>
+                </assertions>
+              </p>
+              
+              <!-- not in ordinatio <p xml:id="awal1d3q1-pnadtc"/> -->
+              
+              <p xml:id="awal1d3q1-ppeeac">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pnppan"/>
+                </assertions>
+              </p>
+
+              <!-- not in ordinatio <p xml:id="awal1d3q1-pcdiia"/> -->
+              
+              <!-- not in ordinatio <p xml:id="awal1d3q1-pcdqsp"/> -->
+              
+              <p xml:id="awal1d3q1-pmcdie">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pmcdie"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Responsio ad tertium dubium</head>
+              <p xml:id="awal1d3q1-aidaps">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aidaps"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-siptap">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-siptap"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-rudtau">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-rudtau"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Ad rationes principales</head>
+              <div>
+                <head>Ad primam rationem</head>
+                <p xml:id="awal1d3q1-apapai">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apapai"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-ecippp">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ecippp"/>
+                  </assertions>
+                </p>
+                  
+                <p xml:id="awal1d3q1-sqeidp">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-sqeidp"/>
+                  </assertions>
+                </p>
+    
+                <!-- not in ordinatio <p xml:id="awal1d3q1-sadnpc"/> -->
+                
+                <p xml:id="awal1d3q1-atdcvo">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atdcvo"/>
+                  </assertions>
+                </p>
+              </div>
+              <div>
+                <head>Ad secundam rationem</head>
+                <p xml:id="awal1d3q1-asbscd">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asbscd"/>
+                  </assertions>
+                </p>
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-hnqmgi"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-smlvee"/> --> 
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-tmsdqd"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-qmptnv"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-qmscan"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-sspfse"/>  -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-ssveve"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-osaviv"/>  -->
+              </div>
+              <div>
+                <head>Ad tertium argumentum</head>
+                <p xml:id="awal1d3q1-atvoac">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atvoac"/>
+                  </assertions>
+                </p>
+              </div>
+              <div>
+                <head>Ad quartam rationem</head>
+                <p xml:id="awal1d3q1-aqropt">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqropt"/>
+                  </assertions>
+                </p>
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-ehsoae"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-aetsqe"/> --> 
+              </div>
+              <div>
+                <head>Ad quintam rationem</head>
+                <p xml:id="awal1d3q1-aqqenc">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqqenc"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-acecam">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-acecam"/>
+                  </assertions>
+                </p>
+              </div>    
+            </div>
+          </div>
+          <div xml:id="a2quartumdubium" type="dubium">
+            <head>Quartum dubium</head>
+            <div>
+              <head>Opinio Adam</head>
+              <p xml:id="awal1d3q1-uavpin">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-uavpin"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-pnpcai">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pnpcai"/>
+                </assertions>
+              </p>
+              
+              <!-- not in ordinatio <p xml:id="awal1d3q1-iasoip"/> --> 
+              
+              <p xml:id="awal1d3q1-ioepei">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ioepei"/>
+                </assertions>
+              </p> 
+            </div>
+            <div>
+              <head>Contra opinionem Adam</head>
+              <p xml:id="awal1d3q1-schehp">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-schehp"/>
+                </assertions>
+              </p>
+        
+              <p xml:id="awal1d3q1-ivpeai">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ivpeai"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-inmins">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-inmins"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ivppqi">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ivppqi"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-isncnu">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-isncnu"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ichrca">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ichrca"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-idqaid">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-idqaid"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-idqsie">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-idqsie"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-ivqvni">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ivqvni"/>
+                </assertions>
+              </p> 
+            </div>
+            <div>
+              <head>Responsio</head>
+              
+              <p xml:id="awal1d3q1-apiivh">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apiivh"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-asdsoc">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asdsoc"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-atapee">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atapee"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqconv">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqconv"/>
+                </assertions>
+              </p>
+        
+              <p xml:id="awal1d3q1-aqmeip">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqmeip"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-asndca">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asndca"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-asdeep">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asdeep"/>
+                </assertions>
+              </p> 
+              
+              <p xml:id="awal1d3q1-aodsid">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aodsid"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-andscp">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-andscp"/>
+                </assertions>
+              </p>
+            </div> 
+          </div>
+          <div xml:id="a2quintumdubium" type="dubium">
+            <head>Quintum Dubium: <seg type="questionTitle">an partes imagines creatae sint aequales</seg></head>
+            <div> 
+              <head>Principales rationes</head>
+              <p xml:id="awal1d3q1-qdphev">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qdphev"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-pcssma">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pcssma"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-sisnac">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-sisnac"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-titedr">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-titedr"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qisqii">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qisqii"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-qitqei">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-qitqei"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-isseie">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-isseie"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Ad oppositum</head>
+              <p xml:id="awal1d3q1-aoavsa">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aoavsa"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-pdtols">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pdtols"/>
+                </assertions>
+              </p> 
+              
+              <p xml:id="awal1d3q1-pifase">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-pifase"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-enbida">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-enbida"/>
+                </assertions>
+              </p>
+              <div>
+                <head>Responsio Fitzralph</head>
+                <p xml:id="awal1d3q1-aidadt">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aidadt"/>
+                  </assertions>
+                </p>
+                
+                <p xml:id="awal1d3q1-ampced">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ampced"/>
+                  </assertions>
+                </p>
+
+                <p xml:id="awal1d3q1-eshssa">
+                  <assertions>
+                    <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-eshssa"/>
+                  </assertions>
+                </p>
+                
+                <!-- lost connection with Ordinatio around here -->
+                <p xml:id="awal1d3q1-sdieip"></p>
+                
+                <p xml:id="awal1d3q1-ehpdep"></p>
+                
+                <p xml:id="awal1d3q1-stdhna"></p>
+                <!-- end of lost connection -->
+                <!-- beginning of paragraphs without clear parallel; could be connected to above two paragraphs without three paragraphs without clear parallel -->
+                <!-- not in ordinatio <p xml:id="awal1d3q1-tmpepc"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-eqicfs"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-nvdari"/> -->
+                
+                <!-- not in ordinatio <p xml:id="awal1d3q1-saddie"/> --> 
+              </div>
+            </div>
+            <div>
+              <head>Contra</head>
+              <!-- not in ordinatio <p xml:id="awal1d3q1-shfaap"/> -->
+              
+              <!-- not in ordinatio <p xml:id="awal1d3q1-aasria"/> -->
+            </div>
+            <div>
+              <head>Responsio ad primum</head>
+              <!-- not in ordinatio  <p xml:id="awal1d3q1-ecpvac"/> -->
+              
+              <!-- not in ordinatio  <p xml:id="awal1d3q1-ehqasc"/> -->
+            </div>
+            <div>
+              <head>Responsio ad secundum</head>
+              <!-- not in ordinatio  <p xml:id="awal1d3q1-eepacc"/> -->
+              
+              <p xml:id="awal1d3q1-aeddar">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aeddar"/>
+                </assertions>
+              </p>
+            </div>        
+            <div>
+              <head>Responsio Fitzralph ad rationes principales</head>
+              <p xml:id="awal1d3q1-apliqa">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apliqa"/>
+                </assertions>
+              </p> 
+              
+              <p xml:id="awal1d3q1-ascaqo">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-ascaqo"/>
+                </assertions>
+              </p>
+                
+              <p xml:id="awal1d3q1-atpvac">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atpvac"/>
+                </assertions>
+              </p>
+                
+              <p xml:id="awal1d3q1-atphtc">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atphtc"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqrtei">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqrtei"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqrdai">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqrdai"/>
+                </assertions>
+              </p>
+              
+              <!-- not in ordinatio <p xml:id="awal1d3q1-shrimo"/> -->
+            </div>
+            <div>
+              <!-- this division doesn't seem right -->
+              <head>Responsio Wodeham</head>
+              <!-- not in ordinatio <p xml:id="awal1d3q1-sicffa"/> -->
+              
+              <p xml:id="awal1d3q1-asdpnd">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asdpnd"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-deiipe">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-deiipe"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aureso">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aureso"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-iilfis">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-iilfis"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-iieids">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-iieids"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-etavvm">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-etavvm"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Ad rationes principales</head>
+              
+              <p xml:id="awal1d3q1-apaaat">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-apaaat"/>
+                </assertions>
+              </p>
+              <!-- fix id in all files -->
+              <p xml:id="awal1d3q1-asp">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asp"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-atccmi">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-atccmi"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-rqhpms">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-rqhpms"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d3q1-aqacev">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqacev"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-arcasd">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-arcasd"/>
+                </assertions>
+              </p>
+              
+              <p xml:id="awal1d3q1-aqrcme">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-aqrcme"/>
+                </assertions>
+              </p>
+                
+              <p xml:id="awal1d3q1-asqrpd">
+                <assertions>
+                  <assertion property="abbreviates" target="http://scta.info/resource/b1d3qun-asqrpd"/>
+                </assertions>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</info>
+
+

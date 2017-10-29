@@ -1,0 +1,1554 @@
+<info>
+  <body>
+    <div xml:id="awa-l1d2q1">
+      <head>Librum 1, Distinctio 2, q. un. [Paris 1512 Transcription]</head>
+      <div>
+        <head>Quaestio unica Utrum in entibus sit tantum unus Deus?</head>
+        <p xml:id="awal1d2q1-cdsetp">
+          <assertions>
+            <assertion property="abbreviates"
+              target="http://scta.info/resource/b1d2qun-cdsetp"/>
+          </assertions>
+        </p>
+
+        <p xml:id="awal1d2q1-piqtud">
+          <assertions>
+            <assertion property="abbreviates"
+              target="http://scta.info/resource/b1d2qun-piqtud"/>
+          </assertions>
+        </p>
+
+        <div>
+          <head>Rationes principales</head>
+          <!-- <p xml:id="awal1d2q1-evqvqn">Et videtur 
+              quod non.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> -->
+
+          <p xml:id="awal1d2q1-pqusud">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-pqusud"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2a1-iqpaee">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-iqpaee"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2a1-psnaed">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-psnaed"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-iqsisd">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-iqsisd"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-pieqep">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-pieqep"/>
+            </assertions>
+          </p>
+        </div>
+        <div>
+          <head>
+            <supplied>Oppositum</supplied>
+          </head>
+          <p xml:id="awal1d2q1-aoeiud">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-aoeiud"/>
+            </assertions>
+          </p>
+        </div>
+        <div>
+          <head>
+            <supplied>Divisio quaestionis</supplied>
+          </head>
+
+          <p xml:id="awal1d2q1-iiqatq">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-iiqatq"/>
+            </assertions>
+          </p>
+        </div>
+        <div xml:id="awa-l1d1q1a1" type="articulus">
+          <head>
+            <mentioned>Primus Articulus: An possit probari Deum esse in entibus?</mentioned>
+          </head>
+          <p xml:id="awal1d2q1-cpasis">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-cpasis"/>
+            </assertions>
+          </p>
+
+          <div xml:id="awa-l1d1q1a1dub1">
+            <head>
+              <supplied>Primum Dubium: Utrum posset argui naturali ratione quod in entibus sit aliquod primum ens</supplied>
+            </head>
+            <div>
+              <head>
+                <supplied>Ratio <name>Scoti</name> ad probandum Deum esse</supplied>
+              </head>
+              <p xml:id="awal1d2q1-pdpeqq">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-pdpeqq"/>
+                </assertions>
+              </p>
+              <!-- no indication of break here in abbreviatio -->
+              <p xml:id="awal1d2q1-qaiqee">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-qaiqee"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-eqephp">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-eqephp"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-eserie">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-eserie"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied>Obiectio ad argumentum <name>Scoti</name></supplied>
+              </head>
+              <p xml:id="awal1d2q1-simrnv">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-simrnv"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied>Ratio <name>Chatton</name> ad probandum Deum esse</supplied>
+              </head>
+              <p xml:id="awal1d2q1-scihps">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-scihps"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied>Responsio: Sexta argumenta contra <name>Chatton</name></supplied>
+              </head>
+              <p xml:id="awal1d2q1-rpqaut">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-rpqaut"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-ipidcp">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ipidcp"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-ppidpp">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ppidpp"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-ieqoup">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ieqoup"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-iciseo">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-iciseo"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-iipamd">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-iipamd"/>
+                </assertions>
+              </p>
+
+              <!-- unclear where first, second, are. 3 seems to occur in the above paragraph which should possibly be its own paragraph -->
+
+              <p xml:id="awal1d2q1-qqmhns">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-qqmhns"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-iqnnsa">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-iqnnsa"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-isdmap">
+                <!-- possible paragraph break needed here -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-isdmap"/>
+                </assertions>
+              </p>
+
+              <!-- this paragraph seems skipped <p xml:id="awal1d2q1-hireie">Huic igitur rationi non innitor, quia non valet. Et ratio est: quia tota multitudo 
+ista, quam accipit, habet prius se, aut accipio li 'totam' catagorematice
+ vel syncategorimatice. Si primo modo, licet accipiat in rei veritate unum 
+verum in speciali isto caso quo loquitur, non probat tamen quia vult quod teneat 
+generaliter de qualitercumque ordinatis, sive essentialiter sive accidentaliter 
+sive in una coordinatione sive in infinitis coordinatibus et ubique. 
+Ideo nego sibi hanc propositionem: omnis tota multitudo istorum quorum 
+quodlibet habet prius, et et in eo ordine. Et praeter haec, quod probatio qua probat 
+istam propositionem, nihil facit ad illum sensum, sed tantum ad sensum qui 
+<cb ed="#S" n="75rb"/>sensus non probat primum esse in entibus.</p>
+-->
+              <p xml:id="awal1d2q1-diqasa">
+                <!-- possible place for paragraph break -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-diqasa"/>
+                </assertions>
+              </p>
+
+            </div>
+            <div>
+              <head>
+                <supplied>Ratio <name>Wodeham</name> ad probandum Deum esse</supplied>
+              </head>
+              <p xml:id="awal1d2q1-eipede">
+                <!--<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 5 (Wood II:121)</note> -->
+                <!-- possible place for a paragraph break -->
+                <!-- possible paragraph break -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-eipede"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-prafsa">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-prafsa"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-eihipe">
+                <!-- possible quote in here -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-eihipe"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied>Obiectio contra rationem <name>Ockham</name></supplied>
+              </head>
+              <p xml:id="awal1d2q1-tcipvi">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-tcipvi"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-sqhcao">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-sqhcao"/>
+                </assertions>
+              </p>
+            </div>
+          </div>
+          <div xml:id="awa-l1d1q1a1dub2" type="dubium">
+            <head>
+              <supplied>Secundum Dubium</supplied>
+            </head>
+            <!-- below the abbreviatio identifies a clear secundum dubium, so abbreviatio and ordinatio hierarchy may not parallel -->
+            <p xml:id="awal1d2q1-psdeqn">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-psdeqn"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-aivhei">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-aivhei"/>
+              </assertions>
+            </p>
+            <div>
+              <head>Prima Differentia assignata a Scoto</head>
+              <p xml:id="awal1d2q1-pdqsie">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 6 (Wood II:123)</note>  -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-pdqsie"/>
+                </assertions>
+              </p>
+              <!-- reason for paragraph break is unclear -->
+              <p xml:id="awal1d2q1-vampss">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-vampss"/>
+                </assertions>
+              </p>
+              <!-- last two or three lines here seem to be an addition over what is present in ordinatio -->
+
+              <p xml:id="awal1d2q1-iausec">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-iausec"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-ehdovc">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ehdovc"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-iescan">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-iescan"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-sipsse">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-sipsse"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-scaets">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-scaets"/>
+                </assertions>
+              </p>
+              <!-- next paragraph seems missing 
+                <p xml:id="awal1d2q1-epsrte">Ex praedictis satis patet quomodo procedunt 
+                  et quomodo non multae instantiae quas facit <name ref="#Ockham">Ockham</name> et aliis in proposito 
+                  contra <name ref="#Scotus">Scotus</name>; potest enim esse quod prima dependet in causando talem effectum 
+                  aliquando a secunda, sicut e contra. Potest etiam esse quod utraque tunc virtute propria causet 
+                  illum. Sed si posset in talem sine tali causa, tunc essentialiter in causando 
+                  talem effectum dependet a tali concausa, quia essentialiter ordinari in 
+                  causando est necessario coexigere illud a quo sit dependet, ut con
+                  causam in suo ordine respectu talis effectus.</p>
+                  -->
+            </div>
+            <div>
+              <head>
+                <supplied>Argumenta <name>Chatton</name> contra <name>Ockham</name></supplied>
+              </head>
+
+              <p xml:id="awal1d2q1-scheeo">
+                <!--<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 8 (Wood II:126)</note>  sic:<note><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1 (Wey and Etzkorn 141:124-127)</note>-->
+                <!-- <note corresp="#awal1d2q1-Qqoaeeo"><name>Chatton</name>, Reportatio, I, d. 2, q. 2, a. 1 (Wey and Etzkorn 141:125-126)</note>-->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-scheeo"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied><name>Wodeham</name> defendit <name>Ockham</name> contra <name>Chatton</name></supplied>
+              </head>
+              <p xml:id="awal1d2q1-aiasas">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, q. 3, q. 1, sect. 8 (Wood II:127-128)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-aiasas"/>
+                </assertions>
+              </p>
+              <!-- paragraph break unclear -->
+
+              <p xml:id="awal1d2q1-indnie">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-indnie"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-sodais">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 7, l. 16 (Wood II:125)</note> -->
+                <!-- <note>Soctus, <title>Ordinatio</title>, I, d. 3, pars 3, q. 2, n. 494-498 (Vaticana III, 292-295)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-sodais"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-rspcia">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-rspcia"/>
+                </assertions>
+              </p>
+
+              <!-- next paragraph doesn't seem present 
+                
+                <p xml:id="awal1d2q1-acphfe">Ad confirmationem: primam partem assumpti concedo, 
+                  sed secundum distinguo quod 'obiectum non dependere ab intellectu in causando 
+                  intellectionem' potest dupliciter intelligi. Vel quod non dependeat ab illo in habendo 
+                  illam particularem virtutem qua particulariter potest agere in suo ordine, 
+                  et hoc est verum. Vel quod non indigeat intellectu comprincipiante
+                  active secum, hoc falsum etc.</p>
+                  -->
+            </div>
+            <div>
+              <head>
+                <supplied>Secunda differentia assignata a <name>Scoto</name></supplied>
+              </head>
+
+              <p xml:id="awal1d2q1-sdpuur">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 9 (Wood II:129)</note> differentia principalis<note><name>Scotus</name>, <title>Ordinatio</title>, I, d. 2, pars 1, q. 1-2, n. 50 (Vaticana II:154s)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-sdpuur"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Tertia differentia assignata a <name>Scoto</name></head>
+              <p xml:id="awal1d2q1-tdeeic">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 9 (Wood II:130)</note> differentia<note><name>Scotus</name>, <title>Ordinatio</title>, I, d. 2, pars 1, q. 1-2, n. 51 (Vaticana II:155s)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-tdeeic"/>
+                </assertions>
+              </p>
+              <div>
+                <head>
+                  <supplied>Obiectiones <name>Adam</name> contra tertiam differentiam</supplied>
+                </head>
+                <p xml:id="awal1d2q1-choppm">
+                  <assertions>
+                    <assertion property="abbreviates"
+                      target="http://scta.info/resource/b1d2qun-choppm"/>
+                  </assertions>
+                </p>
+
+                <p xml:id="awal1d2q1-imccqc">
+                  <assertions>
+                    <assertion property="abbreviates"
+                      target="http://scta.info/resource/b1d2qun-imccqc"/>
+                  </assertions>
+                </p>
+              </div>
+              <div>
+                <head>
+                  <supplied>Solutiones ad obiectiones</supplied>
+                </head>
+                <p xml:id="awal1d2q1-apd">
+                  <assertions>
+                    <assertion property="abbreviates"
+                      target="http://scta.info/resource/b1d2qun-apd"/>
+                  </assertions>
+                </p>
+
+                <p xml:id="awal1d2q1-assfpe">
+                  <assertions>
+                    <assertion property="abbreviates"
+                      target="http://scta.info/resource/b1d2qun-assfpe"/>
+                  </assertions>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div xml:id="awa-l1d1q1a1dub3" type="dubium">
+            <head>
+              <supplied>Tertium Dubium: Quomodo causae per se differunt a causis essentialiter ordinatis et causa per accidens a causis essentialiter ordinatis et quae sit differentia inter per se causas et causas per accidens?</supplied>
+            </head>
+
+            <p xml:id="awal1d2q1-tdqppd">
+              <!--<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 10 (ed. Wood II:131s)</note> -->
+              <!--<note>Cf. <name>Scotus</name>, I d. 2, pars 1, q. 1-2, n. 47 (Vaticana: II:153s)</note> -->
+              <!-- possible quote here -->
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-tdqppd"/>
+              </assertions>
+            </p>
+
+            <!-- unclear where this paragraph fits -->
+            <p> <!-- no PID HERE!!!!! -->
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/"/>
+              </assertions>
+            </p>
+
+            <!-- the following is missing 
+              <p xml:id="awal1d2q1-sqhned">Sciendo quod haec et quaelibet consimilis ad usum communem loquentium 
+                album per se disgregat distinguitur secundum compositionem et divisionem, quia in sensu composito 
+                valet hanc, hoc est per se album disgregat et hoc est verum ad 
+                intentum <name ref="#Aristotle">Philosophi</name> in locis praellegatis, nec differt ab illa quae proprie 
+                esset per se, logice loquendo, et ut in <ref>Io <title ref="#PosteriorAnalytics">Posteriorum</title> loquitur <name ref="#Aristotle">Philosophus</name></ref> nisi sicut 
+                una de in esse a sua de possibili, nam haec homo est secundo modo 
+                vera album potest disgregare, sicut et haec homo est risibilis non sic ista 
+                homo ridet in sensu. Autem divisionis, nota quod subiectum cui inest 
+                albedo per se, id est, per naturam propriam, vel per aliquam partem suam essentialem 
+                disgregat. Et hoc est falsum, quia talem subiectum solummodo per accidens sibi 
+                inhaerens disgregat et natum est disgregare.</p> 
+                
+                <p xml:id="awal1d2q1-iitsea">In isto tamen 
+                sensu sunt multae propositiones verae, quae in sensu composito essent 
+                falsae. Verbi gratia, rationale per se est animal vel potest esse et hoc animal per se est homo vel esse potest album per se est animal vel esse potest hoc animal per se est homo vel esse potest album per se est animal vel esse potest, dato quod homo sit 
+                albus, risibile per se est animal vel homo vel potest esse homo vel animal. Sequitur 
+                enim quoad primum exemplum, in hoc sensu dicens, loquendo omnis homo per 
+                se, id est, per naturam vel essentiam suam est animal omnis homo est rationalis, igitur rationale per 
+                se et per naturam et essentiam suam est animal.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+                    
+                <p xml:id="awal1d2q1-ssovac">Similiter sequitur 'omnis homo per se est animal; 
+                omnis homo est albus; igitur aliquod album per se est animal in primo modo tertiae'. 
+                fi?ae[?]', et ideo una in omnibus huius est quia per istam album per se 
+                est animal non denominatur in hoc sensu, nisi quod suppositum cui inest 
+                albedo, vel quod est album, vel quod est risibile, vel quod est rationale, et 
+                sic de similibus, per naturam suam vel partis suae est animal. Et in hoc sensu 
+                absque exceptione infallibiliter verum est quod <name ref="#Ockham">Ockham</name> dicebat<note><name>Ockham</name>, Scriptum, d. 2, q. 1 (OTh II, 344); cf. <name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1 sect. 11 (Wood, II:135)</note> 
+                quod si 'calidum per se calefacit', et illud calidum sit album, tunc album 
+                per se calefacit. Nam ex opposito conclusionis cum minore, sequitur oppositum 
+                primae sit nullum suppositum cui inest albedo per se per se, id est, per naturam suam calefacit, 
+                sed hoc calidum est suppositum cui inest albedo, igitur haec calidum non 
+                per se, id est, per naturam suam calefacit; in sensu tamen composito est haec vera
+                aliquo modo ad mentem <name ref="#Aristotle">Philosophi</name> et per se vera calidum calefacit, quia 
+                in subiecto exprimitur causa illius quod impertatur per praedicatum, et tamen non est 
+                hoc, sic per se vera album calefacit.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+                
+                <p xml:id="awal1d2q1-atqceu">Advertendum tamen quod nec 
+                dixit ille nec ego quod haec sit vera in sensu divisionis, sed quod si esset 
+                hoc verum, tunc etc. Tamen bene credo quod haec particulariter in sensu divisionis sit 
+                vera aliquod calidum per se calefacit, quia forte ignis non solum 
+                per suum calorem, sed per se ipsum causat calorem in alio 
+                <cb ed="#S" n="76va"/>sicut et facit in se ipso per naturam suam, et haec fuit dicta pro talibus 
+                sumendo illud concretum callidum vel album pro subiecto cui inest albedo vel calor, 
+                sed logice aliter esset dicendum, sumendo ista concreta vocabula[?] pro composito 
+                ex subiecto et albedine. Secundum enim priorem sensum, haec est falsa in sensu divisionis: 
+                'album per se disgregat'. Sed sumendo concretum pro composito haec esset vera: 
+                'album per se disgregat', sumpta in sensu divisionis, quia valet hanc quae vera 
+                est: 'album et ex subiecto albedinis et albedine compositum per se, id est, per aliquid quod 
+                est pars sui, scilicet, per albedinem disgregat', et sic proportionaliter dicendum est de 
+                similibus. In usitatiori tamen consuetudine loquendi sumuntur concreta talia, 
+                ut supra, pro obiectis seu suppositis, quibus in sunt formae huiusmodi et non 
+                pro compositis ex utriusque.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+                 
+              <div>
+                <head>Corollariae</head>
+                
+                <p xml:id="awal1d2q1-epssss">Ex<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 1, sect. 13 (Wood II:137-138)</note> praedictis, sequitur corollariae: quod sumendo 
+                  concreta pro suppositis sicut [M 63vb] sumuntur omnes tales in sensu divisionis 'creator 
+                  per se est Deus', 'homo per se spirat Spiritum Sanctum' aeque verae sunt, sicut 
+                  istae 'per se Deus est Deus', 'Verbum per se spirat Spiritum Sanctum'.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+                  
+                  <p xml:id="awal1d2q1-aeshev">Aliud etiam sequitur: quod 
+                  omnes tales in sensu divisionis 'aedificator per accidens aedificat', 'album 
+                  per accidens disgregat' ita sunt verae, sicut istae '<name>Polycletus</name> per accidens 
+                  aedificat', et huiusmodi, quia per primas non plus denotatur nisi quod suppositum 
+                  illud pro quo supponit subiectum utriusque non per naturam suam intrinsecam, 
+                  sed per accidens aliquod sibi inhaerens aedificat vel disgregat; et 
+                  hoc est verum.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+                  
+                  <p xml:id="awal1d2q1-netsad">Notandum est tamen quod istae non essent sic distinguendae de 
+                  vi vocis, quia non negant aliud de vi vocis, nisi istum sensum, quae 
+                  voluntas[?] sensum divisionis, quia tamen diversimode concipitur a diversis, ideo 
+                  distinxi me illis in talibus conformando, et haec est vera: 'per se album 
+                  disgregat'.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+                  </div>
+                  -->
+          </div>
+        </div>
+        <div xml:id="awa-l1d1q1a2" type="articulus">
+          <head>
+            <supplied>Secundus articulus</supplied>
+          </head>
+          <p xml:id="awal1d2q1-saeafc">
+            <!-- <note>Wedeham, <title>Lectura secunda</title>, d. 3, q. 2 (Wood, II:142)</note> -->
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-saeafc"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-strtrd">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-strtrd"/>
+            </assertions>
+          </p>
+
+          <div xml:id="awa-l1d1q1a2dub1" type="dubium">
+            <head>
+              <supplied>Primum Dubium Utrum sit evidenter probabile quod simpliciter incausabile sit tantum unicum numero.</supplied>
+            </head>
+
+            <p xml:id="awal1d2q1-pdutun">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-pdutun"/>
+              </assertions>
+            </p>
+
+            <div>
+              <head>Ratio principalis</head>
+
+              <p xml:id="awal1d2q1-vqntpe">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-vqntpe"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Argumentum in oppositum</head>
+              <p xml:id="awal1d2q1-cmpuep">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-cmpuep"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Prima Conclusio</head>
+              <p xml:id="awal1d2q1-pdusdr">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 2 (Wood II:142)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-pdusdr"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Ratio <name>Scoti</name></head>
+              <p xml:id="awal1d2q1-ahposh">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ahposh"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied>Responsio Adam</supplied>
+              </head>
+              <p xml:id="awal1d2q1-apasca">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-apasca"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-aaihgl">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-aaihgl"/>
+                </assertions>
+              </p>
+            </div>
+          </div>
+          <div xml:id="awa-l1d1q1a2dub2" type="dubium">
+            <head>Secundum dubium: Utrum illa unitas numeralis primi probari posset per hoc: quod eiusdem effectus non possunt esse plures causae totales</head>
+            <p xml:id="awal1d2q1-sdepct">
+              <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 3 (Wood II:143-145)</note> -->
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-sdepct"/>
+              </assertions>
+            </p>
+            <div>
+              <head>Quod hoc est probabile: ratio <name>Scoti</name></head>
+              <p xml:id="awal1d2q1-evqvqs">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-evqvqs"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-pqsnee">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-pqsnee"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-hiafie">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-hiafie"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Instantia <name>Ockham</name> contra rationem <name>Scoti</name></head>
+              <p xml:id="awal1d2q1-schrai">
+                <!--<note>Cf. <name>Ockham</name>, Scriptum in I Sent., d. 2, q. 10 (OTh II, 342-54)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-schrai"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-idcpee">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-idcpee"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>
+                <supplied>Responsio Adam</supplied>
+              </head>
+              <p xml:id="awal1d2q1-aidevf">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-aidevf"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-esdeun">
+                <!-- possible place for paragraph break -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-esdeun"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-irdnin">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-irdnin"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-dfupsp">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-dfupsp"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-rtcsup">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-rtcsup"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-vstsee">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-vstsee"/>
+                </assertions>
+              </p>
+            </div>
+            <div>
+              <head>Quid est causa totalis et quid dependentia essentialis</head>
+
+              <p xml:id="awal1d2q1-stchuc">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 4 (Wood II:145-148)</note>-->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-stchuc"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-vgcivi">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-vgcivi"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-dspusc">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-dspusc"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-dqpoia">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-dqpoia"/>
+                </assertions>
+              </p>
+              <!-- this paragraph seems to be skipped 
+<p xml:id="awal1d2q1-ampnea">Alio modo potest exponi negative. Verbi gratia 'albissimum: 
+album quo nihil est albius', 'primum: quo nihil est prius'. Et sic non est oppositum 
+in adiecto dicere multa prima, sicut multa albissima, si 
+sint quaedam alba aequaliter quorum quolibet nihil est albius.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+-->
+              <p xml:id="awal1d2q1-tmpqdt">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-tmpqdt"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-spoien">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-spoien"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-viqpct">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-viqpct"/>
+                </assertions>
+              </p>
+              <!-- paragraphs below not present 
+<p xml:id="awal1d2q1-eartin">Et ad rationem, tunc dicendum quod aliquid potest esse simul a multis, 
+et sic secundum principia tua, <name ref="#Scotus">Scotus</name>, quorum quodlibet sublato, alio vel aliis manentibus 
+nihilominus esset. Nec hoc est inconveniens secundum principia tua, immo necessarium.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-dsadup">Dices: 
+saltem a nullo dependet aliquid essentialiter quo non existente nihilo
+minus esset. Sed si effectus habet plures causas totales in eodem ordine, 
+si alia earum, quantumcumque, scilicet, per se dederis, de esset nihilominus esset, igitur a 
+nulla causarum dependet effectus essentialiter, et ita in proposito, nisi des unicum primum.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+-->
+              <p xml:id="awal1d2q1-ipraqp">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ipraqp"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-qstaee">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-qstaee"/>
+                </assertions>
+              </p>
+            </div>
+            <!-- this subsection seems skipped 
+         <div>
+             <head>Unitas numeralis primi efficientis probari non potest</head>
+             
+             <p xml:id="awal1d2q1-spidsss">Sed<note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 5 (Wood II:148-149)</note> per istam  viam non potest probari unitas numeralis 
+primi efficientis, quia ex dualitate et pluralitate primorum non 
+posset inferi, sic sumendo 'causam totalem', quod idem effectus numero sit 
+ab hoc et a nullo alio, et tamen hoc oporteret quod ista duo prima essent respectu 
+ipsius duae causae totales - per locum ab exponentibus ad expositam - quia idem 
+est dicere quod haec est causa totalis illius effectus, sic sumendo 'causam totalem'; 
+et dicere hoc solum est causa illius est dicere quod hoc et nihil aliud est causa illius. 
+Igitur ex dualitate deorum vel primorum effectiorum non sequitur quod respectu eiusdem 
+effectus sint causae totales duae sic sumendo <supplied>causas totales</supplied>.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+
+<p xml:id="awal1d2q1-apqqei">Antecedens patet, quia cum pluralitate 
+primorum staret vel quod iste effectus secundum numerum qui producitur ab uno illorum 
+non possit produci ab altero sed similis sibi et aequalis, sicut dicentur 
+generaliter forte de omnibus causis naturalibus, quod idem effectus [M 64va] numero 
+qui producitur ab illo per se non potest produci ab aliquo effectivo eiusdem 
+speciei sed similis et aequalis, non idem. Vel si sit quod idem effectus numero 
+simul produceretur ab utroque vel produci posset et non solum simul 
+et separatim ab uno per se, si aliud non esset et e converso, sicut exemplificatum 
+est de igne producibili a duobus ignibus, quod tamen credo esse verum. 
+Sed neutrorum horum infert quod idem effectus numero sit ab hoc solo et 
+simul ab illo solo quia si primum istorum esset verum alta pars copulativae 
+falsa esset certum est. Et si secundum esset verum aliquando ambae partes 
+essent falsae, aliquando altera, semper tamen ad minus altera, non obstante dualitate 
+primorum. Igitur dualitas primorum non infert copulativam istam; igitur nec 
+infert duas esse causa totales respectu eiusdem effectus numero, quod est intentum.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-ciseie">Colligo igitur sub eodem, quod per istam viam non potest 
+convinci unitas numeralis, quia nonnisi quia ex opposito sequeretur 
+duas esse totales causas in ordine respectu eiusdem effectus. Sed hoc 
+non est verum sumendo 'causas totales' secundo modo praeexposito, ut declaratum 
+est iam immediate; nec etiam primo modo exponendo, nisi dato 
+quod idem effectus numero posset simul et separatim a pluribus causis eiusdem 
+speciei causari et tunc quod infertur non est inconveniens, scilicet, duas 
+esse causas totales respectu eiusdem, ut ostensum est, igitur etc.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+         </div>
+              -->
+            <div>
+              <head>
+                <supplied>Argumenta <name>Chatton</name> contra <name>Ockham</name></supplied>
+              </head>
+
+              <p xml:id="awal1d2q1-scioac">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-scioac"/>
+                </assertions>
+              </p>
+
+              <!-- the following are not present 
+<p xml:id="awal1d2q1-idsoac">Item 
+dixi supra quod simul stant quod effectus aliquis demonstratus sit de facto ab 
+alia causa creata et tamen quod Deus sit istius effectus causa totalis, et vocando 
+illud causam totalem huius effectus a quo poneretur effectus ille omni 
+alio circumscripto.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-ciaoia">Contra illud arguitur sic: Deus non posset concurrere cum causa 
+secunda nisi vellet effectum capere esse et a se et a causa secunda simul. Sed hoc 
+dato, circumscripta causa secunda, effectus non caperet esse, nam contrarium dicere 
+est dicere oppositum in adiecto.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+-->
+            </div>
+            <div>
+              <head>
+                <supplied>Responsio <name>Adae</name> ad argumenta <name>Chatton</name></supplied>
+              </head>
+
+              <p xml:id="awal1d2q1-apiree">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-apiree"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-ecaind">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-ecaind"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-eecivi">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-eecivi"/>
+                </assertions>
+              </p>
+
+              <!-- missing in abbreviatio 
+                    
+                    <assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+                  <p xml:id="awal1d2q1-aspaia">Ad secundum 
+posset dici quod: licet maior non sic, sit distincta secundum compositionem et divisionem de vi 
+vocis. Sed sit sensus divisionis unius alterius sic distinguendo puncta[??] illius 
+non est possibile Deum concurrere cum causa secunda nisi velit etc. Tamen ex 
+quo aliqui inte?nt[?] eam ad alios duos sensus erga aliqorum distinguo 
+sic eam et in compositione est vera, quia tunc est iste sensus. Haec non est 
+possibilis Deus concurrit cum causa secunda in producendo effectum aliquem sine 
+hoc quod velit effectum illum capere esse a se et a causa secunda simul, 
+et hoc est satis certum in sensu divisionis. Negat quod Deus non habet 
+potentiam concurrendi cum causa secunda respectu alicuius effectus nisi de facto 
+velit sic concurere, et hoc est falsum. Tamen quia multa potest quae 
+non vult secundum <ref><name ref="#Lombard">Magistrum</name> 43 distinctione primi libri</ref>, tum quia Deus potest vel<cb ed="#S" n="77vb"/>le 
+concurrere cum voluntate ad actum dilectionis comprincipiandum respectu alicuius oppositi 
+in A instanti, si tunc voluntas libere disponet se ad illud et vellet se toto 
+totam causare, si voluntas non disponeret se libere ad idem cum quia 
+Deus potest libere comproducere effectum in illo instanti cum causa alia et velle 
+quod si non <unclear>adsit[?]</unclear> illa creata in A. Puta si per voluntatem liberam 
+rationabilem aliter de creata ordinetur ante A quod non est impossibile 
+se solo producere talem effectum, immo illum eundem effectum quem 
+produceret cum causa tali secunda, si adesset in A.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+-->
+              <p xml:id="awal1d2q1-dseqav">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-dseqav"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-rpcmio">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-rpcmio"/>
+                </assertions>
+              </p>
+
+            </div>
+          </div>
+          <div xml:id="awa-l1d1q1a2dub3" type="dubium">
+            <!-- this is a good example of a complicated content hierarchy where dumbium 3 and 4 are wrapped in larger section because of an introduction and therefore do not appear at the same level as the other dubia, but this could be a mistake, because the next dubio mentioned is the "fourth dubium"-->
+            <head>Tertium dubium An ille idem effectus numero posset naturaliter produci ab alio activo eiusdem speciei? <!-- possibly should be second dubium in abbreviatio  --></head>
+            <p xml:id="awal1d2q1-tdpunp">
+              <!-- <note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 7, primum dubium (Wood II:152)</note> -->
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-tdpunp"/>
+              </assertions>
+            </p>
+
+            <!-- 
+<p xml:id="awal1d2q1-eihcao">Et 
+iuxta hoc potest esse quartum dubium:<note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 7, secundum dubium (Wood II:152)</note> quomodo posset vitari quin eiusdem 
+effectus numero sint plures causae totales sic, scilicet, exponendo 
+quod per quamlibet, earum alia circumscripta vel aliis manentibus, adhuc producretur. 
+Ex quo sequeretur etiam quod illud idem quod produceretur ab uno 
+primo, produci posset ab alio suae speciei. Si poneretur hoc, idem videntur 
+concludere argumenta <name ref="#Ockham">Ockham</name>.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> -->
+
+            <p xml:id="awal1d2q1-aidavi">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-aidavi"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-epopqi">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-epopqi"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-paeqpd">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-paeqpd"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-inicsp">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-inicsp"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-ehsace">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-ehsace"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-eqvsea">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-eqvsea"/>
+              </assertions>
+            </p>
+            <!-- this paragraph not present 
+              <p xml:id="awal1d2q1-eqpihi">Ex quo 
+patet quod evidenter falsum est dicere quod idem numero causabile sit a 
+diversis naturaliter obiectis, si alia sit possibilis cognitio vel propria visio hoc 
+argumentum. Igitur arguitive per locum a simili innotescit haec ille.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+-->
+            <p xml:id="awal1d2q1-esahpa">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-esahpa"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-dqsanc">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-dqsanc"/>
+              </assertions>
+            </p>
+            <div xml:id="awa-l1d1q1a2dub4" type="dubium">
+              <head>
+                <supplied>Ad quartum dubium: quomodo posset vitari quin eius dem effectus numero sint plures causae totales</supplied>
+              </head>
+
+              <p xml:id="awal1d2q1-aqdmct">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-aqdmct"/>
+                </assertions>
+              </p>
+              <!-- paragraph break here may not fit break in Ordinatio, reconsider divisions -->
+            </div>
+            <div>
+              <head>Responsio ad rationem <name>Ockham</name></head>
+              <p xml:id="awal1d2q1-etaeni">
+                <!--<note><name>Wodeham</name>, <title>Lectura Secunda</title>, d. 3, q. 2, sect. 8 (Wood II:155)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-etaeni"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-dsnaaa">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-dsnaaa"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-rqiaaa">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-rqiaaa"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-sdiacp">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-sdiacp"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-reenhl">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-reenhl"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-tcqspi">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-tcqspi"/>
+                </assertions>
+              </p>
+
+
+              <p xml:id="awal1d2q1-votpaa">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-votpaa"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-voufci">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-voufci"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-diicod">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-diicod"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-rneeas">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-rneeas"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-udqesn">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-udqesn"/>
+                </assertions>
+              </p>
+              <!-- not present 
+                <p xml:id="awal1d2q1-eihaep">Et ita haberet 
+                  dicere qui negaret unitatem numeralem primum et proterviendo 
+                  poneret multa esse prima respectu effectuum ab eis producibilium.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+                  -->
+            </div>
+            <div>
+              <head>Instantiae et solutiones earum</head>
+              <p xml:id="awal1d2q1-chdtni">
+                <!-- <note><name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 9 (Wood II:157)</note> -->
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-chdtni"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-invphn">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-invphn"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-inveid">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-inveid"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-apamed">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-apamed"/>
+                </assertions>
+              </p>
+
+              <!-- not included in abbrev
+
+<p xml:id="awal1d2q1-eahpnnn">Exemplum ad hoc est de 
+tractu navis et de divisione aquae in illo tractu. Unus enim 
+per se illorum saltem non sufficeret. Tamen exemplum illud non multum facit 
+ad propositum, nisi ponendo quod movere localiter esset aliquid efficere, quod ad 
+praesens nec pono nec nego.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+-->
+              <p xml:id="awal1d2q1-asdasc">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-asdasc"/>
+                </assertions>
+              </p>
+
+              <p xml:id="awal1d2q1-atnhid">
+                <assertions>
+                  <assertion property="abbreviates"
+                    target="http://scta.info/resource/b1d2qun-atnhid"/>
+                </assertions>
+              </p>
+            </div>
+          </div>
+          <div xml:id="awa-l1d1q1a2dub5">
+            <head>
+              <supplied>Quintum Dubium An possint esse plures causae totales respectu eiusdem effectus?</supplied>
+            </head>
+            <p xml:id="awal1d2q1-qdepsd">
+              <!-- <note>Cf. <name>Wodeham</name>, <title>Lectura secunda</title>, d. 3, q. 2, sect. 9 (Wood II:158-159)</note> -->
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-qdepsd"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-sliaao">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-sliaao"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-hrplse">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-hrplse"/>
+              </assertions>
+            </p>
+            <!-- review break; perhaps "similiter" section in ordinatio should go in previous paragraph -->
+            <p xml:id="awal1d2q1-savmre">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-savmre"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-qasdet">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-qasdet"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-sraesd">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-sraesd"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-daqpam">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-daqpam"/>
+              </assertions>
+            </p>
+          </div>
+          <div xml:id="awa-l1d1q1a2dub6">
+            <head>Sextum Dubium: Utrum idem effectus numero produci posset a duabus causis?</head>
+
+            <p xml:id="awal1d2q1-secnad">
+              <!--<note><name>Wodeham</name>, <title><title>Lectura secunda</title></title>, d. 3, q. 2, sect. 15 (Wood II:167)</note> -->
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-secnad"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-csaiqe">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-csaiqe"/>
+              </assertions>
+            </p>
+
+            <p xml:id="awal1d2q1-hrpceh">
+              <assertions>
+                <assertion property="abbreviates"
+                  target="http://scta.info/resource/b1d2qun-hrpceh"/>
+              </assertions>
+            </p>
+            <!-- some of the above might belong somewhere below -->
+
+            <!-- below seems missing from abbrev 
+<p xml:id="awal1d2q1-aepppa">Aliud exemplum potest esse de causa materiali. Non vidi aliquem concedere quod de 
+hac materia possit naturaliter produci ab aliquo activo naturali idem 
+effectus numero formaliter qui ab alia maxime qui ab alia 
+secundum speciem. Verbi gratia, albedo eiusdem speciei potest naturaliter produci de 
+potentia nivis et de potentia lactis. Et nihil valet consequentia ista: 'haec albedo 
+potest produci de potentia nivis, igitur quaelibet'; et tamen sequitur de potentia 
+illius nivis potest produci albedo, ergo de potentia cuiuslibet nivis potest 
+produci albedo.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+         <p xml:id="awal1d2q1-aeidaq">Aliud exemplum: 'ista albedo potest producere duas visiones 
+igitur quaelibet aequalis sibi imperfectione potest producere duas visiones'. 
+Et non solum quaelibet albedo duas visiones, sed etiam plures 
+quia quodlibet activum naturale potest producere, aequali ratione, duos aliquos 
+effectus in eadem specie dummodo non sit repugnantia plures producere 
+vel produci multi specie. Quia non video maiorem repugnantiam 
+ex una parte quam ex alia, sicut supra arguebam, 
+quia qua ratione repugnat uni albedini producere visionem sufficienter ab 
+alio producibilem consimili ratione repugnabit cuilibet activo 
+naturali producere quemcumque effectum determinatum numeraliter producibilem ab 
+alio. Nihil enim quod obstaret video, <unclear>licet[?]</unclear> licet nesciam hoc probare 
+efficaciter de aliis per media illis propria, sicut hic de visionibus 
+et obiectis. Tamen convertas  consequentiam, et nihil valet secundum omnes: 'istae 
+duae visiones producuntur ab aliqua eadem albedine secundum numerum, igitur aliae 
+quia consequens est falsum de duabus visionibus duarum albedinum quarumcumque.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-erhdce">Et radix huiusmodi est, quia causa ista est indeterminatior, utpote 
+prior illo respectu huius effectus secundum numerum quam e converso. Idem enim agens 
+quod producit hunc effectum de hac materia, potest alium producere de 
+eadem materia vel de alia materia, numero utroque modo secundum me. Sed iste 
+effectus productus de hac materia ab isto agente non potest, secundum 
+omnes, naturaliter produci de alia materia ab alio genere agente 
+nec etiam ab isto et sic secundum omnes, identitas effectus secundum numerum requirit 
+eandem materiam secundum numerum et non e converso, ita dico ego 
+de causa effectiva.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-uaspda">Unde arguo sic: pono quod idem accidens numero 
+informaret secundum aliam et aliam partem diversas substantias in specie; puta 
+eadem qualitas vel quantitas unum lignum vivum vivum et mortuum. Tunc 
+sic: 'haec materia composita potest recipere habebant albedinem vel habebant quantitatem, 
+igitur quaelibet similis potest recipere similem'; et tamen secundum omnes ponentes albedinem 
+et similia accidentia recipi non poterit in materia sed in composito. 
+E converso, argumentum non valet: 'haec albedo vel haec quantitas producitur de potentia 
+istarum materiarum non solum numero sed specie distinctarum, ergo quaelibet albedo 
+vel quantitas potest produci de simili subiecto naturaliter', quia, ut iam 
+tactum est, secundum omnes tam philosophos quam theologos, effectus productus 
+de hac materia non est naturaliter idem secundum naturam producibilis 
+de alia.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-eeeeii">Et etiam evidenti ratione hoc probari potest dato quod nullus 
+hoc diceret; quia aliter, saltem cum quibusdam assumptis concessis 
+ab illis qui debent idem numero posse naturaliter produci 
+a diversi, sequitur quod quaelibet forma ignis, ro?ine[?] esset 
+eadem numero cum ista quae hic est. Nec esset nisi unica forma 
+<cb ed="#S" n="79ra"/>secundum numerum cuiuscumque speciei simul in universo, quod in suo simili damnatum 
+est pro haeresi in libro <title ref="#Decretals">Decretalium</title>, ubi damnatur opinio <name ref="#Averroes">Commentatoris</name> 
+de unitate numerali intellectus in omnibus hominibus. Ratio enim istorum 
+est utrobique eadem, quia si potest agere vel recipere plura eiusdem rationis, 
+eadem ratione infinita. Tamen consequentia est rationabilis. Et si infinita, eadem 
+ratione efficeret quodlibet istorum vel nullum etc. Quod argumentum, licet non 
+valeat, quia Deus libere potest velle producere unum determinatorum 
+volendo producere alium, tamen sicut valet ex una parte de agente 
+quod non posset producere naturaliter nisi unicum, vel plura agentia secundum alios 
+eiusdem rationis de eadem materia non possunt producere nisi unicum, 
+ita sequitur ex alia parte, dato quod eadem forma numero pos
+sit naturaliter produci de diversis materiis, numero vel specie distinctis, 
+quia semper illa produceretur, et nulla eiusdem rationis alia in illis materiis, 
+quod est impossibile intentum.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+
+<p xml:id="awal1d2q1-sipata">Sic igitur patet ex praedicitis quod de 
+productivo et productis tenet ille modus arguendi; 'hoc faceret tale vel 
+talia, igitur quodlibet speciei suae potest facere seu producere tale vel talia'. 
+Sed ex alia parte non tenet consequentia ad universalem, sed ad particularem: hoc 
+effectus producitur a tali agente, igitur quodlibet suae speciei potest producti 
+naturaliter a tali agente, si igitur aliquod suae speciei potest produci naturaliter 
+a tali agente.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-eicnqq">Exemplum: iste calor producitur a sole, ideo bene 
+sequitur quod aliquis calor eiusdem speciei potest produci a sole, sed non 
+quod quilibet.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-aeiese">Aliud exemplum: iste calor producitur de potentia ligni, igitur 
+quilibet producibilis potest produci de potentia ligni. Non sequitur: sed quod 
+aliquis alius eiusdem speciei et tamen e converso tenet de potentia huius ligni, 
+igitur et de potentia cuiuslibet ligni eiusdem speciei etc.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-aeviia">Aliud exemplum: 
+visio producitur vel causatur a duobus visibilibus eiusdem speciei. Et tamen non 
+sequitur, tenendo quod visio sit formaliter indivisibilis: 'igitur quaelibet visio 
+eiusdem speciei cum ista potest produci a duobus visionibus', sed 
+aliqua. Et tamen e converso optime sequitur: 'ista duo visibilia causant 
+unam visionem, igitur quaelibet duo visibilia eiusdem perfectionis et speciei 
+possunt causare visionem'. Et ita in aliis.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+-->
+          </div>
+        </div>
+        <div>
+          <head>
+            <supplied>Responsio ad rationes principales</supplied>
+          </head>
+          <p xml:id="awal1d2q1-apacvp">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-apacvp"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-asnnvd">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-asnnvd"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-epiffr">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-epiffr"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-adqnev">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-adqnev"/>
+            </assertions>
+          </p>
+
+
+          <p xml:id="awal1d2q1-essesd">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-essesd"/>
+            </assertions>
+          </p>
+          <!-- four paragraphs below might be smashed into the one above; not sure -->
+
+          <!--
+<p xml:id="awal1d2q1-essusi">Et similiter, si sunt maiora bona, plus sunt diligenda, et sequitur ex 
+hoc: quod Deus et beata maiora sunt, plus diligenda quam Deus. Et 
+huiusmodi[?] ideo convenienter et probabiliter dici potest concedendo maiorem eo quod 
+duo infinita, si essent per impossibile, non essent maiora finito et infinito vel saltem quaecumque 
+finitum et infinitum. Et ideo concedendo maiorem, negat minor, scilicet, 
+quod talia sunt dii. Sed sufficit quod unus illorum sit Deus nec 
+sequitur ea quibus maiora etc., igitur sunt infinita, sed sufficit quod unicum 
+sit infinitum.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+
+<p xml:id="awal1d2q1-ssamaa">Sed si arguatur sic: quorum quodlibet est tale quod 
+maius eo cogitari non potest, sunt in re aut in solo intellectu, et sic 
+ultra per modum arguendi positum in argumento. Et si sunt in re, sequitur quod 
+quodlibet sit in infinitum, et sic quod ipsa sint infinita, et per consequens, dii,
+quia tamen ista argumenta possunt fieri de quacumque forma vel re alia secundum 
+speciem in qua non est trinus maximus augmenti, ut tactum est 
+in argumento, videndum est de dicto modo arguendi <name ref="#Anselm">Anselmi</name>.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p> 
+
+<p xml:id="awal1d2q1-erucme">Et respondet 
+unus magister physicae: uno modo quod argumentum tenet solum ratione materiae 
+illud quo maius cogitari non potest etc. Sed de aliis cum arguitur non 
+tenet. Unde tamen arguitur 'ea quorum quodlibet est tale, etc. sunt in intellectu', dicitur 
+negando quod implicat falsum, sicut et istud modos <name ref="#Aureoli">Aureolus</name> est in intellectu. 
+Et cum dicitur quod 'cum quis audit hoc quod dico etc., intelligit', concedo nec 
+sequitur quod talia sunt in intellectu; et posset etiam ulterius dici quod non est alia 
+res quin possit cogitatione falsa cogitari non esse et quod qui 
+cogitat unum tale ac si esset cum talibus cognitionibus non cogitet 
+maius quam false aestimaret se cogitare maius, etc.<assertions>
+              <assertion property="abbreviates" target="http://scta.info/resource/b1d2qun-piqtud"/>
+            </assertions></p>
+-->
+          <p xml:id="awal1d2q1-apdned">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-apdned"/>
+            </assertions>
+          </p>
+
+          <p xml:id="awal1d2q1-sprdtt">
+            <assertions>
+              <assertion property="abbreviates"
+                target="http://scta.info/resource/b1d2qun-sprdtt"/>
+            </assertions>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</info>

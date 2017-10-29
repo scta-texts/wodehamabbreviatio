@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 13 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 7</title>
+          <date when="2017-02-02">February 02, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-02-02" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="45-r"/><cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q13">
+        <head>Librum I, Distinctio 1, Quaestio 13 [Paris 1512 Transcription]</head>
+        <head type="questionTitle">Utrum liceat filium dei plus diligere quam patrem vel spiritum sanctum</head>
+        <p>
+          <lb ed="#Pa"/>Tertio decimo circa di<lb ed="#Pa"/>stinctionem 
+          primam quaeritur occasione <ref>se<lb ed="#Pa"/>cundae 
+          conclusionis quaestionis 12</ref> utrum 
+          <lb ed="#Pa"/>liceat filium dei plus diligere quam pa<lb ed="#Pa"/>trem 
+          vel spiritum sanctum se eo plura 
+          <lb ed="#Pa"/>frui quod sic quia filius est melior igitur. Assumptum proba<lb ed="#Pa"/>tur 
+          quia filius est bonus bonitate patris et praeter 
+          <lb ed="#Pa"/>hoc bonitate humanitatis assumptae igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item fi<lb ed="#Pa"/>lius 
+          est amabilis quia deus et quia redemptor non sic 
+          <lb ed="#Pa"/>pater igitur etc.
+        </p>
+        <p>
+          Praeterea iudei sciverunt istum esse 
+          <lb ed="#Pa"/>hominem quem crucifixerunt et non sciverunt ipsum esse 
+          <lb ed="#Pa"/>deum igitur aliquid est scibile de filio quod non de deo igi<lb ed="#Pa"/>tur 
+          multo fortius aliquid est scibile de filio quod non de 
+          <lb ed="#Pa"/>patre igitur pari ratione poterit plus diligi cum 
+          <lb ed="#Pa"/>praeter hoc quod de ipso singulariter est scibile ipse etiam 
+          <lb ed="#Pa"/>sic deus antecedens primum patet per illud apostoli. <quote ana="#Icor2_8">Si cognovis<lb ed="#Pa"/>sent 
+          nunquam dominum gloriae crucifixissent</quote>.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra quili<lb ed="#Pa"/>bet 
+          tenetur quamlibet personam divinam diligere et appre<lb ed="#Pa"/>ciari 
+          infinite igitur consequentia tenet quia nullus potest plus di<lb ed="#Pa"/>ligere 
+          quam infinite.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Primus articulus prima conclusio 
+          <lb ed="#Pa"/>conformis secundae conclusioni praecedentis quaestionis christus 
+          <lb ed="#Pa"/>cognosci poterat aliqua cognitione et diligi ali<lb ed="#Pa"/>qua 
+          dilectione qua nec pater nec spiritus sanctus pro<lb ed="#Pa"/>batur 
+          christus potuit videri oculo corporali mediante 
+          <lb ed="#Pa"/>huius humanitate et diligi per accidens ex hoc so<lb ed="#Pa"/>lo 
+          quod humanitas fuit sibi unita et constat quod tali di<cb ed="#Pa" n="b"/><lb ed="#Pa"/>lectione 
+          vel cognitione non diligebatur pater quia haec 
+          <lb ed="#Pa"/>sibi non conveniunt.
+        </p>
+        <p>
+          Praeterea aliqui oderunt christum pro<lb ed="#Pa"/>pter 
+          aliquam conditionem. displicibilem in natura as<lb ed="#Pa"/>sumpta 
+          vel saltem hoc fuit possibile qui tamen conditio 
+          <lb ed="#Pa"/>nulli alteri personae competisset sic etiam forte dilige<lb ed="#Pa"/>batur 
+          ab aliquibus solum propter aliquam conditionem 
+          <lb ed="#Pa"/>humanitatis scilicet quia consanguinens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ex hoc ar<lb ed="#Pa"/>guitur 
+          sic quando aliquid diligitur praecise propter causam 
+          <lb ed="#Pa"/>sibi propriam non oportet ista dilectione alium diligi 
+          <lb ed="#Pa"/>cui illa ratio praecise non convenit sed sic est in proposito 
+          <lb ed="#Pa"/>igitur. Unde dicendum est quod omne illud quod media<lb ed="#Pa"/>te 
+          convenit personae filii ratione personalitatis divinae hoc 
+          <lb ed="#Pa"/>etiam convenit essentiae si sibi non repugnet secus autem 
+          <lb ed="#Pa"/>est de hiis quae conveniunt filio per humanitatem ut quod fue<lb ed="#Pa"/>rit 
+          mortuus famescens etc. quia licet haec concedantur 
+          <lb ed="#Pa"/>de filio non tamen propter hoc oportet concedere quod dei<lb ed="#Pa"/>tas 
+          fuerit mortua etc. vel si quis vellet ista essentiae 
+          <lb ed="#Pa"/>tribuere per accidens non tamen propter hoc haberet 
+          <lb ed="#Pa"/>ista concedre de patre et spiritu sancto.</p> 
+        <p>
+          Et ita non sequi<lb ed="#Pa"/>tur 
+          filius secundum humanitatem est cognitus vel dile<lb ed="#Pa"/>ctus 
+          igitur deitas est cognita vel dilecta nec etiam hoc 
+          <lb ed="#Pa"/>sequitur de patre et spiritu sancto. Quis enim diceret quod 
+          <lb ed="#Pa"/>asinus qui portavit et vidit christum viderit deitatem vel si 
+          <lb ed="#Pa"/>hoc velit dicere tamen de patre nullo consensu est conce<lb ed="#Pa"/>dendum 
+          tamen ut patuit circa conclusione secundam 
+          <lb ed="#Pa"/>praecedentis quaestionis dicta conclusio non videtur 
+          <lb ed="#Pa"/>vera ymo etiam opposita probari potest per omnia me<lb ed="#Pa"/>dia 
+          quibus <ref>in praecedenti quaestione</ref> probatum est quod una 
+          <lb ed="#Pa"/>persona non potest per se cognosci sine alia.
+        </p>
+        <p>
+          Ad hoc enim 
+          <lb ed="#Pa"/>ducit ratio naturalis coassumpta fide quod tres perso<lb ed="#Pa"/>nae 
+          sunt unum in essentia et nec fides nec scriptura 
+          <lb ed="#Pa"/>alicubi ponit aliquid propter quod non debeat sic 
+          <lb ed="#Pa"/>concedi conclusio deducta scilicet quod non potest cognosci una 
+          <lb ed="#Pa"/>persona divina nec diligi quin essentia et quaelibet 
+          <lb ed="#Pa"/>persona alia divina sic cognoscatur et diligat igitur nec 
+          <lb ed="#Pa"/>est inconveniens quod sicut filius videbatur per accidens ocu<lb ed="#Pa"/>lo 
+          corporali ita etiam et deitas et pater et spiritus sanctus.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Dubium est quomodo uno actu beatifico distincte cogno<lb ed="#Pa"/>scit 
+          essentia et distincte quaelibet persona. Ex hoc enim vide<lb ed="#Pa"/>tur 
+          quod idem actus omnino repraesentet absolute et relative et 
+          <lb ed="#Pa"/>tunc de eodem conceptu praedicarentur per se diversa praedica<lb ed="#Pa"/>ta 
+          scilicet substantiae et relationis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc idem negaretur 
+          <lb ed="#Pa"/>de se ipso posita constantia subiecti quia talis conceptus vel 
+          <lb ed="#Pa"/>actus supponens pro filio distincte singulariter negaretur 
+          <lb ed="#Pa"/>de se ipso supponente singulariter pro patre.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc ea<lb ed="#Pa"/>dem 
+          propositio inqua talis conceptus vel actus poneretur tam in 
+          <lb ed="#Pa"/>subiecto quam in praedicato esset vera et falsa prout idem sup<lb ed="#Pa"/>ponit 
+          uniformiter in subiecto et in praedicato scilicet ubique pro 
+          <lb ed="#Pa"/>patre et etiam difformiter scilicet in subiecto pro patre et in praedicato 
+          <lb ed="#Pa"/>pro filio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item si talis actus aeque primo importat paternitatem 
+          <lb ed="#Pa"/>et filiationem tunc est conceptus communis cum significet univo<lb ed="#Pa"/>ce 
+          plura distincte. Et per consequens non est actus fruitionis 
+          <lb ed="#Pa"/>nec visionis beatifice quia talis debet esse distinctissimus 
+          <lb ed="#Pa"/>si non importat aquae primo personas tunc beatus prius fru<lb ed="#Pa"/>eretur 
+          una persona quam alia.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum conceditur quod 
+          <lb ed="#Pa"/>idem actus vel conceptus supponat et etiam relative
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad secundum dicitur quod consequens non est inconveniens 
+          <lb ed="#Pa"/>si pro alio et alio sumatur in subiecto et praedicato.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 
+          <lb ed="#Pa"/>tertium negatur consequentia quia licet idem termini ponuntur in pro<lb ed="#Pa"/>positione 
+          vera et in propositione falsa tamen aliter fiunt se in<lb ed="#Pa"/>tellectus 
+          in illa quae per tales terminos significan<lb ed="#Pa"/>tur 
+          quando sunt propositio vera et aliter quan<lb ed="#Pa"/>do 
+          sunt propositio falsa et ideo non est eadem propo<lb ed="#Pa"/>sitio 
+          vera et falsa in mente simul sicut idem non est 
+          <lb ed="#Pa"/>simul statio et sessio licet hoc possit esse successi<lb ed="#Pa"/>ve. 
+          Alii dicunt quod sicut in voce eadem propositio sit 
+          <pb ed="#Pa" n="45-v"/>
+          <lb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>simul vera et falsa terminis aequivoce sumptis sic 
+          <lb ed="#Pa"/>non est inconveniens in mente. Aliter potest dici quod ibi sunt 
+          <lb ed="#Pa"/>diverse copule secundum quarum naturam termini in subie<lb ed="#Pa"/>cto 
+          et praedicato diversimode significant et ita sunt di<lb ed="#Pa"/>versae 
+          propositiones. ALiter dicit quod sicut iste idem actus 
+          <lb ed="#Pa"/>repraesentat alicui complexe et incomplexe absolute et re<lb ed="#Pa"/>lative 
+          et qualitercuque videt in verbo sicut etiam reprae<lb ed="#Pa"/>sentat 
+          eidem qualitercumque vere est et false et qualiter 
+          <lb ed="#Pa"/>possibiliter et impossibiliter est qualitercumque apprae<lb ed="#Pa"/>hendit 
+          in verbo quia licet ibi non cognoscat nec videat 
+          <lb ed="#Pa"/>false vel impossibiliter tamen taliter apprehendite o 
+          <lb ed="#Pa"/>quod bene apprehendit significarum propositionis fal<lb ed="#Pa"/>se 
+          et etiam impossibilis et non sequitur talis actus est re<lb ed="#Pa"/>praesentativus 
+          alicui taliter esse qualiter non est vel qua<lb ed="#Pa"/>liter impossibile est esse seu qualiter false et qualiter 
+          <lb ed="#Pa"/>impossibiliter est igitur repraesentat false vel impossibi<lb ed="#Pa"/>liter 
+          vel etiam sequitur quod sit propositio falsa vel impos<lb ed="#Pa"/>sibilis 
+          eo quod ex sui repraesentatione non facit aliquem sibi 
+          <lb ed="#Pa"/>inhaerentem consentire aliter esse quam est vel taliter esse 
+          <lb ed="#Pa"/>qualiter impossibile est esse. prout tamen facit propo<lb ed="#Pa"/>sitionem 
+          falsam vel impossibilem. sed dictus actus si<lb ed="#Pa"/>bi 
+          quo ad repraesentationem suam inhaerentem bene fa<lb ed="#Pa"/>cit 
+          apprehendere taliter qualiter propositio falsa vel 
+          <lb ed="#Pa"/>impossibilis supponat sic etiam essentia divina est re<lb ed="#Pa"/>praesentativa 
+          cuiuslibet et qualitercumque significabi<lb ed="#Pa"/>lis 
+          tam false quam impossibiliter tamen ipsa non est pro<lb ed="#Pa"/>positio 
+          falsa vel impossibilis nec est repraesentativa 
+          <lb ed="#Pa"/>false vel impossibiliter prout ly false et ly impossibi<lb ed="#Pa"/>liter 
+          determinant ly representativa si autem determi<lb ed="#Pa"/>nant 
+          significabile expressum vel intellectum bene con<lb ed="#Pa"/>ceditur 
+          quod est representativa false et impossibiliter supple 
+          <lb ed="#Pa"/>significabilis vel apprehensibils.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quartum 
+          <lb ed="#Pa"/>conceditur quod aeque primo et non sequitur quod igitur sit con<lb ed="#Pa"/>ceptus 
+          communis communitate probationis quia talis indistincte 
+          <lb ed="#Pa"/>et confuse representat plura qualiter non est in proposi<lb ed="#Pa"/>to 
+          eo quod iste actus conceptus singulariter et distincte re<lb ed="#Pa"/>presentat 
+          quamlibet personam.
+        </p>
+        <!-- article 2 -->
+        <p>
+          <pc ana="#pilcrow"/>Secundus articulus an 
+          <lb ed="#Pa"/>una persona divina possit licite vel etiam absolute plus 
+          <lb ed="#Pa"/>diligi quam alia ut pote filius qui nos in humanitate rede<lb ed="#Pa"/>mit 
+          non sic pater. Et videtur quod non quia tunc pari ratione 
+          <lb ed="#Pa"/>potest una persona amari alia non amata quia illud plus 
+          <lb ed="#Pa"/>scilicet quo plus diligeretur una persona quam alia est quidam 
+          <lb ed="#Pa"/>amor et est ita respectu unius personae quod non est respectu 
+          <lb ed="#Pa"/>alterius.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad illud dubium dicendum est quod dupli<lb ed="#Pa"/>citer 
+          potest intelligi primo de personis divinis eo quod ta<lb ed="#Pa"/>les 
+          personae divinae naturaliter sunt et divinitate ope<lb ed="#Pa"/>rantur 
+          active ad extra et in isto sensu simpliciter ne<lb ed="#Pa"/>go 
+          dubium et ut proponitur. Diceres tamen ecclesia quando<lb ed="#Pa"/>que 
+          dirigit orationem principaliter ad unam personam 
+          et non sic ad alias. Ex hoc enim aliqui videntur habere 
+          <lb ed="#Pa"/>maiorem devotionem ad unam scilicet ad filium vel ad spiritum 
+          <lb ed="#Pa"/>sanctum quam ad aliam quandoque ad totam trinitatem. Re<lb ed="#Pa"/>spondetur 
+          quod ecclesia non vult per hoc devotionem hominem 
+          <lb ed="#Pa"/>excitare plus ad unam personam quam ad aliam nam ille devo<lb ed="#Pa"/>tiones 
+          in orationibus ecclesiae concipiuntur non ex propriis 
+          <lb ed="#Pa"/>personarum sed ex appropriatis operationibus seu effe<lb ed="#Pa"/>ctibus 
+          earum: quandoque enim cogitat peccator de cle<lb ed="#Pa"/>mentia 
+          et misericordia dei quae appropriatur spiritu sancto 
+          <lb ed="#Pa"/>magis excitatur saepe ad devotionem quem quando cogi<lb ed="#Pa"/>tat 
+          de omni potentia quae appropriatur patri vel de sa<lb ed="#Pa"/>pientia 
+          et iustitia quae appropriantur filio et tamen secun<lb ed="#Pa"/>dum 
+          veritatem illa causa quare diligit aequaliter con<lb ed="#Pa"/>venit 
+          patri et filio sicut spiritu sancto et igitur tunc ita 
+          <lb ed="#Pa"/>diligit patrem et filium sicut spiritum sanctum licet non semper hoc advertat 
+          <lb ed="#Pa"/>et sicut in hoc est exemplificatum ita etiam intelligendum 
+          <lb ed="#Pa"/>est in aliis casibus. Alio modo potest intelligi di<cb ed="#Pa" n="b"/><lb ed="#Pa"/>ctum 
+          dubium spiritualiter de persona filii propter duplicem 
+          <lb ed="#Pa"/>naturam et duplicem bonitatem eius amabilem divinam 
+          <lb ed="#Pa"/>scilicet et creatam et tunc potest intelligi vel de amore plu<lb ed="#Pa"/>ri 
+          licito vel illicito satis est possibile quod aliquis plus 
+          <lb ed="#Pa"/>potuisset dilexisse eius humanitatem quam divinitatem 
+          <lb ed="#Pa"/>et ita etiam plus quam pater et spiritus sanctus. Si autem intel<lb ed="#Pa"/>ligatur 
+          quod una persona licite potest plus diligi quam alia 
+          <lb ed="#Pa"/>eet persona filii pro eo quod habet in se duplicem ama<lb ed="#Pa"/><lb ed="#Pa"/>bilitatem 
+          nec sit persona alia tunc verum esset ad hunc in<lb ed="#Pa"/>tellectum 
+          potest plus diligi id est pluribus amoribus diligi quia 
+          <lb ed="#Pa"/>amore fruitivo propter hoc quod deus est et amore usus propter 
+          <lb ed="#Pa"/>humanitatem vel uno amore forte aequivalente illis 
+          <lb ed="#Pa"/>duobus amoribus et tunc plus diligitur et amore plu<lb ed="#Pa"/>rium 
+          diligitur et extensius non autem intensius diligitur ex hoc 
+          <lb ed="#Pa"/>amore fruitivo quam alia persona licet per humanitatem 
+          <lb ed="#Pa"/>amabilem surgat voluntas in magis <sic>ferundum</sic> amo<lb ed="#Pa"/>rem 
+          non tantum filii sed totius trinitatis in quibus <unclear>omni??</unclear> 
+          <lb ed="#Pa"/>eadem bonitas qua sola licite et ultimate fruibilis 
+          <lb ed="#Pa"/>est. Potest etiam sic intelligi de persona filii quia scilicet in 
+          <lb ed="#Pa"/>humanitate filius nos redemit et natus est et passus 
+          <lb ed="#Pa"/>pro nobis etc et nulla persona alia ideo videtur quod possit 
+          <lb ed="#Pa"/>licite plus diligi quam persona alia. Respondetur quod in ta<lb ed="#Pa"/>li 
+          passione et redemptione consideranda sunt duo 
+          <lb ed="#Pa"/>primo velle spontaneum quo voluit diligere nos et 
+          <lb ed="#Pa"/>ex amore magno sponte et gratuite pati et facere 
+          <lb ed="#Pa"/>opus redemptionis nostrae et quo ad hoc aequaliter 
+          <lb ed="#Pa"/>obligamur omnibus personis quibus huiusmodi vel<lb ed="#Pa"/>le 
+          fuit commune quod filius in humanitate pro nobis 
+          <lb ed="#Pa"/>patretur licet etiam hoc alia volitione creata fi<lb ed="#Pa"/>lius 
+          voluerit per quam sibi et toti trinitati obligamur 
+          <lb ed="#Pa"/>nec per se loquendo passio illa plus gravavit persona<lb ed="#Pa"/>litatem 
+          aeternam filii quam patris sed qualiter vera passio 
+          <lb ed="#Pa"/>humanitatis sibi conveniebat per communicationem ydio<lb ed="#Pa"/>matum 
+          hoc est quod gravavit humanitatem quae sibi fu<lb ed="#Pa"/>it 
+          suppositabiliter unita.
+        </p>
+        <p>
+          Secundo considerandum 
+          <lb ed="#Pa"/>est opus operatum scilicet passio et tota redemptio etc 
+          <lb ed="#Pa"/>et quo ad hoc iterum tenemur aequaliter toti tri<lb ed="#Pa"/>nitati 
+          quae redemptionem nostram operata est in filio 
+          <lb ed="#Pa"/>per quam assurgere debemus in amorem totius tri<lb ed="#Pa"/>nitatis 
+          et per eum regratiari toti trinitati plus pro<lb ed="#Pa"/>pter 
+          hoc quod placuit omnibus personis nos redime<lb ed="#Pa"/>re 
+          per suppositum increatum potius quod per creatu<lb ed="#Pa"/>ram 
+          licet secundum sanctos per puram creaturam po<lb ed="#Pa"/>tuisset 
+          redemptio fieri si deo placuisset. Subdit sed 
+          <lb ed="#Pa"/>illi supposito non ex hoc solo obligamur singula<lb ed="#Pa"/>riter 
+          quod est suppositum redimens nos sed obligatione 
+          <lb ed="#Pa"/>speciali suae humanitati debita quae singulariter il<lb ed="#Pa"/>li 
+          supposito est unita et quod debetur illi naturae de<lb ed="#Pa"/>betur 
+          etiam et supposito cuius est saltem mediate 
+          <lb ed="#Pa"/>et per accidens aut per aliud non sit alteri suppo<lb ed="#Pa"/>sito. 
+          Sed illud ultimum dictum non videtur verum 
+          <lb ed="#Pa"/>quia ex obligatione speciali debita humanitati te<lb ed="#Pa"/>nemur 
+          toti trinitati quae operata est omnia bene<lb ed="#Pa"/>ficia 
+          et redemptionis opera propter quae obliga<lb ed="#Pa"/>mur 
+          humanitati christi.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>hic dicit <name>unus doctor</name> quod 
+          <lb ed="#Pa"/>in patria non est aliquis amor unus respectu filii in<lb ed="#Pa"/>quantum 
+          est deus et homo seu redemptor noster sed 
+          <lb ed="#Pa"/>duos amores propter duas naturas quas unico 
+          <lb ed="#Pa"/>amore non contingit amari et hoc distincte quia 
+          <lb ed="#Pa"/>non possunt cognosci unico actu simplici intelle<lb ed="#Pa"/>ctus 
+          sed opposito et non sequitur ex hoc quod possit 
+          <lb ed="#Pa"/>sic amari quia actus amoris oportet quod sit sim<lb ed="#Pa"/>plex. 
+          Si enim inquit idem esset actus amoris 
+          <lb ed="#Pa"/>respectu diversorum tunc ut videtur eadem es<lb ed="#Pa"/>set 
+          fruitio intensior respectu alicuius personae 
+          <lb ed="#Pa"/>quam respectu alterius. Sed hoc non videtur verum quia 
+          <pb ed="#Pa" n="46-r"/>
+          <lb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>idem actus diligendi qui est usus respetu huma<lb ed="#Pa"/>nitatis 
+          christus est fruitio dei igitur unico actu simpli<lb ed="#Pa"/>ci 
+          potest quis diligere deum et hominem quia re<lb ed="#Pa"/>demptor 
+          secundum utramque naturam requisitam in per<lb ed="#Pa"/>sona 
+          redemptoris Antecedens patet per <ref><name ref="#Augustine">augustinum</name> <sic>17</sic> <title ref="#deTrinitate">de trinitate</title> 
+          capitulo nono</ref> utimur eis quae ad aliud referimus 
+          <lb ed="#Pa"/>quo fruendum est igitur amore qui est usus relativus 
+          <lb ed="#Pa"/>est in deum tanquam in principaliter amatum illo amore
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item non videtur veram quod ipse dicit duas na<lb ed="#Pa"/>turas 
+          redemptoris non posse cognosci unico actu 
+          <lb ed="#Pa"/>simplici. Oppositum huius probavi in <ref target="http://scta.info/resource/awa-l1prolq2">secunda 
+          <lb ed="#Pa"/>quaestione prologi</ref> et etiam hic addo quod illud iudi<lb ed="#Pa"/>cium  
+          quo iudicatur quod albedo non est nigredo est actus 
+          <lb ed="#Pa"/>simplex in essendo et tamen est apprehensio tam albe<lb ed="#Pa"/>dinis 
+          quam nigredinis sicut credo et ponitur ut communiter
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item eodem actu videtur verbum et res in verbo 
+          <lb ed="#Pa"/>igitur. dico igitur ad argumentum suum quod licet quod 
+          <lb ed="#Pa"/>idem sit amore respectu utriusque negatur in suppo<lb ed="#Pa"/>sito 
+          redemptoris tamen iste actus est uniformiter 
+          <lb ed="#Pa"/>fruitio omnium personarum et non est intensius respe<lb ed="#Pa"/>ctu 
+          filii quam respectu patris ut patet ex dictis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 
+          <lb ed="#Pa"/>primum principale dicendum quod filium esse melio<lb ed="#Pa"/>rem 
+          patre potest dupliciter intelligi vel scilicet quod plu<lb ed="#Pa"/>ribus 
+          bonitatibus sit bonus vel quod intensiori boni<lb ed="#Pa"/>tate 
+          sit bonus et eodem modo diligibilior vel quia 
+          <lb ed="#Pa"/>pluribus dilectionibus seu modis diligibilis est 
+          <lb ed="#Pa"/>vel quia intensius diligibilis est fruitione. Et pa<lb ed="#Pa"/>tet 
+          ulterius ex dictis qualiter sit distinctio appli<lb ed="#Pa"/>canda
+        </p>
+        <p>
+          Et per idem patet ad secundum principale
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad tertium principale dicitur quod quicquid scitur 
+          <lb ed="#Pa"/>de persona divina aliqua etiam scitur de deo licet 
+          <lb ed="#Pa"/>non de divinitate nam generare spirare generari spi<lb ed="#Pa"/>rari 
+          sciuntur de personis sed non de divinitate et 
+          <lb ed="#Pa"/>licet quodlibet scitum de persona sit scitum de deo 
+          <lb ed="#Pa"/>non tamen oportet econverso nam esse tres personas vel 
+          <lb ed="#Pa"/>esse trinitatem scitur de deo et non de aliqua perso<lb ed="#Pa"/>na 
+          patet igitur quod neganda est prima pars antecedentis 
+          <lb ed="#Pa"/>istius rationis. Et similiter illud quod assumitur 
+          <lb ed="#Pa"/>in probatione scilicet deum nesciverunt esse hominem 
+          <lb ed="#Pa"/>quia sequitur <unclear>expositorie</unclear> hunc hominem sciverunt 
+          <lb ed="#Pa"/>esse hominem hic est homo et fuit tunc deus igitur 
+          <lb ed="#Pa"/>deum sciverunt esse hominem non tamen sciverunt deum 
+          <lb ed="#Pa"/>ese hominem nec sciverunt illum hominem esse 
+          <lb ed="#Pa"/>deum in sensu composito et ad hoc est bene acuto<lb ed="#Pa"/>ritas 
+          apostoli etiam illud quod infertur in argumen<lb ed="#Pa"/>to 
+          scilicet quod aliquid sciatur de una persona quod non 
+          <lb ed="#Pa"/>de alia hoc non est inconveniens licet de una per<lb ed="#Pa"/>sona 
+          non possit haberi cognitio nisi per illam eti<lb ed="#Pa"/>am 
+          cognoscatur alia persona.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra primam 
+          <lb ed="#Pa"/>solutionis partem tunc per similem deductionem 
+          <lb ed="#Pa"/>deberet concedi quod ipsum deum ignoraverunt esse 
+          <lb ed="#Pa"/>deum quia hominem quem crucifixerunt ignoraverunt 
+          <lb ed="#Pa"/>esse deum conceditur conclusio in sensu diviso Contra 
+          <lb ed="#Pa"/>igitur multo foritius deum ignoraverunt esse ho<lb ed="#Pa"/>minem 
+          quod est contra primam solutionem
+        </p>
+        <p>
+          Prae<lb ed="#Pa"/>terea 
+          de filio dei nescit iudeus quod ille sit homo tum 
+          <lb ed="#Pa"/>quia nescit deum habere filium tum quia credit nihil 
+          <lb ed="#Pa"/>quod est deus esse hominem sed filius dei est et fuit ho<lb ed="#Pa"/>mo 
+          a iudaeis crucifixus igitur de homine a iudaeis 
+          <lb ed="#Pa"/>crucifixo nescit iudeus quod ipse sit homoe igitur mul<lb ed="#Pa"/>to 
+          fortius deum nescit esse hominem
+        </p>
+        <p>
+          Praeterea tunc  
+          <lb ed="#Pa"/>etiam valeret iste discursus omne quod iudaeus iste 
+          <lb ed="#Pa"/>scit se siligere illud scit se diligere sed aliquid quod 
+          <lb ed="#Pa"/>iudaeus iste credit seu reputat se non diligere est il<lb ed="#Pa"/>lud 
+          <lb ed="#Pa"/>quod ipse scit se diligere igitur aliquod quod 
+          <lb ed="#Pa"/>reputat se non diligere scit se diligere quod repu<cb ed="#Pa" n="b"/><lb ed="#Pa"/>gnantiam 
+          includit maior nota supposito quod iudaeus 
+          <lb ed="#Pa"/>diligat deum et hoc sciat. minor patet quia quem 
+          <lb ed="#Pa"/>crucifixerunt ex odio crediderunt se non diligere
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad primum istorum negatur consequentia et cau<lb ed="#Pa"/>sae 
+          negationis patet ex dictis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum ne<lb ed="#Pa"/>gatur 
+          maior pro tempore quo crucifixerunt christum 
+          <lb ed="#Pa"/>et utraque probatio maioris bene concludit istam in 
+          <lb ed="#Pa"/>sensu composito quod ista non est nec fuit scita iudeo 
+          <lb ed="#Pa"/>filius est homo in sensu composito.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium 
+          <lb ed="#Pa"/>maior est vera dum modo iudaeus sciat se aliquid di<lb ed="#Pa"/>ligere 
+          sed minor est falsa quia ostenditur sic argu<lb ed="#Pa"/>endo 
+          omne quod iudeus scit se diligere reputat se 
+          <lb ed="#Pa"/>diligere si igitur aliquid quod reputat se non dii<lb ed="#Pa"/>gere 
+          est illud quod scit se diligere igitur istud quod 
+          <lb ed="#Pa"/>reputat se non diligere reputat se diligere quod 
+          <lb ed="#Pa"/>est falsum igitur et dicta minor. Ad probationem 
+          <lb ed="#Pa"/>cum dicitur quem crucifixerunt ex odio crediderunt 
+          <lb ed="#Pa"/>se non diligere negatur illa in sensu diviso suppo<lb ed="#Pa"/>sito 
+          ut prius quod ipsi deum dilexerunt et hoc sciverunt 
+          <lb ed="#Pa"/>sed bene conceditur ista in sensu composito quod ipsi 
+          <lb ed="#Pa"/>crediderunt se non diligere quem crucifixerunt e<lb ed="#Pa"/>tiam 
+          ista conceditur quem crucifixerunt ex odio 
+          <lb ed="#Pa"/>crediderunt esse aliquid puta purum hominem quod 
+          <lb ed="#Pa"/>crediderunt se non diligere et ex hoc non potest in<lb ed="#Pa"/>ferri 
+          dicta minor.
+        </p>
+        <p>
+          Iuxta quod dubitari potest de 
+          <lb ed="#Pa"/><sic>quibusdem</sic> formis similibus arguendi posito quod 
+          <lb ed="#Pa"/>iudaeus vel paganus diligat deum qui credit quod in 
+          <lb ed="#Pa"/>divinis non sit realis trinitas personarum. Tunc 
+          <lb ed="#Pa"/>sic omne illud quod iudeus iste vel paganus scit 
+          <lb ed="#Pa"/>se diligere put homo vel trinitas est illud quod 
+          <lb ed="#Pa"/>scit se diligere igitur quod non reputat se dilige<lb ed="#Pa"/>re 
+          scit se diligere secunda forma habeat eandem  
+          <lb ed="#Pa"/>maiorem et minor sit illa sed illud quod iste repu<lb ed="#Pa"/>tat 
+          se non diligere est illud quod iste scit se diligere 
+          <lb ed="#Pa"/>igitur quod reputat se non diligere scit se diligere
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item isto posito dubitatur an haec sit concedenda 
+          <lb ed="#Pa"/>iudaeus iste vel paganus scit se diligere trinitatem 
+          <lb ed="#Pa"/>et arguitur quod sic iudaeus iste vel paganus trinitatem 
+          <lb ed="#Pa"/>scit se diligere et non scit se diligere trinitatem igi<lb ed="#Pa"/>tur 
+          quod scit se diligere non scit se diligere. conclu<lb ed="#Pa"/>sio 
+          falsa et non maior igitur minor igitur opposi<lb ed="#Pa"/>ta 
+          eius vera.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum formam negatur mi<lb ed="#Pa"/>nor 
+          et cum probas quia trinitatem non reputat se 
+          <lb ed="#Pa"/>diligere illa negatur licet ista concedenda sit in sen<lb ed="#Pa"/>su 
+          composito ipse non reputat se diligere trinitat<lb ed="#Pa"/>em .
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum formam negatur minor et cum 
+          <lb ed="#Pa"/>probas quia verbum quod reputat se non dilige<lb ed="#Pa"/>re 
+          est deus quem scit se diligere nego istud assum<lb ed="#Pa"/>ptum. 
+          nam prima pars eius est falsa ut patet ex dictis 
+          <lb ed="#Pa"/>si secunda sit vera quod relinquo sub dubio
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 
+          <lb ed="#Pa"/>tertium negatur propositio proposita ad proba<lb ed="#Pa"/>tionem 
+          negatur discursus sed benen sequitur quod tri<lb ed="#Pa"/>nitatem 
+          quam scit se diligere non scit esse trinita<lb ed="#Pa"/>tem. 
+          Etiam bene sequitur aliquid scit se dilige<lb ed="#Pa"/>re 
+          quod non scit esse trinitatem etc et sic est finis 
+          <lb ed="#Pa"/>quaestionis
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

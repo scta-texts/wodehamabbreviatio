@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 2 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Prologus, Quaestio 2</title>
+          <date when="2016-12-27">December 27, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        target="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/develop/src/1.0/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2016-12-27" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="10-r"/><cb ed="#Pa" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q2">
+        <head>Librum I, Distinctio 1, Quaestio 2 [Paris 1512 Transcription]</head>
+        <p>
+          <lb ed="#Pa"/>Utrum fruitio beatifica 
+          <lb ed="#Pa"/>sit qualitas distincta ab ipsa anima 
+        </p>
+        <p>
+          <pc type="virgula">/</pc> quod non 
+          <lb ed="#Pa"/>quia ad hoc <pc type="virgula">/</pc> quod aliquis fruatur deo suf<lb ed="#Pa"/>ficit 
+          quod obiectum beatificum scilicet deus sit praesens animae igitur.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad oppositum fruitio est actus elicitus igitur.
+        </p>
+        <p>
+          <note target="marginal-note" place="margin-right">Conclusio quod fruitio et cognitio distinguntur ab anima probatur <unclear>?s</unclear> mo<lb ed="#Pa"/>diis.</note>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Conclusio ad quaestionem quod nec in via nec in patria 
+          <lb ed="#Pa"/>est anima fruitio dei probatur fruitio libere causatur 
+          <lb ed="#Pa"/>ab anima
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item cognitio eset res distincta ab anima 
+          <lb ed="#Pa"/>igitur et amore antecedens patet per articulum 83 <unclear>qui</unclear> est quod 
+          <lb ed="#Pa"/>scientia intelligentiae non differat a substantia intelligentiae er<lb ed="#Pa"/>ror
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 69 articulum quod in substantiis separatis null est 
+          <lb ed="#Pa"/>possibilis transmutatio error.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 39 articulum quod 
+          <lb ed="#Pa"/>semper habens meliora naturalia est magis beatus 
+          <lb ed="#Pa"/>error sed haec videntur si anima sit ipsa dilectio 
+          <lb ed="#Pa"/>vel cognitio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Praeterea tunc angelus et anima 
+          <lb ed="#Pa"/>beata beatificarentur per essentias suas quod dam<lb ed="#Pa"/>natur 
+          in <title><unclear>Clementis</unclear> de haereticis ad <unlear>iifin</unlear></title>.
+        </p>
+        <p><pc ana="#pilcrow"/>Item tunc ni<lb ed="#Pa"/>hil 
+          novum haberet anima beata nec aliquid plus in se quam 
+          <lb ed="#Pa"/>hic in via eo quod essentia divina est esse haec animae praesens.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item tunc non essent in anima aliqua in qui<lb ed="#Pa"/>bus 
+          salvaretur <choice><orig>ymago</orig><reg>imago</reg></choice> trinitatis quia nulla tunc 
+          <lb ed="#Pa"/>poneretur distinctio inter partes <choice><orig>ymaginis</orig><reg>imaginis</reg></choice>.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/>dilectio potest intendi et remitti et anima non. 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/>tunc anima aequae esset odium dei sicut dilectio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/>amor habitualis puta charitas distingitur ab anima 
+          <lb ed="#Pa"/>ut patet extra de summa trinitate et si <unclear>Ca</unclear> capitulo
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Credimus igitur etiam amor actualis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc 
+          <lb ed="#Pa"/>anima sine omni dono posset implere praeceptum 
+          <lb ed="#Pa"/>de dilectione dei et proximi et vitare omnia peccata quia 
+          <lb ed="#Pa"/>ipsa esset substantialiter illud velle quod exigere<lb ed="#Pa"/>tur 
+          quo posito vellet facienda et nollet omitten<lb ed="#Pa"/>da.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item quomodo posset tunc daemon vel anima af<lb ed="#Pa"/>fligi 
+          <choice><orig>penis</orig><reg>poenis</reg></choice> et tormentis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc anima simul 
+          <lb ed="#Pa"/>esset odium dei et dilectio quando simul unum odit et alium di<lb ed="#Pa"/>ligit 
+          similiter scientia et error quia errat citra unam conclusio<lb ed="#Pa"/>nem 
+          et scit aliam similiter haeresis et fides.
+        </p>
+        <p>
+          <!-- no pilcrow -->Item <ref><name ref="#Aristotle">philosophus</name> tertio 
+          <lb ed="#Pa"/><title ref="#deAnima">de anima</title></ref> videtur sentire quod anima intelligit se et alia 
+          <lb ed="#Pa"/>per intellectionem additam.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item articuli pari<lb ed="#Pa"/>sienses 
+          et experientia dicunt quod homo potest libere idem nol<lb ed="#Pa"/>le 
+          et velle vel <sic>nonvelle</sic> omnibus aliis uniformiter 
+          <lb ed="#Pa"/>concurrentibus hoc non si anima esset velle per denomina<lb ed="#Pa"/>tionem 
+          extrinsecam ad quam oporteret recurrere tenen<lb ed="#Pa"/>do 
+          oppositam viam.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-right">Ponitur evasio ad omnia argumenta.</note>
+          <pc ana="#pilcrow"/>Ad ista protervus diceret quod 
+          <lb ed="#Pa"/>ista argumenta aequae concluderent de divina noti<lb ed="#Pa"/>tia 
+          et volitione nam deus mane non scivit me hic 
+          <lb ed="#Pa"/>sedere et tamen modo scit me esse hic sedere.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Etiam 
+          <lb ed="#Pa"/>omnibus aliis concurrentibus uniformiter se ha<lb ed="#Pa"/>bentibus 
+          potest aliquem libere acceptare et non ac<lb ed="#Pa"/>ceptare ad vitam aeternam
+        </p>
+        <p>
+          <!-- no pilcrow -->Item quosdam diligit 
+          <lb ed="#Pa"/>et quosdam odit et idem est odium sibi et dilectio 
+          <lb ed="#Pa"/>acceptatio et reprobatio et si deo non repugnat errare si<lb ed="#Pa"/>cut 
+          sibi non repugnat nescire vel non scire quaedam quae 
+          <lb ed="#Pa"/>sciuntur
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Idem se quaeretur de scientia et errore. Et si arguitur 
+          <lb ed="#Pa"/>ego me experior modo scire aliquid quod non prius 
+          <lb ed="#Pa"/>igitur aliquod novum est in ani mea. Responderet pro<lb ed="#Pa"/>tervus 
+          quod similiter modo deus experitur se scire 
+          <lb ed="#Pa"/>modo se sedere quod prius nescivit ita quod fides su<lb ed="#Pa"/>stivet 
+          quod idem penitus respectu eiusdem esset velle et nol<lb ed="#Pa"/>le 
+          scire et nescire propter diversa consignificata extra 
+          <pb ed="#Pa" n="10-v"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>quare non aequae in propositio diceret etiam quod ar<lb ed="#Pa"/>ticuli 
+          non cogunt quia bene conceditur quod anima non est ab<lb ed="#Pa"/>solute 
+          non scientia sed relative scilicet dum actualiter vel habi<lb ed="#Pa"/>tualiter 
+          cognoscit et ideo anima vel intelligentia non 
+          <lb ed="#Pa"/>est necessario scientia sicut semper est substantia.
+        </p>
+        <p>
+          <!--"Ad secundum articulum" is present but seems to funciton like a header -->
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad secundum articulum diceret quod intellectus esset mo<lb ed="#Pa"/>bilis 
+          localiter et <sic>trasmutabilis</sic> ad aliqua acciden<lb ed="#Pa"/>tia 
+          inhaerentia puta lumen gloriae gratiam et huiusmodi sed 
+          <lb ed="#Pa"/>ad actum cogendi vel amandi non.
+        </p>
+        <p>
+          Ad tertium di<lb ed="#Pa"/>ceret 
+          quod anima non est beatitudo absolute ad se et ita po<lb ed="#Pa"/>neret 
+          perfectius lumen in uno quam in alio vel per alia 
+          <lb ed="#Pa"/>requisita in quibus esset deformitas evaderet quod 
+          <lb ed="#Pa"/>ex articulo nihil sequetur contra eum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad illud 
+          <lb ed="#Pa"/>de ymagine diceret quod anima ipsa prius est cognitio quam 
+          <lb ed="#Pa"/>volitio et non potest esse volitio nisi sit cognitio et per 
+          <lb ed="#Pa"/>istum modum poneret partes ymaginis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad alia sa<lb ed="#Pa"/>tis 
+          patet quomodo diceret.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra conclusio<lb ed="#Pa"/>nem 
+          in principio positam Arguitur tunc anima posset 
+          <lb ed="#Pa"/>diligere deum et lapidem aut igitur eodem actu et tunc 
+          <lb ed="#Pa"/>tantum diligeret deum sicut lapidem vel alio modo et 
+          <lb ed="#Pa"/>alio et tunc posset intendi dilectio lapidis quod tantum 
+          <lb ed="#Pa"/>diligeret lapidem sicut deum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo sic tunc 
+          <lb ed="#Pa"/>talis dilectio libere causaretur igitur oportuit quod prae<lb ed="#Pa"/>conosceretur 
+          et cum illa praecognitio libere causatur 
+          <lb ed="#Pa"/>oportet illam praecognosci et sic in infinitum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tertio 
+          <lb ed="#Pa"/>praesentur voluntati duo aequae diligibilia quaero quomodo 
+          <lb ed="#Pa"/>praeeliget unum alteri non ex hoc quod unum obiectum cau<lb ed="#Pa"/>sat 
+          cognitionem sui et non aliud quia tunc non essent pa<lb ed="#Pa"/>ria 
+          respectu voluntatis quodem contra positum oportet 
+          <lb ed="#Pa"/>igitur quod voluntas imparet intellectui quod plus cogno<lb ed="#Pa"/>scat 
+          unum quam aliud et tunc sequitur quod illam cognitionem 
+          <lb ed="#Pa"/>praeognoscat et velit et idem de illa praecognitione 
+          <lb ed="#Pa"/>et sic in infinitum
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Quarto ad hoc quod intellectus educatur 
+          <lb ed="#Pa"/>de potentia essentiali ad potentiam accidentalem opor<lb ed="#Pa"/>tet 
+          donere aliquid aliud ab actibus et habitibus puta 
+          <lb ed="#Pa"/>specie in ergo si amor distinguitur ab anima oportet pari ra<lb ed="#Pa"/>tione 
+          ponere in voluntate aliquam formam aliam ab ha<lb ed="#Pa"/>bitibus 
+          et actibus quod est falsum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Quinto si sic diligit 
+          <lb ed="#Pa"/>libere tunc quodlibet diligibile potest intensius et ma<lb ed="#Pa"/>gis 
+          diligere quam diligit et ita non posset implere pri<lb ed="#Pa"/>mum 
+          praeceptum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sexto omnia argumenta aequae pro<lb ed="#Pa"/>barent 
+          distinctionem inter amorem divinam et substantiam 
+          <lb ed="#Pa"/>dei.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Septimo sic dato quod sicut dicit <name>commentator</name> 
+          <lb ed="#Pa"/>quod intellectus sit forma separata in essendo licet coniun<lb ed="#Pa"/>gatur 
+          nobis in operando tunc non patitur a re ma<lb ed="#Pa"/>teriali 
+          quia est immaterialis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ideo <ref><name ref="#Aristotle">aristoteles</name> dicit 
+          <lb ed="#Pa"/>tertio <title ref="#deAnima">de anima</title></ref> quod intelligere non sit pati quia immateriale 
+          <lb ed="#Pa"/>non pati materiale et <ref>primo <title>de generatione</title></ref> dicitur quod 
+          <lb ed="#Pa"/>nulla nata sunt agere et pati adinvicem nisi quae com<lb ed="#Pa"/>municant 
+          in materia diceretur quod hoc intelligitur de pas<lb ed="#Pa"/>sione 
+          corporali non spirituali maxime quae non est <sic>abiectio</sic> 
+          <lb ed="#Pa"/>sed salus et protectio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra <ref>octavo <title ref="#Physics">phisicorum</title></ref> 
+          <lb ed="#Pa"/>universaliter probatur quod primus motor non est passibilis quia 
+          <lb ed="#Pa"/>non est forma in materia igitur.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <ref>tertio <title ref="#deAnima">de anima</title> 
+          <lb ed="#Pa"/>textu commenti 14</ref> soluit <name ref="#Aristotle">philosophus</name> quaestionem de passione intel<lb ed="#Pa"/>lectus 
+          quod non patitur ab intelligibili sicut alia patiun<lb ed="#Pa"/>tur 
+          sed habet secundum <name ref="#Averroes">commentatorem</name> <ref>Ibidem</ref> de intensio<lb ed="#Pa"/>ne 
+          passionis receptionem tantum sine transmutatio<lb ed="#Pa"/>ne 
+          et hoc non est ut videtur nisi pati vel recipere 
+          <lb ed="#Pa"/>obiective.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item secundum <name ref="#Aristotle">philosophum</name> una intelligentia non 
+          <lb ed="#Pa"/>patitur ab alia subiective cum intelligere aliam sed per 
+          <lb ed="#Pa"/>essentiam intelligit eam. <unclear>et</unclear> non per formam inhaeren<lb ed="#Pa"/>tem 
+          additam substantiae suae igitur similiter de intellectu 
+          <lb ed="#Pa"/>possibili.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item quomodo indivisibile patitur a 
+          <lb ed="#Pa"/>divisibili cum omnis actio sit per contactum per <ref><name ref="#Averroes">com<cb ed="#Pa" n="b"/><lb ed="#Pa"/>mentatorem</name> 
+          secundo <title>de anima</title></ref>.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item idem est formam non <unclear>essen<lb ed="#Pa"/>di</unclear> 
+          in materia et non esse in materia per hoc eim pro<lb ed="#Pa"/>bat 
+          <name ref="#Aristotle">philosophus</name> primum motorum non esse in materia igitur. 
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item tunc intellectus post forte intelligibile minus in<lb ed="#Pa"/>telligeret 
+          debile sicut est de sensu quia specialitas 
+          <lb ed="#Pa"/>non tollit quin intentio formaliter impediat debile.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item <name ref="#Aristotle">philosophus</name> ponit exemplum intellectus de rasa tabula quae 
+          <lb ed="#Pa"/>pingitur sed in pictura non educitur color de poten<lb ed="#Pa"/>tia 
+          tabulae nec recipitur subiective in tabula sed cor<lb ed="#Pa"/>pus 
+          coloratum applicatur tabulae igitur nec cogni<lb ed="#Pa"/>tio 
+          recipitur subiective in intellectu
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <ref>tertio <title>de 
+          <lb ed="#Pa"/>anima</title> commento septimo</ref> dicitur quod privatio trans<lb ed="#Pa"/>mutationis 
+          in intellectu es pura privatio sic quod simpliciter 
+          <lb ed="#Pa"/>est intransmutabilis non solum substantialiter sed etiam sub<lb ed="#Pa"/>iective 
+          quod probat per hoc quod dictum est quod post 
+          <lb ed="#Pa"/>forte intelligibile.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item causa secundum eum est quia sensus 
+          <lb ed="#Pa"/>transmutatur igitur. <!-- no pilcrow -->Item tunc intentio universalis ho<lb ed="#Pa"/>minis 
+          recepta in intellectu meo et in intellectu tuo 
+          <lb ed="#Pa"/>essent duae singulares res in essendo igitur ab eis 
+          <lb ed="#Pa"/>posset abstrahi aliquis conceptus communis et sic esset 
+          <lb ed="#Pa"/>processus in infinitum in praedicatis essentialibus et inquit 
+          <lb ed="#Pa"/>vel stabitur ad aliquam supremam qualitatem recepti<lb ed="#Pa"/>bilem 
+          intellectu quae respectu sui ipsius erit infectus 
+          <lb ed="#Pa"/>et superius et genus et individuum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item auctori<lb ed="#Pa"/>tates 
+          quae ponunt movere fantasmata intellectum 
+          <lb ed="#Pa"/>et ipsum esse patientem et receptivum glosant alii de mo<lb ed="#Pa"/>vere 
+          obiective et non subiective.
+        </p>
+        <p>
+          <note type="marginal-note" place="margin-right">Respondetur ad primum concedit quod aliquis licite diligit creaturam sicut debet deum plus appraecietur.</note>
+          <pc ana="#pilcrow"/>Ad primum concedo 
+          <lb ed="#Pa"/>quod potest tantum diligere lapidem sicut deum sed tantum appraeciabitur
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item stante praecise eadem cognitione non pos<lb ed="#Pa"/>sum 
+          intendere actum diligendi sed proportionaliter 
+          sicut augetur cognitio qua res apparet magis di<lb ed="#Pa"/>ligibilis 
+          sic augetur dilectio et aliter non.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Est enim 
+          <lb ed="#Pa"/>cognitio vel simplex vel complexa vel utraque par<lb ed="#Pa"/>tialis 
+          causa dilectionis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et licet sit in potesta<lb ed="#Pa"/>te 
+          voluntatis posita cognitione elicere actum diligendi 
+          <lb ed="#Pa"/>et non elicere tamen non est in potestate sua qualem aut 
+          <lb ed="#Pa"/>quantum eliciat nisi secundum exigentiam cognitionis.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ita quod est dare maximum in quem potest libere medi<lb ed="#Pa"/>ante 
+          tali cognitione
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ista tamen cognitione stante 
+          et caeteris praeter voluntatem uniformiter se habentibus 
+          <lb ed="#Pa"/>ipsa potest minorem elicere et maiorem remittere et mino<lb ed="#Pa"/>rem 
+          intendere et hoc mediante iudicio practico quo 
+          <lb ed="#Pa"/>vides illud esse plus vel minus diligendum ex tali cau<lb ed="#Pa"/>sa.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra frequenter accidit quod duo homines re<lb ed="#Pa"/>spectu 
+          alicuius amabilis sunt pares in cognitio<lb ed="#Pa"/>ne 
+          et tamen sunt dispartes in amore intantum quod non est in li<lb ed="#Pa"/>bera 
+          potestate unius tantum diligere illud sicut facit ali<lb ed="#Pa"/>us.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item aliquis vellet frequenter minus dili<lb ed="#Pa"/>gere 
+          aliquid amabile quam diligit vel plus et tamen 
+          <lb ed="#Pa"/>non potest libere illud quod vellet bene unde <name ref="#Paul">apo<lb ed="#Pa"/>stolus</name> 
+          velle mihi adiacet.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item amor intrat ubi 
+          <lb ed="#Pa"/>cognitio foris stat igitur homo potest diligere ultra 
+          <lb ed="#Pa"/>exigentiam cognitionis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum dico quod assum<lb ed="#Pa"/>ptum 
+          est falsum si cetera sint paria puta complexio et 
+          <lb ed="#Pa"/>habituatio et omnia talia: nam ratione passionis sensualis 
+          <lb ed="#Pa"/>dominantis in uno vel ratione complexionis eset 
+          <lb ed="#Pa"/>conveniens et magis delectabile uni quam alteri et 
+          <lb ed="#Pa"/>ideo potest plus diligere illud quam alius qui est per in co<lb ed="#Pa"/>gnitione 
+          licet raro diu stat illa paritas quia amor 
+          <lb ed="#Pa"/>facit advenire et offerre rationes diligenter et for<lb ed="#Pa"/>tius 
+          <unclear>fingit</unclear> cognitionem in contemplationem dilecti 
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad secundum dico quod procedit de amore sensuali idest 
+          <lb ed="#Pa"/>naturaliter causato ad transmutationem corpo<lb ed="#Pa"/>ralem 
+          alicuius organi vel partis corporis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et 
+          <lb ed="#Pa"/>hoc loquendo de posse immediato quia mediante <choice><orig>yma<lb ed="#Pa"/>ginatione</orig><reg>ima<lb ed="#Pa"/>ginatione</reg></choice> 
+          forti et consideratione competenti potest
+          <pb ed="#Pa" n="11-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>homo tales actus augere et remittere tamen de 
+          <lb ed="#Pa"/>amore intensivo libere causabili ab anima non est verum 
+          <lb ed="#Pa"/>quin homo tantum possit diligere a quantum sufficit ta<lb ed="#Pa"/>lis 
+          cognitio causare in ipso bene tamen potest velle dili<lb ed="#Pa"/>gere 
+          plus mediante perfectiori cognitione quam pos<lb ed="#Pa"/>sit 
+          diligere quia nec potest libere istam perfectiorem 
+          <lb ed="#Pa"/>cognitionem habere.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium dico quod intrat per 
+          <lb ed="#Pa"/>modum meriti quia magis acceptatur et plura bo<lb ed="#Pa"/>na 
+          procurat.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum principale dico quod ad 
+          <lb ed="#Pa"/>eliciendum aliquem actum libere circa aliquod obie<lb ed="#Pa"/>ctum 
+          sufficit apprehensio incomplexa illius obiecti
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Et si praesupponatur dictamen practicum tunc oportet 
+          <lb ed="#Pa"/>saltem in universali quod praecognoscatur actus talis cuius di<lb ed="#Pa"/>ctatur 
+          executio prioritate naturae et non oportet 
+          <lb ed="#Pa"/>quod talis praecognitio sit praevolita nec oportet quod ta<lb ed="#Pa"/>lis 
+          actus praecognitus sit praevolitus.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad terti<lb ed="#Pa"/>um 
+          dico quod voluntas determinat se ad unum per im<lb ed="#Pa"/>perium 
+          etnon oportet quod praecognoscatur illud im<lb ed="#Pa"/>perium.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quartum dico quod voluntas sufficienter 
+          <lb ed="#Pa"/>reducitur ad potentiam accidentalem per cognitionem 
+          <lb ed="#Pa"/>quam pono causam partialem active respectu vo<lb ed="#Pa"/>litiones 
+          causandae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quintum dico quod est dare actum 
+          <lb ed="#Pa"/>intensissimum quem voluntas potest causare mediante 
+          <lb ed="#Pa"/>ista cognitione respectu talis obiecti illum au<lb ed="#Pa"/>tem 
+          potest remittere vel omnino non causare loquendo 
+          <lb ed="#Pa"/>de cognitione in via mediante saltem cognitione complexa
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad sextum dicitur quod non est simile de deo quia eviens est quod 
+          <lb ed="#Pa"/>non est possibile <unclear>quin</unclear> deus diligat se et quin dilectio 
+          <lb ed="#Pa"/>dei sit deus sed hoc non est evidens de intellectu nostro. etc
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad argumenta physica dicitur ad primum quod stante ypostesi 
+          <lb ed="#Pa"/>eorum adhuc intellectus noster et intellective sunt coniuncte 
+          <lb ed="#Pa"/>cum materiis ad quas sunt determinate licet non in<lb ed="#Pa"/>haereant 
+          sic autem non est de motore primo
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad secundum 
+          <lb ed="#Pa"/>illa auctoritas intelligitur de substantiali transmutatione.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad tertium sufficit cum contactus vir<lb ed="#Pa"/>tualis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad quartum est negandus <name ref="#Aristotle">philosophus</name> Ad aliud 
+          <lb ed="#Pa"/>non est simile de sensu et intellectu quia excellens in<lb ed="#Pa"/>telligibile 
+          non indisponit intellectum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad a<lb ed="#Pa"/>liud 
+          dicitur quod non est omnino simile igitur sicut tabula re<lb ed="#Pa"/>cipit 
+          colorem absque hoc quod transmutetur sic intellectus re<lb ed="#Pa"/>cipiendo 
+          intellectionem non transmutatur substantia<lb ed="#Pa"/>liter
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad aliud dicitur quod respectu intellectus dicitur puta pri<lb ed="#Pa"/>vatio 
+          transmutationis quia nullo modo transmu<lb ed="#Pa"/>tatur 
+          in substantia sed organum sensus transmutatur  et 
+          <lb ed="#Pa"/>corrumpitur ideo quo ad hoc non est pura pri<lb ed="#Pa"/>vatio 
+          transmutatio.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad aliud de processu in infi<lb ed="#Pa"/>nitum 
+          de conceptibus conceditur tamen isti non erunt com<lb ed="#Pa"/>muniores 
+          quam ens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad argumentum principale dicitur 
+          <lb ed="#Pa"/>quod necessitas est ponere actum distinctum ab anima.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Contra tunc non oporteret ponere locutionem ange<lb ed="#Pa"/>lorum 
+          quia unus angelus posset videre istas intel<lb ed="#Pa"/>lectiones 
+          in alio angelo et statim intelligere quid 
+          <lb ed="#Pa"/>ipse conciperet et intelligeret.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur li<lb ed="#Pa"/>cet 
+          unus angelus videat intellectiones alterius non 
+          <lb ed="#Pa"/>per hoc novit quarum rerum istae intellectiones 
+          <lb ed="#Pa"/>sunt signa et propter hoc locutiones istae non sunt ne<lb ed="#Pa"/>cessariae.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Primum dubium utrum intellectus per 
+          <lb ed="#Pa"/>impressionem speciei fortia intelligibilis non im<lb ed="#Pa"/>pediatur 
+          in cognitione intelligibilis debiliorum 
+          <lb ed="#Pa"/>etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur quod organum sensus per speciem 
+          <lb ed="#Pa"/>fortis sensibilis inficitur sic non est de intellectu.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Secundum dubium videtur quod cognitio non sit 
+          <lb ed="#Pa"/>res distincta ab anima <pc type="virgula">/</pc> quia secundum <ref><name ref='#Augustine'>augustinum</name> 
+          <lb ed="#Pa"/>nono <title ref="#deTrinitate">de trinitate</title> capitulo quinto et sexto</ref> amore et no<lb ed="#Pa"/>titia 
+          existunt in anima substantialiter vel ut ita dicam 
+          <lb ed="#Pa"/>essentialiter non tamquam in subiecto ut color in corp<cb ed="#Pa" n="b"/><lb ed="#Pa"/>re 
+          aut ulla alia quantitas aut qualitas quicquid 
+          <lb ed="#Pa"/>enim tale non excedit subiectum in quo est <pc type="virgula">/</pc> non enim 
+          <lb ed="#Pa"/>color ille aut figura huius corporis potest esse ex 
+          <lb ed="#Pa"/>alterius mens aut amore quo se amat potest am<lb ed="#Pa"/>re 
+          aliquid praeter se et ita est de cognitione quam mens 
+          <lb ed="#Pa"/>cognoscit se et alia. 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item in <ref>fine sexti <title ref="#CityOfGod">de civitate</title></ref> 
+          <lb ed="#Pa"/><quote>itaque modo tria ista scilicet mens et amor et noti<lb ed="#Pa"/>tia 
+          inseparata sunt a semetipsis et tamen eorum sin<lb ed="#Pa"/>gulum 
+          quaedam substantia est et simul omnia una 
+          <lb ed="#Pa"/>substantia vel essentia</quote> <!-- end of Augustine quote --> haec ille.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur quod 
+          <lb ed="#Pa"/><name ref="Auustine">augustinus</name> non loquitur ibi de actibus sed de potentiis 
+          <lb ed="#Pa"/>quae sunt principia actuum unde vult quod potentiae istae 
+          <lb ed="#Pa"/>intellectiva volitia et memorativa non distinguntur 
+          <lb ed="#Pa"/>realiter ab anima sicut erat opinio antiqua.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et tunc 
+          <lb ed="#Pa"/>ratio <name ref="#Augustine">augustini</name> potest sic deduci dictae potentiae sunt 
+          <lb ed="#Pa"/>qualitates animae igitur sicut per eas potest intel<lb ed="#Pa"/>ligere 
+          et frui ita seipsa potest formare tales actus 
+          <lb ed="#Pa"/>una cum obiecto quia alias separabiliter ab anima 
+          <lb ed="#Pa"/>maneret cognitio et fruitio in eis et non in anima et sic 
+          <lb ed="#Pa"/>essent nobiliores quam anima.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Teneo igitur quod <name ref="#Augustine">augu<lb ed="#Pa"/>stinus</name> 
+          loquitur de amore et notitia potentiali ac 
+          <lb ed="#Pa"/>virtuali qua est in ipsa anima non autem de habituali 
+          <lb ed="#Pa"/>vel actuali quia actualis cognitio secundum eum est 
+          <lb ed="#Pa"/>res distincta nam <ref>libro sexto. capitulo sexto</ref> ut 
+          <lb ed="#Pa"/>recitat <ref><name ref="#Lombard">magister</name> sexta distinctione primi</ref> probat in 
+          <lb ed="#Pa"/>ipse anima non esse unam simplicem essentiam cum 
+          <lb ed="#Pa"/>enim aliud sit artificiosum esse in habere aliud acu<lb ed="#Pa"/>tum 
+          aliud memorem aliud cupiditas aliud timore a<lb ed="#Pa"/>liud 
+          laetitia aliud tristitia ponit quae haec et alia innu<lb ed="#Pa"/>merabilia 
+          in animae natura inveniuntur et alia sine il<lb ed="#Pa"/>lis 
+          et alia magis et minus manifestum est enim non 
+          <lb ed="#Pa"/>simplicem etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item <name>magister</name> ibidem capitulo 7 et est ex 6 
+          <lb ed="#Pa"/>capitulo 8 deo est hoc esse quod fortem esse vel sapientem vel 
+          <lb ed="#Pa"/><unclear>iustive</unclear> est humano autem omnino non est hoc esse quod 
+          <lb ed="#Pa"/>fortem esse aut prudentem aut iustum potest enim esse ali<lb ed="#Pa"/>cuius 
+          et nullam istarum habere virtutem
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item 
+          <lb ed="#Pa"/><ref><name ref="#Lombard">magister</name> capitulo 6</ref> et fruuntur a <ref>libro nono <title ref="#CityOfGod">de civitate</title> 
+          <lb ed="#Pa"/>capitulo 10</ref> <quote>propter hoc ista natura divina scilicet dicitur simplex 
+          <lb ed="#Pa"/>quod non est aliud humano et aliud illud quod habet si<lb ed="#Pa"/>cut 
+          in ceteris rebus est non enim habens liquorem li<lb ed="#Pa"/>quor 
+          est nec corpus color est nec anima sapientia est</quote> <!-- quote from Augustine --> haec il<lb ed="#Pa"/>le.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Nec est difficultas nisi ad glosandum auctori<lb ed="#Pa"/>tatem 
+          <name ref="#Augustine">augustini</name> quae mirabilis est tamen potest dici quod vo<lb ed="#Pa"/>cat 
+          subiectum indifferenter illud quod est vere subie<lb ed="#Pa"/>ctum 
+          receptivum et illud quod est obiectum eo modo quae 
+          <lb ed="#Pa"/>solet dici in communi modo dicendi quod est subiectum istius 
+          <lb ed="#Pa"/>vel illius scientiae et tamen ibi intendi de obiecto.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Et tunc glosabitur ratio nullum accidens potest 
+          <lb ed="#Pa"/>excedere suum subiectum nec receptivum nec obiecti<lb ed="#Pa"/>vum 
+          quia nec potest fieri naturaliter in alio subiecto pri<lb ed="#Pa"/>mo 
+          et immediate quae sit nec esse alterius obiecti per se 
+          <lb ed="#Pa"/>quae est cum signa naturalis non possint significare nisi 
+          <lb ed="#Pa"/>illud quod signant.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed potentia intellectiva et vo<lb ed="#Pa"/>litiva 
+          potest esset et sui aliorum obiective respectu quo<lb ed="#Pa"/>rum 
+          potest esse igitur nec haec potentia nec ista est acci<lb ed="#Pa"/>dens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tertium dubium est istud creet deus unam 
+          <lb ed="#Pa"/>creaturam quae intelligat tunc per essentiam suam 
+          <lb ed="#Pa"/>tunc ista posset beatificari et tristitia vel dolore per 
+          <lb ed="#Pa"/>essentiam suam igitur simile potest esse de anima.
+        </p>
+        <p>
+          Responde<lb ed="#Pa"/>tur 
+          admittendo casum et concedendo quod illa creatu<lb ed="#Pa"/>ra 
+          esset substantialiter cognitio et fruitio dei et 
+          <lb ed="#Pa"/>cognitio sui et amor et etiam aliorum multorum 
+          <lb ed="#Pa"/>sicut de facto ponit <name ref="#Auroli">aureolus</name> de angelo respectu sui 
+          <lb ed="#Pa"/>et anima ratio sui sed simul cum hoc staret quod multarum 
+          <lb ed="#Pa"/>cognitionum et volitionum esset receptiva quia conclu<lb ed="#Pa"/>sionem 
+          includit quod esset aliqua creatura quae cuiuslibet 
+          <pb ed="#Pa" n="11-v"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>rei possibilis et simul omnium et singularum esset 
+          <lb ed="#Pa"/>distincta cognitio hoc enim repugnat notitiae perfe<lb ed="#Pa"/>ctionis 
+          limitate et soli divinae proprium est etc.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
