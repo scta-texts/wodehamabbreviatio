@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Distinctio 1, Quaestio 10 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Librum I, Distinctio 1, Quaestio 10</title>
+          <date when="2017-10-30">October 30, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0"
+        url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-10-30" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="include-list">
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://raw.githubusercontent.com/lombardpress/lombardpress-lists/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="30-r"/>
+        <cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q10">
+        <head>Librum I, Distinctio 1, Quaestio 10 [Paris 1512 Transcription]</head>
+        <head type="questionTitle">Utrum creatura clare videns deum necessario diligat ipsum</head>
+        <p>
+          <lb ed="#Pa"/>Utrum creatura clare vi<lb ed="#Pa"/>dens 
+          deum necessario diligat ipsum
+        </p>
+        <div type="rationes-principales">
+          <head>Rationes principales</head>
+          <p>
+            <lb ed="#Pa"/>Videtur quod sic quia intelligentia mo<lb ed="#Pa"/>vens 
+            aliquem orbem necessario movet 
+            <lb ed="#Pa"/>ipsum secundum <name ref="#Aristotle">philosophum</name> et non movet nisi quia dili<lb ed="#Pa"/>git 
+            primum quod movet sicut amatum et deside<lb ed="#Pa"/>ratum 
+            igitur ex hoc necessario movet quod videns de<lb ed="#Pa"/>um 
+            diligit eum igitur
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>probatur delectabile fini<lb ed="#Pa"/>tum 
+            difficultat voluntatem ad non volendum ipsum 
+            <lb ed="#Pa"/>igitur in duplo magis delectabile in duplo magis 
+            <lb ed="#Pa"/>difficultat ad non volendum et sic consequenter igitur in infinitum de<lb ed="#Pa"/>lectabile 
+            in infinitum difficultabit ad non nolendum 
+            <lb ed="#Pa"/>et ita necessitabit ad volendum: consequentia patet per 
+            <lb ed="#Pa"/>modum arguendi <ref><name ref="#Aristotle">philosophi</name> octavo <title ref="#Physics">phisicorum</title></ref> ubi probat 
+            <lb ed="#Pa"/>quod virtus infinita non esse in magnitudine finita quia 
+            <lb ed="#Pa"/>tunc moveret in non tempore: si enim aliqua vir<lb ed="#Pa"/>tus 
+            movet in aliquo tempore dupla movebit in 
+            <lb ed="#Pa"/>subduplo tempore et infinita moveret in non tempo<lb ed="#Pa"/>re 
+            etiam si consequentia non esset bona numquam aliquod 
+            <lb ed="#Pa"/>agens naturale posset producere effectum propor<lb ed="#Pa"/>tionatum 
+            suae virtuti activae quia si cetera sint paria 
+            <lb ed="#Pa"/>ita proportionatur duplus effectus duplae virtu<lb ed="#Pa"/>ti 
+            activae sicut subduplus subduplae
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <ref>primo 
+            <lb ed="#Pa"/><title>de trinitate</title> capitulo septimo in parvis</ref> <quote source="http://scta.info/resource/adt-l1">non 
+            <lb ed="#Pa"/>filius in forma dei in finali iudicio quia sic non potest 
+            <lb ed="#Pa"/>videri nisi ad gaudium</quote> <!-- source needs confirmation, likely not a direct quote. -->
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item 13 <title>de trinitate</title> nullus 
+            <lb ed="#Pa"/>potest velle miseriam. 10 capitulo de parvis et etiam 
+            <lb ed="#Pa"/>aliis casis igitur nec nolle beatitudinem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item 
+            <lb ed="#Pa"/>voluntas non potest velle summum malum sibi ostensum quia 
+            <lb ed="#Pa"/>omnis natura <unclear>cogita iuavitat</unclear> incommodum ut pa<lb ed="#Pa"/>tet 
+            <title>de casu dyaboli</title> capitulo 32 et 32 dicitur quod si ange<lb ed="#Pa"/>lus 
+            malus praescivisset poenam sibi <unclear>imminere</unclear> non potuisset 
+            <lb ed="#Pa"/>velle peccare igitur nec nolle summum bonum 
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Item capitulo 13 ibidem vult <name>anselmus</name> quod voluntas non po<lb ed="#Pa"/>test 
+            non velle beatitudinem sibi ostensam igitur mul<cb ed="#Pa" n="b"/><lb ed="#Pa"/>to 
+            fortius nec deum clare visum a se unde quasi in fi<lb ed="#Pa"/>ne 
+            capituli loquendo de bono commodi et malo in<lb ed="#Pa"/>commodi 
+            dicit hoc modo omnes sibi esse bene vo<lb ed="#Pa"/>lunt 
+            et male sibi esse nolunt.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <name ref="#Anselm">anselmus</name> <title>mo<lb ed="#Pa"/>nologion</title> 
+            capitulo septimo quod quaecumque anima rationalis 
+            <lb ed="#Pa"/>summa beatitudine frui poterit aeternae beata erit 
+            <lb ed="#Pa"/>quia creatura eius indigentiam experta illam <unclear>natura</unclear> 
+            poterit non amare nec illa deseret amantem se.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item si clare ostenso sibi deo voluntas non neces<lb ed="#Pa"/>sario 
+            amet ipsum igitur nec ostensum quocumque a<lb ed="#Pa"/>lio 
+            quantumcumque tristabile non necessario illud odi<lb ed="#Pa"/>ret 
+            consequentia patet quia nihil est magis odibile 
+            <lb ed="#Pa"/>quam deus sit diligibilis et per consequens non necessa<lb ed="#Pa"/>rio 
+            dolet dyabolus ex maxima poena quam potest sustine<lb ed="#Pa"/>re 
+            quia nihil est poena alicui nisi quod est contra vo<lb ed="#Pa"/>luntatem secundum 
+            <ref><name ref="#Anselm">anselmum</name> <title>de conceptu virgi<lb ed="#Pa"/>nali</title> 
+            capitulo quarto</ref> ubi dicitur sicut quicquid 
+            <lb ed="#Pa"/>faciunt membra et sensus totum imputandum est volun<lb ed="#Pa"/>tati 
+            ita non punitur nisi voluntas nam nihil est poena a<lb ed="#Pa"/>licui etc.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ut prius sicut enim voluntas in membris 
+            <lb ed="#Pa"/>et sensibus operatur ita et in illis ipsa torquetur 
+            <lb ed="#Pa"/>aut delectatur quod si quid non accipiat sciat in membris 
+            <lb ed="#Pa"/>et sensibus non nisi animam in qua est voluntas senti<lb ed="#Pa"/>re 
+            et operari et ideo in illis torqueri aut delecta<lb ed="#Pa"/>ri 
+            habet tamen usus ut actiones quas facit iniusta 
+            <lb ed="#Pa"/>voluntas voremus peccata quia in voluntate qua 
+            <lb ed="#Pa"/>fiunt est peccatum etc nota bene illum passum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item 
+            <lb ed="#Pa"/>si voluntas clare videns deum potest ipsum dilige<lb ed="#Pa"/>re 
+            vel hoc esset omnem actum suspendendo vel ad 
+            <lb ed="#Pa"/>alium intellectum divertendo non primum quia tunc 
+            <lb ed="#Pa"/>si intellectus unum bonum videret potest volun<lb ed="#Pa"/>tas 
+            non vele illud stante tali dispositione quod ne<lb ed="#Pa"/>gat 
+            <name ref="#Anselm">anselmus</name> <title>de casu dyaboli</title> capitulo 13 diffuse et non esset 
+            <lb ed="#Pa"/>ad propositum quia inquiritur an stante visione 
+            <lb ed="#Pa"/>dei.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Etiam <name ref="#Anselm">anselmus</name> dicit quod in<lb ed="#Pa"/>tellectus 
+            ibi unico <unclear>intuitu</unclear> videbit omnia igitur vi<lb ed="#Pa"/>debit 
+            illud ad quod divertetur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item si non tunc 
+            <lb ed="#Pa"/>in aliquo potest stare cum clara dei visione odium 
+            <lb ed="#Pa"/>dei et per consequens maximus dolor.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <title>com<lb ed="#Pa"/>mentor</title> 
+            12 <title>metaphysicae</title> commento 39 dicit quod dele<lb ed="#Pa"/>ctatio 
+            sequitur apprehensionem sicut umbra corpus sed 
+            <lb ed="#Pa"/>delectatio voluntatis requirit dilectionem sicut do<lb ed="#Pa"/>lor 
+            odium igitur etc.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item aliter nullus beatus 
+            <lb ed="#Pa"/>videretur esse confirmatus in beatitudine sua quia 
+            <lb ed="#Pa"/>si libere posset cessare ab omni actu fruendi qui 
+            <lb ed="#Pa"/>est dilectio etiam stante visione non videtur ibi esse 
+            <lb ed="#Pa"/>maior confirmatio vel certior quam in via vle quam in an<lb ed="#Pa"/>gelo 
+            ante lapsum qualiter enim conformaretur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>In contrarium deus clare visus potest odiri a sic 
+            <lb ed="#Pa"/>vidente igitur et non diligi Probatur antecedens 
+            <lb ed="#Pa"/>quia aliquis iudaeus odivit deum sed potuit fuisse 
+            <lb ed="#Pa"/>quod simul calre vidisset divinitatem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item tunc quodli<lb ed="#Pa"/>bet 
+            videns deum esset conformatus quia non potest 
+            <lb ed="#Pa"/>non frui deo falsitas patet de angelis malis ante 
+            <lb ed="#Pa"/>lapsum etiam tunc paulus fuisset certus de aeter<lb ed="#Pa"/>nitate 
+            suae beatitudinis et <name>moyses</name> similiter quorum 
+            <lb ed="#Pa"/>uterque clare vidit deum de <name>moyse</name> patet per <name>augustinum</name> 
+            <lb ed="#Pa"/>12 super genese capitulo 53, 54, 55 de paulo expresse dicit 
+            <lb ed="#Pa"/>in quaestionibus orosii quaestione 36 quod in raptu vi<lb ed="#Pa"/>derit 
+            deum sicut sancti post hanc vitam
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Hoc etiam di<lb ed="#Pa"/>cit in 
+            libro de videndo deum de <name>moyse</name> probat per 
+            <lb ed="#Pa"/>illud numeri 12 quo deus arguens mariam soro<lb ed="#Pa"/>rem 
+            moysi dixit de moyse ore ad os loquor ei et pa<lb ed="#Pa"/>lam 
+            non per aenigmata et per figuras dominum vi<lb ed="#Pa"/>det.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Propterea non minus libere et contingen<lb ed="#Pa"/>ter 
+            fruitur quis deo clare viso quam vult beatudin<pb ed="#Pa" n="30-v"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>nem 
+            apprehensam omnes enim volunt naturaliter 
+            <lb ed="#Pa"/>beati esse secundum <ref><name>augustinum</name> 13 <title ref="#deTrinitate">de trinitate</title> capitulo 5</ref> et 
+            <lb ed="#Pa"/>aliis praecipue ad expositionem <ref><name ref="#Anselm">anselmi</name> <title ref="#DeCasuDiaboli">de casu dya<lb ed="#Pa"/>boli</title> 
+              capitulo 12</ref> et tamen libere potest quis non velle bea<lb ed="#Pa"/>titudinem 
+            apprehensam quia libere potest velle si<lb ed="#Pa"/>bi 
+            miseriam aeternam quia secndum <name>augustinum</name> 
+            <lb ed="#Pa"/>tertio de libero arbitrio capitulo 11 12 13 si dyabolo daretur optio 
+            <lb ed="#Pa"/>secundum rectam rationem potius deberet elige<lb ed="#Pa"/>re 
+            semper miserum esse quam non esse nam ut dicit capitulo 11 
+            <lb ed="#Pa"/>12 13 si quis dixerit non esse quam miserum esse me mal<lb ed="#Pa"/>lem 
+            respondebo <unclear>mentis</unclear> et capitulo 13 probat tripliciter
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Primo sic qui dicit mallem hoc quam illud eligit 
+            <lb ed="#Pa"/>aliud non esse aut non esse aliquid: sed nullo pacto 
+            <lb ed="#Pa"/>potest quis recte eligere non esse.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Secundo quod 
+            <lb ed="#Pa"/>est alio praeeligendum melius est eo quod autem 
+            <lb ed="#Pa"/>non est melius esse non potest igitur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Tertio quod quis 
+            <lb ed="#Pa"/>recte appetit eligit appetendum cum ad illud per<lb ed="#Pa"/>venerit necesse est 
+            ut melior fiat melior autem esse 
+            <lb ed="#Pa"/>non poterit qui non erit igitur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Dices forte si<lb ed="#Pa"/>cut 
+            contra se obiicit quod aliqui vigente miseria sese 
+            <lb ed="#Pa"/>interimant.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respondet primo quod tales aut eo con<lb ed="#Pa"/>fugerunt 
+            ubi sibi melius putaverunt et hoc non est 
+            <lb ed="#Pa"/>contrarium rationi, rectae nostrae aut sit nullos se 
+            <lb ed="#Pa"/>futuros omnino crediderunt multo minus falsa 
+            <lb ed="#Pa"/>electio nihil eligendum commonebit.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Aliter 
+            <lb ed="#Pa"/>etiam et magis iuxta illud quod consentit diffuse.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Respondet quod cum quis credens quod post mortem 
+            <lb ed="#Pa"/>non erit intollerabilibus tamen <unclear>moletiis</unclear> ad cu<lb ed="#Pa"/>piditatem 
+            mortis impellitur in opinione habet er<lb ed="#Pa"/>rorem 
+            omnino defensionis in sensu aut naturale 
+            <lb ed="#Pa"/>desiderium quietis et parum ante probat multipli<lb ed="#Pa"/>citer 
+            quomodo potest fieri quod aliud sit in opinione et a<lb ed="#Pa"/>liud 
+            in sensu.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et tunc quasi in fine capitulo 13 infert quod o
+            <lb ed="#Pa"/>vult circa hoc dicere dicit enim itaque omnis ille 
+            <lb ed="#Pa"/>appetitus in voluntate mortis non ut qui moritur 
+            <lb ed="#Pa"/>non ut sic sed ut requiescat et ita dicit licet cum er<lb ed="#Pa"/>rore 
+            credat non se futurum natura tamen quie<lb ed="#Pa"/>tem 
+            esse hoc est magis esse desiderat qua propter nul<lb ed="#Pa"/>lo 
+            pacto fieri potest ut non esse aliquem libeat.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Quan<lb ed="#Pa"/>to 
+            arguitur ex priori fundamento viator potest velle non esse 
+            <lb ed="#Pa"/>ut patet de de achithofel saule et iuda igitur potest 
+            <lb ed="#Pa"/>sibi nolle beatitudinem igitur clare videns deum 
+            <lb ed="#Pa"/>potest non velle vel nolle beatitudinem.
+          </p>
+          <p>
+            Consequen<lb ed="#Pa"/>tia 
+            prima patet per <name>augustinum</name> 11 <title>de civitate dei</title> 
+            <lb ed="#Pa"/>capitulo 27 porro inquit tam nemo est qui non esse bea<lb ed="#Pa"/>tus 
+            velit quam non esse quomodo enim potest beatus <sic>e<lb ed="#Pa"/>se</sic> 
+            cum nihil sit secunda consequentia patet quia 
+            <lb ed="#Pa"/>non magis necessitatur videns deum ut deum cla<lb ed="#Pa"/>re 
+            visum diligat quam quis ad volendum bene se esse
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Probatur possibile esset damnatum clare videre 
+            <lb ed="#Pa"/>deum et deus revelaret ei aliquam parvam pe<lb ed="#Pa"/>nam 
+            futuram tunc ex hoc haberet colorem aliquem 
+            <lb ed="#Pa"/>et per consequens minoraretur gaudium suum in 
+            <lb ed="#Pa"/>aliquo igitur propter maiorem dolorem plus mi<lb ed="#Pa"/>noraretur 
+            et per consequens deus posset facere quod 
+            <lb ed="#Pa"/>in se haberet tantum dolorem etiam stante clara 
+            <lb ed="#Pa"/>dei visione quod ille dolor naturaliter excluderet omne 
+            <lb ed="#Pa"/>gaudium consequens illam visionem sed frui non 
+            <lb ed="#Pa"/>est sine gaudio ut patet per <name>augustinum</name> 10 <title>de ci<lb ed="#Pa"/>vitate</title> 
+            capitulo 26 de parvis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Probatur tunc clara visio 
+            <lb ed="#Pa"/>faceret voluntatem desinere esse voluntatem
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Consequentia patet per <name>augustinum</name> 3 <title>de libero arbitrio</title> 
+            <lb ed="#Pa"/>capitulo 2 ubi dicit si necesse est ut velim non tam volunta<lb ed="#Pa"/>te 
+            sed necessitate illud me velle faciendum est si<lb ed="#Pa"/>cut 
+            non voluntate scire scimus sed necessitate sed quod 
+            <lb ed="#Pa"/>non voluntate velimus quisquam delirus audeat dicere 
+          </p>
+          <p>
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Item eodem capitulo dicit quod nihil est tam in potestate 
+            <lb ed="#Pa"/>nostra quam ipsa voluntas eo enim prorsus nullo inter<lb ed="#Pa"/>vallo 
+            mox ut volumus praesto est post si fieri non 
+            <lb ed="#Pa"/>potest ut dum volumus non velimus adest utique volun<lb ed="#Pa"/>tas 
+            volentibus nec aliud quicquam est in voluntatem 
+            <lb ed="#Pa"/>si quod volet.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad est igitur voluntas nostra nec 
+            <lb ed="#Pa"/>voluntas esset nisi esset in potestate nostra.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Por<lb ed="#Pa"/>ro 
+            quia est in potestate nostra libera est nobis non est 
+            <lb ed="#Pa"/>enim nobis liberum quod in potestate nostra non 
+            <lb ed="#Pa"/>habemus aut non potest non esse liberum quod ha<lb ed="#Pa"/>bemus 
+            in potestate. patet igitur consequentia pri<lb ed="#Pa"/>ma 
+            et per consequens per nullam cognitionem ne<lb ed="#Pa"/>cessitabitur 
+            voluntas ad diligendum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item clare 
+            <lb ed="#Pa"/>videns deum necessario bene vellet igitur eadem 
+            <lb ed="#Pa"/>ratione angelus malus necessario male vellet cum 
+            <lb ed="#Pa"/>ita sit malus in malo obstinatus sicut bonus con<lb ed="#Pa"/>firmatus 
+            in bono consequens est falsum quia aut 
+            <lb ed="#Pa"/>habuisset illam necessitatem ante casum suum et 
+            <lb ed="#Pa"/>tunc ante fuisset malus vel post casum et tunc vel 
+            <lb ed="#Pa"/>a se et tunc hoc non videtur plus quam de homine in via 
+            <lb ed="#Pa"/>peccante mortaliter aut a deo et hoc non cum deus 
+            <lb ed="#Pa"/>non sit auctor mali.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item clare videns deum po<lb ed="#Pa"/>test 
+            aliquem suum actum respectu alterius rei re<lb ed="#Pa"/>mittere 
+            vel non habere igitur potest non habere vel 
+            <lb ed="#Pa"/>amittere beatitudinem. consequentia probatur 
+            <lb ed="#Pa"/>quia si potest aliquem actum libere remittere vel 
+            <lb ed="#Pa"/>dimittere tunc potest peccare habito praecepto quod 
+            <lb ed="#Pa"/>non dimittat vel remittat ipsum et per consequens 
+            <lb ed="#Pa"/>poterit damnari et non frui assumptum patet quia an<lb ed="#Pa"/>gelus 
+            raphael qui fuit ductor thobiae habuit volun<lb ed="#Pa"/>tatem 
+            ambulandi et aliquanod intensiorem et ali<lb ed="#Pa"/>quando 
+            remissiorem et aliquando voluit ambulare et aliquando 
+            <lb ed="#Pa"/>noluit.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Prima conclusio quod in via stante cogni<lb ed="#Pa"/>tione 
+            viatoris aenigmatica in pluri vel particulari 
+            <lb ed="#Pa"/>voluntas potest causare in se active dilectionem 
+            <lb ed="#Pa"/>dei super omnia et propter se sine fruitione dei: quia 
+            <lb ed="#Pa"/>voluntas potest se conformare recto dictamini in<lb ed="#Pa"/>tellectus: 
+            sed intellectus potest recte dictare quod de<lb ed="#Pa"/>us 
+            sit cognitus super omnia sit diligendus et bo<lb ed="#Pa"/>nus 
+            igitur multo fortius si clare videretur: quia non 
+            <lb ed="#Pa"/>minus potest voluntas in obiectum perfectius co<lb ed="#Pa"/>gnitum 
+            quam in minus perfecte.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item omnis poten<lb ed="#Pa"/>tia 
+            libera potest habere aliquem actum secundum 
+            <lb ed="#Pa"/>circa obiectum sibi ostensum igitur et voluntas po<lb ed="#Pa"/>test 
+            habere aliquem actum circa deum sic cogni<lb ed="#Pa"/>tum 
+            et etiam multo fortius circa deum clare visum 
+            <lb ed="#Pa"/>et non necessario de ordinatum igitur et puris na<lb ed="#Pa"/>turalibus 
+            poterit habere ordinatum actum cir<lb ed="#Pa"/>ca 
+            deum licet non meritorium sed bonum ex gen<lb ed="#Pa"/>re 
+            et ex natura actus igitur actus dilectionis dei 
+            <lb ed="#Pa"/>super omnia quia sine tali actu non diligeretur deus 
+            <lb ed="#Pa"/>ordinatae quando sic comparative diligeretur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Tertio potest probari ista conclusio sicut supra 
+            <lb ed="#Pa"/>minor est probata quaestione 6 articulo primo
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Quar<lb ed="#Pa"/>to 
+            intellectus potest reducere sede potentia ad 
+            <lb ed="#Pa"/>actum quia habens habitum potest illo tui cum 
+            <lb ed="#Pa"/>coluerit sicut dicit commentator de anima commentato 
+            <lb ed="#Pa"/>18 et etiam <unclear>potentias</unclear> vult quod habentes iam scientiam vel facti in 
+            <lb ed="#Pa"/>actu primo possumus intelligere cum volumus 
+            <lb ed="#Pa"/>igitur multo fortius poterit voluntas educere se 
+            <lb ed="#Pa"/>de actu primo ad actum secundum cum secundum 
+            <lb ed="#Pa"/>omnem opinionem voluntas non minus sit activa 
+            <lb ed="#Pa"/>quam intellectus.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item aliter voluntas non ageret 
+            <lb ed="#Pa"/>malam actionem interiorem sed solum pateretur 
+            <lb ed="#Pa"/>eam et ita nunquam peccaret quia pati malum non est 
+            <lb ed="#Pa"/>malum sicut nec pati iniustum est iniustum ex quinto 
+            <pb ed="#Pa" n="31-r"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>ethicorum et 3 de libero arbitrio capitulo 26 dicit <name>augustinus</name> expresse 
+            <lb ed="#Pa"/>quod pati iniustum non est peccatum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <name ref="#Augustine">augustinum</name> primo de 
+            <lb ed="#Pa"/>libero arbitrio capitulo 26 in fine quasi <unclear>lio</unclear> dicit quidquid autem sit sectan<lb ed="#Pa"/>dum 
+            et amplectendum si quis eligat in voluntate po<lb ed="#Pa"/>situm 
+            esse constat et nisi inquit fallor illud facimus ex li<lb ed="#Pa"/>bero 
+            voluntatis arbitrii sed hoc non esset verum nisi volun<lb ed="#Pa"/>tas 
+            libere efficere: suam electionem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item ad hoc 
+            <lb ed="#Pa"/>est <name>anselmus</name> <title>de concordia</title> capitulo quinto dicens opus volunta<lb ed="#Pa"/>tis 
+            alicui datum est ut illud quod vult sit et illud quod 
+            <lb ed="#Pa"/>non vult non sit voluntarium sive spontaneum est quoniam 
+            <lb ed="#Pa"/>quod spontanea voluntate fit biffaria est necessarium 
+            <lb ed="#Pa"/>quia voluntate cogitur fieri et quod sit non potest non fieri 
+            <lb ed="#Pa"/>scilicet has necessitates facit voluntatis libertas quae prius 
+            <lb ed="#Pa"/>quod fuit eas cavere potest haec non essent nisi voluntas 
+            <lb ed="#Pa"/>libere causare posset suam volitionem quia alia non 
+            <lb ed="#Pa"/>sunt immediate in eius potestate sed mediante actu vo<lb ed="#Pa"/>lendi 
+            vel nolendi igitur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Contra conclusionem tunc 
+            <lb ed="#Pa"/>voluntas posset ex sua naturali libertate diligere 
+            <lb ed="#Pa"/>deum super omnia et per consequens posset velle implere omnia 
+            <lb ed="#Pa"/>dei praecepta et totam dei voluntatem igitur natura<lb ed="#Pa"/>liter 
+            potest habita sufficienti cognitione vitare omnia 
+            <lb ed="#Pa"/>peccata quia non stant simul quod aliquis velit imple<lb ed="#Pa"/>re 
+            totam voluntatem dei et quod tamen peccet si habe<lb ed="#Pa"/>at 
+            cognitionem sufficientem <pc type="virgula">/</pc> quia eo ipso nihil potest 
+            <lb ed="#Pa"/>omittere ad quod tenetur scitum esse tale nec com<lb ed="#Pa"/>mittere 
+            quod prohibetur et pari ratione qua semel 
+            <lb ed="#Pa"/>occurrente materia peccati potest sic dispositus ex na<lb ed="#Pa"/>turalibus 
+            vitare omnia peccata pari ratione pro per<lb ed="#Pa"/>petuo 
+            habita tali dilectione noviter vel prius libe<lb ed="#Pa"/>re 
+            producta continuata sed consequens videtur esse error 
+            <lb ed="#Pa"/>pelagii igitur etc.
+          </p>
+          <p>
+            
+          </p>
+            
+        </div>
+        
+        
+      </div>
+    </body>
+  </text>
+</TEI>
