@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 6, Quaestio 2 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 6, Quaestio 2</title>
+          <date when="2017-11-05">November 5, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-11-05" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="57-v"/>
+        <cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d6q2">
+        <head>Liber I, Distinctio 6, Quaestio 2 [Paris 1512 Transcription]</head>
+        <head type="question-title">Utrum deus sit realiter et per se primo modo sapiens et intelligens et sic de similibus</head>
+        <p>
+          <lb ed="#Pa"/>Quaerit secundo circa ea<lb ed="#Pa"/>dem 
+          distinctionem. <pc ana="#pilcrow"/>Utrum deus sit realiter 
+          <lb ed="#Pa"/>et per se primo modo sapiens et intelligens 
+          <lb ed="#Pa"/>et sic de similibus
+        </p>
+        <p>
+          videtur quod non quia creatu<lb ed="#Pa"/>ra 
+          intellectualis est per accidens sapiens igitur deus.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Consequentia probatur quia iste terminus sapiens 
+          <lb ed="#Pa"/>unitate est communis deo et creaturae sapienti igitur uni con<lb ed="#Pa"/>venit 
+          essentialiter pro suo significato et alteri et con<lb ed="#Pa"/>verso 
+          nam quod uni est substantia non est accidens alteri 
+          <lb ed="#Pa"/>primo phisicorum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra septissime dicit <name>augustinus</name> 
+          <lb ed="#Pa"/>et recitatur in multis locis primi <title>sententiarum</title> quicquid 
+          <lb ed="#Pa"/>de deo ad se dicitur secundum substantiam dicitur sicut sapi<lb ed="#Pa"/>ens 
+          bonus et huiusmodi.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Et libro quarto allegat 
+          <ref target="http://scta.info/resource/pll1d8c5-d1e3486"><name>magister</name> distinctione 8 primi</ref> <quote source="http://scta.info/resource/adt-l6"><sic>de</sic> hoc est esse quod est fortem esse 
+          <lb ed="#Pa"/>vel sapientem esse</quote> etc et <ref>distinctione 45 capitulo primo</ref> <quote source="http://scta.info/resource/pll1d45c1-d1e3512">voluntas 
+          <lb ed="#Pa"/>sive volens de deo secundum essentiam dicitur non est enim 
+          <lb ed="#Pa"/>aliud velle et aliud esse</quote> patet hoc etiam per <name>augusti<lb ed="#Pa"/>num</name> '
+          in <ref target="http://scta.info/resource/awa-l1d6q1-d1e4432">quinta probatione tertiae conclusionis praeceden<lb ed="#Pa"/>tis 
+          quaestionis</ref>
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Prima conclusio omnis conceptus 
+          <lb ed="#Pa"/>simpliciter abstractus absolutus affirmativus com<lb ed="#Pa"/>munis 
+          deo et creaturae est conceptus quidditativus 
+          <lb ed="#Pa"/>illius rei simplicis quae deus est et sibi convenit in quid.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad cuius probationem supponitur ex praecedent quae<lb ed="#Pa"/>stione 
+          nullam penitus esse distinctionem inter sapi<lb ed="#Pa"/>entiam 
+          quae deus et quamcumque divinam perfectionem ab<lb ed="#Pa"/>solutam.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo praemitto quod illa res quae deus est 
+          <lb ed="#Pa"/>potest tripliciter exponi per pronomen demonstrati<lb ed="#Pa"/>vunt 
+          basque omni addito dicendo hoc vel cum ter<lb ed="#Pa"/>mino 
+          communi sibi addito. Diceno hoc ens vel 
+          <lb ed="#Pa"/>haed res vel per nomen proprium quomodo hoc no<lb ed="#Pa"/>men 
+          sortes significat istam rem quae est iste homo et 
+          <lb ed="#Pa"/>quia illius rei quae deus est non habetur nomen ma<lb ed="#Pa"/>gis 
+          proprium quam sit hoc nomen deus utor isto ut sit pro<lb ed="#Pa"/>prio 
+          nomine illius rei sive sit proprium illi in significan<lb ed="#Pa"/>do 
+          sive non.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tertio suppono quod idem conceptus con<lb ed="#Pa"/>veniens 
+          sapientiae intellectionis volitionis et si de 
+          <lb ed="#Pa"/>similibus conveniunt deo et creaturae et ideo nomina 
+          <lb ed="#Pa"/>ista absoluta univoce dicuntur de deo et aliquibus 
+          <lb ed="#Pa"/>creaturis. his suppositis probatur prima conclusio 
+          <lb ed="#Pa"/>per auctoritatem <name>anselmi</name> in praecedent quaestione posi<lb ed="#Pa"/>tam.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item omnis talis conceptus abstractus est 
+          <lb ed="#Pa"/>quidditativus respectu cuiuslibet sui per se indivi<lb ed="#Pa"/>dui 
+          a quorum quodlibet immediate est abstrahibilis. sed 
+          <lb ed="#Pa"/>conceptus sapientiae est sic immediate abstrahibilis 
+          <lb ed="#Pa"/>a sapientia creata et increata et similiter conceptus in<cb ed="#Pa" n="b"/><lb ed="#Pa"/>tellectionis 
+          et sic de similibus mere absolutis et ab<lb ed="#Pa"/>stractis 
+          tanquam commune quoddam transcendens a suis per 
+          <lb ed="#Pa"/>se contentis igitur est conceptus quidditativus re<lb ed="#Pa"/>spectu 
+          utriusque maior patet quia non est maior ratio 
+          <lb ed="#Pa"/>quod sit quidditativus unius eorum quam alterius ex quo 
+          <lb ed="#Pa"/>utrumque eorum est per se singulare suum aeque. minor 
+          patet
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tertio suppostio conceptus sapi<lb ed="#Pa"/>entiae 
+          est communis deo et alicui creaturae igitur est abstrahi<lb ed="#Pa"/>bilis 
+          ab eisdem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secunda conclusio conceptus conre<lb ed="#Pa"/>ti 
+          dictorum abstractorum etiam praedicantur in quid de 
+          <lb ed="#Pa"/>deo ita quod sicut haec est in quid deus vel deitas est sa<lb ed="#Pa"/>pientia 
+          sic et ista deus vel deitas est sapiens vel hic 
+          <lb ed="#Pa"/>est sapiens demonstrando deum probatur cuicunque 
+          <lb ed="#Pa"/>praecise eodem sui conveniunt talis conceptus ab<lb ed="#Pa"/>stractus 
+          conveniat et talis concretus si illi conveniat 
+          <lb ed="#Pa"/>in quid abstractus conveniet et concretus in quid consequentia 
+          <lb ed="#Pa"/>patet inductive namque eodem sui penitus est deus enti<lb ed="#Pa"/>tas 
+          et ens ideo sicut est in quid hic est entitas ita est 
+          <lb ed="#Pa"/>in quid hic est ens et econverso sic etiam quia eodem sui est 
+          <lb ed="#Pa"/>deitas et deus ideo sicut haec demonstrata deitate 
+          <lb ed="#Pa"/>est in quid deitas ita est inq uid deus sed deus eo<lb ed="#Pa"/>dem 
+          sui omnimode est sapientia et sapiens volitio 
+          <lb ed="#Pa"/>et volens igitur etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Contra haec demonstrata hu<lb ed="#Pa"/>manitate 
+          tua est humanitas in quid et tamen haec 
+          <lb ed="#Pa"/>non est homo in quid quia potest esse et non esse homo 
+          <lb ed="#Pa"/>puta si assumeretur a persona divina. Similiter haec 
+          <lb ed="#Pa"/>est in quid humanitas demonstrato toto sorte prae<lb ed="#Pa"/>ter 
+          digitum et tamen haec non est in quid homo quia hic 
+          <lb ed="#Pa"/>non est homo similiter linea est longitudo et lnga<lb ed="#Pa"/>ratione
+          eiusdem rei et tamen loquendo in quid et 
+          <lb ed="#Pa"/>non longa in quid quia potest fieri brevis eadem 
+          <lb ed="#Pa"/>longitudine remanente.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad primum ista instan<lb ed="#Pa"/>tia 
+          non est ad propositum quia iste terminus ho<lb ed="#Pa"/>mo 
+          ut sic sumitur est nomen suppositi et per conse<lb ed="#Pa"/>quens 
+          terminus implicite negativus nulli rei in 
+          <lb ed="#Pa"/>quid conveniens expresse solo pronomine demon<lb ed="#Pa"/>strativo 
+          per idem ad secundum exemplum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad 
+          <lb ed="#Pa"/>tertium dicendum est quod sicut magnum et parvum 
+          <lb ed="#Pa"/>quandoque accipiuntur relative sicut patet et praedi<lb ed="#Pa"/>camentis 
+          et quandoque absolute sicut pater per com<lb ed="#Pa"/>mentatorem 
+          quinto <title>metaphysicae</title> ubi ponit hanc aequi<lb ed="#Pa"/>vocationem 
+          ita etiam de longitudine latitudine 
+          <lb ed="#Pa"/>et de longo lato nam quandoque accipiuntur relati<lb ed="#Pa"/>ve 
+          et ita est aliquid quod est latum respectu unius 
+          <lb ed="#Pa"/>est strictum respectu alterius et quo est breve re<lb ed="#Pa"/>spectu 
+          unius est logum respectu alterius et sic huiusmodi ab<lb ed="#Pa"/>stracta 
+          longitudo prout ponitur in diffinitione lineae non 
+          <lb ed="#Pa"/>correspondet huic latum.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo modo accipitur absolute et 
+          <lb ed="#Pa"/>tunc dicta abstracta correspondent eis et sicut haec est in quid 
+          <lb ed="#Pa"/>linea est longitudo ita est in quid linea est longa.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo 
+          <lb ed="#Pa"/>principaliter arguitur sic sit <c>a</c> conceptus proprius illius rei simpliciter 
+          <lb ed="#Pa"/>simplicis quae deus est.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tunc sic omnis conceptus concretus abso<lb ed="#Pa"/>lutivus 
+          et positivus quae praedicatur de <c>a</c> aeque essentialiter vel essen<lb ed="#Pa"/>tialius 
+          <lb ed="#Pa"/>sicut conceptus concretus adiectivus qui sicut pars diffi<lb ed="#Pa"/>nitionis 
+          alicuius rei praedicatur de conceptus proprio istius rei 
+          <lb ed="#Pa"/>praedicatur de <c>a</c> in quid per se et primo modo quia hic non distinguitur 
+          <lb ed="#Pa"/>quid contra quale substantiale sed conceptus alicuius sapientiae est 
+          <lb ed="#Pa"/>huiusmodi respectu <c>a</c> igitur maior patet per <name ref="#Aristotle">philosophum</name> quia quaelibet pars diffi<lb ed="#Pa"/>nitionis 
+          praedicatur de suo diffinito per se primo modo ex primo 
+          <lb ed="#Pa"/>posterior et adversarii est <unclear>hoc</unclear> concedunt
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Unde et habent 
+          <lb ed="#Pa"/><unclear>pror?la</unclear> quod illud praedicatur in quid et per se primo modo de aliquod quod prae<lb ed="#Pa"/>dicatur 
+          de illo sicut diffinitio vel pars diffinitionis vel 
+          <lb ed="#Pa"/>ipsamet minor probatur quia tota causa quare talis 
+          <lb ed="#Pa"/>pars diffinitionis vel quicumque conceptus concretus 
+          <lb ed="#Pa"/>alius praedicatur per se primo modo de diffinito vel de aliquo 
+          <lb ed="#Pa"/>alio est quia significatum suum vel abstractu sui est
+          <pb ed="#Pa" n="58-r"/>
+          <cb ed="#Pa" n="a"/>
+          <lb ed="#Pa"/>essentia vel pars essentiae significati illius de quo 
+          <lb ed="#Pa"/>verificatur huiusmodi pars diffinitionis vel huius<lb ed="#Pa"/>modi 
+          concretum positivum et mere absolutum et ni<lb ed="#Pa"/>hil 
+          extrinsecum cum significans cum hoc quod sit praedicatio 
+          <lb ed="#Pa"/>directa propter hoc enim ista est per se primo modo 
+          <lb ed="#Pa"/>homo est animatus a anima est animatum quia anima 
+          <lb ed="#Pa"/>est pars hominis vel animalis vel hominis. 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Si<lb ed="#Pa"/>militer 
+          ista angelus est natura substantialis quia abstra<lb ed="#Pa"/>ctum 
+          huius concreti substantialis quia scilicet substantia significat 
+          <lb ed="#Pa"/>per se illam essentiam quam exprimit hoc nomen ange<lb ed="#Pa"/>lus 
+          sic etiam ly ens praedicatur in quid de quolibet 
+          <lb ed="#Pa"/>quia per se significatum sui abstracti est essentia vel pars 
+          <lb ed="#Pa"/>illius de quo verificatur concretum entis constat 
+          <lb ed="#Pa"/>autem ex praecedent quaestione quod a est essentialiter 
+          <lb ed="#Pa"/>illud quod per se significatur per conceptum ab<lb ed="#Pa"/>stractum 
+          sapientiae etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Sed contra propositio com<lb ed="#Pa"/>posita 
+          ex terminis concretis est indifferenter mo<lb ed="#Pa"/>do 
+          in quid vel in quale tamen verificatur de simpli<lb ed="#Pa"/>ci 
+          sicut esset si suis abstractis corresponderent in deo 
+          <lb ed="#Pa"/>aliqua realiter demonstrata tunc ista praedicatio deus 
+          <lb ed="#Pa"/>est sapiens esset demonstrativa et in quali igitur etc. 
+          <lb ed="#Pa"/>maior patet quia termini concreti indifferenter 
+          <lb ed="#Pa"/>significant suppositum sive suis abstractis correspon<lb ed="#Pa"/>deant 
+          eaedem res sive diversae in eodem suppositio ut sa<lb ed="#Pa"/>piens 
+          significat univoce cum dicitur deus est sapiens 
+          <lb ed="#Pa"/>et angelus est sapiens et homo univoce dicitur de christo 
+          <lb ed="#Pa"/>et aliis hominibus et deus univoce de christo filio 
+          <lb ed="#Pa"/>dei ante incarnationem et hoc univoce videtur pro deo 
+          <lb ed="#Pa"/>et creatura substantia est sapiens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur negan<lb ed="#Pa"/>do 
+          maiorem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad probationem dico quod concesso to<lb ed="#Pa"/>to 
+          quod ponitur in probatione non sequitur ex hoc 
+          <lb ed="#Pa"/>veritas maioris quia dicendo album est coloratum 
+          <lb ed="#Pa"/>et homo est coloratus ly coloratum utrobique signifi<lb ed="#Pa"/>cat 
+          subiectum et utrobique stat uniovce et tamen pri<lb ed="#Pa"/>ma 
+          probatio est ut quid secunda est in quale acciden<lb ed="#Pa"/>tale 
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundum quod ibi assumitur quod sapiens uni<lb ed="#Pa"/>voce 
+          dicitur de deo et angelo si secundum aliquam 
+          <lb ed="#Pa"/>rationem huius termini sapiens hoc sorte conce<lb ed="#Pa"/>deretur 
+          adhuc non sequitur si haec privatio est in 
+          <lb ed="#Pa"/>quale angelus est sapiens quod etiam ista sit in qua<lb ed="#Pa"/>le 
+          deus est sapiens.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item negari potest minor di<lb ed="#Pa"/>ctae 
+          <lb ed="#Pa"/>rationis quia similiter potest intelligi tempo<lb ed="#Pa"/>raliter 
+          talis distinctio in deo saltem per impossi<lb ed="#Pa"/>bile 
+          uno modo sic quod sapientia esset accidens inhaerens 
+          <lb ed="#Pa"/>deo sicut nunc est respectu hominis vel angeli et 
+          <lb ed="#Pa"/>tunc ista propositio deus est sapiens bene esset prae<lb ed="#Pa"/>dicatio 
+          in quale.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo sic quod sapientia esset pars 
+          <lb ed="#Pa"/>quae una cum deitate constitueret unum compositum 
+          <lb ed="#Pa"/>sicut ex materia et forma sit unum et tunc si in ista 
+          <lb ed="#Pa"/>deus est sapiens ly deus staret por altera parte il<lb ed="#Pa"/>lius 
+          compositi scilicet pro deitate adhuc ista esset in qua<lb ed="#Pa"/>le 
+          deus est sapiens sicut si praeter animam intelle<lb ed="#Pa"/>ctivam 
+          in homine poneretur sensitiva ita quod compo<lb ed="#Pa"/>situm 
+          ex corpore et sensitiva esset proprium perfe<lb ed="#Pa"/>ctibile 
+          per intellectivam sicut multi tenetur tunc de<lb ed="#Pa"/>monstrato 
+          composito ex corpore et sensitiva haec essent 
+          <lb ed="#Pa"/>in quale et per accidens vera hoc est intellectivum 
+          <lb ed="#Pa"/>sicut nunc ista materia est animata.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Tertio quod 
+          <lb ed="#Pa"/>in ista propositione deus est sapiens ly deus staret 
+          <lb ed="#Pa"/>pro composito ex deitate et sapientia et tunc nihil 
+          <lb ed="#Pa"/>obstaret quin ita esset in quid et per se primo mo<lb ed="#Pa"/>do 
+          deus et sapiens ita bene sicut nunc ista homo est <unclear>a<lb ed="#Pa"/>nimatum</unclear> 
+          vel rationalis et hoc sufficit ad falsifican<lb ed="#Pa"/>dum 
+          minorem quae est conditionalis.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item confirma<lb ed="#Pa"/>tur 
+          haec dicta ratio hic non est formalis conceptus de<lb ed="#Pa"/>us 
+          non est sapientia igitur deus non est sapiens quia 
+          <cb ed="#Pa" n="b"/>
+          <lb ed="#Pa"/>sic tenent in omni materia in quam est de forma con<lb ed="#Pa"/>sequentiae 
+          oppositum consequentis stat cum antecedente et 
+          <lb ed="#Pa"/>per consequens obligatus ad sustinendum quod non 
+          <lb ed="#Pa"/>sit sapientia non habet concedere quod non sit sapiens et per 
+          <lb ed="#Pa"/>consequens esse sapientem.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Probatur de deo in qua<lb ed="#Pa"/>le 
+          non substantiali modo sicut tunc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur negan<lb ed="#Pa"/>do 
+          ultimam consequentiam etiam consequentia de 
+          <lb ed="#Pa"/>qua fit <unclear>mentio manente</unclear> licet non sit formalis est tam<lb ed="#Pa"/>en 
+          necessaria tenens per hoc medium intrinsecum neces<lb ed="#Pa"/>sarium 
+          impossibile est deum esse sapientem sapientia 
+          <lb ed="#Pa"/>quae non est ipse.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Secundo arguitur principaliter ex ra<lb ed="#Pa"/>dice 
+          praecedentis rationis haec praedicatio deus est 
+          <lb ed="#Pa"/>sapiens modo est vera et nata esset esse vera quantum 
+          <lb ed="#Pa"/>est ex formali consequentia terminorum si sapientia 
+          <lb ed="#Pa"/>nec esset deitas nec pars deitatis igitur non eset prae<lb ed="#Pa"/>dicatio 
+          in quid
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Consequentia probatur quia omnis prae<lb ed="#Pa"/>dicatio 
+          in quid requirit per consequentiam formalem quod 
+          <lb ed="#Pa"/>res significata per praedicatum sit quid <unclear>itas</unclear> vel pars 
+          <lb ed="#Pa"/>quid ditatis rei significatae per substantiam licet non econ<lb ed="#Pa"/>verso.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur negando antecedens eo quod ly deus 
+          <lb ed="#Pa"/>de sua formali significatione significat illud quod 
+          <lb ed="#Pa"/>est essentialiter sapientia et ideo licet ista consequen<lb ed="#Pa"/>tia 
+          <lb ed="#Pa"/>non sit bona respectu cuiuslibet hoc est sapiens 
+          <lb ed="#Pa"/>igitur sapientia est ipsum vel pars ipsius tamen haec 
+          <lb ed="#Pa"/>est bona deus est sapiens igitur sapientia est deus 
+          <lb ed="#Pa"/>vel pars ipsius et tenet in omnibus terminis ubi 
+          <lb ed="#Pa"/>praedicatum taliter se habet sicut hic ad subiectum.
+        </p>
+        <p>
+          <lb ed="#Pa"/><pc ana="#pilcrow"/>Item conceptus paternitatis non est quidditati<lb ed="#Pa"/>vus 
+          respectu deitatis igitur nec conceptus sapientiae 
+          <lb ed="#Pa"/>consequentia probatur quia non minus per conce<lb ed="#Pa"/>ceptum 
+          paternitatis concipitur essentia divina quam per 
+          <lb ed="#Pa"/>conceptum sapientiae si igitur ratio conceptus sapientiae sit quid<lb ed="#Pa"/>ditativus 
+          quia significat essentiam divinam quia 
+          <lb ed="#Pa"/>conceptus paternitatis ergo est quidditativus pro<lb ed="#Pa"/>pter 
+          illud maior probatur quia sicut impossibile est quod per 
+          <lb ed="#Pa"/>aliquam visionem videatur essentia non visa pater<lb ed="#Pa"/>nitate 
+          et econverso sic est impossibile quod aliquo con<lb ed="#Pa"/>ceptu 
+          concipiatur esse non concepta paternitate et 
+          <lb ed="#Pa"/>econverso.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Respondetur negando primam con<lb ed="#Pa"/>sequentiam 
+          Ad probationem dico quod assumit falsum 
+          <lb ed="#Pa"/>scilicet quod ratio conceptus sapientiae sit quiddita<lb ed="#Pa"/>tivus 
+          respectu deitatis quia significat essentiam 
+          <lb ed="#Pa"/>divinam etc.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ista enim non est causa sufficiens quia 
+          <lb ed="#Pa"/>tunc conceptus proprius et simpliciter <name>sortis</name> esset con<lb ed="#Pa"/>ceptus 
+          quidditativus humanitatis communiter ex<lb ed="#Pa"/>presse 
+          et conceptus hominis alibi esset conceptus 
+          <lb ed="#Pa"/>hominis quidditativus et multa alia falsa seque<lb ed="#Pa"/>rentur 
+          Sed causa est quia conceptus sapientiae ultra 
+          <lb ed="#Pa"/>hoc quod est repraesentativa essentiae divinae sub ea 
+          <lb ed="#Pa"/>ratione qua est sapientia est communior conceptu dei<lb ed="#Pa"/>tatis 
+          ita quod ibi sit praedicatio directa et licet alia a 
+          <lb ed="#Pa"/>deitate significet non tamen extrinsece aliquid con<lb ed="#Pa"/>servat 
+          plus quam conceptus deitatis ideo deitas est 
+          <lb ed="#Pa"/>in quid sapientia per se sed hic non est praedicatio dire<lb ed="#Pa"/>cta 
+          deitas est paternitas cum deitas sit aliquid 
+          <lb ed="#Pa"/>quod non est paternitas puta filius.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>
