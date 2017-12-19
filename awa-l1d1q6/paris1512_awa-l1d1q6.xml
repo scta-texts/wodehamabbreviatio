@@ -1,0 +1,1240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 1, Quaestio 6 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor xml:id="JW">Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 1, Quaestio 6</title>
+          <date when="2017-12-14">December 14, 2017</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2017-12-14" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="16-v"/>
+        <cb ed="#Pa" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d1q6">
+        <head>Liber I, Distinctio 1, Quaestio 6 [Paris 1512 Transcription]</head>
+        <head type="question-title">Utrum voluntas necessario vel libere principiet suos actus</head>
+        <p>
+          <lb ed="#Pa"/>Utrum voluntas necessa<lb ed="#Pa"/>rio 
+          vel libere principiet suos actus
+        </p>
+        <p>
+          vi<lb ed="#Pa"/>detur 
+          quod non libere quia vel quando a<lb ed="#Pa"/>ctus 
+          est vel quando non est non secundum quia nunc 
+          <lb ed="#Pa"/>no causatur nec primum quia omne quod est quando est 
+          <lb ed="#Pa"/>necesse est esse
+        </p>
+        <p>
+          Item <name>magister</name> libro 2 distinctione 25 dicit quod liberum 
+          <lb ed="#Pa"/>arbitrium vel ad praesens vel ad praeteritum non refertur sed 
+          <lb ed="#Pa"/>ad futura contingentia quod enim in praesenti est determina<lb ed="#Pa"/>tum 
+          est nec in potestate nostra ut tunc sit vel non sit.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Item <name>Hugo</name> <title>de sacramentis</title> libro primo parte se<lb ed="#Pa"/>cunda 
+          dicit quod liberum arbitrium non ad praesens spectat 
+          <lb ed="#Pa"/>sed ad futurum nec ad omne sed ad contingens.
+        </p>
+        <p>
+          <lb ed="#Pa"/>Ad oppositum est <name>augustinus</name> de libero arbitrio frequenter dicit 
+          <lb ed="#Pa"/>quod nihil est tam in potestate voluntatis sicut ipsa vo<lb ed="#Pa"/>luntas 
+          probatur 12 de civitate capitulo 6 dicit esse esse possibile quod 
+          <lb ed="#Pa"/>duo sint aequaliter affect id est dispositi corpore et a<lb ed="#Pa"/>nimo 
+          occurrente pulchro corpore alliciente et ae<lb ed="#Pa"/>qualiter 
+          ambo tentati et tamen unus consentit 
+          <lb ed="#Pa"/>tentationi et alius resistit quod non provenit nisi ex 
+          <lb ed="#Pa"/>libertate voluntatis respectu actus sui.
+        </p>
+        <div type="articulus">
+          <head>Primus articulus</head>
+          <p>
+            Primus 
+            <lb ed="#Pa"/>articulus. conclusio prima voluntas multos actus 
+            <lb ed="#Pa"/>suos potest causare libere contingenter quam sic 
+            <lb ed="#Pa"/>intelligo quod omnibus aliis concurrentibus universa<lb ed="#Pa"/>liter 
+            se habentibus tam obiecto quam cognitione praevia 
+            <lb ed="#Pa"/>potest adhuc voluntas libere velle vel non velle 
+            <lb ed="#Pa"/>et libere actum suum causare vel non causare pro<lb ed="#Pa"/>batur 
+            illa potentia quae habet in potestate sua mo<lb ed="#Pa"/>vere 
+            alias vires mediate actu proprio tantum mul<lb ed="#Pa"/>to 
+            magis habet proprium in potestate sua sed vo<lb ed="#Pa"/>luntas 
+            est hoc igitur Minor probatur supposito quod aliquis 
+            <lb ed="#Pa"/>libere contingenter ambulet ad forum tunc volun<lb ed="#Pa"/>tas 
+            non est causa immediata illius ambulationis 
+            <lb ed="#Pa"/>sed causat eam mediante actu suo volendi ita quod 
+            <lb ed="#Pa"/>si volitio sit efficax pro praesenti et sit potentia motia 
+            <lb ed="#Pa"/>sufficiens et organa apta et nullum obviet impedi<lb ed="#Pa"/>mentum 
+            extrinsecum statum sequitur naturaliter 
+            <lb ed="#Pa"/>ipsa ambulatio ex nono metaphysice et experi<lb ed="#Pa"/>entia 
+            igitur vires et organa similiter et volitio non 
+            <lb ed="#Pa"/>libere contingenter principiat ambulationem sed 
+            <lb ed="#Pa"/>naturaliter et cum ambulatio causetur libere ut 
+            <lb ed="#Pa"/>supponitur non videtur quod ab alio quam a voluntate 
+            <lb ed="#Pa"/>libere eliciente volitionem mediante qua libere a<lb ed="#Pa"/>liis 
+            viribus imperat et ita libere ambulationem 
+            <lb ed="#Pa"/>causat unde <name>augustinus</name> primo <title>retractionum</title> capitu<lb ed="#Pa"/>lo 
+            nono dicit quod nihil est tam in potestate volunta<lb ed="#Pa"/>tis 
+            ipsa voluntas.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Nec potest dici quod ipsa tan<lb ed="#Pa"/>tum 
+            passive se habeat quia tunc nec meretur nec 
+            <lb ed="#Pa"/>demeretur nisi forte deus hoc imputaret sibi ad 
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/>meritum vel demeritum quasi in praemium meriti 
+            <lb ed="#Pa"/>praecedentis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item nullus laudatur vel vitupe<lb ed="#Pa"/>ratur 
+            nisi pro his quae sunt in nostra potestate ni<lb ed="#Pa"/>hil 
+            autem est in nostra potestate nisi quod possu<lb ed="#Pa"/>mus 
+            indifferenter agere et non agere igitur in no<lb ed="#Pa"/>bis 
+            est tale principium illud autem non est nisi vo<lb ed="#Pa"/>luntas.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Probatur si non tunc non oporteret con<lb ed="#Pa"/>siliare 
+            circa actus nostros Dicitur forte ad omnia 
+            <lb ed="#Pa"/>praedicta quod actus voluntatis est in potestate volun<lb ed="#Pa"/>tatis 
+            passive non autem active.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Contra actus bo<lb ed="#Pa"/>nus 
+            vel malus imputatur voluntati igitur magis 
+            <lb ed="#Pa"/>est in sua potentia quam alterius agentis citra deum 
+            <lb ed="#Pa"/>igitur <unclear>no?</unclear> tantum se habet passive eo quod talis actus 
+            <lb ed="#Pa"/>producitur ab agente secundario et etiam quia nullus 
+            <lb ed="#Pa"/>actus magis est in potestate patientis quam agentis. 
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>unde non metaphysicae in antiqua translatione 
+            <lb ed="#Pa"/>voluntas est verus dicens.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Dices forte aliter quod nul<lb ed="#Pa"/>lus 
+            actus est in potestate voluntatis immediate 
+            <lb ed="#Pa"/>sed aliae potentiae obediunt voluntati in executione 
+            <lb ed="#Pa"/>actuum sibi competentium usque ad dictamen rationis 
+            <lb ed="#Pa"/>quo posito voluntas conformatur eidem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Contra 
+            <lb ed="#Pa"/>si voluntati obediunt aliae potentiae igitur habet in 
+            <lb ed="#Pa"/>potestate sua actus aliarum potentiarum et non 
+            <lb ed="#Pa"/>nisi per actum proprium volendi vel nolendi igitur 
+            <lb ed="#Pa"/>talis est immediate in sua potestate quia si esset 
+            <lb ed="#Pa"/>in potestate alterius agentis secundarii tunc im<lb ed="#Pa"/>primitur 
+            voluntati talis actio aliunde scilicet ab obie<lb ed="#Pa"/>cto 
+            vel a cognitione obiecti vel ab aliquo huius<lb ed="#Pa"/>modi 
+            cum omnis alia causa praeter voluntatem sit 
+            <lb ed="#Pa"/>mere naturalis sequitur quod omnis actus humani 
+            <lb ed="#Pa"/>tam imperati quam eliciti fiant secundum directam pro<lb ed="#Pa"/>tectionem 
+            agentium mere naturaliter et per consequens ni<lb ed="#Pa"/>hil 
+            contingenter et libere fiet ab homine.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Item agens quod non movet nisi moveatur ab a<lb ed="#Pa"/>lio 
+            si non est in eius potestate moveri ab alio tunc 
+            <lb ed="#Pa"/>etiam non est in eius potestate movere aliud igitur 
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Item nono <title>metaphysica</title> particula 10 dicitur quod potentia ra<lb ed="#Pa"/>tionalis 
+            valet ad opposita etiam positis omnibus 
+            <lb ed="#Pa"/>aliis requisitis sed potentiae irrationales necessa<lb ed="#Pa"/>rio 
+            agunt passo praesente disposito et non impedimento sed 
+            <lb ed="#Pa"/>voluntas est potentia rationalis quae inter ipsas 
+            <lb ed="#Pa"/>potentias rationis solum est libera.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Quod pro<lb ed="#Pa"/>batur 
+            quia nono <title>metaphysicae</title> dicitur quod potentia 
+            <lb ed="#Pa"/>rationalis quae est intellectus est una et eadem oppo<lb ed="#Pa"/>sitorum 
+            et nisi detinetur ab alio principio non potest 
+            <lb ed="#Pa"/>exire in actum quia exiret in opposita simul prin<lb ed="#Pa"/>cipium 
+            autem determinatum intellectus est <unclear>prohen<lb ed="#Pa"/>sis</unclear> 
+            seu appetitus ut ibidem dicitur igitur intelle<lb ed="#Pa"/>ctus 
+            non est potentia libera sed voluntas nec <sic>intel<lb ed="#Pa"/>ctus</sic> 
+            determinat voluntatem sed econverso.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et 
+            <lb ed="#Pa"/>si diceretur quod voluntas determinat prius tamen 
+            <lb ed="#Pa"/>determinat per dictamen rationis seu intellectus se<lb ed="#Pa"/>quitur 
+            quod determinativum voluntatis respiciat aequa<lb ed="#Pa"/>liter 
+            contraria igitur ipsa vel non exibit in actum 
+            <lb ed="#Pa"/>vel simul exibit in contraria.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item respectu eius<lb ed="#Pa"/>dem 
+            obiecti et uniformiter <unclear>o?n?si</unclear> potest voluntas habe<lb ed="#Pa"/>re 
+            diversis <unclear>victibus</unclear> actus contrarios scilicet velle et 
+            <lb ed="#Pa"/>nolle quos non posset producere idem agens ce<lb ed="#Pa"/>teris 
+            omnibus paribus mere naturaliter actum 
+            <lb ed="#Pa"/>ex nono <title>metaphysicae</title> quia agerent simul contra<lb ed="#Pa"/>ria 
+            igitur aliquod agens liberum et nihil est tale 
+            <lb ed="#Pa"/>post deum nisi voluntas.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item auctoritate <name>ansel<lb ed="#Pa"/>mi</name> 
+            in libro de gratia et libero arbitrio capitulo 29 et totus liber de 
+            <lb ed="#Pa"/>concordia dicit quod voluntas est instrumentum quod 
+            <lb ed="#Pa"/>movet omnia alia instrumenta quibus sponte uti<lb ed="#Pa"/>mur 
+            et quae sunt in nobis ut manus et lingua et quae 
+            <pb ed="#Pa" n="17-r"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>sunt extra nos ut stilus et securis et facit omnes vo<lb ed="#Pa"/>luntarios 
+            motus ipsa vero voluntas se suis affecti<lb ed="#Pa"/>bus 
+            movet unde potest dici instrumentum seipsum mo<lb ed="#Pa"/>vens 
+            haec ille.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <name>hugo</name> libro primo parte quinta capitulo 
+            19 tractans de libero arbitrio in angelis dicit ex eo quod volun<lb ed="#Pa"/>tas 
+            est libertas quoniam poterit erit per se moveri
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et 
+            <lb ed="#Pa"/>parum ante dicit ex quo et a voluntatet erat quod libe<lb ed="#Pa"/>re 
+            movebatur quoniam per se movebatur et non impul<lb ed="#Pa"/>su 
+            aliquo ex quo habetur quod primum velle est a vo<lb ed="#Pa"/>luntate 
+            active.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item libro primo parte 6 capitulo 4 ubi 
+            <lb ed="#Pa"/>tractat de libero arbitrio in homine vult quod voluntas per se mo<lb ed="#Pa"/>vetur 
+            et voluntarie et quod hinc surgi meritum homi<lb ed="#Pa"/>nis 
+            vel demeritum
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <name>beatus bernardus</name> <sic>de de</sic> libero arbitrio 
+            <lb ed="#Pa"/>capitulo 9 dicit habet sane voluntas quocumque verterit 
+            <lb ed="#Pa"/>rationem semper comitem et quodammodo perdisse causa 
+            <lb ed="#Pa"/>non quod semper ex ratione sed numquam sine ratione mo<lb ed="#Pa"/>veatur 
+            ita quod multa faciat per ipsa hoc est per eius 
+            <lb ed="#Pa"/>instinctum contra eius consilium vel iudicium et parum 
+            <lb ed="#Pa"/>postratio data est voluntati ut illam instruat non 
+            <lb ed="#Pa"/>ut destruat destrueret enim si ullam necessitatem im<lb ed="#Pa"/>poneret 
+            quo minus libero suo arbitrio se movent.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item 
+            <lb ed="#Pa"/>ad hoc sunt <sic>plurea</sic> articuli parisiensis qui dicunt erroneum 
+            <lb ed="#Pa"/>esse dicere quod voluntas iudicio rationis <unclear>contraire</unclear> non 
+            <lb ed="#Pa"/>valeat.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <name>beatus bernardus</name> super cantica sermone 82 ut 
+            <lb ed="#Pa"/>animae oculus diiudicat et discernit sicut arbiter in 
+            <lb ed="#Pa"/>discernendo ita in eliciendo liber unde et libe<lb ed="#Pa"/>rum 
+            vocatur arbitrium quodlibet versari in his pro arbi<lb ed="#Pa"/>trio 
+            voluntatis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item exponens illud ysaie om<lb ed="#Pa"/>ne 
+            caput languidum etc. dicit sicut deus superiorem 
+            <lb ed="#Pa"/>non habet nec habere potest sic libero arbitrio divinum non 
+            <lb ed="#Pa"/>patitur nec pati potest quia violentia ei inferre nec 
+            <lb ed="#Pa"/>creatori decet nec creatura potest.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Probatur au<lb ed="#Pa"/>ctoritate 
+            <name>Richardi</name> ubi prius arbitrium hominis 
+            <lb ed="#Pa"/>non idcirco liberum dicitur quod promptum habet bo<lb ed="#Pa"/>num 
+            vel malum facere sed quia libertatem habet bo<lb ed="#Pa"/>no 
+            vel malo consentire posse quidem facere malum 
+            <lb ed="#Pa"/>infirmitatis est facere bonum potestatis neutrum autem li<lb ed="#Pa"/>bertatis 
+            libertas vero est quod consensus eius extor<lb ed="#Pa"/>queri 
+            vel cohiberi non potest: potest etiam consentire 
+            <lb ed="#Pa"/>vel non consentire inspirationi divinae et similiter sug<lb ed="#Pa"/>gestioni 
+            dyabolice utrumque autem ex libertate neutrum 
+            <lb ed="#Pa"/>ex necessitate haec ille.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item <name>damascensu</name> libro 2 capitulo 27. 
+            <lb ed="#Pa"/><quote source="http://scta.info/resource/jddfo-l2c27">omnis considerans ut in ipsius electione existente a<lb ed="#Pa"/>ctuum 
+            neque ex hoc quod praeiudiciat eligit et eligens e<lb ed="#Pa"/>ligit 
+            secundum hoc ex necessitate rationali subsi<lb ed="#Pa"/>stit 
+            liberum arbitrium vel enim non erit rationale ut rationa<lb ed="#Pa"/>le 
+            ens vel non erit <unclear>dicens</unclear> ex libero arbitrio unde irra<lb ed="#Pa"/>tionabilia 
+            non sunt liberi arbitrii ducuntur enim magis 
+            <lb ed="#Pa"/>a natura quam ducunt propter quod neque contradi<lb ed="#Pa"/>cunt 
+            appetitui sed simul cum appetitu tunc admo<lb ed="#Pa"/>ventur 
+            ad actum homo autem rationalis <unclear>ex se</unclear> ducit ma<lb ed="#Pa"/>gis 
+            naturam quam ducatur propter quod appetens 
+            <lb ed="#Pa"/>quidam si velit habet refrenare appetitum vel sequi 
+            <lb ed="#Pa"/>unde irrationabilia quidam nec laudatur nec vitu<lb ed="#Pa"/>perantur 
+            homo autem laudatur et vituperatur </quote>
+            <lb ed="#Pa"/>haec ille. Et notetur auctoritas quia ponit liber<lb ed="#Pa"/>tatem 
+            voluntatis etiam praehabito dictamine delibera<lb ed="#Pa"/>tivo.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad idem sunt auctoritates positae ad prin<lb ed="#Pa"/>cipale 
+            ad partem oppositam quaestionis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Secunda 
+            <lb ed="#Pa"/>conclusio non omne actum suum voluntas libere elicit 
+            <lb ed="#Pa"/>immediate: quia posito quod quis simpliciter efficaciter velit 
+            <lb ed="#Pa"/>sanitatem et cum hoc iudicet quod hanc habere non po<lb ed="#Pa"/>terit 
+            sine potione amara <pc type="virgula">/</pc> tunc non potest non velle po<lb ed="#Pa"/>tionem 
+            amaram immediate licet mediate non volen<lb ed="#Pa"/>do 
+            sanitatem quam libere potest non velle. Item <name ref="#Augustine">augustinus</name> 
+            <lb ed="#Pa"/>non est in potestate nostra quibus visis tangamur.
+          </p>
+        </div>
+        <div type="articulus">
+          <head>Secundus articulus</head>
+          <p>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Secundus articulus ubi dubitatur contra di<lb ed="#Pa"/>cta 
+            primo sic tunc voluntas libere posset produ<lb ed="#Pa"/>cere 
+            actum de se indifferentem bonum tamen ex circum<lb ed="#Pa"/>stantia 
+            puta si fiat ex praecepto sit igitur talis a et 
+            <lb ed="#Pa"/>faciat eum sortes libere et dterminate ex praecepto fa<lb ed="#Pa"/>ciat 
+            etiam <c>b</c> actum de se bonum ex eodem praecepto tunc 
+            <lb ed="#Pa"/>quaelibet pars proportionalis in <c>b</c> est melior <c>a</c> quia 
+            <lb ed="#Pa"/>habet tantam bonitatem quantam habet <c>a</c> ex circumstan<lb ed="#Pa"/>tia 
+            praecepti.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et ultra hoc habet bonitatem propri<lb ed="#Pa"/>am 
+            igitur <c>b</c> est in infinitum melior gratia <c>a</c> igitur sor<lb ed="#Pa"/>tes 
+            in infinitum plus meretur per <c>b</c> quam per <c>a</c> quod 
+            <lb ed="#Pa"/>est falsum. verbi gratia velle levare festucam nul<lb ed="#Pa"/>lam 
+            habet bonitatem moralem de se nisi ex circumstan<lb ed="#Pa"/>tis 
+            praecepti vel huius velle honorare deum de se 
+            <lb ed="#Pa"/>est actus bonus nisi ex mala circumstntia redda<lb ed="#Pa"/>tur 
+            malus
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respondetur quod voluntas potest libere 
+            <lb ed="#Pa"/>in actum indifferentem qui neque est ex causa bona bo<lb ed="#Pa"/>nitate 
+            meriti bonus neque ex mala malitia demeriti 
+            <lb ed="#Pa"/>malus.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed <name>adam</name> dicit istum est mihi dubium quia 
+            <lb ed="#Pa"/>vel indeliberate sic vellem sicut cum ex distractione 
+            <lb ed="#Pa"/>sicco manus etc et hoc non est ad propositum quia 
+            <lb ed="#Pa"/>hoc fit in advertenter et non libere quia non est in 
+            <lb ed="#Pa"/>potestate nostra quin talia inevitabilia faciamus 
+            <lb ed="#Pa"/>si autem fiat aliquid tale deliberate et libere tunc in 
+            <lb ed="#Pa"/>si fiat pro aliquo bono videtur fieri ociose: et per 
+            <lb ed="#Pa"/>consequens inutiliter et culpabiliter Nec video casum in quo 
+            <lb ed="#Pa"/>ex deliberatione libere posset fieri talis actus in<lb ed="#Pa"/>differenter 
+            nisi forte ad experiendum libertatem vo<lb ed="#Pa"/>luntatis 
+            et forte ista esset bona causa ubi nec hoc 
+            <lb ed="#Pa"/>nec oppositum esset prohbitum vel praeceptum ex 
+            <lb ed="#Pa"/>hoc quod homo cogitaret quod hoc nec eius oppositum 
+            <lb ed="#Pa"/>praecipitur vel prohibetur et est mihi solatium sic 
+            <lb ed="#Pa"/>facere igitur volo et forte etiam in isto casu fieret 
+            <lb ed="#Pa"/>bene meritorie et per consequens non indifferenter quia 
+            <lb ed="#Pa"/>meritorium esset sic velle attendere ne faciat prohibitum 
+            <lb ed="#Pa"/>vel omittat praeceptum vel fieret totaliter ociose vel 
+            <lb ed="#Pa"/>sine omni causa quod vix esset possibile et credo quod 
+            <lb ed="#Pa"/>esset culpa aliqua sed levis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Aliter dicunt alii quod 
+            <lb ed="#Pa"/>non quaelibet pars <c>b</c> est distincte perceptibilis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ideo 
+            <lb ed="#Pa"/>non quaelibet para talis scitur fieri cum circumstantia 
+            <lb ed="#Pa"/>aequali circumstantiae cum qua sit <c>a</c> igitur non oportet 
+            <lb ed="#Pa"/>quod <c>b</c> sit in infinitum melior <c>a</c>
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed haec responsio 
+            <lb ed="#Pa"/>non sufficit quia velle subvenire proximo propter 
+            <lb ed="#Pa"/>deum <unclear>charitative</unclear> meritorium est etiam si homo ni<lb ed="#Pa"/>hil 
+            cogitet de vele suo sed simpliciter feratur in actum 
+            <lb ed="#Pa"/>subveniendi proximo igitur concedo quod non oportet actum 
+            <lb ed="#Pa"/>volendi ad hoc quod sit bonus ex circumstantia cogno<lb ed="#Pa"/>sci 
+            habere talem circumstantiam igitur ne oportet de par<lb ed="#Pa"/>tibus 
+            <c>b</c> ymo nec requiritur cognitio distincta neque 
+            <lb ed="#Pa"/>indistincta sed sufficit dictamen rationis praesuppo<lb ed="#Pa"/>situm 
+            cui actus virtuosus debet esse conformis. 
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Contra nulla electio vel volitio est virtuosa ni<lb ed="#Pa"/>si 
+            sit conformis rationis practice praeviae sibi secun<lb ed="#Pa"/>dum 
+            naturam seu iudicio rationis practico quod idem 
+            <lb ed="#Pa"/>est sed hoc non potest esse nisi homo sic eliciens vel volens 
+            <lb ed="#Pa"/>distincte cognoscat talem volitionem quantum ad cir<lb ed="#Pa"/>cunstantias 
+            suas quomodo enim potest illam voli<lb ed="#Pa"/>tionem 
+            conformare iudicio praevio nisi cognoscat eam 
+            <lb ed="#Pa"/>et circunstantias suas igitur adhuc stat respon<lb ed="#Pa"/>sio 
+            prima de partibus <c>b</c>
+          </p>
+          <p>
+            Praeterea si non valet haec 
+            <lb ed="#Pa"/>responsio de partibus <c>b</c> et de <c>a</c> detur alia probatur.
+            <lb ed="#Pa"/>ponatur quod sortes unica intentione bona scilicet propter 
+            <lb ed="#Pa"/>deum velit facere omne illud quod facit et faciat 
+            <lb ed="#Pa"/>tunc <c>a</c> et <c>b</c> tunc quaelibet pars <c>b</c> ex illa circumstan<lb ed="#Pa"/>tia 
+            scilicet intentione finis est ita bona sicut totus <c>a</c> et 
+            <lb ed="#Pa"/>stabit difficultas argumenti.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item si actus bonus 
+            <pb ed="#Pa" n="17-v"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>bene fiat magis est laudabilis quam actus indifferens 
+            <lb ed="#Pa"/>de se bene factus ceteris paribus sed sic est de qua<lb ed="#Pa"/>libet 
+            parte respectu <c>a</c> probatur praecipiat deus sorti 
+            <lb ed="#Pa"/>quod operatur actum <c>a</c> sub pena <c>c</c> et similter quod ope<lb ed="#Pa"/>retur 
+            quamlibet partem <c>b</c> sub maiori pena quam sit <c>b</c> <c>c</c> 
+            <lb ed="#Pa"/>tunc quacumque parte <c>b</c> omissa maior pena infligetur 
+            <lb ed="#Pa"/>quam propter omissionem totius <c>a</c> igitur quaelibet pars. 
+            <lb ed="#Pa"/><c>b</c> ex hoc quod fit propter praeceptum huiusmodi est melior quam 
+            <lb ed="#Pa"/><c>a</c> probatur si sortes non compleret <c>b</c> meretur pe<lb ed="#Pa"/>nam 
+            infinitam quia infinitas partes sibi praeceptas 
+            <lb ed="#Pa"/>omitteret et pro omissione <c>a</c> solum finitam penam 
+            <lb ed="#Pa"/>igitur etc.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad primum dicitur quod non oportet volitio<lb ed="#Pa"/>nem 
+            vel electionem conformem illi dictamini esse cogni<lb ed="#Pa"/>tam 
+            vel volitam nec etiam eius circunstantiam quia 
+            <lb ed="#Pa"/>tunc iterum oportet illam volitionem primam esse 
+            <lb ed="#Pa"/>cognitam et volitam et sic in actibus simul positis 
+            <lb ed="#Pa"/>esse processus in infinitum: sed sufficit quod opus di<lb ed="#Pa"/>ctatum 
+            per rationem debere fieri eligatur pro debito 
+            <lb ed="#Pa"/>fine et sciatur habere circunstantiam ex qua reddi<lb ed="#Pa"/>tur 
+            virtuosum quia eius bonitas dependet ex ta<lb ed="#Pa"/>li 
+            electione debita: et si actus interior sed volitio 
+            <lb ed="#Pa"/>vel electio sit dictatus fieri ita quod dictamen habeat 
+            <lb ed="#Pa"/>talem actum pro obiecto Verbi gratia quod ego debe<lb ed="#Pa"/>am 
+            elicere dilectionem proximi tunc etiam oportet 
+            <lb ed="#Pa"/>quod talis actus eligatur et sciatur quo ad se et circumstantias 
+            <lb ed="#Pa"/>suas tamen electionem illius dilectionis. non oportet 
+            <lb ed="#Pa"/>cognosci nec diligi ad hoc quod si virtuosa quia alias 
+            <lb ed="#Pa"/>iretur in infinitum sed sibi sufficit ad hoc quod sit vir<lb ed="#Pa"/>tuosa 
+            quod conformetur dictamini praevio saltem si <unclear>assit</unclear> igitur
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Ad secundum dicitur quod non quaelibet pars <c>b</c> est me<lb ed="#Pa"/>lior 
+            toto <c>a</c> si <c>a</c> et <c>b</c> sint actus volendi quia licet velle 
+            <lb ed="#Pa"/>levare festucam de se non sit obnum moraliter aut 
+            <lb ed="#Pa"/>meritorie tamen ex bona cuasa quia praecipitur a 
+            <lb ed="#Pa"/>deo actus de se bonus dummodo fiat charitative 
+            <lb ed="#Pa"/>et libere igitur non obstante quod <c>b</c> non solum ex ta<lb ed="#Pa"/>li 
+            <lb ed="#Pa"/>circunstantia sed aliunde sit bonus de se adhuc 
+            <lb ed="#Pa"/>bene stat quod <c>b</c> habens eandem circunstantiam cum 
+            <lb ed="#Pa"/><c>a</c> non sit in duplo melior <c>a</c>
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et idem est iudicium 
+            <lb ed="#Pa"/>si <c>a</c> et <c>b</c> sint executiones exteriores quia tunc habent 
+            <lb ed="#Pa"/>bonitatem ex interioribus sed argu procedit ex fal<lb ed="#Pa"/>sa 
+            ymaginatione scilicet quod aliquis levet vel velit leva<lb ed="#Pa"/>re 
+            festucam sive pulverem vel non ex causa <pc type="virgula">/</pc> et tunc 
+            <lb ed="#Pa"/>superveniat circunstantia ex qua reddatur talis a<lb ed="#Pa"/>ctus 
+            bonus sed sic non est quia unicus actus est le<lb ed="#Pa"/>vare 
+            vel velle levare festucam propter hoc quia 
+            <lb ed="#Pa"/>praecipitur et ita talis actus includit circunstanti<lb ed="#Pa"/>am 
+            ex qua est bonus sed si fieret primo tali cir<lb ed="#Pa"/>cunstantia 
+            non fieret bonus propter circunstanti<lb ed="#Pa"/>am 
+            sequentem nisi tunc simul esset vel fieret cum tali 
+            <lb ed="#Pa"/>circunstantia et ita acceptiis cum illa est de se bonus
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Unde videtur quod voluntas non potest velle sine causa 
+            <lb ed="#Pa"/>unde <name>anselmus</name> de veritate capitulo 72 dicit quod omnis vo<lb ed="#Pa"/>luntas 
+            sicut vult aliquid ita vult propter aliquid 
+            <lb ed="#Pa"/>et quod omnis voluntas habet cur etc omnino namque ni<lb ed="#Pa"/>hil 
+            volumus nisi sit cur volumus et dicit quod hoc expe<lb ed="#Pa"/>rimur 
+            in nobis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Supponatur tamen gratia dispu<lb ed="#Pa"/>tationis 
+            ponatur unus actus indifferens libere fa<lb ed="#Pa"/>ctus 
+            a voluntate ille nec esset bonus nec malus su<lb ed="#Pa"/>perveniat 
+            praeceptum tunc ille actus iam esset bo<lb ed="#Pa"/>nus 
+            ex circumstantia et fiat argumentum dicitur quod tunc 
+            <lb ed="#Pa"/>ille actus continuatus non esset virtuosus nisi ex 
+            <lb ed="#Pa"/>dictamine et electione virtuosa sequentibus praece<lb ed="#Pa"/>ptum 
+            sicut est generaliter in omnibus actibus vir<lb ed="#Pa"/>tuosis.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et ideo solum est ibi generalis difficul<lb ed="#Pa"/>tas 
+            prius soluta in <ref>prima questione prologi</ref>.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Aliter potest dici quod licet quaelibet pars <c>b</c> sit melior 
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/><c>a</c> tamen quia duae partes equales <c>b</c> non sunt in du<lb ed="#Pa"/>plo 
+            meliores altera earum eo quod ex <sic>cirunstantia</sic> 
+            <lb ed="#Pa"/>praecise una bonitas correspondet uni partiquam dua<lb ed="#Pa"/>bus 
+            et ita de aliis partibus et quia bonitas intrin<lb ed="#Pa"/>seca 
+            partium diminuuntur secundum partes propor<lb ed="#Pa"/>tionales 
+            aequales <c>b</c> non sunt in duplo meliores 
+            <lb ed="#Pa"/>igitur non oportet si quaelibet pars est melior <c>a</c> quod igitur <c>b</c> 
+            <lb ed="#Pa"/>sit in infinitum melior <c>a</c>
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed contra cum dili<lb ed="#Pa"/>go 
+            hodie proximum propter deum mereor et tamen 
+            <lb ed="#Pa"/>cras tantumdem cras et quotiens equaliter diligo to<lb ed="#Pa"/>tiens 
+            tantumdem mereor et in duplo plus duabus vi<lb ed="#Pa"/>cibus 
+            quam una et quandoque amplius propter cremetum cha<lb ed="#Pa"/>ritatis 
+            et in omnibus his est praecise una circumstan<lb ed="#Pa"/>tia 
+            finis reddens actum bonum igitur similiter erit 
+            <lb ed="#Pa"/>in proposito.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respondetur quod non est simile quia 
+            <lb ed="#Pa"/>ibi secundum plures vices innovatur intentio et a<lb ed="#Pa"/>mor 
+            sic agendi et tot sunt ibi aequae boni amores et a<lb ed="#Pa"/>quae 
+            bonae intentiones ac si essent totaliter distincti 
+            <lb ed="#Pa"/>et quotiens noviter sic diligo ceteris paribus 
+            <lb ed="#Pa"/>sed 
+            <lb ed="#Pa"/>non sic cum diligo unico actu proximum propter 
+            <lb ed="#Pa"/>deum ibi non innovatur mirabiliter intentio qua 
+            <lb ed="#Pa"/>ego amo secundum multitudinem partium.
+          </p>
+          <p>
+             <pc ana="#pilcrow"/>Aliter 
+            <lb ed="#Pa"/>potest dici quod stante caus <c>a</c> et <c>b</c> sunt aequae virtuosi et 
+            <lb ed="#Pa"/>aeque meritorii actus dum modo procedant ex aequali 
+            <lb ed="#Pa"/>charitate et etera sint paria quia unus actus in se 
+            <lb ed="#Pa"/>nude consideratus non est magis virtuosus vel me<lb ed="#Pa"/>ritorius 
+            de se intrinsece quam alter tamen aliquos a<lb ed="#Pa"/>ctus 
+            dicimus esse de genere bonorum quia secundum 
+            <lb ed="#Pa"/>legem currentem <sic>eadum</sic> sub praecepto vel ad hoc sunt 
+            <lb ed="#Pa"/>ordinati ut per eos homo virtuose se habeat et me<lb ed="#Pa"/>reatur 
+            et solet fieri ad honorem dei et ad utilitatem pro<lb ed="#Pa"/>ximi. 
+            Illi vero qui non sunt sic ordinati secundum 
+            <lb ed="#Pa"/>legem currentem dicuntur indifferentes quia nec lex 
+            <lb ed="#Pa"/>ordinavit quod fiant nec quod non fiant et tamen si stant 
+            <lb ed="#Pa"/>bona intentione sunt meritorii si vero mala deme<lb ed="#Pa"/>ritorum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad tertium patet responsio ex dictis quod 
+            <lb ed="#Pa"/>velle facere <c>a</c> propter deum vel ex praecepto non 
+            <lb ed="#Pa"/>est actus indifferens sed alterius naturae et speciei 
+            <lb ed="#Pa"/>tam in genere naturae quam moris quam esset actus ille quo 
+            <lb ed="#Pa"/>praecise sortes vellet facere <c>a</c> si hoc esset possibile 
+            <lb ed="#Pa"/>vel admittendo causa disputationis falsum sup<lb ed="#Pa"/>positum 
+            dicitur recte sicut in praecedenti responsione
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad quartum patet per idem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ad quintum si in<lb ed="#Pa"/>telligatur 
+            de maioritate pene secundum extensio<lb ed="#Pa"/>nem 
+            tunc sic <c>c</c> est pena finita omittere <c>a</c> esset venia<lb ed="#Pa"/>le 
+            et omittere <c>b</c> vel aliquam partem eius esset morta<lb ed="#Pa"/>le: 
+            et tunc concederetur quod pena pro omissione <c>b</c> ex<lb ed="#Pa"/>cedert 
+            penam debitam pro omissione <c>a</c> in infini<lb ed="#Pa"/>tum 
+            intelligitur secundum intensionem posset forte 
+            <lb ed="#Pa"/>dici quod praeceptum non esst infinitum eo quod sit praecipi<lb ed="#Pa"/>ens 
+            non posset infligere tantum in penam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed haec 
+            <lb ed="#Pa"/>responsio non reddit causam sed ducit ad inconve<lb ed="#Pa"/>niens 
+            multiplicare autem inconveniens non est solvere 
+            <lb ed="#Pa"/>ergo. Aliter dicitur quod si sortes omitteret <c>b</c> et quam<lb ed="#Pa"/>libet 
+            eius partem scienter distincta et propria volitio<lb ed="#Pa"/>ne 
+            quod non posset fieri sine infinitis volitionibus di<lb ed="#Pa"/>stinctis 
+            totaliter quarum quaelibet esset alicuius de<lb ed="#Pa"/>terminate 
+            magnitudinis tam in entitate quam in ma<lb ed="#Pa"/>licia 
+            vel ubi haberetur una electio aequivalens talibus 
+            <lb ed="#Pa"/>infinitis tunc ex omissione <c>b</c> merentur penam infi<lb ed="#Pa"/>nitam 
+            intensive sed sic elective omittere est impos<lb ed="#Pa"/>sibile 
+            creaturae indistincte aut nolle <c>b</c> et omnes par<lb ed="#Pa"/>tes 
+            eius non est tantae malitiae nec habebit correspondentem 
+            <lb ed="#Pa"/>tantam penam et sic etiam patet solutio ad sextum.
+          </p> 
+          <p>
+            Con<lb ed="#Pa"/>tra 
+            tunc si duo haberent praeceptum simile respectu
+            <pb ed="#Pa" n="18-a"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/><c>b</c> actus et uterque haberet nolitionem implendi prae<lb ed="#Pa"/>ceptum 
+            ita quod ad talem nolitionem essent omnino par<lb ed="#Pa"/>tes 
+            et alter cum hoc nolit facere unam medietatem 
+            <lb ed="#Pa"/><c>b</c> actus et velit facere aliam tunc sequitur ex di<lb ed="#Pa"/>cta 
+            solutione quod secundus esset prior primo falsitas 
+            <lb ed="#Pa"/>probatur quia in parte 29 obedit et primus in nul<lb ed="#Pa"/>lo
+          </p>
+          <p>
+            Respondetur quod si secundus habet primo aequa<lb ed="#Pa"/>lem 
+            nolitionem de non implendo praeceptum cum pri<lb ed="#Pa"/>mo 
+            et iterum habet secunduam nolitionem non implen<lb ed="#Pa"/>di 
+            praeceptum totaliter sed partem eius conceditur quod 
+            <lb ed="#Pa"/>secundus gravius peccat si autem unica nolitione 
+            <lb ed="#Pa"/>nollet implere praeceptum et tamen vellet facere par<lb ed="#Pa"/>te 
+            ne nolitio sibi imputetur ad tantam penam sicut 
+            <lb ed="#Pa"/>si illam partem non faceret tunc minus peccaret 
+            <lb ed="#Pa"/>Aliter dicitur et credo quod melius quod stante casu quin<lb ed="#Pa"/>ti 
+            argumenti omittens <c>b</c> mereretur penam intensive 
+            <lb ed="#Pa"/>infinitam sive quamlibet partem advertenter distincta 
+            <lb ed="#Pa"/>nolitione omittat sive non nec distinctio nolitionum 
+            <lb ed="#Pa"/>aliquid variat in proposito quia tam culpabiliter 
+            <lb ed="#Pa"/>redditur talis omissio per unam nolitionem respicien<lb ed="#Pa"/>tem 
+            totum actum est consequenter quamlibet partem eius si respectu 
+            <lb ed="#Pa"/>cuiuslibet partis nona eliceretur nolitio aequalis 
+            <lb ed="#Pa"/>priori sic etiam tantum peccat scienter nolendo fa<lb ed="#Pa"/>cere 
+            <c>b</c> nec aliquam eius partem dum unico actu cir<lb ed="#Pa"/>ca 
+            totum <c>b</c> considerat ac si circa quamlibet partem 
+            <lb ed="#Pa"/>haberet novum actum considerandi: item in pote<lb ed="#Pa"/>state 
+            dei praecipienter est sic obligare sortem ad facien<lb ed="#Pa"/>dum 
+            <c>b</c> actum ut ponitur in quainta ratione sive di<lb ed="#Pa"/>stincte 
+            et advertenter habeat nolitiones distinctas 
+            <lb ed="#Pa"/>partium sive non. 
+          </p>
+          <p>
+            Item quodlibet peccatum mor<lb ed="#Pa"/>tale 
+            est dignum puniri pena infinita intensive et exten<lb ed="#Pa"/>sive 
+            licet deus misericordius agat ymo quodli<lb ed="#Pa"/>bet 
+            peccatum veniale de se inquantum est dei offen<lb ed="#Pa"/>sa 
+            est dignum puniri pena infinita intensive et extensi<lb ed="#Pa"/>ve 
+            licet deus non velit tantum imputare et igitur di<lb ed="#Pa"/>citur 
+            veniale propter veniam quam deus facit ho<lb ed="#Pa"/>mini 
+            dimittendo pena et auferendo culpam quia 
+            <lb ed="#Pa"/>nullus potest esse beatus nisi habeat plenam iustiti<lb ed="#Pa"/>am 
+            sed si deus non dleret culpam venialem homo 
+            <lb ed="#Pa"/>qui venialiter peccavit numquam haberet plenam iu<lb ed="#Pa"/>stitiam 
+            igitur in aeternum impediretur a beatitu<lb ed="#Pa"/>dine 
+            et etiam maneret in dei offensa igitur et ra<lb ed="#Pa"/>tionabiliter 
+            in pena.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item pro infinitis mundis non 
+            <lb ed="#Pa"/>deberet homo minimum peccatum veniale com<lb ed="#Pa"/>mittere 
+            igitur etc.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Unde patet quod quodlibet pec<lb ed="#Pa"/>catum 
+            est aeque fugiendum quia quodlibet est infinitum et sum<lb ed="#Pa"/>me 
+            fugiendum quoa contra deum et tamen unum est 
+            <lb ed="#Pa"/>gravius alio et imputatur ad maiorem penam scilicet 
+            <lb ed="#Pa"/>mortale ad externam veniale ad temporalem. 
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item 
+            <lb ed="#Pa"/>homo plus debet abhorem gravius peccatum quam minus grave et plus 
+            <lb ed="#Pa"/>se custodire ne incidat in gravius quam in minus gra<lb ed="#Pa"/>ve 
+            tamen quodlibet est in infinitum fugiendum sicut 
+            <lb ed="#Pa"/>pro nullo bono ymaginabili est eligendum nec ad 
+            <lb ed="#Pa"/>ipsum est aliqualiter accedendum, nec sequitur deus 
+            <lb ed="#Pa"/>non potest infligere penam talem igitur praeceptum 
+            <lb ed="#Pa"/>est iniustum quia non praecipitur sub tali pena in<lb ed="#Pa"/>fligenda 
+            sed digna infligi.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item negatur quod deus non 
+            <lb ed="#Pa"/>posset infligere penam infinitam intensive sorti vel 
+            <lb ed="#Pa"/>animae eius ymo hoc posset conservando substan<lb ed="#Pa"/>tiam 
+            sortis et vivacitatem intellectus et sensuum.
+          </p>
+          <p>
+            <lb ed="#Pa"/>Item non esset inconveniens quod deus daret sorte distin<lb ed="#Pa"/>cte 
+            videre quamlibet partem proportionalem <c>b</c> sine uni<lb ed="#Pa"/>ca 
+            visione sive distinctus et ita etiam habere circa 
+            <lb ed="#Pa"/>quamlibet partem distinctam nolitionem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et forte a<lb ed="#Pa"/>nima 
+            christi distincte videt quamlibet partem propor<lb ed="#Pa"/>tionalem 
+            cuiuslibet continui non tamen videt aliquam 
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/>ultimam cum nulla sit talis
+          </p>
+          <p>
+            Item tenendo quod quaeli<lb ed="#Pa"/>bet 
+            culpa sive mortalis sive venialis sit intensive 
+            <lb ed="#Pa"/>finita sic quod per quamlibt talem homo solum finite 
+            <lb ed="#Pa"/>difformiter se habeat vel solum finite a conformi<lb ed="#Pa"/>tate 
+            divinae legis ad quam tenetur recedat et secun<lb ed="#Pa"/>dum 
+            hoc pro qualibet solum debeatur pena fini<lb ed="#Pa"/>ta 
+            de iure stricto seu de condigno tamen qualibet 
+            <lb ed="#Pa"/>in infinitum est fugibilis quia quantumcumque sit parva 
+            <lb ed="#Pa"/>nolitio est licita vel eligibilis etiam pro bono quan<lb ed="#Pa"/>tumcumque 
+            magno vel magis bono quam culpa est mala quia 
+            <lb ed="#Pa"/>eo ipso quo culpa non potest dari tantum bonum pro<lb ed="#Pa"/>pter 
+            quod ipsa reddatur eligibilis et licita. 
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Est 
+            <lb ed="#Pa"/>tamen actu intensiori una fugienda magis quam alia et 
+            <lb ed="#Pa"/>ita quaelibet in infinitum est fugiendum eo quod in infini<lb ed="#Pa"/>tum 
+            est cavenda quaelibet dei offensa qui in infinitum 
+            <lb ed="#Pa"/>est diligendus licet cum actu finito
+          </p>
+          <p>
+            <lb ed="#Pa"/>Item stante 
+            <lb ed="#Pa"/>ymaginatine praedicta adhuc mortale peccatum 
+            <lb ed="#Pa"/>punitur extensive infinite quia decedens in ipso vult 
+            <lb ed="#Pa"/>quamdiu est in se peccare et ideo quando non est in se 
+            <lb ed="#Pa"/>scilicet post mortem non dimittitur sibi peccatum igitur 
+            <lb ed="#Pa"/>perpetue manebit in culpa igitur etiam et in pe<lb ed="#Pa"/>na 
+            secus est de veniali quod non tollit charitatem qua 
+            <lb ed="#Pa"/>homo quantum potest conatur ad non peccandum 
+            <lb ed="#Pa"/>et quotiens etiam recordatur de peccato veniali 
+            <lb ed="#Pa"/>dolet etiam habens voluntatem cavendi omne peccatum 
+            <lb ed="#Pa"/>et ideo quando ex infirmitate peccat veniale re<lb ed="#Pa"/>missibile 
+            <lb ed="#Pa"/>est tam quo ad culpam quam quo ad penam
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Secundum dubium tunc voluntas posset libe<lb ed="#Pa"/>re 
+            peccare sine causa movente et tunc peccaret pec<lb ed="#Pa"/>cato 
+            infinito secundum intentionem malitiae quod 
+            <lb ed="#Pa"/>est impossibile consequentia probatur quia occidit 
+            <lb ed="#Pa"/>sortes patrem suum sive causa movente et plato suum 
+            <lb ed="#Pa"/>propter bonum publicum vel aliud intellectivum
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Tunc si sortes committeret illum actum proter fi<lb ed="#Pa"/>nem 
+            in duplo minus bonum quam plato in duplo gra<lb ed="#Pa"/>vius 
+            peccaret platone et si propter fratrem in qua<lb ed="#Pa"/>druplo 
+            minus bonum in quadruplo gravius pec<lb ed="#Pa"/>caret 
+            et sic in infinitum igitur si facit talem actum 
+            <lb ed="#Pa"/>sine causa in infinitum gravius peccat quam plato et 
+            per consequens peccat peccato malitiae infinite.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>et per hoc idem medium aliter versum potest proba<lb ed="#Pa"/>ri 
+            quod plato quod nec peccet interficiendo patrem suum 
+            <lb ed="#Pa"/>sine dispensatione legis vel dei cuius falsitas pa<lb ed="#Pa"/>tet 
+            per scripturam et philosophiam consequentia probatur 
+            <lb ed="#Pa"/>quia plato committens actum malum propter bo<lb ed="#Pa"/>num 
+            finem in aliquo excusatur igitur propter finem in du<lb ed="#Pa"/>plo 
+            meliorem in duplomagis excusatur igitur propter 
+            <lb ed="#Pa"/>aliquem sine totaliter excusatur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respondetur quod vo<lb ed="#Pa"/>luntas 
+            nullum actum principiat ibere sine iudi<lb ed="#Pa"/>cio 
+            aliquo vel saltem sine apprehensione compositiva 
+            <lb ed="#Pa"/>vel divisiva causam aliquam repraesentante vel offeren<lb ed="#Pa"/>te 
+            sine assensu vel cum assensu quod tale quid sit verum 
+            <lb ed="#Pa"/>bonum delectabile vel utile et hoc docet experien<lb ed="#Pa"/>tia 
+            sicut supra allegatum est per <name>anselmum</name> et hoc 
+            <lb ed="#Pa"/>credo verum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed illud non solum difficultatem 
+            <lb ed="#Pa"/>quia loco non causae de quae dictum est in argumento ac<lb ed="#Pa"/>cipiatur 
+            causa pessima non attenuans sed aggra<lb ed="#Pa"/>vans 
+            culpam et deducatur argumentum ut prius.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Sed hic dicitur quod sic peccans ex mala causa ver<lb ed="#Pa"/>bi 
+            gratia occidens homine ut capiat eius bona pec<lb ed="#Pa"/>cat 
+            duobus peccatis et ideo gravius peccat quam prae<lb ed="#Pa"/>cise 
+            peccans altero eorum cum homicidium solum 
+            <lb ed="#Pa"/>esset gravius peccatum in specie homicidii praecise 
+            <lb ed="#Pa"/>quando fieret ex sola malitia sine motivo quam non 
+            <lb ed="#Pa"/>vel allectivo si hoc esse possibile quam quando fieret 
+            <lb ed="#Pa"/>ex sola malitia sine motivo vel allectivo si hoc esset 
+            <pb ed="#Pa" n="18-v"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>possibile quod quando fieret ex odio vel quavis alia 
+            <lb ed="#Pa"/>causa concepta per viam iudicii compositi necessi<lb ed="#Pa"/>tate 
+            <lb ed="#Pa"/>ymo nec odium esset causa sed illud ex quo 
+            <lb ed="#Pa"/>oritur ipsum et ita habet causam attenuantem et 
+            <lb ed="#Pa"/>per consequens non ita graviter peccaret sicut il<lb ed="#Pa"/>le 
+            qui ex pura malitia sine causa movente vel al<lb ed="#Pa"/>liciente 
+            hoc faceret.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Similiter interficiens christianos 
+            <lb ed="#Pa"/>motus ex hoc quod credit fidem esse errorem ar<lb ed="#Pa"/>bitrans 
+            in hoc obsequium se praestare deo videtur 
+            <lb ed="#Pa"/>aliquibus quod propter duo peccata scilicet homicidium 
+            <lb ed="#Pa"/>et errorem gravius peccat quam qui praecise interfi<lb ed="#Pa"/>ceret 
+            eos nulla ex causa si hoc esset possibile ta<lb ed="#Pa"/>men 
+            peccatum interfectionis non est praecise in eo 
+            <lb ed="#Pa"/>ita malum <unclear>fient</unclear> in alio quia iste error licet malus 
+            <lb ed="#Pa"/>videtur attenuare homicidium. Juxta illud apo<lb ed="#Pa"/>stoli 
+            misericordiam consecutus sum quam ignorans 
+            <lb ed="#Pa"/>feci.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et ita homicidium eum causa mala licet 
+            <lb ed="#Pa"/>sit maiori pena dignum quam si fieret ex pura malitia 
+            <lb ed="#Pa"/>tamen est excusabile eo quod ibi est aliquid quod atte<lb ed="#Pa"/>nuet 
+            vel <unclear>inuet</unclear> ad impetrandam misericordiam. 
+            <lb ed="#Pa"/>Sed si omnia ista essent vera non evitarent formas 
+            <lb ed="#Pa"/>tactas in argumento quod deduci potest sicut pri<lb ed="#Pa"/>us 
+            etiam in terminis dictae solutionis nec est ve<lb ed="#Pa"/>risimile 
+            quod culpa excuset culpam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ideo aliter 
+            <lb ed="#Pa"/>respondetur negando quod sortes committens actum 
+            <lb ed="#Pa"/>propter finem in duplo minus bonum sive propter 
+            <lb ed="#Pa"/>quam plato omittat eundem in duplo gravius peccet 
+            <lb ed="#Pa"/>quia non oportet quod finis in duplo melior in duplo 
+            <lb ed="#Pa"/>plus excuset quia tunc aliquis finis totaliter ex<lb ed="#Pa"/>cusaret 
+            peccatum scienter factum contra dei prae<lb ed="#Pa"/>ceptum 
+            tamen si praeceptum datum et aliae circun<lb ed="#Pa"/>stantiae 
+            oppositae motive ad oppositam partem su<lb ed="#Pa"/>duplarentur 
+            sicut ex alia parte duplatur sola cir<lb ed="#Pa"/>cunstantia 
+            excusativa tunc argumentum haberet 
+            <lb ed="#Pa"/>colorem quia minueretur culpa secundum partes 
+            <lb ed="#Pa"/>eiusdem quantitatis nunc autem quia non sic est mi<lb ed="#Pa"/>nuitur 
+            secundum partes eiusdem proportionis quam 
+            <lb ed="#Pa"/>non sunt numeri ad numerum qualis est propor<lb ed="#Pa"/>tio 
+            <unclear>costae</unclear> ad dyametrum in quadrato
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sciendum tamen 
+            <lb ed="#Pa"/>quod hoc parum est ad factum de proportione irratio<lb ed="#Pa"/>nali 
+            sed sufficit quod non tota malitia vel diminutio 
+            <lb ed="#Pa"/>malitiae est ex fine sed etiam ex modo agendi pro<lb ed="#Pa"/>pter 
+            finem et ex aliis circunstantiis unde pro decla<lb ed="#Pa"/>ratione 
+            istius suppono cum <unclear>avem pethe</unclear> quod si <c>a</c> gra<lb ed="#Pa"/>ve 
+            descenderet in vacuo ipsum moveretur in cer<lb ed="#Pa"/>to 
+            tempore per vacuum secundum virtutem suam 
+            <lb ed="#Pa"/>et idem grave per medium plenum aequalis magni<lb ed="#Pa"/>tudinis 
+            moveretur in certo tempore maiori et 
+            <lb ed="#Pa"/>iterum in medio subtiliori in duplo moveretur in tem<lb ed="#Pa"/>pore 
+            minori quam in grossiori non tamen in duplo <unclear>mi</unclear> 
+            non tempore et ita si in infinitum subtiliabitur 
+            <lb ed="#Pa"/>medium non deveniet ad aequalem velocitatem mo<lb ed="#Pa"/>tus 
+            in vacuo et iuxta istum modum solvitur pri<lb ed="#Pa"/>mum 
+            articulum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Tertium dubium tunc idem ab eadem 
+            <lb ed="#Pa"/>voluntate posset simul odiri et diligi et simul pos<lb ed="#Pa"/>set 
+            fieri persecutio et fuga eiusdem consequentia te<lb ed="#Pa"/>net 
+            quia idem potest apparere secundum unam con<lb ed="#Pa"/>ditionem 
+            bonum et secundum aliam malum conceditur 
+            <lb ed="#Pa"/>consequens quia iudaei odiverunt christum iuxta illud 
+            <lb ed="#Pa"/><title>psalmus</title> <quote ana="#io15_25">odio habuerunt me gratis</quote> et dilexerunt ipsum 
+            <lb ed="#Pa"/>quia dilexerunt deum cui arbitrabantur se praesta<lb ed="#Pa"/>re 
+            obsequium.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Quartum dubium tunc voluntas 
+            <lb ed="#Pa"/>libere posset se conformare rationi recte et quia 
+            <lb ed="#Pa"/>illa dictat quod deus est diligendus quod quanto aliquod 
+            <lb ed="#Pa"/>est melius tanto ceteris paribus est magis dili<lb ed="#Pa"/>gendum 
+            sequitur quod voluntas posset diligere deum 
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/>infinite quod est impossibile cum sit virtus fini<lb ed="#Pa"/>ta 
+          </p>
+          <p>
+            Respondetur quod voluntas solum finite quantum 
+            <lb ed="#Pa"/>ad intensionem actus potest diligere deum ymo quando<lb ed="#Pa"/>que 
+            licite diligit creaturam in specie dilectionis sibi com<lb ed="#Pa"/>petenter 
+            itensius quam deum tamen infinite tenetur 
+            <lb ed="#Pa"/>voluntas diligere deum appreciative quia omnibus 
+            <lb ed="#Pa"/>ceteris infinite debet praeponere deum in amando
+          </p>
+          <p>
+            <lb ed="#Pa"/>unde <name ref="#Anselm">anselmus</name> libro 1 <pc ana="#pilcrow"/> Cur deus homo capitulo 14 si 
+            <lb ed="#Pa"/>necesse esset aut totum mundum aut quicquid deus 
+            <lb ed="#Pa"/>non est perire aut in nihilum redigere aut aliquod 
+            <lb ed="#Pa"/>peccatum facere contra dei voluntatem citius praeeli<lb ed="#Pa"/>gere 
+            debent. primum quam secundum.</p> 
+          <p>
+            Item <name ref="#Anselm">anselmus</name> libro 
+            <lb ed="#Pa"/>2 <pc ana="#pilcrow"/> Cur deus homo capitulo 14 dicit pro infinitis 
+            <lb ed="#Pa"/>mundis salvandis non debet homo levissimum pec<lb ed="#Pa"/>catum 
+            facere contra dei voluntatem.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Quintum 
+            <lb ed="#Pa"/>dubium ponatur quod sortes libere ab aliquo instan<lb ed="#Pa"/>ti 
+            continet dilectionem charitativam erga deum vel 
+            <lb ed="#Pa"/>proximum et quod deus augmentet in eo consequen<lb ed="#Pa"/>ter 
+            charitatem usque ad instans mortis ita quod si <unclear>vi<lb ed="#Pa"/>veretim </unclear> 
+            illo instanti haberet charitatem ut quat<lb ed="#Pa"/>tuor 
+            et sit plato qui in vita sua habuerit tantam 
+            <lb ed="#Pa"/>charitatem sed impeditus per furiam vel alaim 
+            <lb ed="#Pa"/>passionem non meruit suae charitatis augmentum 
+            <lb ed="#Pa"/>et moriantur ambo in eodem instanti tunc semper 
+            <lb ed="#Pa"/>in vita semper plato fuit magis charus deo quam sor<lb ed="#Pa"/>tes 
+            et cum aequaliter praemiantur quod videtur in<lb ed="#Pa"/>conveniens 
+            quia secundum leges statutas ille qui 
+            <lb ed="#Pa"/>est magis charus deo in vita ista magis praemiabi<lb ed="#Pa"/>tur 
+            in futura.
+          </p>
+          <p>
+            Respondetur concedo conclusionem 
+            <lb ed="#Pa"/>scilicet quod sortes intermino vitae fuerit ita carus deo 
+            <lb ed="#Pa"/>sicut plato.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed dicis quod tunc alter eorum in mor<lb ed="#Pa"/>te 
+            sua esset magis charus deo quam antea dum vixit et 
+            <lb ed="#Pa"/>cum tunc non meretur esse charior concedenda est 
+            <lb ed="#Pa"/>conclusio quia usque tunc meruit esse ita carus et an<lb ed="#Pa"/>te 
+            non meruerat esse ita charus.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sextum dubium 
+            <lb ed="#Pa"/>deus est causa totalis volitionis igitur etc. Ante<lb ed="#Pa"/>cedens 
+            probatur per descriptionem causae totalis 
+            <lb ed="#Pa"/>posita omnium volitione dicitur quod velit me diligere 
+            <lb ed="#Pa"/>sequitur quod diligam si <unclear>antem</unclear> nolit non diligam igitur etc
+          </p>
+          <p>
+            <lb ed="#Pa"/>Respondetur quod illa non est descriptio totalis caus<lb ed="#Pa"/>ae 
+            ita quod illud est causa totalis quo posito omnibus aliis 
+            <lb ed="#Pa"/>in ratione causae circumscriptis ponitur effectus et 
+            <lb ed="#Pa"/>ideo si deus circumscripta voluntate et omnibus a<lb ed="#Pa"/>liis 
+            in ratione causae concurrentibus saltem acti<lb ed="#Pa"/>ve 
+            causaret dilectionem sortis vel combustionem 
+            <lb ed="#Pa"/>ignis tunc esset causa totalis nunc autem utrobi<lb ed="#Pa"/>que 
+            concurrit active aliud agens particulare.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Septimum dubium tunc possem tantum dilige<lb ed="#Pa"/>re 
+            deum quod vellem sibi dare gloriam infinitam si 
+            <lb ed="#Pa"/>possem et si ipse non haberet illam tunc sequitur 
+            <lb ed="#Pa"/>quod deus teneretur mihi dare tantam gloriam quam 
+            <lb ed="#Pa"/>tam posset Probatur consequentia quia si de fa<lb ed="#Pa"/>cto 
+            darem sibi tantam gloriam teneretur ex gra<lb ed="#Pa"/>titudine 
+            tantam mihi dare quantam posset cum igitur 
+            <lb ed="#Pa"/>voluntas reputetur imperfectio ubi ex impoten<lb ed="#Pa"/>tia 
+            deficit executio eo quod actus exterior vel parum 
+            <lb ed="#Pa"/>vel nihil addit super bonitatem actus interioris 
+            <lb ed="#Pa"/>quo ad rationem meriti sequitur propositum.
+          </p>
+          <p>
+            <lb ed="#Pa"/><pc ana="#pilcrow"/>Respondetur quod de facto tanta beneficia habe<lb ed="#Pa"/>mus 
+            a deo quod de iure naturali sua immensa boni<lb ed="#Pa"/>tas 
+            <c>a</c> qua haec beneficia procedunt posset a quolibet 
+            <lb ed="#Pa"/>nostrum exigere tantum amorem quantus exprimitur 
+            <lb ed="#Pa"/>in argumento sed de sua speciali gratia in hoc <unclear>per<lb ed="#Pa"/>cit</unclear> 
+            <lb ed="#Pa"/>nostra infirmitati.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et ideo habenti tantum
+            <pb ed="#Pa" n="19-r"/>
+            <cb ed="#Pa" n="a"/>
+            <lb ed="#Pa"/>amorem nihil ultra beneficia iam collata tenere<lb ed="#Pa"/>tur 
+            nisi hoc de suae gratiosissimae liberalitatis influ<lb ed="#Pa"/>entia 
+            proveniret.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Contra saltem si haberet tan<lb ed="#Pa"/>tum 
+            amorem ad deum et ad hoc sibi non teneret tunc 
+            <lb ed="#Pa"/>ipse teneretur mihi igitur si diligerem proximum 
+            <lb ed="#Pa"/>meum vel angelum aliquem ita perfecte quod si ipse non 
+            <lb ed="#Pa"/>esset et ego possem causare ipsum et si peccaret re<lb ed="#Pa"/>dimerem 
+            eum et beatificarem tunc cum ad talem 
+            <lb ed="#Pa"/>amorem sibi non tenear et voluntas reputetur pro 
+            <lb ed="#Pa"/>facto ipse tantum teneretur mihi quantum sicut sed 
+            <lb ed="#Pa"/>hoc fecissem. falsitas probatur quia tunc licite pos<lb ed="#Pa"/>set 
+            me causatum diligere vel quasi ex tali causa quam 
+            <lb ed="#Pa"/>tum teneor deum diligere ex hoc quod me creavit et 
+            <lb ed="#Pa"/>beatificavit consequens est contra sanctos. unde <name>an<lb ed="#Pa"/>selmus</name> 
+            in meditationibus <quote>domine quia fecisti me de<lb ed="#Pa"/>beo 
+              amore tuo me ipsum totum</quote> etc et iterum pro re<lb ed="#Pa"/>demptione 
+            mea etc. et iterum me ipsum et plusquam me ip<lb ed="#Pa"/>sum 
+            pro deo promisso in beatitudinem obiectivam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et similiter <name>beatus bernardus</name> <title>de diligendo deo</title> 
+            <lb ed="#Pa"/>si me totum debeo pro me facto quid addam iam pro 
+            <lb ed="#Pa"/>refacto in primo opere me mihi dedit in secundo 
+            <lb ed="#Pa"/>me sibi reddidit datus igitur et redditus me pro 
+            <lb ed="#Pa"/>me debeo et bis debeo dicendum quod adhuc deus mi<lb ed="#Pa"/>hi 
+            non teneretur nisi ex sua gratia quia non tene<lb ed="#Pa"/>retur 
+            acceptare illam affectionem meam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Un<lb ed="#Pa"/>de 
+            posito per impossibile quod a me ipso vel aliunde 
+            <lb ed="#Pa"/>esset et a deo in nullo dependerent adhuc deus in<lb ed="#Pa"/>finite 
+            mihi esset amabilis et omnibus diligibili<lb ed="#Pa"/>bus 
+            diligibilior propter hoc quod ipse est in se infinni<lb ed="#Pa"/>te 
+            bonus et suae bonitatis in alia a se diffusivus et 
+            <lb ed="#Pa"/>igitur si nunquam diffunderet eam aliis adhuc non mi<lb ed="#Pa"/>nus 
+            esset diligibilis. diligere autem eum praecise 
+            <lb ed="#Pa"/>propter beneficia amore est potius mercenarii quam 
+            <lb ed="#Pa"/>amici.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Ex hoc patet ulterius quod in illo casu posi<lb ed="#Pa"/>to 
+            de proximo proximus si esset iuris sui et non al<lb ed="#Pa"/>terius 
+            deberet se totum mihi tanquam amico et be<lb ed="#Pa"/>nefactori 
+            sed non tanquam summe amabili.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>et ideo 
+            <lb ed="#Pa"/>deberet me diligere tamen incomparabiliter te<lb ed="#Pa"/>neretur 
+            mihi minus quam deo qui creavit eum nullo 
+            <lb ed="#Pa"/>ad hoc movente nisi sua bonitate ego autem non 
+            <lb ed="#Pa"/>sic fecissem nisi aliquo movene ad hoc et etiam 
+            <lb ed="#Pa"/>deus dedit pro me bonum infinitum redimendo 
+            <lb ed="#Pa"/>me et dabit bonum infinitum beatificando crea<lb ed="#Pa"/>tura 
+            autem non posset dare nisi quod posset dare nec 
+            <lb ed="#Pa"/>plus velle efficaciter et absolute conditionaliter 
+            <lb ed="#Pa"/>aut velle est longe minus diligibile.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Item pos<lb ed="#Pa"/>set 
+            dici quod antecedens illius conditionalis scilicet 
+            <lb ed="#Pa"/>quod aliunde non teneretur est impossibile et simili<lb ed="#Pa"/>ter 
+            me creare angelum etc. absque eo quod hoc sit mihi 
+            <lb ed="#Pa"/>collatum a deo est impossibile igitur non est mihi 
+            <lb ed="#Pa"/>mirum quodlibet inde sequi sed ad hoc quod vellem 
+            <lb ed="#Pa"/>creare angelum si deo placeret mihi dare hoc pos<lb ed="#Pa"/>se 
+            sufficit satis remissa dilectio nec ex hoc de iure 
+            <lb ed="#Pa"/>stricto mihi quicquam teneretur angelus. sed deo quam<lb ed="#Pa"/>vis 
+            tam ex dei dispositione inter amantes homini<lb ed="#Pa"/>nes 
+            sit gratitudo readamationis ordinata.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Octa<lb ed="#Pa"/>um 
+            dubium tunc deus inqaequaliter merentes non 
+            <lb ed="#Pa"/>posset iuste praemiare secundum plus et minus fal<lb ed="#Pa"/>sitas 
+            probatur posito quod plato plus mereatur quam 
+            <lb ed="#Pa"/>sortes tunc uterque praemiabitur praemio infinito se<lb ed="#Pa"/>cundum 
+            durationem accipio tunc praemium plato<lb ed="#Pa"/>nis 
+            quod debet esset intensius durans per annum 
+            <lb ed="#Pa"/>de illo gaudere debet <name>plato</name> in aliquo gradu et li<lb ed="#Pa"/>cet 
+            sortes de suo praemio non tantum debeat gau<lb ed="#Pa"/>dere 
+            pro uno anno tamen de hoc quod durabit per plu<cb ed="#Pa" n="b"/><lb ed="#Pa"/>res 
+            annos scilicet per centum tantum habet gau<lb ed="#Pa"/>dere. 
+            Et quia in multitudine infinita annorum non 
+            <lb ed="#Pa"/>est <sic>pluries</sic> unus annus quam in multitudine infinita 
+            <lb ed="#Pa"/>centenariorum centum anni sequitur quod per aequa<lb ed="#Pa"/>litatem 
+            tantum gaudebit et praemiabitur sortes 
+            <lb ed="#Pa"/>sicut plato.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respondetur quod licet tales aequali<lb ed="#Pa"/>ter 
+            debeant praemiari secundum durationem non 
+            <lb ed="#Pa"/>tamen secundum aequalem gradum praemium nec opor<lb ed="#Pa"/>tet 
+            quod aliquis eorum intensius gaudeat de dura<lb ed="#Pa"/>tione 
+            sui praemii per annum quam per centum sed suf<lb ed="#Pa"/>ficit 
+            gaudium alicuius certi gradus de praemio ha<lb ed="#Pa"/>bendo 
+            per totam durationem infinitam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Sed si 
+            <lb ed="#Pa"/>fiat argumentum de gaudio rationabiliter haben<lb ed="#Pa"/>do 
+            tunc quia tantum mihi placeret forte habere 
+            <lb ed="#Pa"/>minus gaudium per maius tempus sicut maius 
+            <lb ed="#Pa"/>per minus tempus facta debita correspondentia 
+            <lb ed="#Pa"/>secundum hoc videtur rationabile quod assumi<lb ed="#Pa"/>tur.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et tunc ultra dicitur quod in infinita duratio<lb ed="#Pa"/>ne 
+            futura non totiens sunt centum anni quotiens 
+            <lb ed="#Pa"/>unus et in multitudine infinita annoroum sunt plu<lb ed="#Pa"/>res 
+            anni quam in multitudine infinita centenariorum 
+            <lb ed="#Pa"/>sint centenarii. et quod in una multitudine infinita sunt 
+            <lb ed="#Pa"/>plures anni quam in alia <pc type="virgula">/</pc> si tamen totiens et quoti<lb ed="#Pa"/>ens 
+            accipiantur proprie tunc non reperiuntur ni<lb ed="#Pa"/>si 
+            in multitudine finita et tunc totiens essent ibi 
+            <lb ed="#Pa"/>centum quotiens unus unde etiam conceditur quod 
+            <lb ed="#Pa"/>in continuo sunt plures partes quam in eius medie<lb ed="#Pa"/>tate 
+            licet utrobique sit infinita multitudo.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et 
+            <lb ed="#Pa"/>haec est sententia <name>lynconiensis</name> super librum poste<lb ed="#Pa"/>riorum 
+            quia in multitudinibus infinitis est inve<lb ed="#Pa"/>nire 
+            maiorem et minorem ymo et quasi omnes pro<lb ed="#Pa"/>portiones 
+            numerales scilicet duplum quadruplum 
+            <lb ed="#Pa"/>et sic in infinitum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Nonum dubium si voluntas 
+            <lb ed="#Pa"/>agit libere igitur potest efficacius et velocius agere et 
+            <lb ed="#Pa"/>sic in infinitum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et si nulla sit resistentia potest age<lb ed="#Pa"/>re 
+            subito in primo instanti quo agit ponatur igi<lb ed="#Pa"/>tur 
+            quod ita sit et ex tunc intendat actum suum donec 
+            <lb ed="#Pa"/>acquirat per successivam augmentationem tan<lb ed="#Pa"/>tum 
+            quantum produxit in primo instanti <pc type="virgula">/</pc> quia igitur 
+            <lb ed="#Pa"/>in primo instanti in isto casu non potest post primum 
+            <lb ed="#Pa"/>instans aequale producere illi nisi in tempore quod 
+            <lb ed="#Pa"/>producebatur in primo instanti igitur in infinitum 
+            <lb ed="#Pa"/>efficacius aget vel intendet agere in primo instanti quam 
+            <lb ed="#Pa"/>post cum eadem sit proportio in velocitate vel effi<lb ed="#Pa"/>catia 
+            actionum quae est mensuratum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respon<lb ed="#Pa"/>detur 
+            quodlibet in potestate voluntatis sit actum suspende<lb ed="#Pa"/>re 
+            vel continuare non tamen est in potestate eius sic libere con<lb ed="#Pa"/>tinue 
+            intendere actum suum nisi alia causa concurrente 
+            <lb ed="#Pa"/>scilicet quia vel perfectius cognoscit vel quia obiectum ap<lb ed="#Pa"/>paret 
+            melius.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Exemplum sol quando nubes sunt 
+            <lb ed="#Pa"/>multum spisse illuminat medium in aliquo gra<lb ed="#Pa"/>du 
+            in primo instanti si autem continue nubes rarefi<lb ed="#Pa"/>ant 
+            continue intendit lumen et aequae faciliter. tunc 
+            <lb ed="#Pa"/>producit lumen perfectius sicut primo imperfe<lb ed="#Pa"/>ctius 
+            ymo totum lumen quod causat in fine cau<lb ed="#Pa"/>saret 
+            in principio si omnia uniformiter se habuis<lb ed="#Pa"/>sent 
+            ita credo esse in proposito de voluntate inten<lb ed="#Pa"/>dente 
+            actum suum nisi quod libere potest cessare sol au<lb ed="#Pa"/>tem 
+            non.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Unde in casu argumenti efficacius age<lb ed="#Pa"/>ret 
+            voluntas primo postquam in principio quia factum 
+            <lb ed="#Pa"/>in instanti in quolibet instanti temporis posterio<lb ed="#Pa"/>ris 
+            conservaret et continue prius adderet <pc type="virgula">/</pc> conservare 
+            <lb ed="#Pa"/>vero tantae virtutis est sicut primo producere ceteris 
+            <lb ed="#Pa"/>paribus dato etiam quod voluntas nullo alio concur<lb ed="#Pa"/>rente 
+            et aliter se habente. posset de se actum inten<pb ed="#Pa" n="19-v"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>dere 
+            et remittere sicut deus potest quod tamen 
+            <lb ed="#Pa"/>dicendum esse non credo dicendum esset commu<lb ed="#Pa"/>niter 
+            quod illam medietatem totius actus quam suc<lb ed="#Pa"/>cessive 
+            apposuit illi quod in principio causabatur su<lb ed="#Pa"/>bito 
+            poterat a principio concausasse ita faciliter 
+            <lb ed="#Pa"/>sicut praesentia solis in quolibet instanti temporis 
+            <lb ed="#Pa"/>sequentis potuit simul produxisse quod de facto 
+            <lb ed="#Pa"/>successive produxit cuius oppositum sumit argu<lb ed="#Pa"/>mentum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et tunc etiam sequitur ultra quod in infi<lb ed="#Pa"/>nitum 
+            expeditus et citius posset agere quam agit quan<lb ed="#Pa"/>do 
+            successive agit si sibi placeret nec ex hoc argui<lb ed="#Pa"/>tur 
+            successive agit si sibi placeret nec ex hoc argui<lb ed="#Pa"/>tur 
+            infinitas in vigore quia effectus factus est in nul<lb ed="#Pa"/>la 
+            resistentia et licet in infinitum citius ageret ef<lb ed="#Pa"/>fectum 
+            in instanti quam postea aequalem in tempore 
+            <lb ed="#Pa"/>tamen postes stante casu argumenti efficatius age<lb ed="#Pa"/>ret 
+            ut dictum est in prima solutione quae plus placet 
+            <name>adae</name>
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Decimum dubium tunc voluntas posset libe<lb ed="#Pa"/>re 
+            mereri continue per aliquod tempus et per con<lb ed="#Pa"/>sequens 
+            deus posset et correspondenter charitatem 
+            <lb ed="#Pa"/>augere. falsitas probatur quia talis charitas non 
+            <lb ed="#Pa"/>esset increata ut patet de se nec creata quia tunc 
+            <lb ed="#Pa"/>fieret subito etiam talis videtur dependere ab anima 
+            <lb ed="#Pa"/>igitur non pracise causatur a deo etc. 
+          </p>
+          <p>
+            Respondetur 
+            <lb ed="#Pa"/>quod talis charitas est creata successive vel in instan<lb ed="#Pa"/>ti 
+            sicut deo placet. <pc ana="#pilcrow"/>Nec dependet ab anima effe<lb ed="#Pa"/>ctive 
+            licet forte subiective.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Undecimum dubium 
+            <lb ed="#Pa"/>tunc unus posset libere plus peccare mortaliter 
+            <lb ed="#Pa"/>alio falsitas probatur quia quilibet peccans mor<lb ed="#Pa"/>taliter 
+            peccat infinite quia peccans venialiter me<lb ed="#Pa"/>retur 
+            certam penam et peccans mortaliter mere<lb ed="#Pa"/>tur 
+            plus in infinitum de pena igitur plus peccat 
+            <lb ed="#Pa"/>in infinitum consequentia tenet quia aliter deus 
+            <lb ed="#Pa"/>puniret ultra condignum quod est contra sanctos.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Re<lb ed="#Pa"/>spondetur 
+            quod peccans mortaliter peccat infinite 
+            <lb ed="#Pa"/>obiective scilicet ratione infiniti obiecit a quo se 
+            <lb ed="#Pa"/>avertit praeceptum parvipendendo quod non debe<lb ed="#Pa"/>ret 
+            etiam pro infinitis mundis secundum <name>anselmum</name> 
+            <lb ed="#Pa"/>2 capitulo <pc ana="#pilcrow"/> Cur deus homo capitulo 19 et ita praeponit 
+            <lb ed="#Pa"/>illud quod in infinitum minus bonum est bono in 
+            <lb ed="#Pa"/>finito tamen talis non peccat infinite ratione infinitatis 
+            actus secundum intentionem et ideo in hoc 
+            <lb ed="#Pa"/>possunt esse gradus secundum plus et minus di<lb ed="#Pa"/>ces 
+            forte quod eadem ratione peccatum veniale esset 
+            <lb ed="#Pa"/>infinite puniendum quia esset contra bonum infi<lb ed="#Pa"/>nitum.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Respondetur quod non sequitur quia in pec<lb ed="#Pa"/>cato 
+            veniali nullus avertit se a deo sed vel ma<lb ed="#Pa"/>gis 
+            <unclear>tepide</unclear> adhaeret deo vel minus excessive adhae<lb ed="#Pa"/>ret 
+            alteri tenendo se tamen semper ad deum infle<lb ed="#Pa"/>xibiliter 
+            nec pro quacunque re mundi volendo ab 
+            <lb ed="#Pa"/>illo diverti vel ipsum graviter offendere. 
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Duo 
+            <lb ed="#Pa"/>decimum dubium. Cur virtus sit circa difficile 
+            <lb ed="#Pa"/>secundo ethicorum igitur magis virtuosum est vin<lb ed="#Pa"/>cere 
+            magis difficile et quia data difficultate volun<lb ed="#Pa"/>tas 
+            potest vincere duplam quadruplam et sic in in<lb ed="#Pa"/>finitum 
+            igitur erit infinita in vigore.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Et si ali<lb ed="#Pa"/>qua 
+            difficultas tanta dabitur quae voluntatem vin<lb ed="#Pa"/>cit 
+            tunc quo ad hoc necessitatur et non agit libe<lb ed="#Pa"/>re 
+            actum suum quod est contra conclusionem prin<lb ed="#Pa"/>cipalem 
+            huius quaestionis.
+          </p>
+          <p>
+            Praetera quanto pas<lb ed="#Pa"/>sio 
+            vel tentatio est fortior tanto magis retrahit vo<lb ed="#Pa"/>luntatem 
+            a bono et tanto difficilius voluntas re<lb ed="#Pa"/>sistit 
+            duplicando igitur et quadruplicando et si c
+            <lb ed="#Pa"/>in infinitum fortitudinem passionis voluntas re<lb ed="#Pa"/>sistere 
+            non valebit igitur etiam nec libere elicere 
+            <lb ed="#Pa"/>actum suum poterit circa illam.
+          </p>
+          <p>
+            <pc ana="#pilcrow"/>Confirmantur 
+            <cb ed="#Pa" n="b"/>
+            <lb ed="#Pa"/>ambo argumenta quia ad galathas quinto dicitur 
+            <lb ed="#Pa"/>quod <quote ana="#gal5_17">caro concupiscit adversus spiritum</quote> et tertio 
+            <lb ed="#Pa"/>de anima <quote source="http://scta.info/resource/aristda-l3"><!-- see also capreolus, II, d15, q. 1, a. 2 (v. 4, p. 54) -->appetitus sunt contrarii</quote> sed ubi est con<lb ed="#Pa"/>trarietas 
+            et resistentia ibi est certa proportio con<lb ed="#Pa"/>trariorum seu potentiae et resistentiae igitur unum 
+            <lb ed="#Pa"/>eorum potest tantum augueri quod simpliciter vincet 
+            <lb ed="#Pa"/>alius
+          </p>
+          
+        </div>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
