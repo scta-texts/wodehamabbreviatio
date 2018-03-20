@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber I, Distinctio 33, Quaestio 1 [Paris 1512 Transcription]</title>
+        <author xml:id="AW">Adam Wodeham</author>
+        <editor>Daniel Simpson</editor>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber I, Distinctio 33, Quaestio 1</title>
+          <date when="2018-03-20">March 20, 2018</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>An SCTA Project</authority>
+        <availability status="free">
+          <p>Published under a 
+            <ref target="https://creativecommons.org/licenses/by-nc-nd/4.0/">Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Pa" n="paris1512">Paris 1512</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2018-03-20" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      
+      <div xml:id="starts-on">
+        <pb ed="#Pa" n="73-r"/>
+        <cb ed="#Pa" n="b"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="awa-l1d33q1">
+        <head>Quaestio 1 [Paris 1512 Transcription]</head>
+        <head type="question-title">Utrum Deus essentialiter unus sit personaliter trinus.</head>
+        <p>
+          <lb ed="#Pa"/>Circa distinctionem 
+          <lb ed="#Pa"/>trigesimam tertiam primi 
+          <lb ed="#Pa"/>ubi quaeritur. Utrum proprie<lb ed="#Pa"/>tates 
+          personarum divinarum sint ipsae personae et sint etiam 
+          <lb ed="#Pa"/>ipsa divina essentia divina
+        </p>
+        <p>
+          <lb ed="#Pa"/>Quaero primo pro hac mate<lb ed="#Pa"/>ria 
+          et pro secunda distinctio<lb ed="#Pa"/>ne 
+          primi et pro multis distin<lb ed="#Pa"/>ctionibus 
+          tertii in quibus agitur de incarnatione 
+          <lb ed="#Pa"/>personae unius sine alterius incarnatione. Utrum 
+          <lb ed="#Pa"/>deus essentialiter unus sit personaliter trinus
+        </p>
+        <p>
+          quod 
+          <lb ed="#Pa"/>non quia tunc viderentur contradictoria verifica<lb ed="#Pa"/>ri 
+          pro eadem re. <pc ana="#pilcrow"/> Si enim deus est trinus perso<lb ed="#Pa"/>naliter 
+          et pater non est trinus personaliter tunc 
+          <lb ed="#Pa"/>ista contradictoria esse trinum personaliter et 
+          <lb ed="#Pa"/>non esse trinum personaliter verificarentur pro 
+          <lb ed="#Pa"/>deo et patre sed deus et pater sunt una res igitur pro eadem 
+          <lb ed="#Pa"/>re verificarentur contradictoria.
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Item tunc natura persona 
+          <lb ed="#Pa"/>divina esset summe simplex consequens est falsum et contra <name>Magister</name> 
+          <lb ed="#Pa"/>et contra sanctos ut patet <ref>distinctio 8 primi libri</ref> Consequen<lb ed="#Pa"/>tia 
+          probatur quia
+          
+        </p>
+        
+      </div>
+    </body>
+  </text>
+</TEI>
