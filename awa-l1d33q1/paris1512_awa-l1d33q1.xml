@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -46,7 +47,6 @@
   </teiHeader>
   <text xml:lang="la">
     <front>
-
       <div xml:id="starts-on">
         <pb ed="#Pa" n="73-r"/>
         <cb ed="#Pa" n="b"/>
@@ -85,12 +85,10 @@
           <pc ana="#pilcrow"/>Item tunc natura persona
           <lb ed="#Pa"/>divina esset summe simplex consequens est falsum et contra <name>Magister</name>
           <pb ed="#Pa" n="73-v"/>
-          <cb ed="#Pa" n="b"/>
+          <cb ed="#Pa" n="a"/>
           <lb ed="#Pa"/>et contra sanctos ut patet <ref>distinctio 8 primi libri</ref> Consequen<lb ed="#Pa"/>tia
           probatur quia
-
         </p>
-
       </div>
     </body>
   </text>
