@@ -59,7 +59,7 @@
         <p>
           <lb ed="#Pa"/>Circa distinctionem
           <lb ed="#Pa"/>trigesimam tertiam primi
-          <lb ed="#Pa"/>ubi quaeritur. Utrum proprie<lb ed="#Pa"/>tates
+          <lb ed="#Pa"/>ubi quaeritur<pc ana="#punctus"/> Utrum proprie<lb ed="#Pa"/>tates
           personarum divinarum sint ipsae personae et sint etiam
           <lb ed="#Pa"/>ipsa divina essentia divina
         </p>
@@ -68,13 +68,13 @@
           et pro secunda distinctio<lb ed="#Pa"/>ne
           primi et pro multis distin<lb ed="#Pa"/>ctionibus
           tertii in quibus agitur de incarnatione
-          <lb ed="#Pa"/>personae unius sine alterius incarnatione. Utrum
-          <lb ed="#Pa"/>deus essentialiter unus sit personaliter trinus
+          <lb ed="#Pa"/>personae unius sine alterius incarnatione<pc ana="#punctus"/> Utrum
+          <lb ed="#Pa"/>deus essentialiter unus sit personaliter trinus quod
+          <lb ed="#Pa"/>non quia tunc viderentur contradictoria verifica<lb ed="#Pa"/>ri
+          pro eadem re<pc ana="#punctus"/> 
         </p>
         <p>
-          quod
-          <lb ed="#Pa"/>non quia tunc viderentur contradictoria verifica<lb ed="#Pa"/>ri
-          pro eadem re. <pc ana="#pilcrow"/> Si enim deus est trinus perso<lb ed="#Pa"/>naliter
+          <pc ana="#pilcrow"/> Si enim deus est trinus perso<lb ed="#Pa"/>naliter
           et pater non est trinus personaliter tunc
           <lb ed="#Pa"/>ista contradictoria esse trinum personaliter et
           <lb ed="#Pa"/>non esse trinum personaliter verificarentur pro
@@ -86,8 +86,23 @@
           <lb ed="#Pa"/>divina esset summe simplex consequens est falsum et contra <name>Magister</name>
           <pb ed="#Pa" n="73-v"/>
           <cb ed="#Pa" n="a"/>
-          <lb ed="#Pa"/>et contra sanctos ut patet <ref>distinctio 8 primi libri</ref> Consequen<lb ed="#Pa"/>tia
-          probatur quia
+          <lb ed="#Pa"/>et contra sanctos ut patet <ref>distinctio 8 primi libri</ref><pc ana="#punctus"/> Consequen<lb ed="#Pa"/>tia
+          probatur quia persona prima deitate sua convenit cum
+          <lb ed="#Pa"/>aliis personis et deitate non distinguit ab eis si sint
+          <lb ed="#Pa"/>tres personae realiter distinctae sicut supponit veri<lb ed="#Pa"/>tas
+          quaestionis igitur pater continet ipse aliquid cum quo
+          <lb ed="#Pa"/>convenit cum personis aliis et aliquid quo non conve<lb ed="#Pa"/>nit
+          cum eis pater igitur non est omnino simplex<pc ana="#punctus"/>
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>Ad oppositum 10 in canonica sua tres sunt qui
+          <lb ed="#Pa"/>testimonium dant etc<pc ana="#punctus"/>
+        </p>
+        <p>
+          <pc ana="#pilcrow"/>In ista quaestione solvenda pri<lb ed="#Pa"/>mo
+          permittenda est veritas fidei circa hanc materiam
+          <lb ed="#Pa"/>supposita et si quod dicerem repugnans ex nunc habeo
+          <lb ed="#Pa"/>pro irrito et retracto<pc ana="punctus"/>
         </p>
       </div>
     </body>
