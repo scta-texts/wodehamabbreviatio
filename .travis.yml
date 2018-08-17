@@ -5,12 +5,14 @@ addons:
   apt:
     packages:
     - parallel
+before_install:
+  - unset _JAVA_OPTIONS
 install:
   - wget 'https://github.com/papyri/jing-trang/releases/download/xsd_bce_leap_years-1.0/jing.jar'
   - mkdir -p schema/
-  - wget -O schema/critical.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/critical.rng'
-  - wget -O schema/diplomatic.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng'
+  - wget -O schema/critical.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/critical.rng'
+  - wget -O schema/diplomatic.rng 'https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng'
   - wget -O schema/tdf.rng 'https://raw.githubusercontent.com/scta/tdf-schema/master/src/tdf-0.rng'
 
 script:
-  - set -e; for file in */*;         do           schema=$(grep -o "lbp-.*-1.0.0" $file);         if [[ $file = *"transcriptions.xml"* ]]; then           java -jar jing.jar schema/tdf.rng $file;           echo $file;         elif [[ $schema = *"diplomatic"* ]]; then           echo "checking diplomatic for $file";           java -jar jing.jar schema/diplomatic.rng $file;         elif [[ $schema = *"critical"* ]]; then           echo "checking critical for $file";           java -jar jing.jar schema/critical.rng $file;         fi;       done;
+  - for file in */*.xml; do schema=$(grep -o "lbp-.*-1.0.0" $file); if [[ $file = *"transcriptions.xml"* ]]; then echo $file; elif [[ $schema = *"diplomatic"* ]]; then echo "checking diplomatic for $file"; java -jar jing.jar schema/diplomatic.rng $file; if [[ $? -ne 0 ]]; then exit 1; fi; elif [[ $schema = *"critical"* ]]; then echo "checking critical for $file"; java -jar jing.jar schema/critical.rng $file; if [[ $? -ne 0 ]]; then exit 1; fi; else echo "nothing run"; fi; echo $?; done;
