@@ -476,18 +476,20 @@
                     <lb ed="#Pa"/>distantia apparet habere partem extra partem in 
                     <lb ed="#Pa"/>illa distantia igitur media pars eius videtur a ta<lb ed="#Pa"/>li 
                     distantia et pari ratione medietas medietatis 
-                    <lb ed="#Pa"/>et sic sine fine et tamen aliqua <unclear>parsillimus</unclear> albedinis est 
-                    <lb ed="#Pa"/>ita parva quod si esset per se cessare et videri in tale distan<lb ed="#Pa"/>tia 
+                    <lb ed="#Pa"/>et sic sine fine et tamen aliqua pars illius albedinis est 
+                    <lb ed="#Pa"/>ita parva quod si esset per se cessaret videri in tale distan<lb ed="#Pa"/>tia 
                     sine hoc quod cessaret ista qualitas esse quae nunc est 
                     <lb ed="#Pa"/>eius visio igitur.</p>
                   
-                  <p xml:id="awal1d3q1-oivthc"><g ref="#pilcrow"/>Item accipiatur minimum visi<lb ed="#Pa"/>bile 
-                    ab <c>a</c> distantai et incipiat tunc plus elonga<lb ed="#Pa"/>ri 
+                  <p xml:id="awal1d3q1-oivthc">
+                    <g ref="#pilcrow"/>Item accipiatur minimum visi<lb ed="#Pa"/>bile 
+                    ab <c>a</c> distantia et incipiat tunc plus elonga<lb ed="#Pa"/>ri 
                     tunc non manebit post hoc visio eius et tamen ista 
                     <lb ed="#Pa"/>qualitas quae nunc est visio manebit quia alias da<lb ed="#Pa"/>retur 
                     ultimum rei permanentis esse.</p>
                   
-                  <p xml:id="awal1d3q1-npspev"><g ref="#pilcrow"/>Probatur si 
+                  <p xml:id="awal1d3q1-npspev">
+                    <g ref="#pilcrow"/>Probatur si 
                     <lb ed="#Pa"/>partes albedinis visae secundum superficiem versam ad 
                     <lb ed="#Pa"/>oculum corrumpantur secundum latum donec re<lb ed="#Pa"/>siduae 
                     cessent videri a bruto quaero autem in omni instan<lb ed="#Pa"/>ti 
@@ -495,16 +497,17 @@
                     ultimum rei permanentis in esse vel in omni instan<lb ed="#Pa"/>ti 
                     habet visionem minus extensam quam prius et hoc 
                     <lb ed="#Pa"/>non quia manet extensa per totum oculum vel ter<lb ed="#Pa"/>tio 
-                    sequitur quod habet visionem remissiorem quam autem 
+                    sequitur quod habet visionem remissiorem quam ante 
                     <lb ed="#Pa"/>sed talis remissio non fit per substractionem alicu<lb ed="#Pa"/>ius 
                     partis gradualis quia formae illo modo non 
                     <lb ed="#Pa"/>intenduntur vel remittuntur. <g ref="#pilcrow"/>Ideo oportet quod 
                     <lb ed="#Pa"/>hoc sit quia eadem qualitas manens cessat esse visio 
                     <lb ed="#Pa"/>illorum quorum prius erat visio.</p>
                     
-                  <p xml:id="awal1d3q1-dpspau"><g ref="#pilcrow"/>Probatur sit 
+                  <p xml:id="awal1d3q1-dpspau">
+                    <g ref="#pilcrow"/>Probatur sit 
                     <lb ed="#Pa"/>albedo <c>a</c> visa visione <c>b</c> et post hoc instans <choice><orig>anni<lb ed="#Pa"/>chilata</orig><reg>anni<lb ed="#Pa"/>hilata</reg></choice> 
-                    <c>a</c> ponitur in eodem albedo <c>c</c> simil<lb ed="#Pa"/>lima 
+                    <c>a</c> ponitur in eodem loco albedo <c>c</c> simil<lb ed="#Pa"/>lima 
                     conservata priori visione scilicet <c>b</c> tunc quaero aut 
                     <lb ed="#Pa"/>per <c>b</c> videbit <c>c</c> vel non si sic igitur visio <c>b</c> quae 
                     <lb ed="#Pa"/>nunc non est visio <c>c</c> erit post <c>a</c> visio <c>c</c> et per conse<lb ed="#Pa"/>quens 
@@ -513,8 +516,8 @@
                     <lb ed="#Pa"/>pars integralis noviter acquisita videtur per vi<lb ed="#Pa"/>sionem 
                     continue prius repraesentatem partem integra<lb ed="#Pa"/>lem 
                     praeexistentem. <g ref="#pilcrow"/> Si non contra <c>a</c> potest videri ab 
-                    <lb ed="#Pa"/>oculo meo et <unclear>modo</unclear> et infinitis aliis igitur infinitae 
-                    <lb ed="#Pa"/>visiones sunt repraesentative <c>a</c> quarum nulla potest repraesen<lb ed="#Pa"/>tare 
+                    <lb ed="#Pa"/>oculo meo et tuo et infinitis aliis igitur infinitae 
+                    <lb ed="#Pa"/>visiones sunt repraesentativae <c>a</c> quarum nulla potest repraesen<lb ed="#Pa"/>tare 
                     <c>c</c> nec aliud ab <c>a</c> <g ref="#pilcrow"/>Falsitas probatur quia 
                     <lb ed="#Pa"/>tunc sequitur quod iste terminus repraesentativum <c>a</c> esset ter<lb ed="#Pa"/>minus 
                     communis infinitis individuis alicuius spe<lb ed="#Pa"/>ciei 
