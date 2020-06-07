@@ -45,7 +45,8 @@
     <front>
       
       <div xml:id="starts-on">
-        <pb ed="#Pa" n="13-r"/><cb ed="#Pa" n="a"/>
+        <pb ed="#Pa" n="13-r"/>
+        <cb ed="#Pa" n="a"/>
       </div>
     </front>
     <body>
@@ -974,7 +975,7 @@
           securitas et gaudium. Inter que habes sapien<lb ed="#Pa"/>tiam 
           amicitiam et gaudium de quibus loquitur <name ref="#Anselm">anselmus</name> 
           <pb ed="#Pa" n="15-v"/>
-          <lb ed="#Pa" n="a"/>
+          <cb ed="#Pa" n="a"/>
           <lb ed="#Pa"/>in libro de concordia describens beatitudinem quod bea<lb ed="#Pa"/>titudo 
           secundum omnem consensum est sufficientissima 
           <lb ed="#Pa"/>competentium commodorum sine omni indigen<lb ed="#Pa"/>tia.
