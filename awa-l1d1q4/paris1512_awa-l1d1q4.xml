@@ -2,13 +2,13 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Librum I, Distinctio 1, Quaestio 4 [Paris 1512 Transcription]</title>
+        <title>Liber I, Distinctio 1, Quaestio 4 [Paris 1512 Transcription]</title>
         <author xml:id="AW">Adam Wodeham</author>
         <editor xml:id="JW">Jeffrey C. Witt</editor>
       </titleStmt>
       <editionStmt>
         <edition n="0.0.0-dev">
-          <title>Librum I, Distinctio 1, Quaestio 3</title>
+          <title>Liber I, Distinctio 1, Quaestio 3</title>
           <date when="2017-01-09">January 09, 2017</date>
         </edition>
       </editionStmt>
@@ -50,7 +50,7 @@
     </front>
     <body>
       <div xml:id="awa-l1d1q4">
-        <head xml:id="awa-l1d1q4-Hd1e4060">Librum I, Distinctio 1, Quaestio 4 [Paris 1512 Transcription]</head>
+        <head xml:id="awa-l1d1q4-Hd1e4060">Liber I, Distinctio 1, Quaestio 4 [Paris 1512 Transcription]</head>
         <head xml:id="awa-l1d1q4-Hd1e4063" type="questionTitle">Utrum fruitio realiter distinguitur a delectatione</head>
         <p xml:id="awa-l1d1q4-d1e4066">
           <lb ed="#Pa"/>Utrum fruitio realiter di<lb ed="#Pa"/>stinguatur 
@@ -499,6 +499,7 @@
           <lb ed="#Pa"/>delectatio sui ipsius et visionis eiusdem summi boni 
           <lb ed="#Pa"/>licet quibusdam operationibus imperfectia super<lb ed="#Pa"/>veniant 
           bene delectationes quibus confortatus 
+          <cb ed="#Pa" n="b"/> <!--14rb -->
           <lb ed="#Pa"/>operans perfectius oepratur sed hoc non opor<lb ed="#Pa"/>tet 
           in operatione perfectissima sicut est fruitio ni<lb ed="#Pa"/>si 
           diceretur delectationem supervenire fruitioni <pc type="virgula">/</pc> quia 
@@ -583,7 +584,7 @@
           practica et electiones secundum <name ref="#Aristotle">philo<lb ed="#Pa"/>sophum</name> 
           sunt respectu nondum positi tempore 
           <lb ed="#Pa"/>vel natura ut ita loquar: aliqua tamen bene est 
-          <lb ed="#Pa"/>iudicium speculativum scilicet opinio vel cre<pb ed="#Pa"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>dulitas 
+          <lb ed="#Pa"/>iudicium speculativum scilicet opinio vel cre<pb ed="#Pa" n="14-v"/><cb ed="#Pa" n="a"/><lb ed="#Pa"/>dulitas 
           qua opinetur vel credatur de aliquo ita esse 
           <lb ed="#Pa"/>vel non esse aliqua tamen bene praecedit notitiam 
           <lb ed="#Pa"/>practicam sicut et obiectum suum. verbi gratia cum 
@@ -764,7 +765,7 @@
           quae est dilectio illius prosperitatis ambae etiam 
           <lb ed="#Pa"/>sunt tristitiae aliae et delectationes et amores et odia<lb ed="#Pa"/>tam 
           primaria quam secundaria non libere sed necessario 
-          <lb ed="#Pa"/>causata ab anima. <quote xml:id="awa-l1d1q4-Qd1e5698" ana="#mt26_38"> <!-- also mc14_34 -->Tristis est (inquit christus) anima mea us<lb ed="#Pa"/>que 
+          <lb ed="#Pa"/>causata ab anima. <quote xml:id="awa-l1d1q4-Qd1e5698" ana="http://scta.info/resource/mt26_38"> <!-- also mc14_34 -->Tristis est (inquit christus) anima mea us<lb ed="#Pa"/>que 
           ad mortem</quote> videtur enim quod non fuit in potestate 
           <pb ed="#Pa" n="15-r"/>
           <cb ed="#Pa" n="a"/>
